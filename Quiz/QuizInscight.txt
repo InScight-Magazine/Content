@@ -1,0 +1,81 @@
+﻿Quiz Questions for InScight
+Q1
+This Nobel Prize-winning physicist has an element named after him. His wife, upon being shown the results of his experiment for the first time, said, 'I have seen my death!'. Who is the scientist?
+* Wilhelm Roentgen
+* Pierre Curie
+* Henri Becquerel
+* Enrico Fermi
+Answer: Wilhelm Roentgen
+Source: https://www.aps.org/apsnews/2001/11/roentgen-discovery-x-rays
+Q2
+Dr Dilip Mahalanabis, an Indian paediatrician, is famous for pioneering one of the most important medical advances of the 20th century that dramatically saved lives during the cholera outbreak in Bangladesh in 1971. What is this medical advancement?
+* Vaxchora vaccine
+* Oral rehydration solution (ORS)
+* Zinc supplementation
+* Ringer's lactate
+Answer: Oral rehydration solution
+Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11244720/
+Q3
+This physician was one of the pioneers of plastic and dental surgery, and was one of the first to attribute malaria to mosquitoes. The Royal Australasian College of Surgeons at Melbourne has a statue in his honour. Who is he?
+* Sushruta
+* Hippocrates
+* Herophilus
+* Dioscorides
+Answer: Sushruta
+Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5512402/
+Q4
+As part of the National Quantum Mission, this Indian research institute is leading the efforts to create a 100-qubit quantum computer, and recently completed end-to-end testing of a 6-qubit processor, in collaboration with DRDO and TCS. Name the research institute.
+* Indian Institute of Science Education and Research Pune
+* Indian Institute of Science (IISc), Bengaluru
+* Tata Institute of Fundamental Research (TIFR), Mumbai
+* Raman Research Institute (RRI),  Bengaluru
+Answer: Tata Institute of Fundamental Research (TIFR), Mumbai
+Source: https://pib.gov.in/PressReleasePage.aspx?PRID=2049356
+Q5
+Diamond is traditionally known to reside at the top of Mohs' scale of mineral hardness since it can scratch all other minerals on the scale. However, scientists in modern years have discovered other materials that are in fact harder than diamond, and would go above diamond in a modern Mohs’ scale. Name such a naturally-occuring mineral. 
+* Lonsdaleite
+* Boron carbide
+* Moissanite
+* Cubic boron nitride
+Answer: Lonsdaleite
+Source: link 1,  link 2, link 3, link 4, 
+Q6
+In Nomine Terra Calens is a music piece composed by Dr Lucy Jones by converting scientific data from the past 138 years regarding a major global issue into various musical notes. The musical piece was performed by Jones and the Los Angeles Baroque at the Los Angeles Natural History Museum in 2019. What global issue was being studied?
+* Global warming
+* Shortage of drinking water
+* Depleting energy sources
+* Increasing air pollution levels
+Answer: Global warming
+Source: https://www.science.org/doi/10.1126/science.aay1010 
+Q7
+Kamala Sohonie was the first Indian woman to be conferred the degree of PhD, for her ground-breaking work on the electron transport chain. However, she was initially refused admission to one of India's premier research institutes by the institute's director, simply because she was a woman! Who was the director? 
+* C V Raman
+* Homi J Bhabha
+* Shanti Swarup Bhatnagar
+* Vikram Sarabhai
+Answer: C V Raman
+Source: https://www.arvindguptatoys.com/arvindgupta/bs28ksohonie.pdf 
+Q8
+String theorists at IISc recently stumbled upon a series representation of a certain irrational number, while studying quantum scattering of high-energy particles. Srinivasa Ramanujan has also  worked on representations of this number. Which number are we talking about?
+* ‘Pi’ 
+* Euler’s number 
+* The golden number 
+* Euler–Mascheroni constant 
+Answer: ‘Pi’ 
+Source: https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.132.221601
+Q9
+Hennig Brand was a German alchemist who, while searching for the 'philosopher’s stone,' discovered a new material that gave off a pale-green glow by concentrating boiled-down urine. What was this new element? 
+   * Zinc sulphide
+   * Strontium aluminate
+   * Sulphate
+   * Phosphorus
+Answer: Phosphorus
+Source: https://www.britannica.com/biography/Hennig-Brand
+Q10
+This 20th century European mathematician, during a US citizenship test, claimed before Judge Phillip Forman that the US constitution had a loophole that could reverse democratic government itself. His theorems in mathematical logic are referred to by his name today. Who is he? 
+   * André Weil
+   * David Hilbert
+   * Georg Cantor
+   * Kurt Gödel
+Answer: Kurt Gödel
+Source: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2010183
