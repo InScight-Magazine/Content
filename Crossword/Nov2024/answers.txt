@@ -1,0 +1,2 @@
+Across: 1 Entangle, 5 Decohere, 7 Tunnel, 9 Photon, 11 Dirac, 13 Bohr, 14 Qubit.
+Down: 1 Everett, 2 Laser, 3 Planck, 4 phonon, 6 Fermi, 8 Unitary, 10 Pauli, 12 Born.
