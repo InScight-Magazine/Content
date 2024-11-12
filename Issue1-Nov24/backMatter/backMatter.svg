@@ -24,13 +24,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="in"
-     inkscape:zoom="0.80375736"
-     inkscape:cx="407.46128"
-     inkscape:cy="569.20163"
-     inkscape:window-width="1914"
-     inkscape:window-height="1044"
+     inkscape:zoom="0.40187868"
+     inkscape:cx="1026.4292"
+     inkscape:cy="767.6446"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showgrid="false"><inkscape:page
@@ -40,8 +40,30 @@
        height="11"
        id="page2"
        margin="0"
+       bleed="0" /><inkscape:page
+       x="18.5"
+       y="0"
+       width="8.5"
+       height="11"
+       id="page1"
+       margin="0"
        bleed="0" /></sodipodi:namedview><defs
-     id="defs1"><inkscape:path-effect
+     id="defs1"><rect
+       x="1580.0788"
+       y="452.87299"
+       width="370.75866"
+       height="278.69107"
+       id="rect13" /><rect
+       x="1622.3802"
+       y="447.89637"
+       width="404.35089"
+       height="308.55083"
+       id="rect12" /><rect
+       x="1557.684"
+       y="262.51704"
+       width="717.07821"
+       height="169.20528"
+       id="rect2" /><inkscape:path-effect
        effect="spiro"
        id="path-effect8"
        is_visible="true"
@@ -1658,419 +1680,836 @@
        id="rect1-2-5-5-4" /><rect
        x="49.337399"
        y="137.15247"
-       width="717.23071"
-       height="293.56342"
+       width="259.38124"
+       height="257.48289"
        id="rect1-5" /><rect
        x="49.337399"
        y="137.15247"
        width="131.78435"
        height="130.53166"
-       id="rect1-2-5-7" /></defs><g
+       id="rect1-2-5-7" /><rect
+       x="46.700142"
+       y="1056.4724"
+       width="572.10272"
+       height="214.1357"
+       id="rect47-2-9-3-4-96" /><rect
+       x="46.700142"
+       y="1056.4724"
+       width="136.12698"
+       height="177.01434"
+       id="rect47-7-9-2-6-1-2-8-3-5-2-5-4-5" /><rect
+       x="46.700142"
+       y="1056.4724"
+       width="264.16513"
+       height="195.13002"
+       id="rect47-7-9-2-6-70-7-19-9-4-4-3-2-2-8-7" /><rect
+       x="46.700142"
+       y="1056.4724"
+       width="572.10272"
+       height="214.1357"
+       id="rect47-2-9-3-4-6-4" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="717.23071"
+       height="293.56342"
+       id="rect1-4" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="717.23071"
+       height="293.56342"
+       id="rect1-5-3" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="98.739929"
+       height="223.54559"
+       id="rect1-2-9" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="131.78435"
+       height="130.53166"
+       id="rect1-2-5-71" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="131.78435"
+       height="130.53166"
+       id="rect1-2-5-7-4" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="131.78435"
+       height="130.53166"
+       id="rect1-2-5-5-0" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="131.78435"
+       height="130.53166"
+       id="rect1-2-5-5-4-4" /><inkscape:path-effect
+       effect="spiro"
+       id="path-effect8-4"
+       is_visible="true"
+       lpeversion="1" /><inkscape:path-effect
+       effect="spiro"
+       id="path-effect8-1-8"
+       is_visible="true"
+       lpeversion="1" /><inkscape:path-effect
+       effect="spiro"
+       id="path-effect8-0-4-1-3"
+       is_visible="true"
+       lpeversion="1" /><inkscape:path-effect
+       effect="spiro"
+       id="path-effect8-9-4"
+       is_visible="true"
+       lpeversion="1" /><inkscape:path-effect
+       effect="spiro"
+       id="path-effect8-9-5-3"
+       is_visible="true"
+       lpeversion="1" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="172.21943"
+       height="123.6888"
+       id="rect1-2-5-5-40" /><rect
+       x="49.337399"
+       y="137.15247"
+       width="717.23071"
+       height="293.56342"
+       id="rect1-4-1" /><rect
+       x="46.700142"
+       y="1056.4724"
+       width="572.10272"
+       height="214.1357"
+       id="rect47-2-9-3-4-96-5" /><rect
+       x="46.700142"
+       y="1056.4724"
+       width="572.10272"
+       height="214.1357"
+       id="rect47-2-9-3-4-96-5-8" /><rect
+       x="1557.684"
+       y="262.51703"
+       width="717.07819"
+       height="169.20528"
+       id="rect2-8" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-17.208334)"><a
-       id="a8"
-       xlink:href="https://scicomm.iiserkol.ac.in/submit"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,18.763823,-10.307399)"
-         id="text46-9-0-0-3"
-         style="font-style:normal;font-variant:normal;font-weight:706;font-stretch:normal;font-size:48px;line-height:1.1;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=706';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-2-9-3-4);display:inline;fill:#303030;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
-         x="-195.72905"
-         y="0"><tspan
-           x="363.24281"
-           y="1094.8727"
-           id="tspan4"><tspan
-             style="font-size:40px"
-             id="tspan3">Do Contribute!</tspan></tspan></text></a><text
-       xml:space="preserve"
-       transform="matrix(0.01041667,0,0,0.01041667,15.958515,-0.37397465)"
-       id="text46-6-9-4-8-3-1-7-7-8-3-6-8"
-       style="font-style:normal;font-variant:normal;font-weight:705;font-stretch:normal;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-7-9-2-6-1-2-8-3-5-2-5-4);display:inline;fill:#000000;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
-       x="22.03125"
-       y="0"><tspan
-         x="168.42616"
-         y="1067.806"
-         id="tspan6"><tspan
-           style="font-weight:711;font-size:12px;-inkscape-font-specification:'Cooper Hewitt,  weight=711'"
-           id="tspan5">02</tspan></tspan></text><rect
-       style="fill:#bd2033;fill-opacity:1;stroke:none;stroke-width:0.093203"
-       id="rect6-8-7-9-2-8-4-7-0-9"
-       width="8.5000057"
-       height="0.47282141"
-       x="17.208328"
-       y="-5.4825483e-07" /><text
-       xml:space="preserve"
-       transform="matrix(0.01041667,0,0,0.01041667,17.225551,-10.84384)"
-       id="text46-6-9-4-8-9-7-48-8-2-2-1-9-7-7"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20px;line-height:1.2;font-family:Oswald;-inkscape-font-specification:'Oswald, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect47-7-9-2-6-70-7-19-9-4-4-3-2-2-8);display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
-       x="-112.65625"
-       y="0"><tspan
-         x="46.699219"
-         y="1074.5316"
-         id="tspan9"><tspan
-           style="font-weight:708;font-size:13.3333px;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=708';fill:#202020"
-           id="tspan7">INSCIGHT</tspan><tspan
-           style="font-weight:708;font-size:13.3333px;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-           id="tspan8">  #1 | NOV'24 </tspan></tspan></text><rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00382776;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect110-9-3-6-1-9-1-6-5-2-3"
-       width="7.4701872"
-       height="9.9793978"
-       x="17.723234"
-       y="0.4747107" /><rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
-       id="rect16-3-6-8-8-4-7-7"
-       width="7.4721184"
-       height="0.28751189"
-       x="17.722265"
-       y="0.4747107" /><rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
-       id="rect16-3-6-8-8-4-7-7-2"
-       width="7.4721184"
-       height="0.28751189"
-       x="17.722265"
-       y="1.1411597" /><a
-       id="a8-6"
-       xlink:href="https://scicomm.iiserkol.ac.in/submit"
-       transform="translate(9.558252e-6,4.0713287)"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,18.763823,-10.307399)"
-         id="text46-9-0-0-3-3"
-         style="font-style:normal;font-variant:normal;font-weight:706;font-stretch:normal;font-size:48px;line-height:1.1;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=706';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-2-9-3-4-6);display:inline;fill:#303030;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
-         x="-195.72905"
-         y="0"><tspan
-           x="453.7626"
-           y="1094.8727"
-           id="tspan11"><tspan
-             style="font-size:40px"
-             id="tspan10">The Team</tspan></tspan></text></a><rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
-       id="rect16-3-6-8-8-4-7-7-2-4"
-       width="7.4721184"
-       height="0.28751189"
-       x="17.722275"
-       y="5.2124882" /><rect
-       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:0.00788912;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect19"
-       width="7.4716043"
-       height="0.19182985"
-       x="17.722525"
-       y="10.454108" /><a
-       id="a7"
-       xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
-         id="text1"
-         style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#101010;stroke-width:1.92"><tspan
-           x="49.337891"
-           y="148.48565"
-           id="tspan13"><tspan
-             dx="0 0 0 0.54347777 0 0 0 0 0 0 0 0 0.54347873 0 0 0 0 0 0 0 0.54347396 0 0 0 0 0 0 0 0 0 0 0 0 0 0.54347396 0 0 0 0 0.54347396 0 0 0 0 0 0 0 0 0.54347396 0 0 0 0.54347396 0 0 0 0 0 0 0 0.54347396 0 0 0 0 0 0 0 0 0.54347396 0 0 0 0 0 0 0 0 0 0 0 0 0.54347396 0 0 0.54347396 0 0 0 0 0 0 0 0 0 0 0 0 0.54351926 0 0 0 0.54347396 0 0 0 0 0 0 0 0.54347396 0 0 0 0.54347396"
-             id="tspan12">We heartily welcome contributions from students and faculty members, irrespective of affiliation. The portals for submitting </tspan></tspan><tspan
-           x="49.337891"
-           y="164.4856"
-           id="tspan15"><tspan
-             dx="0 0 0 0 1.6281888 0 0 0 0 0 1.6281869 0 0 1.6281831 0 0 0 0 0 0 0 1.6281831 0 0 0 1.6281908 0 0 1.6281908 0 0 0 0 0 1.6281908 0 0 1.6281908 0 0 0 1.6281803 0 0 0 0 0 0 0 0 1.6281908 0 0 0 0 1.6281602 0 0 0 0 0 0 0 0 1.6281908 0 0 0 0 0 0 0 1.6281908 0 0 0 0 0 0 0 0 0 1.6281908 0 0 0 1.6281908 0 0 0 0 0 0 0 1.6281908 0 0 0 1.6281908 0 0 0 0 1.6281908 0 0 1.6281908 0 0 0 0 0 1.6281908 0 0 0 0 0 0 1.6281908"
-             id="tspan14">all kinds of content can be found on our website. More specific details regarding the content can also be found there, so </tspan></tspan><tspan
-           x="49.337891"
-           y="180.48556"
-           id="tspan16">please take a close look at the linked page if you are interested in contributing.
-</tspan><tspan
-           x="49.337891"
-           y="196.48551"
-           id="tspan74">
-</tspan><tspan
-           x="49.337891"
-           y="212.48547"
-           id="tspan77"><tspan
-             dx="0 0 0 0 0 0 0 0 1.8402798"
-             style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-             id="tspan75">Science Articles</tspan><tspan
-             dx="0 0 1.8402798 0 0 1.8402727 0 0 0 0 0 0 0 1.8402851 0 0 0 0 0 0 0 0 0 1.8402956 0 0 1.840265 0 0 0 0 0 0 0 0 0 0 0 1.8402803 0 0 0 0 0 1.8403108 0 0 1.8402956 0 0 0 0 0 0 0 0 1.8402956 0 0 1.8402956 0 0 0 0 1.8402956 0 0 1.840265 0 0 0 1.8402956 0 0 0 0 0 0 0 1.8402956 0 0 1.840265 0 0 0 0 0 0 0 0 0 0 1.840265 0 0 1.840204 0 1.840265"
-             id="tspan76">: We publish write-ups on interesting ideas in science, as long as the content is accessible to a broader </tspan></tspan><tspan
-           x="49.337891"
-           y="228.48542"
-           id="tspan78">audience and not just to the experts. Submit your articles here.
-</tspan><tspan
-           x="49.337891"
-           y="244.48537"
-           id="tspan79">
-</tspan><tspan
-           x="49.337891"
-           y="260.48533"
-           id="tspan82"><tspan
-             dx="0 0 0 0 0 0 0.75246978"
-             style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-             id="tspan80">Short Summaries</tspan><tspan
-             dx="0 0 0.75246596 0 0 0.75246596 0 0 0 0 0 0.75248122 0 0 0.75248122 0 0 0 0 0 0 0 0 0.75246596 0 0 0 0.75248122 0 0 0 0 0 0 0 0 0 0.75248122 0 0 0.75246596 0 0 0 0 0 0 0 0 0 0.75245547 0 0 0.75248122 0 0 0 0 0 0 0 0.75248122 0 0 0 0 0 0.7524507 0 0 0 0 0 0 0 0 0 0.7524507 0 0 0 0 0 0 0 0 0.75248599 0 0 0 0 0 0 0.7524507 0 0 0.7524507"
-             id="tspan81">: In order to showcase the frontiers of research, we publish short summaries (350-400 words) of recently </tspan></tspan><tspan
-           x="49.337891"
-           y="276.48528"
-           id="tspan84"><tspan
-             dx="0 0 0 0 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 0 0 0 2.1022809 0 0 0 2.1022813 0 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 0 2.1022813 0 0 0 2.1022813 0 0 0 2.1022813 0 0 0 2.1022813 0 0 0 0 0 0 0 0 0 2.1022508 0 0 0 0 0 2.1023118 0 0 0 0 0 2.1022508 0 0 0 2.1023118 0 0 0 2.1023118 0 0 0 2.1022508"
-             id="tspan83">published science research articles. The summary should broadly lay out the questions being asked and the new results </tspan></tspan><tspan
-           x="49.337891"
-           y="292.48525"
-           id="tspan86">obtained. Submit your research stories here.<tspan
-   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-   id="tspan85">
-</tspan></tspan><tspan
-           x="49.337891"
-           y="308.48522"
-           id="tspan88"><tspan
-             style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-             id="tspan87">
-</tspan></tspan><tspan
-           x="49.337891"
-           y="324.48519"
-           id="tspan91"><tspan
-             dx="0 0 0 0 0 0 0 0 0.7543695 0 0 0 0.75437331"
-             style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-             id="tspan89">Quizzes and Games</tspan><tspan
-             dx="0 0 0.75436521 0 0 0.75438094 0 0 0 0 0.75437331 0 0 0 0 0 0 0 0.75438094 0 0 0 0 0 0 0 0.75436568 0 0 0 0 0 0.75436568 0 0 0 0 0.75438094 0 0 0.75436568 0 0 0 0 0 0 0 0 0 0 0 0.75435042 0 0 0 0 0 0 0 0.75435042 0 0 0 0.75435519 0 0 0 0 0 0 0 0 0 0.75435042 0 0 0 0 0 0 0.75431991 0 0 0.75439572 0 0 0 0.75431991 0 0 0 0 0.75444198"
-             id="tspan90">: We also feature science games such as crosswords, quizzes and word-link games. If you have content </tspan></tspan><tspan
-           x="49.337891"
-           y="340.48516"
-           id="tspan92">for these games or have new interesting games in mind, please send them our way.
-</tspan><tspan
-           x="49.337891"
-           y="356.48513"
-           id="tspan93">
-</tspan><tspan
-           x="49.337891"
-           y="372.4851"
-           id="tspan96"><tspan
-             dx="0 0 0 0 0 0 0 0 0 0 1.7140443"
-             style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-             id="tspan94">Interview Recommendations: </tspan><tspan
-             dx="1.7140367 0 0 1.7140415 0 0 0 0 1.7140367 0 0 1.714052 0 0 1.7140367 0 0 0 0 0 0 0 0 0 1.714052 0 0 0 0 0 0 0 0 1.7140672 0 0 0 0 0 0 0 0 0 0 1.7140214 0 0 0 0 0 0 0 0 0 0 0 0 0 1.7140672 0 0 1.7140367 0 0 1.7140515 0 0 0 1.7140367 0 0 0 0 1.7140367 0 0 1.7140062 0 0 0 0 0 0 0 0 0 1.7140672 0 0 0 0 1.714021"
-             id="tspan95">If want us to interview specific scientific personalities or if you have an interview that you </tspan></tspan><tspan
-           x="49.337891"
-           y="388.48507"
-           id="tspan97">want to publish, please get in touch with us.
-</tspan><tspan
-           x="49.337891"
-           y="404.48504"
-           id="tspan98">
-</tspan><tspan
-           x="49.337891"
-           y="420.48501"
-           id="tspan99">Submissions are accepted on a rolling basis, so send in your content whenever you are  ready.  </tspan></text></a><a
-       id="a7-4"
-       xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
-       transform="translate(9.636515e-4,5.3334445)"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
-         id="text1-1"
-         style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-5);display:inline;fill:#101010;stroke-width:1.92"><tspan
-           x="49.337891"
-           y="148.48565"
-           id="tspan101"><tspan
-             dx="0 0 0 1.3502138 0 0 0 1.3502138 0 0 0 0 0 0 0 0 0 1.3502138 0 0 0 0 0 0 0 1.3502061 0 0 1.3502214 0 0 0 0 0 0 1.3502214 0 0 0 1.3502061 0 0 0 0 0 1.3502061 0 0 1.3502209 0 0 0 1.3502061 0 0 0 1.3502061 0 0 0 0 0 0 0 0 0 0 1.3502061 0 0 1.3502109 0 0 0 0 1.3502109 0 0 1.3502367 0 0 1.3502061 0 0 0 1.3502061 0 0 0 1.3502367 0 0 0 0 0 0 0 0 0 1.3501756 0 0 0 0 1.3501904 0 0 0 1.3502109 0 0 0 0 1.3502367 0 0 1.3502367 0 0 0 0 1.3502367"
-             id="tspan100">We are currently looking to expand our team. If you are interested in what we do and are confident that you will be able to </tspan></tspan><tspan
-           x="49.337891"
-           y="164.4856"
-           id="tspan103"><tspan
-             dx="0 0 0 0 0 0 0 1.7649324 0 0 0 0 1.7649324 0 0 1.7649324 0 0 0 0 0 1.7649324 0 0 0 0 0 0 1.76494 0 0 0 0 0 1.7649248 0 0 0 1.76494 0 0 1.76494 0 0 1.76494 0 0 1.76494 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.7649243 0 0 1.7649143 0 0 0 0 1.76494 0 0 1.76494 0 0 0 0 0 1.7649095 0 0 1.7649095 0 0 0 0 0 0 0 1.7649705 0 0 0 0 0 0 0 0 1.7649095 0 0 0 0 0 1.7649705 0 0 0 1.7649243"
-             id="tspan102">devote time to this, please reach out to us at scicomm@iiserkol.ac.in. We will be happy to discuss possible roles for you </tspan></tspan><tspan
-           x="49.337891"
-           y="180.48556"
-           id="tspan104">depending on your skills.</tspan></text></a><a
-       id="a7-3"
-       xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
-       transform="translate(-0.0062698,4.0678812)"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
-         id="text1-9"
-         style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2);display:inline;fill:#101010;stroke-width:1.92"><tspan
-           x="49.337891"
-           y="148.48565"
-           id="tspan106"><tspan
-             style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-             id="tspan105">Chief Editor
-</tspan></tspan><tspan
-           x="49.337891"
-           y="164.4856"
-           id="tspan107">Swarnendu Saha
-</tspan><tspan
-           x="49.337891"
-           y="180.48556"
-           id="tspan108">
-</tspan></text></a><a
-       id="a7-3-9"
-       xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
-       transform="translate(1.3917836,4.0678812)"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
-         id="text1-9-6"
-         style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5);display:inline;fill:#101010;stroke-width:1.92"><tspan
-           x="49.337891"
-           y="148.48565"
-           id="tspan110"><tspan
-   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-   id="tspan109">Editors</tspan>
-</tspan><tspan
-           x="49.337891"
-           y="164.4856"
-           id="tspan111">Alekhya Kundu
-</tspan><tspan
-           x="49.337891"
-           y="180.48556"
-           id="tspan112">Archita Sarkar
-</tspan><tspan
-           x="49.337891"
-           y="196.48551"
-           id="tspan113">Budhaditya Banerjee
-</tspan><tspan
-           x="49.337891"
-           y="212.48547"
-           id="tspan114">Suman Halder
-</tspan><tspan
-           x="49.337891"
-           y="228.48542"
-           id="tspan115">Shibaraj Sahu
-</tspan><tspan
-           x="49.337891"
-           y="244.48537"
-           id="tspan116">Tanmay Raj</tspan></text></a><a
-       id="a7-3-9-6"
-       xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
-       transform="translate(3.0249754,4.0678812)"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
-         id="text1-9-6-43"
-         style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5-7);display:inline;fill:#101010;stroke-width:1.92"><tspan
-           x="49.337891"
-           y="148.48565"
-           id="tspan118"><tspan
-   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-   id="tspan117">Guest Editors</tspan>
-</tspan><tspan
-           x="49.337891"
-           y="164.4856"
-           id="tspan119">Ayan Biswas
-</tspan><tspan
-           x="49.337891"
-           y="180.48556"
-           id="tspan120">Chitradeep Saha
-</tspan><tspan
-           x="49.337891"
-           y="196.48551"
-           id="tspan121">Medha Roy Choudhury
-</tspan></text></a><a
-       id="a7-3-9-8"
-       xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
-       transform="translate(3.3042807,4.0678812)"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,18.666665,0)"
-         id="text1-9-6-4"
-         style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5-5);display:inline;fill:#101010;stroke-width:1.92"><tspan
-           x="49.337891"
-           y="148.48565"
-           id="tspan123"><tspan
-   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-   id="tspan122">Design and Website</tspan>
-</tspan><tspan
-           x="49.337891"
-           y="164.4856"
-           id="tspan124">Abhirup Mukherjee
-</tspan><tspan
-           x="49.337891"
-           y="180.48556"
-           id="tspan125">Divyanshu Saha
-</tspan><tspan
-           x="49.337891"
-           y="196.48551"
-           id="tspan126">Manish Behera
-</tspan><tspan
-           x="49.337891"
-           y="212.48547"
-           id="tspan127">
-</tspan></text></a><a
-       id="a7-3-9-8-7"
-       xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
-       transform="translate(6.4095539,4.0678812)"><text
-         xml:space="preserve"
-         transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
-         id="text1-9-6-4-6"
-         style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5-5-4);display:inline;fill:#101010;stroke-width:1.92"><tspan
-           x="49.337891"
-           y="148.48565"
-           id="tspan129"><tspan
-   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
-   id="tspan128">Social Media</tspan>
-</tspan><tspan
-           x="49.337891"
-           y="164.4856"
-           id="tspan130">Sayan Saha</tspan></text></a><g
+     transform="translate(-17.208334)"><g
        id="g8" /><g
-       id="g12"
-       transform="translate(-1.1105823,0.66817661)"><rect
-         style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
-         id="rect8"
-         width="0.26595896"
-         height="0.12165789"
-         x="21.16975"
-         y="2.2659433" /><path
-         style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
-         d="M 21.169093,2.3876019 H 21.43571"
-         id="path8"
-         inkscape:path-effect="#path-effect8"
-         inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
-         transform="translate(7.9129756e-4,0.01470274)" /></g><g
-       id="g12-6"
-       transform="matrix(1.6853074,0,0,1,-13.50953,1.1679411)"><rect
-         style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
-         id="rect8-1"
-         width="0.26595896"
-         height="0.12165789"
-         x="21.16975"
-         y="2.2659433" /><path
-         style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
-         d="M 21.169093,2.3876019 H 21.43571"
-         id="path8-5"
-         inkscape:path-effect="#path-effect8-1"
-         inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
-         transform="translate(7.9129756e-4,0.01470274)" /></g><g
-       id="g11"><rect
-         style="opacity:0.01;fill:#101010;stroke-width:0.0320584"
-         id="rect8-9-0-7"
-         width="0.71132082"
-         height="0.14590792"
-         x="19.118513"
-         y="3.9369941" /><path
-         style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
-         d="M 21.169093,2.3876019 H 21.43571"
-         id="path8-2-4-2"
-         inkscape:path-effect="#path-effect8-0-4-1"
-         inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
-         transform="matrix(2.6684835,0,0,1,-37.371895,1.7003002)" /></g><g
-       id="g12-9"
-       transform="translate(4.8440577e-4,0.00137858)"><rect
-         style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
-         id="rect8-17"
-         width="0.26595896"
-         height="0.12165789"
-         x="21.16975"
-         y="2.2659433" /><path
-         style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
-         d="M 21.169093,2.3876019 H 21.43571"
-         id="path8-7"
-         inkscape:path-effect="#path-effect8-9"
-         inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
-         transform="translate(7.9129756e-4,0.01470274)" /></g><g
-       id="g12-9-7"
-       transform="matrix(1.7907778,0,0,1,-17.67052,-0.66730678)"><rect
-         style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
-         id="rect8-17-7"
-         width="0.26595896"
-         height="0.12165789"
-         x="21.16975"
-         y="2.2659433" /><path
-         style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
-         d="M 21.169093,2.3876019 H 21.43571"
-         id="path8-7-6"
-         inkscape:path-effect="#path-effect8-9-5"
-         inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
-         transform="translate(7.9129756e-4,0.01470274)" /></g></g></svg>
+       id="g15"><a
+         id="a8"
+         xlink:href="https://scicomm.iiserkol.ac.in/submit"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,18.763823,-10.307399)"
+           id="text46-9-0-0-3"
+           style="font-style:normal;font-variant:normal;font-weight:706;font-stretch:normal;font-size:48px;line-height:1.1;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=706';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-2-9-3-4);display:inline;fill:#303030;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+           x="-195.72905"
+           y="0"><tspan
+             x="363.24281"
+             y="1094.8727"
+             id="tspan9"><tspan
+               style="font-size:40px"
+               id="tspan8">Do Contribute!</tspan></tspan></text></a><text
+         xml:space="preserve"
+         transform="matrix(0.01041667,0,0,0.01041667,15.958515,-0.37397465)"
+         id="text46-6-9-4-8-3-1-7-7-8-3-6-8"
+         style="font-style:normal;font-variant:normal;font-weight:705;font-stretch:normal;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-7-9-2-6-1-2-8-3-5-2-5-4);display:inline;fill:#000000;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+         x="22.03125"
+         y="0"><tspan
+           x="168.42616"
+           y="1067.806"
+           id="tspan16"><tspan
+             style="font-weight:711;font-size:12px;-inkscape-font-specification:'Cooper Hewitt,  weight=711'"
+             id="tspan15">02</tspan></tspan></text><rect
+         style="fill:#bd2033;fill-opacity:1;stroke:none;stroke-width:0.093203"
+         id="rect6-8-7-9-2-8-4-7-0-9"
+         width="8.5000057"
+         height="0.47282141"
+         x="17.208328"
+         y="-5.4825483e-07" /><text
+         xml:space="preserve"
+         transform="matrix(0.01041667,0,0,0.01041667,17.225551,-10.84384)"
+         id="text46-6-9-4-8-9-7-48-8-2-2-1-9-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20px;line-height:1.2;font-family:Oswald;-inkscape-font-specification:'Oswald, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect47-7-9-2-6-70-7-19-9-4-4-3-2-2-8);display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+         x="-112.65625"
+         y="0"><tspan
+           x="46.699219"
+           y="1074.5725"
+           id="tspan84"><tspan
+             style="font-weight:708;font-size:13.3333px;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=708';fill:#202020"
+             id="tspan82">INSCIGHT</tspan><tspan
+             style="font-weight:708;font-size:13.3333px;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+             id="tspan83">  #1 | NOV'24 </tspan></tspan></text><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00382776;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect110-9-3-6-1-9-1-6-5-2-3"
+         width="7.4701872"
+         height="9.9793978"
+         x="17.723234"
+         y="0.4747107" /><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7"
+         width="7.4721184"
+         height="0.28751189"
+         x="17.722265"
+         y="0.4747107" /><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7-2"
+         width="7.4721184"
+         height="0.28751189"
+         x="17.722265"
+         y="1.1411597" /><a
+         id="a8-6"
+         xlink:href="https://scicomm.iiserkol.ac.in/submit"
+         transform="translate(9.558252e-6,4.0713287)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,18.763823,-10.307399)"
+           id="text46-9-0-0-3-3"
+           style="font-style:normal;font-variant:normal;font-weight:706;font-stretch:normal;font-size:48px;line-height:1.1;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=706';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-2-9-3-4-6);display:inline;fill:#303030;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+           x="-195.72905"
+           y="0"><tspan
+             x="453.7626"
+             y="1094.8727"
+             id="tspan86"><tspan
+               style="font-size:40px"
+               id="tspan85">The Team</tspan></tspan></text></a><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7-2-4"
+         width="7.4721184"
+         height="0.28751189"
+         x="17.722275"
+         y="5.2124882" /><rect
+         style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:0.00788912;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect19"
+         width="7.4716043"
+         height="0.19182985"
+         x="17.722525"
+         y="10.454108" /><a
+         id="a7"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+           id="text1"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan88"><tspan
+               dx="0 0 0 0.54347777 0 0 0 0 0 0 0 0 0.54347873 0 0 0 0 0 0 0 0.54347396 0 0 0 0 0 0 0 0 0 0 0 0 0 0.54347396 0 0 0 0 0.54347396 0 0 0 0 0 0 0 0 0.54347396 0 0 0 0.54347396 0 0 0 0 0 0 0 0.54347396 0 0 0 0 0 0 0 0 0.54347396 0 0 0 0 0 0 0 0 0 0 0 0 0.54347396 0 0 0.54347396 0 0 0 0 0 0 0 0 0 0 0 0 0.54351926 0 0 0 0.54347396 0 0 0 0 0 0 0 0.54347396 0 0 0 0.54347396"
+               id="tspan87">We heartily welcome contributions from students and faculty members, irrespective of affiliation. The portals for submitting </tspan></tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan90"><tspan
+               dx="0 0 0 0 1.6281888 0 0 0 0 0 1.6281869 0 0 1.6281831 0 0 0 0 0 0 0 1.6281831 0 0 0 1.6281908 0 0 1.6281908 0 0 0 0 0 1.6281908 0 0 1.6281908 0 0 0 1.6281803 0 0 0 0 0 0 0 0 1.6281908 0 0 0 0 1.6281602 0 0 0 0 0 0 0 0 1.6281908 0 0 0 0 0 0 0 1.6281908 0 0 0 0 0 0 0 0 0 1.6281908 0 0 0 1.6281908 0 0 0 0 0 0 0 1.6281908 0 0 0 1.6281908 0 0 0 0 1.6281908 0 0 1.6281908 0 0 0 0 0 1.6281908 0 0 0 0 0 0 1.6281908"
+               id="tspan89">all kinds of content can be found on our website. More specific details regarding the content can also be found there, so </tspan></tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan91">please take a close look at the linked page if you are interested in contributing.
+</tspan><tspan
+             x="49.337891"
+             y="196.48551"
+             id="tspan92">
+</tspan><tspan
+             x="49.337891"
+             y="212.48547"
+             id="tspan95"><tspan
+               dx="0 0 0 0 0 0 0 0 1.8402798"
+               style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+               id="tspan93">Science Articles</tspan><tspan
+               dx="0 0 1.8402798 0 0 1.8402727 0 0 0 0 0 0 0 1.8402851 0 0 0 0 0 0 0 0 0 1.8402956 0 0 1.840265 0 0 0 0 0 0 0 0 0 0 0 1.8402803 0 0 0 0 0 1.8403108 0 0 1.8402956 0 0 0 0 0 0 0 0 1.8402956 0 0 1.8402956 0 0 0 0 1.8402956 0 0 1.840265 0 0 0 1.8402956 0 0 0 0 0 0 0 1.8402956 0 0 1.840265 0 0 0 0 0 0 0 0 0 0 1.840265 0 0 1.840204 0 1.840265"
+               id="tspan94">: We publish write-ups on interesting ideas in science, as long as the content is accessible to a broader </tspan></tspan><tspan
+             x="49.337891"
+             y="228.48542"
+             id="tspan96">audience and not just to the experts. Submit your articles here.
+</tspan><tspan
+             x="49.337891"
+             y="244.48537"
+             id="tspan97">
+</tspan><tspan
+             x="49.337891"
+             y="260.48533"
+             id="tspan100"><tspan
+               dx="0 0 0 0 0 0 0.75246978"
+               style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+               id="tspan98">Short Summaries</tspan><tspan
+               dx="0 0 0.75246596 0 0 0.75246596 0 0 0 0 0 0.75248122 0 0 0.75248122 0 0 0 0 0 0 0 0 0.75246596 0 0 0 0.75248122 0 0 0 0 0 0 0 0 0 0.75248122 0 0 0.75246596 0 0 0 0 0 0 0 0 0 0.75245547 0 0 0.75248122 0 0 0 0 0 0 0 0.75248122 0 0 0 0 0 0.7524507 0 0 0 0 0 0 0 0 0 0.7524507 0 0 0 0 0 0 0 0 0.75248599 0 0 0 0 0 0 0.7524507 0 0 0.7524507"
+               id="tspan99">: In order to showcase the frontiers of research, we publish short summaries (350-400 words) of recently </tspan></tspan><tspan
+             x="49.337891"
+             y="276.48528"
+             id="tspan102"><tspan
+               dx="0 0 0 0 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 0 0 0 2.1022809 0 0 0 2.1022813 0 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 2.1022813 0 0 0 0 0 0 0 2.1022813 0 0 0 2.1022813 0 0 0 2.1022813 0 0 0 2.1022813 0 0 0 0 0 0 0 0 0 2.1022508 0 0 0 0 0 2.1023118 0 0 0 0 0 2.1022508 0 0 0 2.1023118 0 0 0 2.1023118 0 0 0 2.1022508"
+               id="tspan101">published science research articles. The summary should broadly lay out the questions being asked and the new results </tspan></tspan><tspan
+             x="49.337891"
+             y="292.48525"
+             id="tspan104">obtained. Submit your research stories here.<tspan
+   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+   id="tspan103">
+</tspan></tspan><tspan
+             x="49.337891"
+             y="308.48522"
+             id="tspan106"><tspan
+               style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+               id="tspan105">
+</tspan></tspan><tspan
+             x="49.337891"
+             y="324.48519"
+             id="tspan109"><tspan
+               dx="0 0 0 0 0 0 0 0 0.7543695 0 0 0 0.75437331"
+               style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+               id="tspan107">Quizzes and Games</tspan><tspan
+               dx="0 0 0.75436521 0 0 0.75438094 0 0 0 0 0.75437331 0 0 0 0 0 0 0 0.75438094 0 0 0 0 0 0 0 0.75436568 0 0 0 0 0 0.75436568 0 0 0 0 0.75438094 0 0 0.75436568 0 0 0 0 0 0 0 0 0 0 0 0.75435042 0 0 0 0 0 0 0 0.75435042 0 0 0 0.75435519 0 0 0 0 0 0 0 0 0 0.75435042 0 0 0 0 0 0 0.75431991 0 0 0.75439572 0 0 0 0.75431991 0 0 0 0 0.75444198"
+               id="tspan108">: We also feature science games such as crosswords, quizzes and word-link games. If you have content </tspan></tspan><tspan
+             x="49.337891"
+             y="340.48516"
+             id="tspan110">for these games or have new interesting games in mind, please send them our way.
+</tspan><tspan
+             x="49.337891"
+             y="356.48513"
+             id="tspan111">
+</tspan><tspan
+             x="49.337891"
+             y="372.4851"
+             id="tspan114"><tspan
+               dx="0 0 0 0 0 0 0 0 0 0 1.7140443"
+               style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+               id="tspan112">Interview Recommendations: </tspan><tspan
+               dx="1.7140367 0 0 1.7140415 0 0 0 0 1.7140367 0 0 1.714052 0 0 1.7140367 0 0 0 0 0 0 0 0 0 1.714052 0 0 0 0 0 0 0 0 1.7140672 0 0 0 0 0 0 0 0 0 0 1.7140214 0 0 0 0 0 0 0 0 0 0 0 0 0 1.7140672 0 0 1.7140367 0 0 1.7140515 0 0 0 1.7140367 0 0 0 0 1.7140367 0 0 1.7140062 0 0 0 0 0 0 0 0 0 1.7140672 0 0 0 0 1.714021"
+               id="tspan113">If want us to interview specific scientific personalities or if you have an interview that you </tspan></tspan><tspan
+             x="49.337891"
+             y="388.48507"
+             id="tspan115">want to publish, please get in touch with us.
+</tspan><tspan
+             x="49.337891"
+             y="404.48504"
+             id="tspan116">
+</tspan><tspan
+             x="49.337891"
+             y="420.48501"
+             id="tspan117">Submissions are accepted on a rolling basis, so send in your content whenever you are  ready.  </tspan></text></a><a
+         id="a7-4"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(-0.00515869,4.0678812)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+           id="text1-1"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-5);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan119"><tspan
+               dx="0 0 0 0.7154367 0 0 0 0.7154367 0 0 0 0 0 0 0 0 0 0.71544051 0 0 0 0 0 0 0 0.71544051 0 0 0.71544051 0 0 0 0 0 0 0.71544051 0 0 0 0.71544051"
+               id="tspan118">We are currently looking to expand our team. </tspan></tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan121"><tspan
+               dx="0 0 0 2.2023671 0 0 0 2.2023675 0 0 0 2.2023675 0 0 0 0 0 0 0 0 0 0 2.2023637 0 0 2.2023685 0 0 0 0 2.2023685 0 0 2.202379 0 0 2.2023637 0 0 0 2.2023637"
+               id="tspan120">If you are interested in what we do and are </tspan></tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan124"><tspan
+               dx="0 0 0 0 0 0 0 0 0 0 0.20599914 0 0 0 0 0.20600247 0 0 0 0.20600009 0 0 0 0 0.20600295 0 0 0.20599532 0 0 0 0 0.20601058"
+               id="tspan122">confident that you will be able to </tspan><tspan
+               dx="0.20599532 0 0 0 0 0 0 0.20599532"
+               id="tspan123">devote time </tspan></tspan><tspan
+             x="49.337891"
+             y="196.48551"
+             id="tspan126"><tspan
+               dx="0 0 0 10.612567 0 0 0 0 0 10.61257 0 0 0 0 0 0 10.612566 0 0 0 0 0 10.612566 0 0 0 10.612566 0 0 10.612566 0 0 10.612566"
+               id="tspan125">to this, please reach out to us at </tspan></tspan><tspan
+             x="49.337891"
+             y="212.48547"
+             id="tspan128"><tspan
+               dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.8976147 0 0 1.8976352 0 0 0 0 1.8976152 0 0 1.8976305 0 0 0 0 0 1.8976152"
+               id="tspan127">scicomm@iiserkol.ac.in. We will be happy to </tspan></tspan><tspan
+             x="49.337891"
+             y="228.48542"
+             id="tspan131"><tspan
+               dx="0 0 0 0 0 0 0 0 1.688009 0 0 0 0 0 0 0 0 1.6880052 0 0 0 0 0 1.6880052 0 0 0 1.6880047"
+               id="tspan129">discuss possible roles for you </tspan><tspan
+               dx="1.6880052 0 0 0 0 0 0 0 0 0 1.6880052"
+               id="tspan130">depending on </tspan></tspan><tspan
+             x="49.337891"
+             y="244.48537"
+             id="tspan132">your skills.</tspan></text></a><a
+         id="a7-3"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(3.7299524,4.0661904)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+           id="text1-9"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan134"><tspan
+               style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+               id="tspan133">Chief Editor
+</tspan></tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan135">Swarnendu Saha
+</tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan136">
+</tspan></text></a><a
+         id="a7-3-9"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(3.7328691,4.5538286)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+           id="text1-9-6"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan138"><tspan
+   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+   id="tspan137">Editors</tspan>
+</tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan139">Alekhya Kundu
+</tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan140">Archita Sarkar
+</tspan><tspan
+             x="49.337891"
+             y="196.48551"
+             id="tspan141">Budhaditya Banerjee
+</tspan><tspan
+             x="49.337891"
+             y="212.48547"
+             id="tspan142">Suman Halder
+</tspan><tspan
+             x="49.337891"
+             y="228.48542"
+             id="tspan143">Shibaraj Sahu
+</tspan><tspan
+             x="49.337891"
+             y="244.48537"
+             id="tspan144">Tanmay Raj</tspan></text></a><a
+         id="a7-3-9-6"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(5.7074285,4.5802415)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+           id="text1-9-6-43"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5-7);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan146"><tspan
+   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+   id="tspan145">Guest Editors</tspan>
+</tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan147">Ayan Biswas
+</tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan148">Chitradeep Saha
+</tspan><tspan
+             x="49.337891"
+             y="196.48551"
+             id="tspan149">Medha Roy Choudhury
+</tspan></text></a><a
+         id="a7-3-9-8"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(2.2588433,5.9025757)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,18.666665,0)"
+           id="text1-9-6-4"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5-5);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan151"><tspan
+   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+   id="tspan150">Design and Website</tspan>
+</tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan152">Abhirup Mukherjee
+</tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan153">Divyanshu Saha
+</tspan><tspan
+             x="49.337891"
+             y="196.48551"
+             id="tspan154">Manish Behera
+</tspan><tspan
+             x="49.337891"
+             y="212.48547"
+             id="tspan155">
+</tspan></text></a><a
+         id="a7-3-9-8-77"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(4.2506254,5.4274621)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,18.666665,0)"
+           id="text1-9-6-4-8"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5-5-40);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan157"><tspan
+   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+   id="tspan156">Advisers</tspan>
+</tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan158">Prof. Anindita Bhadra
+</tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan159">Prof. Somnath Basu
+</tspan><tspan
+             x="49.337891"
+             y="196.48551"
+             id="tspan160">Prof. Subhajit Bandyopadhyay</tspan></text></a><a
+         id="a7-3-9-8-7"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(5.7063174,4.0663534)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+           id="text1-9-6-4-6"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-2-5-5-4);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan162"><tspan
+   style="font-weight:708;-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+   id="tspan161">Social Media</tspan>
+</tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan163">Sayan Saha</tspan></text></a><g
+         id="g12"
+         transform="translate(-1.1105823,0.66817661)"><rect
+           style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
+           id="rect8"
+           width="0.26595896"
+           height="0.12165789"
+           x="21.16975"
+           y="2.2659433" /><path
+           style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
+           d="M 21.169093,2.3876019 H 21.43571"
+           id="path8"
+           inkscape:path-effect="#path-effect8"
+           inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
+           transform="translate(7.9129756e-4,0.01470274)" /></g><g
+         id="g12-6"
+         transform="matrix(1.6853074,0,0,1,-13.50953,1.1679411)"><rect
+           style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
+           id="rect8-1"
+           width="0.26595896"
+           height="0.12165789"
+           x="21.16975"
+           y="2.2659433" /><path
+           style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
+           d="M 21.169093,2.3876019 H 21.43571"
+           id="path8-5"
+           inkscape:path-effect="#path-effect8-1"
+           inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
+           transform="translate(7.9129756e-4,0.01470274)" /></g><g
+         id="g11"><rect
+           style="opacity:0.01;fill:#101010;stroke-width:0.0320584"
+           id="rect8-9-0-7"
+           width="0.71132082"
+           height="0.14590792"
+           x="19.118513"
+           y="3.9369941" /><path
+           style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
+           d="M 21.169093,2.3876019 H 21.43571"
+           id="path8-2-4-2"
+           inkscape:path-effect="#path-effect8-0-4-1"
+           inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
+           transform="matrix(2.6684835,0,0,1,-37.371895,1.7003002)" /></g><g
+         id="g12-9"
+         transform="translate(4.8440577e-4,0.00137858)"><rect
+           style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
+           id="rect8-17"
+           width="0.26595896"
+           height="0.12165789"
+           x="21.16975"
+           y="2.2659433" /><path
+           style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
+           d="M 21.169093,2.3876019 H 21.43571"
+           id="path8-7"
+           inkscape:path-effect="#path-effect8-9"
+           inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
+           transform="translate(7.9129756e-4,0.01470274)" /></g><g
+         id="g12-9-7"
+         transform="matrix(1.7907778,0,0,1,-17.67052,-0.66730678)"><rect
+           style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
+           id="rect8-17-7"
+           width="0.26595896"
+           height="0.12165789"
+           x="21.16975"
+           y="2.2659433" /><path
+           style="fill:#101010;stroke:#000000;stroke-width:0.01;stroke-dasharray:none;stroke-opacity:1"
+           d="M 21.169093,2.3876019 H 21.43571"
+           id="path8-7-6"
+           inkscape:path-effect="#path-effect8-9-5"
+           inkscape:original-d="m 21.169093,2.3876019 c 0.08931,0 0.177964,0 0.266617,0"
+           transform="translate(7.9129756e-4,0.01470274)" /></g></g><text
+       xml:space="preserve"
+       transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+       id="text12"
+       style="font-style:normal;font-variant:normal;font-weight:708;font-stretch:normal;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=708';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect12);display:inline;opacity:1;fill:#101010;fill-opacity:1;stroke:none;stroke-width:3.77953" /><g
+       id="g14"><a
+         id="a8-1"
+         xlink:href="https://scicomm.iiserkol.ac.in/submit"
+         transform="translate(18.5)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,18.763823,-10.307399)"
+           id="text46-9-0-0-3-2"
+           style="font-style:normal;font-variant:normal;font-weight:706;font-stretch:normal;font-size:48px;line-height:1.1;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=706';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-2-9-3-4-96);display:inline;fill:#303030;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+           x="-195.72905"
+           y="0"><tspan
+             x="382.96259"
+             y="1094.8727"
+             id="tspan165"><tspan
+               style="font-size:40px"
+               id="tspan164">Quiz Answers</tspan></tspan></text></a><text
+         xml:space="preserve"
+         transform="matrix(0.01041667,0,0,0.01041667,34.458515,-0.37397465)"
+         id="text46-6-9-4-8-3-1-7-7-8-3-6-8-1"
+         style="font-style:normal;font-variant:normal;font-weight:705;font-stretch:normal;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-7-9-2-6-1-2-8-3-5-2-5-4-5);display:inline;fill:#000000;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+         x="22.03125"
+         y="0"><tspan
+           x="168.42616"
+           y="1067.806"
+           id="tspan167"><tspan
+             style="font-weight:711;font-size:12px;-inkscape-font-specification:'Cooper Hewitt,  weight=711'"
+             id="tspan166">02</tspan></tspan></text><rect
+         style="fill:#bd2033;fill-opacity:1;stroke:none;stroke-width:0.093203"
+         id="rect6-8-7-9-2-8-4-7-0-9-9"
+         width="8.5000057"
+         height="0.47282141"
+         x="35.708328"
+         y="-5.4825483e-07" /><text
+         xml:space="preserve"
+         transform="matrix(0.01041667,0,0,0.01041667,35.725551,-10.84384)"
+         id="text46-6-9-4-8-9-7-48-8-2-2-1-9-7-7-0"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20px;line-height:1.2;font-family:Oswald;-inkscape-font-specification:'Oswald, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect47-7-9-2-6-70-7-19-9-4-4-3-2-2-8-7);display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+         x="-112.65625"
+         y="0"><tspan
+           x="46.699219"
+           y="1074.5725"
+           id="tspan170"><tspan
+             style="font-weight:708;font-size:13.3333px;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=708';fill:#202020"
+             id="tspan168">INSCIGHT</tspan><tspan
+             style="font-weight:708;font-size:13.3333px;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=708'"
+             id="tspan169">  #1 | NOV'24 </tspan></tspan></text><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00382776;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect110-9-3-6-1-9-1-6-5-2-3-9"
+         width="7.4701872"
+         height="9.9793978"
+         x="36.223236"
+         y="0.4747107" /><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7-1"
+         width="7.4721184"
+         height="0.28751189"
+         x="36.222267"
+         y="0.4747107" /><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7-2-9"
+         width="7.4721184"
+         height="0.28751189"
+         x="36.222267"
+         y="1.1411597" /><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7-2-9-0"
+         width="7.4721184"
+         height="0.28751189"
+         x="36.228821"
+         y="2.2168872" /><a
+         id="a8-1-1"
+         xlink:href="https://scicomm.iiserkol.ac.in/submit"
+         transform="translate(18.513638,1.7388396)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,18.763823,-10.307399)"
+           id="text46-9-0-0-3-2-2"
+           style="font-style:normal;font-variant:normal;font-weight:706;font-stretch:normal;font-size:48px;line-height:1.1;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=706';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-2-9-3-4-96-5);display:inline;fill:#303030;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+           x="-195.72905"
+           y="0"><tspan
+             x="275.24263"
+             y="1094.8727"
+             id="tspan172"><tspan
+               style="font-size:40px"
+               id="tspan171">Crossword Solution</tspan></tspan></text></a><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7-2-9-7"
+         width="7.4721184"
+         height="0.28751189"
+         x="36.228821"
+         y="2.880003" /><rect
+         style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:0.00788912;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect19-14"
+         width="7.4716043"
+         height="0.19182985"
+         x="36.222527"
+         y="10.454108" /><a
+         id="a7-7"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(18.5)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+           id="text1-85"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-4);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan173">1. Wilhelm Roentgen
+</tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan174">2. Oral rehydration solution
+</tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan175">3. Sushruta
+</tspan><tspan
+             x="49.337891"
+             y="196.48551"
+             id="tspan176">4. Tata Institute of Fundamental Research (TIFR), Mumbai 
+</tspan><tspan
+             x="49.337891"
+             y="212.48547"
+             id="tspan177">5. Lonsdaleite
+</tspan></text></a><a
+         id="a7-7-0"
+         xlink:href="https://forms.gle/FGnS4PdsJd6PKuhJA"
+         transform="translate(22.579852)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,17.208334,0)"
+           id="text1-85-8"
+           style="font-weight:705;font-size:13.3333px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-4-1);display:inline;fill:#101010;stroke-width:1.92"><tspan
+             x="49.337891"
+             y="148.48565"
+             id="tspan178">6. Global warming
+</tspan><tspan
+             x="49.337891"
+             y="164.4856"
+             id="tspan179">7. C V Raman
+</tspan><tspan
+             x="49.337891"
+             y="180.48556"
+             id="tspan180">8. Pi
+</tspan><tspan
+             x="49.337891"
+             y="196.48551"
+             id="tspan181">9. Phosphorus
+</tspan><tspan
+             x="49.337891"
+             y="212.48547"
+             id="tspan182">10. Kurt Gödel</tspan></text></a><g
+         id="g12-6-4"
+         transform="matrix(1.6853074,0,0,1,4.99047,1.1679411)"><rect
+           style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
+           id="rect8-1-4"
+           width="0.26595896"
+           height="0.12165789"
+           x="21.16975"
+           y="2.2659433" /></g><text
+         xml:space="preserve"
+         transform="matrix(0.01041667,0,0,0.01041667,19.997976,0.42659105)"
+         id="text2"
+         style="font-weight:708;font-size:16px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=708';text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:3.77953"><tspan
+           x="1557.6836"
+           y="276.11758"
+           id="tspan185"><tspan
+             style="font-size:13.3333px"
+             id="tspan183">Across</tspan><tspan
+             style="font-weight:705;font-size:13.3333px;-inkscape-font-specification:'Cooper Hewitt,  weight=705';fill:#101010;stroke:none"
+             id="tspan184">: 1 Entangle, 5 Decohere, 7 Tunnel, 9 Photon, 11 Dirac, 13 Bohr, 14 Qubit.
+</tspan></tspan><tspan
+           x="1557.6836"
+           y="295.31759"
+           id="tspan188"><tspan
+             style="font-size:13.3333px"
+             id="tspan186">Down</tspan><tspan
+             style="font-weight:705;font-size:13.3333px;-inkscape-font-specification:'Cooper Hewitt,  weight=705';fill:#101010;stroke:none"
+             id="tspan187">: 1 Everett, 2 Laser, 3 Planck, 4 phonon, 6 Fermi, 8 Unitary, 10 Pauli, 12 Born.
+</tspan></tspan></text><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7-2-9-0-3"
+         width="7.4721184"
+         height="0.28751189"
+         x="36.228321"
+         y="3.5325632" /><a
+         id="a8-1-1-5"
+         xlink:href="https://scicomm.iiserkol.ac.in/submit"
+         transform="translate(18.513138,3.0545154)"><text
+           xml:space="preserve"
+           transform="matrix(0.01041667,0,0,0.01041667,18.763823,-10.307399)"
+           id="text46-9-0-0-3-2-2-0"
+           style="font-style:normal;font-variant:normal;font-weight:706;font-stretch:normal;font-size:48px;line-height:1.1;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=706';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect47-2-9-3-4-96-5-8);display:inline;fill:#303030;fill-opacity:1;stroke-width:0.755906;stroke-dasharray:3.02363, 1.51181"
+           x="-195.72905"
+           y="0"><tspan
+             x="274.48282"
+             y="1094.8727"
+             id="tspan190"><tspan
+               style="font-size:40px"
+               id="tspan189">Linked List Solution</tspan></tspan></text></a><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00393702;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-3-6-8-8-4-7-7-2-9-7-4"
+         width="7.4721184"
+         height="0.28751189"
+         x="36.228321"
+         y="4.1956787" /><g
+         id="g12-6-4-5"
+         transform="matrix(1.6853074,0,0,1,4.9899704,2.4836169)"><rect
+           style="opacity:0.01;fill:#101010;stroke-width:0.0178998"
+           id="rect8-1-4-3"
+           width="0.26595896"
+           height="0.12165789"
+           x="21.16975"
+           y="2.2659433" /></g><text
+         xml:space="preserve"
+         id="text13"
+         style="font-style:normal;font-variant:normal;font-weight:705;font-stretch:normal;font-size:0.138889px;line-height:1.2;font-family:'Cooper Hewitt';-inkscape-font-specification:'Cooper Hewitt,  weight=705';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;shape-inside:url(#rect4-4-02-2-5-9-2-3-4-0) url(#rect4-4-02-2-5-9-2-3-4-0-0);display:inline;opacity:1;fill:#101010;fill-opacity:1;stroke:none;stroke-width:3.77953"><tspan
+           x="36.226562"
+           y="4.6043838"
+           id="tspan191">1. Nerve
+</tspan><tspan
+           x="36.226562"
+           y="4.7710508"
+           id="tspan192">2. Ellipse
+</tspan><tspan
+           x="36.226562"
+           y="4.9377177"
+           id="tspan193">3. Enthalpy 
+</tspan><tspan
+           x="36.226562"
+           y="5.1043847"
+           id="tspan194">4. Yard
+</tspan><tspan
+           x="36.226562"
+           y="5.2710517"
+           id="tspan195">5. Deposition
+</tspan><tspan
+           x="40.101562"
+           y="4.6043838"
+           id="tspan196">6. Neutrino
+</tspan><tspan
+           x="40.101562"
+           y="4.7710508"
+           id="tspan197">7. Osmosis
+</tspan><tspan
+           x="40.101562"
+           y="4.9377177"
+           id="tspan198">8. Sandstone
+</tspan><tspan
+           x="40.101562"
+           y="5.1043847"
+           id="tspan199">9. Exponential
+</tspan><tspan
+           x="40.101562"
+           y="5.2710517"
+           id="tspan200">10. Lithium</tspan></text><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00121926;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4-4-02-2-5-9-2-3-4-0"
+         width="3.6009552"
+         height="0.92861462"
+         x="36.226963"
+         y="4.4857688" /><rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00121926;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4-4-02-2-5-9-2-3-4-0-0"
+         width="3.6009552"
+         height="0.92861462"
+         x="40.100845"
+         y="4.4857688" /></g></g></svg>
