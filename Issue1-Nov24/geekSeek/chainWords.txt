@@ -11,13 +11,13 @@ Seed word: MUTATION
 10. Lightest metal, used in batteries (7)
 
 Answers:
-1. NERVE
-2. ELLIPSE
-3. ENTHALPY 
-4. YARD
-5. DEPOSITION
-6. NEUTRINO
-7. OSMOSIS
-8. SANDSTONE
-9. EXPONENTIAL
-10. LITHIUM
+1. Nerve
+2. Ellipse
+3. Enthalpy 
+4. Yard
+5. Deposition
+6. Neutrino
+7. Osmosis
+8. Sandstone
+9. Exponential
+10. Lithium
