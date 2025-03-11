@@ -1,7 +1,8 @@
 import sys
 
 source = sys.argv[1]
-target = sys.argv[2]
+target = source[:-4] + "_pgnum.svg"
+startFrom = sys.argv[2]
 
 with open(source, "r") as sourceFile:
     text = sourceFile.read()
@@ -11,5 +12,3 @@ with open(source, "r") as sourceFile:
         counter += 1
 with open(target, "w") as targetFile:
     targetFile.write(text)
-
-# insertPageNumbers("/home/abhirup/storage/InScight-Documents/Issue1-Nov24/Complete/complete.svg", "/home/abhirup/storage/InScight-Documents/Issue1-Nov24/Complete/completeCopy.svg")

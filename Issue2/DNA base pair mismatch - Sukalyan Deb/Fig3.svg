@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="130.14607mm"
+   height="88.393257mm"
+   viewBox="0 0 130.14607 88.393257"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="Fig3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0091449"
+     inkscape:cx="286.38106"
+     inkscape:cy="247.23901"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="239.80698"
+       y="212.06071"
+       width="222.96101"
+       height="94.139107"
+       id="rect4" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1-1"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1-3"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3-6"
+       is_visible="true"
+       lpeversion="1" />
+    <rect
+       x="239.80698"
+       y="212.06071"
+       width="222.96101"
+       height="94.139107"
+       id="rect4-6" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-41.269663,-66.42797)">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#505050;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 42.269663,59.325843 V 145.7191"
+       id="path1"
+       inkscape:path-effect="#path-effect1"
+       inkscape:original-d="m 42.269663,59.325843 c 0,28.674157 0,86.393257 0,86.393257"
+       transform="matrix(1,0,0,-1,0,212.14707)" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#505050;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 42.269663,152.82123 H 172.41573"
+       id="path2"
+       inkscape:path-effect="#path-effect2"
+       inkscape:original-d="m 42.269663,152.82123 c 43.629212,0 130.146067,0 130.146067,0"
+       transform="translate(-1,0.999997)" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#5070a0;stroke-width:3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 51.91276,146.56178 34.608508,-34.6085"
+       id="path3"
+       inkscape:path-effect="#path-effect3"
+       inkscape:original-d="m 51.91276,146.56178 c 11.536169,-11.53617 34.608508,-34.6085 34.608508,-34.6085" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#5070a0;stroke-width:3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 51.91276,146.56178 34.608508,-34.6085"
+       id="path3-0"
+       inkscape:path-effect="#path-effect3-6"
+       inkscape:original-d="m 51.91276,146.56178 c 11.536169,-11.53617 34.608508,-34.6085 34.608508,-34.6085"
+       transform="translate(76.941844,-34.6085)" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#5070a0;stroke-width:2;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 86.521268,111.95328 H 128.47097"
+       id="path4"
+       inkscape:path-effect="#path-effect4"
+       inkscape:original-d="m 86.521268,111.95328 c 13.983232,0 41.949702,0 41.949702,0"
+       transform="matrix(0.71249997,0,0,1,30.905137,0)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-14.682397,4.1744343)"
+       id="text4"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:80px;line-height:1;font-family:'Cooper Hewitt LO';-inkscape-font-specification:'Cooper Hewitt LO, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-dasharray:19.1417, 19.1417;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="239.80664"
+         y="272.06055"
+         id="tspan5"><tspan
+           style="font-size:40px"
+           id="tspan3">current</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,66.810825,76.236897)"
+       id="text4-6"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:80px;line-height:1;font-family:'Cooper Hewitt LO';-inkscape-font-specification:'Cooper Hewitt LO, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4-6);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-dasharray:19.1417, 19.1417;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="239.80664"
+         y="272.06055"
+         id="tspan7"><tspan
+           style="font-size:40px"
+           id="tspan6">voltage</tspan></tspan></text>
+  </g>
+</svg>
