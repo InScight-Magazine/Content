@@ -8,4 +8,5 @@
 )
 #include "subfiles/debanuj.typ"
 #include "subfiles/sayan.typ"
+#include "subfiles/tisha.typ"
 #include "subfiles/interviewCSS.typ"
