@@ -10,3 +10,4 @@
 #include "subfiles/sayan.typ"
 #include "subfiles/tisha.typ"
 #include "subfiles/interviewCSS.typ"
+#include "subfiles/digest.typ"

@@ -14,7 +14,7 @@
   coverImage: coverImage
 )
 
-When you think of waste management, the last thing that comes to mind is the human brain. Yet, deep within our cells, an intricate system works tirelessly to clear out damaged or unnecessary components, ensuring the smooth functioning of critical processes. But what happens when this cleanup system breaks down? For individuals with Mucopolysaccharidosis VII (MPS VII), a rare genetic disorder? This failure triggers a cascade of devastating events, culminating in severe brain damage and early death.
+#dcap("When you think of waste management, the last thing that comes to mind is the human brain. Yet, deep within our cells, an intricate system works tirelessly to clear out damaged or unnecessary components, ensuring the smooth functioning of critical processes. But what happens when this cleanup system breaks down? For individuals with Mucopolysaccharidosis VII (MPS VII), a rare genetic disorder? This failure triggers a cascade of devastating events, culminating in severe brain damage and early death.")
 
 == Lysosomal Storage Disorders and Neurodegeneration: Revisiting the Molecular Underpinnings
 Mucopolysaccharidosis VII (MPS VII), also known as Sly Syndrome, is a rare autosomal recessive Lysosomal Storage Disorder (LSD) caused by mutations in the GUSB (Glucuronidase Beta) gene, which encodes β-glucuronidase (β-GUS), a key enzyme in the catabolism of glycosaminoglycans (GAGs). The deficiency of β-GUS leads to the accumulation of undegraded or partially degraded GAGs within lysosomes, resulting in widespread cellular dysfunction and multi-systemic manifestations [1][2]. Clinically, MPS VII presents with a broad spectrum of phenotypes, including skeletal deformities, hepatosplenomegaly, cardiovascular complications, and progressive neurodegeneration [3]. Notably, neurological symptoms such as cognitive impairment, motor dysfunction, and sensory deficits highlight the impact of lysosomal dysfunction on the central nervous system [4][5].
@@ -58,6 +58,9 @@ In conclusion, this research provides critical insights into the role of mitopha
 #auth-profile(
   imagePath: "/images/tishaFace.jpeg",
   info: "Student at Indian Institute of Science Education & Research (IISER), Kolkata | Aspiring Biologist | KVPY Scholar | MITACS GRI'23 | MUN.",
-  width: 90%,
+  width: 80%,
 )
-#references("/subfiles/tishaRefs.yml")
+#references(
+  refsFile: "/subfiles/tishaRefs.yml",
+  breakAfter: 6,
+)
