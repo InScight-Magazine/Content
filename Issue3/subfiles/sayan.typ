@@ -3,27 +3,28 @@
 
 #let title = "From a BS-MS student to an Independent Scientist: My Academic Journey"
 #let authors = ("Sayan Choudhury (HRI Allahabad, Prayagraj)",)
-#let abstract = "Abstract"
-#let coverImage = "/images/sayanCover.png"
+#let abstract = "Sayan Choudhury, an alumnus from the first batch of IISER Kolkata talks about his academic journey in this article. He reminisces about his education and research experiences at IISER, and his trajectory beyond IISER: first, as a PhD student and a post-doctoral fellow in the USA, and now as a faculty member at HRI. The article concludes with a message for current students."
+#let coverImage = "/images/sayanGroupCropped.jpeg"
 
 #show: section.with(
   header-global: header-global, 
   title: title, 
   authors: authors,
   abstract: abstract,
-  coverImage: coverImage
+  coverImage: coverImage,
+  sideImageFraction: 50%
 )
 
 #dcap("I have very clear memories of the summer of 2006. I had just graduated from high school and was exploring options for the future. I had been fascinated by Physics in school and wanted to pursue it further. At that point, an advertisement for IISER appeared in the newspaper and I applied. After a round of counseling, I was allotted a seat at IISER Kolkata. During the counselling session, we were told about the vision of IISER. One of the big points that was emphasized was that science was becoming increasingly interdisciplinary, and the coursework at IISER would embrace this interdisciplinarity. I found this pitch very attractive and decided to join IISER.")
 
 == The IISER Journey: A walk down memory lane
-#v-image(path: "/images/sayanLab.jpg", position: bottom)
+#v-image(path: "/images/sayanLab.jpg", position: bottom, caption: "First year Chemistry lab at the Salt Lake Campus of IISER.")
 
 Being the first batch at an Institute is a unique experience. For starters, there’s no Fresher’s welcome! However, at the same time, we received immense support in pursuing various kinds of projects. From the very beginning, the importance of getting involved in research was emphasized to us. Our lab courses had a project component, where we worked in groups on some experiments that we designed. This was a fascinating experience – we learnt to design problems, work in groups, and present our results. The courses were also very interesting at that time. Since, we had very few permanent faculty members, we were often taught by Professors from research Institutes in Kolkata. These professors often had a very different view on what should be taught to undergraduates, and consequently, we were exposed to several advanced topics. For instance, the first Biology class was a discussion about Daniel Koshland’s article entitled ‘The seven pillars of life’. In the third or fourth Biology class, we learnt about Ludwig Boltzmann and his entropy formula: We had a biology quiz where we were asked to design a question and then answer it. We were taught the RSA algorithm in the first semester Maths course by one of India’s leading cryptographers. It was fascinating and motivating! The courses continued to be very interesting throughout the 5 years of my stay. 
 
 In this context, I must mention that a major highlight of my IISER experience was the approachability of our professors. it was a common sight to find young BS-MS students engaged in discussing science with senior professors at the local tea stall. These interactions played a significant role in our development as scientists Another cherished tradition was special Saturday morning seminars, where faculty members would present accessible \`colloquium style’ talks on some cutting-edge topic. Through these interactions, courses, seminars and projects, I found that learning and doing science was great fun. On a side note, Inquivesta was conceptualized during our time, but the first edition took place after we left. A science fest was a unique proposition and there were a lot of spirited debates about the name of the event, but that’s a story for another day.
 
-#v-image(path: "/images/sayanScienceDay.jpg", position: bottom)
+#v-image(path: "/images/sayanScienceDay.jpg", position: bottom, caption: "The first Science Day celebrations at IISER in 2010.")
 
 == Research Experience at IISER
 
@@ -31,7 +32,7 @@ I was lucky to get opportunities for getting involved in research from the summe
 
 I thoroughly enjoyed my final year at IISER. We needed to take very few courses that year, and the emphasis was primarily on the MS thesis. I worked with Prof. Siddhartha Lal and Prof. Prasanta Panigrahi for my thesis. Siddhartha had just joined IISER then and I was his first student. Siddhartha treated me as a bona-fide graduate student, and we had long and intense discussions on my MS thesis project. My project started as an exploration of the dynamics of Bose-Einstein condensates in one-dimensional optical lattices. I learnt about a lot of things – from the Gross-Pitaveskii equation to Luttinger liquids. As we delved deeper, we found that we needed to borrow ideas from non-linear dynamics to proceed further, and we roped in Prof. Anandamohan Ghosh for discussions. Even though, we never wrote a paper to disseminate these results to a broader audience, I am very proud of my MS thesis. We finally graduated in May 2011. Unfortunately, our convocation happened much later (probably 2013) and I missed it. However, I cherish all my memories of IISER Kolkata. It was a wonderful time!
 
-#v-image(path: "/images/sayanVECC.jpg", position: bottom)
+#v-image(path: "/images/sayanVECC.jpg", position: bottom, caption: "The first batch of IISER students after a visit to the Variable Energy Cyclotron Center.")
 
 == Academic Life beyond the BS-MS at IISER
 

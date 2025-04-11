@@ -9,5 +9,7 @@
 #include "subfiles/debanuj.typ"
 #include "subfiles/sayan.typ"
 #include "subfiles/tisha.typ"
+#include "subfiles/coraBall.typ"
 #include "subfiles/interviewCSS.typ"
+#include "subfiles/interviewMB.typ"
 #include "subfiles/digest.typ"

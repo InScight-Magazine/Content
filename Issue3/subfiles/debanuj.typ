@@ -6,7 +6,15 @@
 #let abstract = "Dragonflies are one of the marvels of natural creation. The secrets of their flight dynamics, mate selection, predation, and visual information processing are all awe inspiring. During a trip to Puri in India, I had an interesting encounter with a group of dragonflies. A few of their pictures revealed some hidden mysteries about the nanostructures present on their wings. In this article we use scientific knowledge to develop a peeping hole into those hidden mystries."
 #let coverImage = "/images/debanujCover-small.jpeg"
 
-#let content = [
+#show: section.with(
+  header-global: header-global, 
+  title: title, 
+  authors: authors,
+  abstract: abstract,
+  coverImage: coverImage,
+  sideImageFraction: 40%,
+)
+
 #v-image(path: "/images/dragonfly1-small.jpg", caption: "Shots of colorful dragonflies.", position: bottom)
 
 #dcap("It was the summer of 2017 when we visited Puri, a coastal city, in eastern India. On the fall of evening, the beach side road was bustling with tourists as my parents hopped from one shop to another, testing their price negotiation skills with the local shopkeepers. While my parents were busy in their shopping spree, I was having a fun time clicking pictures of some beautiful handcrafts in a souvenir shop, with my camera. While clicking one of those pictures, something interesting caught my attention. I found out that some of the items hanging near a bright light bulb outside the shop had become a playground for stray dragonflies. This species of dragonfly is also  known as the globe skimmer (_Pantala flavescens_) due to its long migratory flights [1]. Around a hundred of them swirled in a chaotic yet mesmerizing dance, basking in the warmth of the incandescent bulb. It was quite serendipitous to discover such a gathering of one of my favorite insects, the dragonfly, while I had a camera in my hand. Before continuing with the story, I cannot resist a brief digression to explain why dragonflies are my favorites as an insect species.")
@@ -37,14 +45,5 @@ In fact, research on the structural properties of the wings of a dragonfly witne
   refsFile: "/subfiles/debanujRefs.yaml",
   breakAfter: 3,
 )
-]
 
-#section(
-  header-global: header-global, 
-  title: title, 
-  authors: authors,
-  abstract: abstract,
-  coverImage: coverImage,
-  content
-)
 

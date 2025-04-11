@@ -3,7 +3,7 @@
 
 #let title = "Brain on Overload: Unlocking Hope for Rare Diseases Through Cellular Cleanup"
 #let authors = ("Tisha Dash (Department of Biological Sciences, IISER Kolkata)",)
-#let abstract = "Abstract"
+#let abstract = "Neurodegeneration in Mucopolysaccharidosis VII (MPS VII) remains poorly understood. A recent Drosophila study reveals that β-glucuronidase deficiency disrupts autophagy and mitophagy, leading to mitochondrial dysfunction, energy depletion, and neuronal apoptosis. Remarkably, resveratrol rescues mitophagy and prevents ATP loss, highlighting a druggable axis linking lysosomal impairment to neurodegeneration in MPS VII."
 #let coverImage = "/images/tishaCover.jpeg"
 
 #show: section.with(
@@ -11,7 +11,8 @@
   title: title, 
   authors: authors,
   abstract: abstract,
-  coverImage: coverImage
+  coverImage: coverImage,
+  sideImageFraction: 40%,
 )
 
 #dcap("When you think of waste management, the last thing that comes to mind is the human brain. Yet, deep within our cells, an intricate system works tirelessly to clear out damaged or unnecessary components, ensuring the smooth functioning of critical processes. But what happens when this cleanup system breaks down? For individuals with Mucopolysaccharidosis VII (MPS VII), a rare genetic disorder? This failure triggers a cascade of devastating events, culminating in severe brain damage and early death.")
@@ -25,7 +26,7 @@ Despite advancements in enzyme replacement therapy (ERT) with vestronidase alfa,
 Emerging evidence suggests that lysosomal dysfunction disrupts essential cellular clearance pathways, particularly autophagy and mitophagy, which are vital for maintaining neuronal homeostasis[8][9][10]. Autophagy ensures the degradation of damaged proteins and organelles, whereas mitophagy selectively eliminates dysfunctional mitochondria, thereby preventing excessive reactive oxygen species (ROS) production and bioenergetic failure [11]. In the context of LSDs, defective lysosomal activity may impair mitophagic flux, leading to mitochondrial dysfunction, ATP depletion, and neuronal apoptosis—hallmarks of neurodegeneration observed in MPS VII and related disorders [12]
 
 == Leveraging Drosophila as a Neurodegeneration Model: A Key Insight
-In a landmark study, a team of scientists from the Indian Institute of Science Education and Research Kolkata, India, has uncovered a crucial link between cellular waste accumulation and brain cell death in MPS VII.[13] Using a fruit fly model, Drosophila melanogaster, they’ve shed light on how dysfunction in a process called mitophagy—the selective disposal of damaged mitochondria—leads to an energy crisis in neurons, ultimately causing neurodegeneration. This discovery holds promise for new treatments and highlights the intricate process of cellular maintenance that keeps our brains healthy. Notably, the research demonstrated that MPS VII flies exhibit a marked reduction in dopaminergic neurons, indicative of neuronal loss. Additionally, impaired mitophagic clearance of damaged mitochondria was observed, with these dysfunctional mitochondria accumulating in the neurons and causing increased oxidative stress and reduced ATP production. Transmission electron microscopy (TEM) imaging revealed the presence of swollen mitochondria with abnormal cristae, supporting the claim of mitophagy defects. The study also showed increased lipofuscin accumulation and multilamellar bodies, further evidence of defective lysosomal clearance mechanisms. Despite the robustness of these findings, they raise an important question: How well do these insights translate into the complexities of human neurodegeneration? In particular, can we bridge the gap between the accelerated pathology in Drosophila and the long-term, multifactorial neurodegenerative processes in humans?
+In a landmark study, a team of scientists led by Professor Rupak Datta from the Indian Institute of Science Education and Research Kolkata, India, has uncovered a crucial link between cellular waste accumulation and brain cell death in MPS VII [13]. Using a fruit fly model, _Drosophila melanogaster_, they’ve shed light on how dysfunction in a process called mitophagy—the selective disposal of damaged mitochondria—leads to an energy crisis in neurons, ultimately causing neurodegeneration. This discovery holds promise for new treatments and highlights the intricate process of cellular maintenance that keeps our brains healthy. Notably, the research demonstrated that MPS VII flies exhibit a marked reduction in dopaminergic neurons, indicative of neuronal loss. Additionally, impaired mitophagic clearance of damaged mitochondria was observed, with these dysfunctional mitochondria accumulating in the neurons and causing increased oxidative stress and reduced ATP production. Transmission electron microscopy (TEM) imaging revealed the presence of swollen mitochondria with abnormal cristae, supporting the claim of mitophagy defects. The study also showed increased lipofuscin accumulation and multilamellar bodies, further evidence of defective lysosomal clearance mechanisms. Despite the robustness of these findings, they raise an important question: How well do these insights translate into the complexities of human neurodegeneration? In particular, can we bridge the gap between the accelerated pathology in Drosophila and the long-term, multifactorial neurodegenerative processes in humans?
 
 #v-image(path: "/images/tisha2.png", caption: "caption", position: bottom, width: 80%)
 
@@ -42,7 +43,7 @@ Autophagy is the cell’s way of cleaning up and recycling unwanted materials, i
 
 The research emphasizes the central role of defective mitophagy in driving neurodegeneration in MPS VII. The accumulation of damaged mitochondria due to impaired mitophagic clearance leads to oxidative stress and a progressive decline in cellular function, which is reminiscent of the mitochondrial dysfunction observed in Parkinson’s disease (PD) and Alzheimer’s disease (AD). The study showed that enhancing mitophagy using resveratrol (a known SIRT1 activator) improved mitochondrial clearance and rescued dopaminergic neurons from degeneration. Yet, there is an opportunity to consider more precise, mitophagy-specific therapies, such as those targeting the PINK1/Parkin pathway. If enhanced mitophagy alone could reduce the accumulation of depolarized mitochondria, then this approach may offer more targeted therapeutic outcomes compared to global autophagy activation. Exploring this concept in MPS VII and similar diseases may reveal novel therapeutic strategies for not just LSDs but other neurodegenerative conditions as well.
 
-#v-image(path: "/images/tisha4.jpg", caption: "Schematic representation of the mechanism of neurodegeneration in the MPS VII fly. In the wild type (WT) fly brain, a healthy mitochondrial pool is maintained by the clearance of the damaged mitochondria through properly functional mitophagy. This mitochondrial quality control helps in maintaining normal brain ATP levels. Autophagy deficiency in the MPS VII (CG2135/) fly brain led to mitophagy defect, causing the accumulation of damaged mitochondria. This resulted in depleted ATP levels, triggering apoptotic cell death in the MPS VII fly brain. [13] ", position: bottom)
+#v-image(path: "/images/tisha4.jpg", caption: "Schematic representation of the mechanism of neurodegeneration in the MPS VII fly. In the wild type (WT) fly brain, a healthy mitochondrial pool is maintained by the clearance of the damaged mitochondria through properly functional mitophagy. This mitochondrial quality control helps in maintaining normal brain ATP levels. Autophagy deficiency in the MPS VII (CG2135/) fly brain led to mitophagy defect, causing the accumulation of damaged mitochondria. This resulted in depleted ATP levels, triggering apoptotic cell death in the MPS VII fly brain. Adapted from [13] ", position: bottom)
 
 == Resveratrol Treatment: A Therapeutic Intervention
 
@@ -57,10 +58,10 @@ In conclusion, this research provides critical insights into the role of mitopha
 
 #auth-profile(
   imagePath: "/images/tishaFace.jpeg",
-  info: "Student at Indian Institute of Science Education & Research (IISER), Kolkata | Aspiring Biologist | KVPY Scholar | MITACS GRI'23 | MUN.",
+  info: "Tisha Dash is a final-year BS-MS student currently pursuing her Master’s thesis in the Membrane Trafficking and Copper Metabolism Lab at IISER Kolkata, under the guidance of Dr. Arnab Gupta. Her research focuses on understanding cellular signaling pathways involved in copper homeostasis. Beyond the lab, Tisha is passionate about painting, dancing, and making her voice heard through spirited debates at Model United Nations conferences. She is deeply interested in bridging science with societal impact and storytelling.",
   width: 80%,
 )
 #references(
   refsFile: "/subfiles/tishaRefs.yml",
-  breakAfter: 6,
+  breakAfter: 4,
 )
