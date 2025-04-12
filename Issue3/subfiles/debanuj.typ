@@ -13,6 +13,10 @@
   abstract: abstract,
   coverImage: coverImage,
   sideImageFraction: 40%,
+  authorImage: "/images/sayanFace.jpeg",
+  authorInfo: "*Debanuj Chatterjee* is a Marie Curie postdoctoral researcher at the PhLAM lab in the University of Lille, France, working in the domain of light matter interaction, nonlinear fiber optics for development of advanced spectroscopic techniques. He obtained a PhD in Physics from Université Paris-Saclay, France in 2021. Curious as a scientist, he often finds himself treading down the alleys of history in search of philosophical, scientific and artistic aesthetics.",
+  authorImageWidth: (90%,),
+  refsFile: "/subfiles/debanujRefs.yaml",
 )
 
 #v-image(path: "/images/dragonfly1-small.jpg", caption: "Shots of colorful dragonflies.", position: bottom)
@@ -39,9 +43,7 @@ But then shouldn't the dragonfly wings look blue all the time, like peacocks, ra
 Another interesting question that came to my mind was about the visibility of these patterns to other dragonflies. It is true that humans cannot see shorter than 400 nm  wavelength on the blue side, but what about the visible range of dragonflies? It turns out that dragonflies have a particularly sensitive vision in the wavelength range of 300 nm to 500 nm [4,5], and body and wing colours carry important visual cues influencing their behaviour [5]. Which means one dragonfly should be able to see the patterns on another one. Perhaps this is why they were hovering around the bright light source, where they can see those structures in its aesthetic eminence. Or maybe those nanostructures play a role in their mate selection?
 In fact, research on the structural properties of the wings of a dragonfly witnessed a boom in the past decade. The wings’ nanostructures revealed anti-bacterial properties [6,7], opening potential application avenues in biofilm design for medical implants [8] or even in the food processing industry [9]. In a world of emerging technologies, I strongly believe in the potential of the dragonflies to inspire the next generation of biomimetic innovations.
 
-#info([*Debanuj Chatterjee* is a Marie Curie postdoctoral researcher at the PhLAM lab in the University of Lille, France, working in the domain of light matter interaction, nonlinear fiber optics for development of advanced spectroscopic techniques. He obtained a PhD in Physics from Université Paris-Saclay, France in 2021. Curious as a scientist, he often finds himself treading down the alleys of history in search of philosophical, scientific and artistic aesthetics.])
-
-#references(
-  refsFile: "/subfiles/debanujRefs.yaml",
-  breakAfter: 3,
-)
+// #references(
+//   refsFile: "/subfiles/debanujRefs.yaml",
+//   breakAfter: 3,
+// )

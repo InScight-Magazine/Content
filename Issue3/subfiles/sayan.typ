@@ -1,7 +1,7 @@
 #import "/template-files/inscight-template.typ": *
 #import "issueConstants.typ": *
 
-#let title = "From a BS-MS student to an Independent Scientist: My Academic Journey"
+#let title = "From a BS-MS Student to An Independent Scientist: My Academic Journey"
 #let authors = ("Sayan Choudhury (HRI Allahabad, Prayagraj)",)
 #let abstract = "Sayan Choudhury, an alumnus from the first batch of IISER Kolkata talks about his academic journey in this article. He reminisces about his education and research experiences at IISER, and his trajectory beyond IISER: first, as a PhD student and a post-doctoral fellow in the USA, and now as a faculty member at HRI. The article concludes with a message for current students."
 #let coverImage = "/images/sayanCover.jpg"

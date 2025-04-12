@@ -2,7 +2,7 @@
 #import "issueConstants.typ": *
 
 #let title = "The Cora Ball - Protecting Millions of Ocean Acres by The Second"
-#let authors = ("Sharanya Chatterjee",)
+#let authors = ("Sharanya Chatterjee (Second-year BS-MS student, IISER Kolkata)",)
 #let abstract = "Washing your blue shirt might seem harmless, but it can release microfibres that harm ocean life. Microfibre pollution—from textiles, hair, and pet fur—poses a growing threat to marine ecosystems. The Cora Ball, inspired by coral reefs, uses hydrodynamics to trap these fibres during laundry, reducing pollution by up to 31%. Praised by marine biologists and environmentalists, Sharanya Chatterjee takes you through the journey through her article showing a simple yet effective household solution to this global issue."
 #let coverImage = "/images/coraballcoverSmall.jpeg"
 
@@ -16,6 +16,7 @@
   authorInfo: "*Sharanya Chatterjee* is a second year student of IISER Kolkata and an aspiring researcher who is passionate in the field of neuroscience, developmental biology and its manifestations. She believes in responsible research facets. Habitually reads 'maybe nots' as 'maybes'.",
   authorImage: "/images/sharanyaFace.jpg",
   authorImageWidth: (90%,),
+  refsFile: "/subfiles/coraRefs.yml",
 )
 
 == The Problem of Microfibers
@@ -42,7 +43,6 @@ The Cora Ball can be easily cleaned by parting the stalks and removing the fibre
 
 Be it London’s Imperial College or Miller’s own Rozalia Project, people miles apart work in unison to reduce microfibers from entering the sea. This blue ball which works wonders shows how ingeniously one can make a small difference every day, through the simplest of mechanics. What started as a one-room project is in the BBC news today, with a potential of saving millions of lives. And with this words of Fullerene come to mind, “The only way to predict your future is to design it.” Happy wondering!
 
-#references(
-  refsFile: "/subfiles/coraRefs.yml",
-  // breakAfter: 3,
-)
+// #references(
+//   refsFile: "/subfiles/coraRefs.yml",
+// )

@@ -1,7 +1,7 @@
 #import "/template-files/inscight-template.typ": *
 
 #insightDigest(
-  file: "/subfiles/researchSummary.yaml", 
+  file: "/subfiles/digest.yaml", 
   heights: (34%, 45%, 44%, 48%),
   title: "InScight Digest",
   intro: "Summarising The Frontiers In Research",
