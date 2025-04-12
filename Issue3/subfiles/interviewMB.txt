@@ -83,9 +83,14 @@ In science, answers are not the main thing. The question is paramount. The true 
 
 V-IMAGE: (path: "/images/MB4.jpg", caption: "Mustansir Barma delivering an invited talk at the International Institute of Physics, Brazil, on \"Entropy, Order and Fluctuations\", in January of 2020. [Source IIP]", position: bottom)
 
+#colbreak()
 SS: Having completed a major portion of your academic life and having become an Emeritus Professor, what do you consider to be your biggest contribution to science, TIFR, and the students?
+
 MB: One of my most significant contributions as a Director of TIFR was initiating and playing a key role in the formulation and partial execution of the new TIFR campus in Hyderabad. It is a very large campus, seven times the area of the TIFR campus in Mumbai. It holds enormous potential, and if it reaches its full realization, it will be a game changer—not just for TIFR, but for the entire country.
+
 Progress is happening, though not at the speed we initially envisioned. Time has inflated, as is often the case with large-scale projects. But in the long run, this does not matter, because we hope that this institution will last for hundreds of years.
 Seeing the plans I helped initiate now being executed is a source of immense satisfaction and pride for me.
+
 SS: Thank you, sir. It was a pleasure speaking with you.
+
 MB: Thank you very much.
