@@ -45,5 +45,3 @@ In fact, research on the structural properties of the wings of a dragonfly witne
   refsFile: "/subfiles/debanujRefs.yaml",
   breakAfter: 3,
 )
-
-
