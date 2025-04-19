@@ -2,9 +2,15 @@
 #import "issueConstants.typ": *
 
 #let title = "Brain on Overload: Unlocking Hope for Rare Diseases Through Cellular Cleanup"
-#let authors = ("Tisha Dash (Department of Biological Sciences, IISER Kolkata)",)
+#let authors = ("Tisha Dash",)
+#let affiliations = ("Department of Biological Sciences, IISER Kolkata",)
 #let abstract = "Neurodegeneration in Mucopolysaccharidosis VII (MPS VII) remains poorly understood. A recent Drosophila study reveals that β-glucuronidase deficiency disrupts autophagy and mitophagy, leading to mitochondrial dysfunction, energy depletion, and neuronal apoptosis. Remarkably, resveratrol rescues mitophagy and prevents ATP loss, highlighting a druggable axis linking lysosomal impairment to neurodegeneration in MPS VII."
 #let coverImage = "/images/tishaCover.jpeg"
+#let refsFile = "/subfiles/tishaRefs.yml"
+#let authorInfo = "Tisha Dash is a final-year BS-MS student currently pursuing her Master’s thesis in the Membrane Trafficking and Copper Metabolism Lab at IISER Kolkata, under the guidance of Dr. Arnab Gupta. Her research focuses on understanding cellular signaling pathways involved in copper homeostasis. Beyond the lab, Tisha is passionate about painting, dancing, and making her voice heard through spirited debates at Model United Nations conferences. She is deeply interested in bridging science with societal impact and storytelling."
+#let authorImage = "/images/tishaFace.jpeg"
+#let category = "biology"
+#let received = "2025-02-26"
 
 #show: section.with(
   header-global: header-global, 
@@ -13,10 +19,16 @@
   abstract: abstract,
   coverImage: coverImage,
   sideImageFraction: 40%,
-  authorInfo: "Tisha Dash is a final-year BS-MS student currently pursuing her Master’s thesis in the Membrane Trafficking and Copper Metabolism Lab at IISER Kolkata, under the guidance of Dr. Arnab Gupta. Her research focuses on understanding cellular signaling pathways involved in copper homeostasis. Beyond the lab, Tisha is passionate about painting, dancing, and making her voice heard through spirited debates at Model United Nations conferences. She is deeply interested in bridging science with societal impact and storytelling.",
-  authorImage: "/images/tishaFace.jpeg",
+  authorInfo: authorInfo,
   authorImageWidth: (40%,40%),
+  authorImage: authorImage,
+  refsFile: refsFile,
+  reviewedBy: ("Abhirup", "Abhirup", "Abhirup"),
+  category: category,
+  received: received,
 )
+
+// begin
 
 #dcap("When you think of waste management, the last thing that comes to mind is the human brain. Yet, deep within our cells, an intricate system works tirelessly to clear out damaged or unnecessary components, ensuring the smooth functioning of critical processes. But what happens when this cleanup system breaks down? For individuals with Mucopolysaccharidosis VII (MPS VII), a rare genetic disorder? This failure triggers a cascade of devastating events, culminating in severe brain damage and early death.")
 
@@ -58,8 +70,3 @@ While the study centers on MPS VII, the findings have far-reaching implications 
 
 == Concluding Thoughts: A Roadmap for Future Research
 In conclusion, this research provides critical insights into the role of mitophagy in MPS VII and its broader implications for neurodegenerative diseases. The study’s results underscore the importance of defective autophagy and mitophagy in neuronal degeneration, showcasing both the value and the limitations of Drosophila as a model for human neurodegeneration. The next step should be to validate these findings in mammalian models to better understand their translational potential. Ultimately, the concept of enhancing cellular clearance mechanisms, whether through compounds like resveratrol or novel mitophagy-specific agents, holds promise for treating not only MPS VII but also a wide spectrum of neurodegenerative disorders.
-
-#references(
-  refsFile: "/subfiles/tishaRefs.yml",
-  breakAfter: 4,
-)

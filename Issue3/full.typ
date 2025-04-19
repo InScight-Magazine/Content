@@ -14,5 +14,3 @@
 #include "subfiles/interviewCSS.typ"
 #include "subfiles/interviewMB.typ"
 #include "subfiles/digest.typ"
-
-a

@@ -45,4 +45,5 @@ The different positions I have taken up in my career have come with their own se
 
 IISER Kolkata is poised to step out of its teens and enter the second decade. An Institute is known not only for the quality of research and teaching, but also for the success of its alumni. Despite its relatively young age, IISER-K has already produced a significant number of alumni who have established themselves in academia and industry. Our alumni have become faculty members and academic group leaders, established companies, and achieved success in corporate jobs. Current IISER students should tap into this network. Whether you are wondering about applying for a PhD/Post-doc/Faculty position or thinking of establishing a start-up, the alumni network can be a powerful resource who can help you. So, don’t be shy about asking your seniors for help even if you don’t know them personally. I wish you all the very best for your journey!
 
+#align(center, endLine())
 
