@@ -1,24 +1,24 @@
 #import "/template-files/inscight-template.typ": *
-#import "issueConstants.typ": *
+#import "/dataFiles/issueConstants.typ": *
 
 #let title = "The Cora Ball - Protecting Millions of Ocean Acres by The Second"
 #let authors = ("Sharanya Chatterjee (Second-year BS-MS student, IISER Kolkata)",)
 #let abstract = "Washing your blue shirt might seem harmless, but it can release microfibres that harm ocean life. Microfibre pollution—from textiles, hair, and pet fur—poses a growing threat to marine ecosystems. The Cora Ball, inspired by coral reefs, uses hydrodynamics to trap these fibres during laundry, reducing pollution by up to 31%. Praised by marine biologists and environmentalists, Sharanya Chatterjee takes you through the journey through her article showing a simple yet effective household solution to this global issue."
-#let coverImage = "/images/coraballcoverSmall.jpeg"
+#let coverImage = "coraballcoverSmall.jpeg"
 #let authorInfo = "*Sharanya Chatterjee* is a second year student of IISER Kolkata and an aspiring researcher who is passionate in the field of neuroscience, developmental biology and its manifestations. She believes in responsible research facets. Habitually reads 'maybe nots' as 'maybes'."
-#let authorImage = "/images/sharanyaFace.jpg"
+#let authorImage = "sharanyaFace.jpg"
 #let category = "environmental science"
-#let refsFile = "/subfiles/coraRefs.yml"
+#let refsFile = "/dataFiles/coraRefs.yml"
 
 #show: section.with(
   header-global: header-global, 
   title: title, 
   authors: authors,
   abstract: abstract,
-  coverImage: coverImage,
+  coverImage: "/covers/" + coverImage,
   sideImageFraction: 30%,
   authorInfo: authorInfo,
-  authorImage: authorImage,
+  authorImage: "/authFaces/" + authorImage,
   authorImageWidth: (90%,),
   reviewedBy: ("Abhirup", "Abhirup", "Abhirup"),
   category: category,

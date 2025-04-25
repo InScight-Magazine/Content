@@ -2,7 +2,7 @@
 #import "issueConstants.typ": *
 
 #quiz(
-  file: "/subfiles/quiz1.yml",
+  file: "/subfiles/quiz.yml",
   intro: "The theme for this issue's quiz is Astronomy. Enjoy.",
   title: "General Science Quiz",
   header-global: header-global, 

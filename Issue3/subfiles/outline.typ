@@ -1,7 +1,8 @@
 #import "/template-files/inscight-template.typ": *
 
+// #outline(depth: 1)
 #fullOutline(
-  dividers: (10, 30), 
-  imagePaths: ("/images/vimg.jpg","/images/vimg.jpg",),
-  outlinePath: "/subfiles/outline.yaml"
+  dividers: (28, 50), 
+  imagePaths: ("/images/outlineLeft.jpeg","/images/outlineRight.jpeg",),
+  outlinePath: "/dataFiles/outline.yaml"
 )

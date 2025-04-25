@@ -1,14 +1,14 @@
 #import "/template-files/inscight-template.typ": *
-#import "issueConstants.typ": *
+#import "/dataFiles/issueConstants.typ": *
 
 #let title = "Secret of the Wings: Nanostructures on a Dragonfly"
 #let authors = ("Debanuj Chatterjee",)
 #let affiliations = ("Marie Curie Postdoctoral fellow at CNRS, University of Lille, France)",)
 #let abstract = "Dragonflies are one of the marvels of natural creation. The secrets of their flight dynamics, mate selection, predation, and visual information processing are all awe inspiring. During a trip to Puri in India, I had an interesting encounter with a group of dragonflies. A few of their pictures revealed some hidden mysteries about the nanostructures present on their wings. In this article we use scientific knowledge to develop a peeping hole into those hidden mystries."
-#let coverImage = "/images/debanujCover-small.jpeg"
-#let authorImage = "/images/debanujFace.jpg"
+#let coverImage = "debanujCover-small.jpeg"
+#let authorImage = "debanujFace.jpg"
 #let authorInfo = "*Debanuj Chatterjee* is a Marie Curie postdoctoral researcher at the PhLAM lab in the University of Lille, France, working in the domain of light matter interaction, nonlinear fiber optics for development of advanced spectroscopic techniques. He obtained a PhD in Physics from Université Paris-Saclay, France in 2021. Curious as a scientist, he often finds himself treading down the alleys of history in search of philosophical, scientific and artistic aesthetics."
-#let refsFile = "/subfiles/debanujRefs.yaml"
+#let refsFile = "/dataFiles/debanujRefs.yaml"
 #let date = "2025-20-03"
 
 #show: section.with(
@@ -16,9 +16,9 @@
   title: title, 
   authors: (authors.at(0)+affiliations.at(0),),
   abstract: abstract,
-  coverImage: coverImage,
+  coverImage: "/covers/" + coverImage,
   sideImageFraction: 40%,
-  authorImage: authorImage,
+  authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
   authorImageWidth: (90%,),
   refsFile: refsFile,

@@ -1,14 +1,14 @@
 #import "/template-files/inscight-template.typ": *
-#import "issueConstants.typ": *
+#import "/dataFiles/issueConstants.typ": *
 
 #let title = "Brain on Overload: Unlocking Hope for Rare Diseases Through Cellular Cleanup"
 #let authors = ("Tisha Dash",)
 #let affiliations = ("Department of Biological Sciences, IISER Kolkata",)
 #let abstract = "Neurodegeneration in Mucopolysaccharidosis VII (MPS VII) remains poorly understood. A recent Drosophila study reveals that β-glucuronidase deficiency disrupts autophagy and mitophagy, leading to mitochondrial dysfunction, energy depletion, and neuronal apoptosis. Remarkably, resveratrol rescues mitophagy and prevents ATP loss, highlighting a druggable axis linking lysosomal impairment to neurodegeneration in MPS VII."
-#let coverImage = "/images/tishaCover.jpeg"
-#let refsFile = "/subfiles/tishaRefs.yml"
+#let coverImage = "tishaCover.jpeg"
+#let refsFile = "/dataFiles/tishaRefs.yml"
 #let authorInfo = "Tisha Dash is a final-year BS-MS student currently pursuing her Master’s thesis in the Membrane Trafficking and Copper Metabolism Lab at IISER Kolkata, under the guidance of Dr. Arnab Gupta. Her research focuses on understanding cellular signaling pathways involved in copper homeostasis. Beyond the lab, Tisha is passionate about painting, dancing, and making her voice heard through spirited debates at Model United Nations conferences. She is deeply interested in bridging science with societal impact and storytelling."
-#let authorImage = "/images/tishaFace.jpeg"
+#let authorImage = "tishaFace.jpeg"
 #let category = "biology"
 #let received = "2025-02-26"
 
@@ -17,11 +17,11 @@
   title: title, 
   authors: authors,
   abstract: abstract,
-  coverImage: coverImage,
+  coverImage: "/covers/" + coverImage,
   sideImageFraction: 40%,
   authorInfo: authorInfo,
   authorImageWidth: (40%,40%),
-  authorImage: authorImage,
+  authorImage: "/authFaces/" + authorImage,
   refsFile: refsFile,
   reviewedBy: ("Abhirup", "Abhirup", "Abhirup"),
   category: category,
