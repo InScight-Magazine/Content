@@ -9,12 +9,14 @@
 #let authorImage = "debanujFace.jpg"
 #let authorInfo = "*Debanuj Chatterjee* is a Marie Curie postdoctoral researcher at the PhLAM lab in the University of Lille, France, working in the domain of light matter interaction, nonlinear fiber optics for development of advanced spectroscopic techniques. He obtained a PhD in Physics from Université Paris-Saclay, France in 2021. Curious as a scientist, he often finds himself treading down the alleys of history in search of philosophical, scientific and artistic aesthetics."
 #let refsFile = "/dataFiles/debanujRefs.yaml"
-#let date = "2025-20-03"
+#let received = "Mar' 04, 2025"
+#let category = "Biology"
+#let reviewedBy = ("Suman H",) 
 
 #show: section.with(
   header-global: header-global, 
   title: title, 
-  authors: (authors.at(0)+affiliations.at(0),),
+  authors: (authors.at(0)+" ("+affiliations.at(0)+")",),
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
   sideImageFraction: 40%,
@@ -22,7 +24,10 @@
   authorInfo: authorInfo,
   authorImageWidth: (90%,),
   refsFile: refsFile,
-  category: "biology",
+  category: category,
+  received: received,
+  reviewedBy: reviewedBy,
+  breakRefsAt: 9,
 )
 
 // begin
@@ -50,5 +55,3 @@ To investigate further, I turned to Google Scholar. I found a few papers that st
 But then shouldn't the dragonfly wings look blue all the time, like peacocks, rather than only from a particular angle? Maybe not. Here I remembered that those faint blue colors on the dragonfly’s wings were not conspicuously visible to my bare eyes. I could only see them through the camera. This might suggests that these colors were outside the visible range of my eyes but detectable by my camera.The Canon EOS 1200D camera I used has a CMOS sensor which is capable of detecting wavelengths from approximately 350 nm to 1000 nm, though infrared wavelengths are often filtered out optically. As a result, the camera can detect wavelengths slightly beyond the blue end of the visible spectrum. This suggests that the scattered light had a spectral signature just outside the visible range but still within the CMOS sensor’s detection band. Interestingly, a paper suggested that non-iridescent, angle-dependent color formation can occur at wavelengths between 350 nm and 500 nm due to electromagnetic resonances caused by the random aggregation of silica nanostructures [10]. However, whether this is the same mechanism for the dragonfly wings, needs to be verified through a detailed scientific investigation.
 Another interesting question that came to my mind was about the visibility of these patterns to other dragonflies. It is true that humans cannot see shorter than 400 nm  wavelength on the blue side, but what about the visible range of dragonflies? It turns out that dragonflies have a particularly sensitive vision in the wavelength range of 300 nm to 500 nm [4,5], and body and wing colours carry important visual cues influencing their behaviour [5]. Which means one dragonfly should be able to see the patterns on another one. Perhaps this is why they were hovering around the bright light source, where they can see those structures in its aesthetic eminence. Or maybe those nanostructures play a role in their mate selection?
 In fact, research on the structural properties of the wings of a dragonfly witnessed a boom in the past decade. The wings’ nanostructures revealed anti-bacterial properties [6,7], opening potential application avenues in biofilm design for medical implants [8] or even in the food processing industry [9]. In a world of emerging technologies, I strongly believe in the potential of the dragonflies to inspire the next generation of biomimetic innovations.
-
-#align(center, endLine())

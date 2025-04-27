@@ -1,4 +1,4 @@
-SS: Good morning sir. I am Swarnandu Shah from InScight. First things first, are you from Bombay?
+SS: Good morning sir. I am Swarnandu Saha from InScight. First things first, are you from Bombay?
 
 MB:  Yeah, I was born in Bombay. For the last 9 years or so, I have been at TIFR Hyderabad.
 
@@ -81,7 +81,7 @@ SS: Should we question everything, or should we only ask the right questions?
 MB: Question everything. There is no such thing as questioning rightly or wrongly. How do you even know if a question is right or wrong until you define it and explore the answer?
 In science, answers are not the main thing. The question is paramount. The true essence of science lies in asking the right questions, pushing boundaries, and challenging assumptions.
 
-V-IMAGE: (path: "/images/MB4.jpg", caption: "Mustansir Barma delivering an invited talk at the International Institute of Physics, Brazil, on \"Entropy, Order and Fluctuations\", in January of 2020. [Source IIP]", position: bottom)
+V-IMAGE: (path: "/images/MB4.jpg", caption: "Mustansir Barma delivering an invited talk at the International Institute of Physics, Brazil, on \"Entropy, Order and Fluctuations\", in January of 2020. [Source IIP]", position: top)
 
 #colbreak()
 SS: Having completed a major portion of your academic life and having become an Emeritus Professor, what do you consider to be your biggest contribution to science, TIFR, and the students?

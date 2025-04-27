@@ -9,7 +9,9 @@
 #let authorImage = "dishari.jpeg"
 #let authorInfo = "*Dishari Dasgupta*, currently a PMRF scholar at the Dog Lab, works under the joint supervision of Prof. Anindita Bhadra and Dr. Manabi Paul. Her research focuses on the urban adaptation of free-ranging langurs and their interaction dynamics with free-ranging dogs and humans. Since her studies are conducted in the natural habitats of langurs, she frequently travels between her six field sites across southern West Bengal. Beyond her academic work, she is passionate about making healthy snacks and recently launched her passion project, Alt Snacks."
 #let refsFile = "/dataFiles/dishari.yml"
-#let date = "2025-20-03"
+#let category = "Biology"
+#let reviewedBy = ("Ayan B", "Archita S", "Sukalyan D", "Shibraj S", "Ishita B")
+#let received = "Apr' 5, 2025"
 
 #show: section.with(
   header-global: header-global, 
@@ -22,7 +24,10 @@
   authorInfo: authorInfo,
   authorImageWidth: (90%,),
   refsFile: refsFile,
-  category: "biology",
+  category: category,
+  reviewedBy: reviewedBy,
+  received: received,
+  breakRefsAt: 2,
 )
 
 // begin
@@ -91,4 +96,3 @@ As cities expand and wild spaces shrink, these interspecies encounters are becom
 Understanding this behaviour means accepting our role in it. The monkeys aren’t just evolving in a vacuum—they’re evolving _with us_. And in that shared space, the choices we make—what we feed, how we interact—are reshaping animal behaviour in real time. 
 
 #v-image(path: "/images/vf_plot.png", caption: "Variable importance plot generated after running random forest model. Here the Y axis has all the variables affecting successful outcome of begging and X axis has the importance of these variables on bringing about a successful outcome. First receiving sequence (Offer 1), Adult females and BGc contributes heavily to the successful outcome of begging.", position: top)
-
