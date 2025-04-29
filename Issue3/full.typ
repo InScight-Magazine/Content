@@ -5,9 +5,10 @@
 
 #show: default.with(
   header-global: header-global,
-  frontImage: frontImage,
+  // frontImage: frontImage,
 )
 
+#include "front.typ"
 #include "subfiles/outline.typ"
 #include "subfiles/sayan.typ"
 #include "subfiles/dishari.typ"
@@ -21,3 +22,4 @@
 // #include "subfiles/quiz.typ"
 #include "subfiles/crossword.typ"
 #include "subfiles/linkedlist.typ"
+#include "subfiles/contribute.typ"
