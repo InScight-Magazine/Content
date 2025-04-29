@@ -10,10 +10,12 @@
 #set align(center)
 #set text(font: "Hero New")
 
-#box(width: 100%, height: 65%, inset: 0em, outset: 0em, [
-    #image("/covers/debanuj.jpg", width: 100%)
-  ]
+#image("/covers/debanuj.jpg", width: 100%)
+#place(
+  top + right,
+  box(width: 40em, inset: 1em, fill: rgb(255, 255, 255, 0), align(center, text(size: 3em, fill: white, weight: "semibold",[SECRET OF THE WINGS\ Nanostructures on a Dragonfly])))
 )
+
 #grid(
   columns: (1fr, 1fr, 1fr),
   align: (left + top, center + top, right + top),
@@ -27,14 +29,13 @@
   align(right, text(size: 1.6em, fill: rgb(86, 86, 86), weight: "semibold", "This Issue's Crossword is on Astronomy and Astrophysics"))
   )
 )
-#v(1em)
+// #v(1em)
 #grid(
   columns: (0.9fr, 1.4fr),
   gutter: 2em,
-  align: (horizon + right, horizon + left),
-  text(size: 3em, weight: "bold", "#3 | May' 25"),
+  align: (center, horizon + left),
+  v(5em) + text(size: 3em, weight: "bold", "#3 | May' 25") + linebreak() + v(5em) + align(center, text(size: 1.1em, weight: "semibold", fill: rgb(86, 86, 86), [InScight is a student-run science magazine\ by IISER Kolkata. | scicomm.iiserkol.ac.in])),
   image("/images/bannerText.png", fit: "contain", width: 90%)
 )
-#align(center, text(size: 1.7em, weight: "bold", [InScight is a volunteer-run science magazine\ hosted by IISER Kolkata. | scicomm.iiserkol.ac.in])
-)
+
 #pagebreak()
