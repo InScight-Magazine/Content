@@ -5,7 +5,7 @@
 #let authors = ("Dishari Dasgupta",)
 #let affiliations = ("Department of Biological Science, IISER Kolkata",)
 #let abstract = "In Dakshineswar, a popular tourist and religious site in Kolkata, primates like the Hanuman langurs are adapting in surprising ways. Once wild foragers, these temple-dwelling monkeys have learned to strategically beg from humans—using deliberate gestures to get food. A three-year study reveals their sophisticated tactics, with 81% success rate, showing how human interaction is reshaping primate behaviour in real time."
-#let coverImage = "langur.jpeg"
+#let coverImage = "dishari.jpeg"
 #let authorImage = "dishari.jpeg"
 #let authorInfo = "*Dishari Dasgupta*, currently a PMRF scholar at the Dog Lab, works under the joint supervision of Prof. Anindita Bhadra and Dr. Manabi Paul. Her research focuses on the urban adaptation of free-ranging langurs and their interaction dynamics with free-ranging dogs and humans. Since her studies are conducted in the natural habitats of langurs, she frequently travels between her six field sites across southern West Bengal. Beyond her academic work, she is passionate about making healthy snacks and recently launched her passion project, Alt Snacks."
 #let refsFile = "/dataFiles/dishari.yml"

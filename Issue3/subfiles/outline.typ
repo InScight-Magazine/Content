@@ -3,6 +3,6 @@
 // #outline(depth: 1)
 #fullOutline(
   dividers: (28, 50), 
-  imagePaths: ("/images/outlineLeft.jpeg","/images/outlineRight.jpeg",),
+  imagePaths: ("/images/outlineLeft.jpg","/images/outlineRight.jpg",),
   outlinePath: "/dataFiles/outline.yaml"
 )

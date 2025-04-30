@@ -11,7 +11,7 @@
 #let refsFile = "/dataFiles/debanujRefs.yaml"
 #let received = "Mar' 04, 2025"
 #let category = "Biology"
-#let reviewedBy = ("Suman H",) 
+#let reviewedBy = ("Suman H", "Abhirup M") 
 
 #show: section.with(
   header-global: header-global, 

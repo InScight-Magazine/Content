@@ -1,9 +1,9 @@
 #import "/template-files/inscight-template.typ": *
-#import "issueConstants.typ": *
+#import "/dataFiles/issueConstants.typ": *
 
 #quiz(
-  file: "/subfiles/quiz.yml",
-  intro: "The theme for this issue's quiz is Astronomy. Enjoy.",
+  file: "/dataFiles/quiz.yml",
+  // intro: none,
   title: "General Science Quiz",
   header-global: header-global, 
 )

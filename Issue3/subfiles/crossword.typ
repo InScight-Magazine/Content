@@ -4,7 +4,7 @@
 #crossword(
   file: "/dataFiles/crossword.yml",
   crosswordImage: "/images/crossword.svg",
-  intro: "This issue's crossword is based on evolutionary biology.",
+  intro: "This issue's crossword is drawn from astronomy and astrophysics.",
   title: "Themed Crossword",
   header-global: header-global, 
   crosswordWidth: 70%,

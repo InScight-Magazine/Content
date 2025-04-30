@@ -10,6 +10,8 @@ SS: I would like to know how you reached the position you are today, in the acad
 
 MB:  Yeah, so it's like this. I had an interest in physics. I want to tell you about my school days because I will tell you about an incident from my school days.
 
+V-IMAGE: (path: "/images/MB1Small.png", caption: "Mustansir Barma accepting the INSA (Indian National Science Academy) medal for Young Scientists in 1980. [Source TIFR H]", position: bottom)
+
 What happened is that we had a textbook on light and there was a statement there that if you have two parallel mirrors and a candle in between, you will get an infinite number of images. Now, I sort of found that not quite right in that light has a finite speed of propagation. So, if we put the candle there, there would be reflection from one mirror to the other and soon.
 
 So, the number of images will keep increasing in time but in a very short time, there will be no image because the light has not gone and come back. I wrote to the author. At that time we were in the 1950s, this was an English book. So, this person was in England. I wrote to him and he wrote back a nice letter saying that he is glad that I read my books and think about what is written and he sort of agreed with me that in a finite time, you won't have an infinite number of images.
@@ -20,7 +22,6 @@ SS: Now, coming to science, you work in statistical physics. When I as a laypers
 
 MB:  Randomness means to me the same thing that it means to everybody else. Something that is not predictable because it could be this way or that way. There are options and there might be different probabilities or different options so that you cannot be sure which one will happen.
 
-V-IMAGE: (path: "/images/MB1Small.png", caption: "Mustansir Barma accepting the INSA (Indian National Science Academy) medal for Young Scientists in 1980. [Source TIFR H]", position: bottom)
 
 So, that is what I would say is the characteristic of randomness. You are not sure of what will happen in time.
 
