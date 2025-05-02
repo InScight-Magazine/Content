@@ -1,14 +1,14 @@
 #import "template-files/inscight-template.typ": *
 #import "dataFiles/issueConstants.typ": *
 
-#counter(page).update(2);
+// #counter(page).update(2);
 
 #show: default.with(
   header-global: header-global,
   // frontImage: "/covers/front.png",
 )
 
-#include "/subfiles/front.typ"
+// #include "/subfiles/front.typ"
 #include "/subfiles/outline.typ"
 #include "/subfiles/sayan.typ"
 #include "/subfiles/dishari.typ"
