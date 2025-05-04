@@ -3,6 +3,7 @@
 
 #show: section.with(
   title: "Join the Conversation",
+  header-global: header-global, 
   numCols: 1,
 )
 

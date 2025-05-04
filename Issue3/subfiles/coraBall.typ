@@ -16,7 +16,8 @@
 #show: section.with(
   header-global: header-global, 
   title: title, 
-  authors: (authors.at(0)+" ("+affiliations.at(0)+")",),
+  authors: authors,
+  authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
   sideImageFraction: 30%,

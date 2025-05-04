@@ -1,14 +1,14 @@
 #set text(font: "Lato", size: 11pt)
 #set page(
   paper: "a4",
-  margin: (top: 14em, bottom: 8em, rest: 6em),
+  margin: (top: 14em, bottom: 8em, rest: 4em),
   header: rect(width: 100%, stroke: (bottom: 0.3em + rgb("bd2033")),
   grid(
     columns: (1fr, auto, 1fr),
     gutter: 2em,
-    align: (left + bottom, horizon, right + bottom),
+    align: (left + bottom, bottom, right + bottom),
     image("logo.png"),
-    text(fill: rgb("222"), weight: "semibold", [*InScight* - A Peek Into Science,\ Indian Institute of Science Education and Research Kolkata,\ Mohanpur, Nadia - 741 246, West Bengal, India\ (_Established by the Ministry of Human Resource Development_)]),
+    text(fill: rgb("222"), weight: "semibold", [*InScight* - A Peek Into Science,\ Indian Institute of Science Education and Research Kolkata,\ Mohanpur, Nadia - 741 246, West Bengal, India\ (_(An Autonomous Institute established by Ministry of Education, Govt. of India_)]),
     image("IISER-K_Logo.png"),
   )
   + v(1em)
@@ -26,34 +26,40 @@
   )
 )
 )
-#v(-2em)
+#v(-1em)
 
-#align(right, [*Dated*: April 18, 2025])
+#align(center, [= Letter of Appreciation])
+
+#v(1em)
+#align(right, [*Dated*: May 7, 2025])
+#v(1em)
 
 #set par(justify: true)
 #set text(fill: rgb("000"), weight: "regular")
 
-#upper[*Sai Kishore*] was a member of the website management unit of Cogito137, and
-eventually went on to head the unit. During his tenure, he maintained and
-updated the official website of Cogito137, alongside delegating responsibilities
-and providing critical feedback regarding various technical proceedings of the
-platform. He additionally assisted with live streaming of online events over the
-platform’s YouTube channel and provided technical assistance during the
-conduction of online events by the platform. He proved to be an effective team
-player and completed his duties with due diligence.
+#upper[*Abhirup Mukherjee*] was a member of the graphical design and website management unit of *InScight*, the science magazine of IISER Kolkata. During the first year of the operation of the magazine, Abhirup designed the official website for the magazine in its entirety. Along with other members of the unit, he was responsible for routine maintainence of the website as well as updating the website regularly with HTML versions of various content that appeared in the magazine.
 
-Best regards,
-#v(3em)
-*Swarnendu Saha*\
-Chief Editor\
+Abhirup was also deeply involved in constructing the original layout and design of the magazine (with inputs from the team, of course), as well as revisions of the design in subsequent issues. On a technical note, he implemented and tested the use of a new typesetting system (_typst_) for the magazine which increased design consistency tremendously over the previous system (_inkscape_) and doubled their efficiency. He has always been enthusiastic about making the magazine as best as it can be, and carried out his roles to the best of his abilities.
+
+#v(1em)
+Best regards,\
+_Professors-In-Charge_,\
 InScight
 
-#v(3em)
+#v(4em)
 #grid(
   columns: (1fr, 1fr, 1fr),
-  align: (left + bottom, center + bottom, right + bottom),
-  rows: 4em,
-  [*Prof. Anindita Bhadra* \ Professor-In-charge\ InScight],
-  [*Prof. Subhajit Bandyopadhyay* \ Professor-In-charge\ InScight],
-  [*Dr. Somnath Basu* \ Professor-In-charge\ InScight],
+  gutter: 1.1em,
+  [*Prof. Anindita Bhadra* \ Dpt. of Biological Sciences,\ IISER Kolkata],
+  [*Prof. Subhajit Bandyopadhyay* \ Dpt. of Chemical Sciences,\ IISER Kolkata],
+  [*Prof. Somnath Basu* \ Dpt. of Mathematical Sciences,\ IISER Kolkata],
 )
+
+// #v(3em)
+// *Prof. Anindita Bhadra* \ Department of Biological Sciences,\ IISER Kolkata \
+//
+// #v(3em)
+// *Prof. Subhajit Bandyopadhyay* \ Department of Chemical Sciences,\ IISER Kolkata \
+//
+// #v(3em)
+// *Prof. Somnath Basu* \ Department of Mathematical Sciences,\ IISER Kolkata \

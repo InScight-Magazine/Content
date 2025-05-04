@@ -4,5 +4,4 @@
 #fullOutline(
   dividers: (28, 50), 
   imagePaths: ("/images/outlineLeft.jpg","/images/outlineRight.jpg",),
-  outlinePath: "/dataFiles/outline.yaml"
 )

@@ -3,6 +3,7 @@
 
 #show: section.with(
   title: "The Last Page",
+  header-global: header-global, 
   numCols: 1,
 )
 
@@ -46,3 +47,11 @@
     ]
   ]
 )
+
+#v(1fr)
+#align(center, 
+box(width: 60%,
+image("/images/ad.jpeg", width: 100%) + 
+align(left, [We thank _Karmakar Enterprise_ for sponsoring part of this issue. Interested in featuring your brand, event, or initiative in our magazine? Reach out to us at #email. Feeling generous and want to sponsor some printed copies? You can find all the details here.])
+))
+#v(1fr)

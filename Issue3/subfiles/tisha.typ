@@ -4,7 +4,7 @@
 #let title = "Brain on Overload: Unlocking Hope for Rare Diseases Through Cellular Cleanup"
 #let authors = ("Tisha Dash",)
 #let affiliations = ("Department of Biological Sciences, IISER Kolkata",)
-#let abstract = "In Mucopolysaccharidosis VII, missing a key enzyme wrecks the cell’s ability to clear out damage, draining energy and killing neurons. New research in fruit flies shows that resveratrol, a natural compound, can restore this vital process and protect brain cells,  offering fresh hope against this devastating disease."
+#let abstract = "In Mucopolysaccharidosis VII, missing a key enzyme wrecks the cell’s ability to clear out damage, draining energy and killing neurons. New research in fruit flies shows that resveratrol, a natural compound, can restore this vital process and protect brain cells, offering fresh hope against this devastating disease."
 #let coverImage = "tisha.jpeg"
 #let refsFile = "/dataFiles/tisha.yml"
 #let authorInfo = "Tisha Dash is a final-year BS-MS student currently pursuing her Master’s thesis in the Membrane Trafficking and Copper Metabolism Lab at IISER Kolkata, under the guidance of Dr. Arnab Gupta. Beyond the lab, Tisha is passionate about painting, dancing, and making her voice heard through spirited debates at Model United Nations conferences. She is deeply interested in bridging science with societal impact and storytelling."
@@ -16,7 +16,8 @@
 #show: section.with(
   header-global: header-global, 
   title: title, 
-  authors: (authors.at(0)+" ("+affiliations.at(0)+")",),
+  authors: authors,
+  authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
   sideImageFraction: 40%,
