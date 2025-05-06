@@ -9,8 +9,8 @@
 #let affiliations = ("IISER Kolkata",)
 #let abstract = "*What does it take to become a professor at an IIT before even defending your PhD?* In this captivating conversation, Prof. Chandra Shekhar Sharma from IIT Hyderabad shares his unconventional academic journey, the evolving landscape of Indian higher education, and the pivotal role of young scientists in shaping research and policy. From navigating academia without a postdoc to leading global scientific communities, his insights challenge traditional career trajectories. He also unpacks how IIT Hyderabad’s innovative curriculum is redefining interdisciplinary education and fostering entrepreneurship."
 #let coverImage = "/covers/CSSCover.jpg"
-#let sideImage = "/covers/CSS_cover_side.jpg"
-#let date = "2025-03-17"
+#let sideImage = "/images/CSS_cover_side.jpg"
+#let received = (day: 1, month: 2, year: 2025)
 
 #interview(
   file: file,

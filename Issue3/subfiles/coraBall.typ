@@ -11,7 +11,7 @@
 #let refsFile = "/dataFiles/coraRefs.yml"
 #let category = "Environmental Science"
 #let reviewedBy = ("Budhaditya B", "Ishita B")
-#let received = "Feb' 1, 2025"
+#let received = (day: 1, month: 2, year: 2025)
 
 #show: section.with(
   header-global: header-global, 

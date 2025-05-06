@@ -10,7 +10,7 @@
 #let authorInfo = "Tisha Dash is a final-year BS-MS student currently pursuing her Master’s thesis in the Membrane Trafficking and Copper Metabolism Lab at IISER Kolkata, under the guidance of Dr. Arnab Gupta. Beyond the lab, Tisha is passionate about painting, dancing, and making her voice heard through spirited debates at Model United Nations conferences. She is deeply interested in bridging science with societal impact and storytelling."
 #let authorImage = "tishaFace.jpeg"
 #let category = "Biology"
-#let received = "Jan' 09, 2025"
+#let received = (day: 9, month: 1, year: 2025)
 #let reviewedBy = ("Archita S",) 
 
 #show: section.with(

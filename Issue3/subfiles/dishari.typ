@@ -11,7 +11,7 @@
 #let refsFile = "/dataFiles/dishari.yml"
 #let category = "Biology"
 #let reviewedBy = ("Ayan B", "Archita S", "Sukalyan D", "Shibraj S", "Ishita B")
-#let received = "Apr' 5, 2025"
+#let received = (day: 5, month: 4, year: 2025)
 
 #show: section.with(
   header-global: header-global, 

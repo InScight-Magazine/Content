@@ -8,7 +8,7 @@
 #let coverImage = "sayanCover.jpg"
 #let authImage = "sayanFace.jpeg"
 #let authorInfo =  "*Sayan Choudhury* is a theoretical physicist based at HRI Allahabad. He is an alumnus of the very first batch of IISER Kolkata (06MS). He can be reached at sayanchoudhury\@hri.res.in"
-#let received = "Mar' 28, 2025"
+#let received = (day: 28, month: 3, year: 2025)
 #let category = "Meta"
 #let reviewedBy = ("Abhirup M", "Chitradeep S", "Ayan B") 
 

@@ -9,7 +9,7 @@
 #let authorImage = "debanujFace.jpg"
 #let authorInfo = "*Debanuj Chatterjee* is a Marie Curie postdoctoral researcher at the PhLAM lab in the University of Lille, France, working in the domain of light matter interaction, nonlinear fiber optics for development of advanced spectroscopic techniques. He obtained a PhD in Physics from Université Paris-Saclay, France in 2021. Curious as a scientist, he often finds himself treading down the alleys of history in search of philosophical, scientific and artistic aesthetics."
 #let refsFile = "/dataFiles/debanujRefs.yaml"
-#let received = "Mar' 04, 2025"
+#let received = (month: 03, day: 4, year: 2025)
 #let category = "Biology"
 #let reviewedBy = ("Suman H", "Abhirup M") 
 
