@@ -30,6 +30,7 @@
   received: received,
   authProfPosition: bottom,
   breakRefsAt: 12,
+  permalink: "https://scicomm.iiserkol.ac.in/articles/tisha/",
 )
 
 // begin

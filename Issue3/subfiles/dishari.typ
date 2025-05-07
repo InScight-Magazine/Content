@@ -29,6 +29,7 @@
   reviewedBy: reviewedBy,
   received: received,
   breakRefsAt: 2,
+  permalink: "https://scicomm.iiserkol.ac.in/articles/dishari/",
 )
 
 // begin

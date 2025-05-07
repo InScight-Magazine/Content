@@ -28,6 +28,8 @@
   category: category,
   reviewedBy: reviewedBy,
   received: received,
+  permalink: "https://scicomm.iiserkol.ac.in/articles/cora/",
+  qrpath: "/qrcodes/sayan.svg"
 )
 
 == The Problem of Microfibers

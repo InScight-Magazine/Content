@@ -26,6 +26,8 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
+  permalink: "https://scicomm.iiserkol.ac.in/articles/sayan/",
+  qrpath: "/qrcodes/sayan.svg"
 )
 
 // begin
