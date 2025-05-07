@@ -24,5 +24,5 @@
   sideImage: sideImage,
   sideImageFraction: 40%,
   header-global: header-global, 
-  permalink: "https://scicomm.iiserkol.ac.in/interviews/interviewcss/",
+  issueId: issueId,
 )

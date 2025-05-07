@@ -22,7 +22,7 @@ This edition brings together stories, reflections, and discoveries that we hope 
 
 What makes InScight special is the *spirit of collaboration* that goes into it—students, alumni, faculty, and enthusiasts all contributing in their own ways. If you’ve enjoyed reading this
     ],
-      image("/covers/digest.jpeg", height: 25%, width: 100%, fit: "cover") + text(fill: header-dark-color, weight: "black", [Competition for limited nesting sites during relocation imposes significant fitness costs on Diacamma indicum colonies. See Insight Digest submission by #pageLink(<Tanusree>,underline[Tanusree]).]),
+      image("/covers/digest.jpeg", height: 25%, width: 100%, fit: "cover") + text(fill: header-dark-color, weight: "black", [Competition for limited nesting sites during relocation imposes significant fitness costs on Diacamma indicum colonies. See Insight Digest submission by #pageLink(<digest-Tanusree>,underline[Tanusree]).]),
     )
 
     #v(2em)

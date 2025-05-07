@@ -28,8 +28,7 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
-  permalink: "https://scicomm.iiserkol.ac.in/articles/debanuj/",
-  id: "debanuj",
+  issueId: issueId,
 )
 
 // begin
