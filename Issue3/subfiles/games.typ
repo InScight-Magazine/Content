@@ -15,11 +15,13 @@
     #linebreak()
   ]
 
+#let permalink = root-website + "issue" + yaml("/dataFiles/issueData.yml").at("number") + "/#games"
+#let links = createLinks(url: permalink)
 #articleCover(
   title: "Science Games", 
   coverImage: "/covers/games.jpeg",
   abstract: coverData,
   coverCaption: "NGC 2359 is an emission nebula located 12,000 lightyears away in Canis Major, and is considered to be 280,000 times more bright than our Sun and 16 times more massive. Credit: Gerald Rhemann/CCDGuide.com and BBC Sky at Night Magazine.",
-  attribution: "Games designed by *Alekhya*",
+  attribution: [#links.at("long") #v(1em) Games designed by *Alekhya*],
   outlined: false,
 )
