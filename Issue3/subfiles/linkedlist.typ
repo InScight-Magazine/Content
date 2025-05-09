@@ -2,7 +2,7 @@
 #import "/dataFiles/issueConstants.typ": *
 
 #linkedlist(
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/linkedList.yaml",
   title: "Linked List",
-  header-global: header-global, 
 )

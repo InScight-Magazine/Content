@@ -1,8 +1,8 @@
 #import "template-files/inscight-template.typ": *
-#import "dataFiles/issueConstants.typ": *
+// #import "dataFiles/issueConstants.typ": *
 
 #show: default.with(
-  header-global: header-global,
+  issueDetails: yaml("/dataFiles/issueData.yml"),
 )
 
 #include "/subfiles/front.typ"

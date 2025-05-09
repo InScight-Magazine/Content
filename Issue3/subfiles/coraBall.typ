@@ -1,5 +1,5 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
+// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "The Cora Ball - Protecting Millions of Ocean Acres by The Second"
 #let authors = ("Sharanya Chatterjee",)
@@ -14,7 +14,7 @@
 #let received = (day: 1, month: 2, year: 2025)
 
 #show: section.with(
-  header-global: header-global, 
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
@@ -28,7 +28,6 @@
   category: category,
   reviewedBy: reviewedBy,
   received: received,
-  issueId: issueId,
 )
 
 == The Problem of Microfibers

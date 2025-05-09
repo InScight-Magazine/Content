@@ -1,5 +1,5 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
+// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "Brain on Overload: Unlocking Hope for Rare Diseases Through Cellular Cleanup"
 #let authors = ("Tisha Dash",)
@@ -14,7 +14,7 @@
 #let reviewedBy = ("Archita S",) 
 
 #show: section.with(
-  header-global: header-global, 
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
@@ -30,7 +30,6 @@
   received: received,
   authProfPosition: bottom,
   breakRefsAt: 12,
-  issueId: issueId,
 )
 
 // begin

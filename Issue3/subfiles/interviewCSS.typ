@@ -1,5 +1,5 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
+// #import "/dataFiles/issueConstants.typ": *
 
 #let file = "/dataFiles/interviewCSS.txt"
 #let group1 = ("SS:",)
@@ -13,6 +13,7 @@
 #let received = (day: 1, month: 2, year: 2025)
 
 #interview(
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   file: file,
   group1: group1,
   group2: group2,
@@ -23,6 +24,4 @@
   coverImage: coverImage,
   sideImage: sideImage,
   sideImageFraction: 40%,
-  header-global: header-global, 
-  issueId: issueId,
 )

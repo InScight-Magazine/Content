@@ -2,8 +2,8 @@
 #import "/dataFiles/issueConstants.typ": *
 
 #show: section.with(
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   title: "Join the Conversation",
-  header-global: header-global, 
   numCols: 1,
 )
 

@@ -2,8 +2,8 @@
 #import "/dataFiles/issueConstants.typ": *
 
 #show: section.with(
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   title: "The Last Page",
-  header-global: header-global, 
   numCols: 1,
 )
 

@@ -1,8 +1,8 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
+// #import "/dataFiles/issueConstants.typ": *
 
 #show: section.with(
-  header-global: header-global, 
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   title: "A Word from the Editor", 
   intro: [_To those who still marvel at stars, cells, and stories—we turn these pages with you_...],
 )

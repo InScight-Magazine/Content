@@ -1,5 +1,5 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
+// #import "/dataFiles/issueConstants.typ": *
 #set page(
     header: none,
     footer: none,

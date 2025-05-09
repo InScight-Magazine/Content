@@ -1,5 +1,5 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
+// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "From a BS-MS Student to An Independent Scientist: My Academic Journey"
 #let authors = ("Sayan Choudhury",)
@@ -13,7 +13,7 @@
 #let reviewedBy = ("Abhirup M", "Chitradeep S", "Ayan B") 
 
 #show: section.with(
-  header-global: header-global, 
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
@@ -26,7 +26,7 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
-  issueId: issueId,
+  // issueId: issueId,
 )
 
 // begin

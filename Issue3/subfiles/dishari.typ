@@ -1,5 +1,5 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
+// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "Smart Moves: Temple Langurs Master the Art of Begging"
 #let authors = ("Dishari Dasgupta",)
@@ -14,7 +14,7 @@
 #let received = (day: 5, month: 4, year: 2025)
 
 #show: section.with(
-  header-global: header-global, 
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
@@ -29,7 +29,6 @@
   reviewedBy: reviewedBy,
   received: received,
   breakRefsAt: 2,
-  issueId: issueId,
 )
 
 // begin

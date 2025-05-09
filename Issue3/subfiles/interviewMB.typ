@@ -1,5 +1,5 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
+// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "In Conversation with Prof. Mustansir Barma"
 #let file = "/dataFiles/interviewMB.txt"
@@ -13,6 +13,7 @@
 #let date = "2024-11-08"
 
 #interview(
+  issueDetails: yaml("/dataFiles/issueData.yml"),
   file: file,
   group1: group1,
   group2: group2,
@@ -23,6 +24,4 @@
   coverImage: coverImage,
   sideImage: sideImage,
   sideImageFraction: 40%,
-  header-global: header-global, 
-  issueId: issueId,
 )
