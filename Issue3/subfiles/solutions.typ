@@ -48,10 +48,10 @@
   ]
 )
 
+// = Buy Us A Coffee
 #v(1fr)
 #align(center, 
-box(width: 60%,
-image("/images/ad.jpeg", width: 100%) + 
-align(left, [We thank _Karmakar Enterprise_ for sponsoring part of this issue. Interested in featuring your brand, event, or initiative in our magazine? Reach out to us at #email. Feeling generous and want to sponsor some printed copies? You can find all the details here.])
+block(width: 100%,
+image("/images/ad.jpeg", width: 40%) + v(30pt) + 
+rect(inset: 1em, align(left, text(size: 1.3em, [We thank _Karmakar Enterprise_ for sponsoring part of this issue. Interested in featuring your brand, event, or initiative in our magazine? Reach out to us at #email. If you are feeling generous and *wish to sponsor some printed copies* of our magazine for greater distribution, you are requested to use this #link(donationForm)[#underline[form]]. Feel free to get in touch with us at #email if you need any clarification.]))) + v(100pt)
 ))
-#v(1fr)

@@ -6,6 +6,7 @@
   title: "Reclaiming the Joy of Scientific Discovery", 
   intro: [_Foreword by Prof. Balaram Mukhopadhyay_],
   outlineDesc: " | Foreword by Prof. Balaram Mukhopadhyay",
+  permalinkSuffix: "foreword",
 )
 
 #place(
