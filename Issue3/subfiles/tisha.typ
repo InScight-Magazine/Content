@@ -1,5 +1,4 @@
 #import "/template-files/inscight-template.typ": *
-// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "Brain on Overload: Unlocking Hope for Rare Diseases Through Cellular Cleanup"
 #let authors = ("Tisha Dash",)
@@ -32,8 +31,7 @@
   breakRefsAt: 12,
 )
 
-// begin
-
+// begin. This is necessary for typst-to-html conversion, do not remove this.
 
 #dcap("When you think of waste management, the last thing that comes to mind is the human brain. Yet, deep within our cells, an intricate system works tirelessly to clear out damaged or unnecessary components, ensuring the smooth functioning of critical processes. But what happens when this cleanup system breaks down? For individuals with Mucopolysaccharidosis VII (MPS VII), a rare genetic disorder? This failure triggers a cascade of devastating events, culminating in severe brain damage and early death. In a landmark study, a team of scientists led by Professor Rupak Datta, from the Indian Institute of Science Education and Research Kolkata, has uncovered a crucial link between cellular waste accumulation and brain cell death in MPS VII[1].")
 

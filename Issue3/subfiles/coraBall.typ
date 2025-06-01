@@ -1,5 +1,4 @@
 #import "/template-files/inscight-template.typ": *
-// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "The Cora Ball - Protecting Millions of Ocean Acres by The Second"
 #let authors = ("Sharanya Chatterjee",)
@@ -29,6 +28,8 @@
   reviewedBy: reviewedBy,
   received: received,
 )
+
+// begin. This is necessary for typst-to-html conversion, do not remove this.
 
 == The Problem of Microfibers
 

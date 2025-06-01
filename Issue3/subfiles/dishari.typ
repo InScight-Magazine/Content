@@ -1,5 +1,4 @@
 #import "/template-files/inscight-template.typ": *
-// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "Smart Moves: Temple Langurs Master the Art of Begging"
 #let authors = ("Dishari Dasgupta",)
@@ -31,7 +30,7 @@
   breakRefsAt: 2,
 )
 
-// begin
+// begin. This is necessary for typst-to-html conversion, do not remove this.
 
 #dcap("For many non-human primates (NHPs), human-modified habitats are no longer fringe territories—they're home (1). In parts of Asia, where primates like macaques and langurs hold deep religious or cultural significance, humans have historically shared space with these animals. Out of devotion, curiosity, or simply habit, people feed them (2). But what may seem like a small act of kindness or devotion is quietly transforming how these animals behave.")
 

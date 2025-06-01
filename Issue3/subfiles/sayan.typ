@@ -1,5 +1,4 @@
 #import "/template-files/inscight-template.typ": *
-// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "From a BS-MS Student to An Independent Scientist: My Academic Journey"
 #let authors = ("Sayan Choudhury",)
@@ -26,10 +25,9 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
-  // issueId: issueId,
 )
 
-// begin
+// begin. This is necessary for typst-to-html conversion, do not remove this.
 
 #dcap("I have very clear memories of the summer of 2006. I had just graduated from high school and was exploring options for the future. I had been fascinated by Physics in school and wanted to pursue it further. At that point, an advertisement for IISER appeared in the newspaper and I applied. After a round of counseling, I was allotted a seat at IISER Kolkata. During the counselling session, we were told about the vision of IISER. One of the big points that was emphasized was that science was becoming increasingly interdisciplinary, and the coursework at IISER would embrace this interdisciplinarity. I found this pitch very attractive and decided to join IISER.")
 

@@ -1,5 +1,4 @@
 #import "/template-files/inscight-template.typ": *
-// #import "/dataFiles/issueConstants.typ": *
 
 #let title = "Secret of the Wings: Nanostructures on a Dragonfly"
 #let authors = ("Debanuj Chatterjee",)
@@ -30,7 +29,7 @@
   reviewedBy: reviewedBy,
 )
 
-// begin
+// begin. This is necessary for typst-to-html conversion, do not remove this.
 
 #v-image(path: "/images/dragonfly1-small.jpg", caption: "Shots of colorful dragonflies.", position: bottom)
 
