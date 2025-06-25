@@ -1,8 +1,7 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
 
 #linkedlist(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  file: "/dataFiles/linkedList.yaml",
+  file: "/dataFiles/linkedList.yml",
   title: "Linked List",
 )

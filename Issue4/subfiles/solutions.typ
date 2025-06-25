@@ -1,5 +1,4 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
@@ -13,19 +12,19 @@
   gutter: 0.1fr,
   align: (left, left, left),
   [
-    #let answers = yaml("/dataFiles/crossword.yml").Solution
+    #let answers = crossword_solution("/dataFiles/crossword.json")
     == Crossword
     #grid(
       columns: (1fr, 1fr),
       [
         === Across
-        #for (index, answer) in answers.Across [
+        #for (index, answer) in answers.a [
           #enum.item(int(index))[#answer]
         ]
       ],
       [
         === Down
-        #for (index, answer) in answers.Down [
+        #for (index, answer) in answers.d [
           #enum.item(int(index))[#answer]
         ]
       ]
@@ -41,7 +40,7 @@
   ],
   [
     == Linked List
-    #let answers = yaml( "/dataFiles/linkedList.yaml").answers
+    #let answers = yaml( "/dataFiles/linkedList.yml").answers
     #for answer in answers [
       + #answer
     ]
@@ -52,6 +51,6 @@
 #v(1fr)
 #align(center, 
 block(width: 100%,
-image("/images/ad.jpeg", width: 40%) + v(30pt) + 
+// image("/images/ad.jpeg", width: 40%) + v(30pt) + 
 rect(inset: 1em, align(left, text(size: 1.3em, [We thank _Karmakar Enterprise_ for sponsoring part of this issue. Interested in featuring your brand, event, or initiative in our magazine? Reach out to us at #email. If you are feeling generous and *wish to sponsor some printed copies* of our magazine for greater distribution, you are requested to use this #link(donationForm)[#underline[form]]. Feel free to get in touch with us at #email if you need any clarification.]))) + v(100pt)
 ))
