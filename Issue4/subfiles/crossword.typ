@@ -4,7 +4,7 @@
   issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/crossword.json",
   crosswordImage: "/images/crossword.svg",
-  intro: [This issue's crossword is drawn from *astronomy* and *astrophysics*.],
+  intro: [This issue's crossword is drawn from *chemistry*.],
   outlineDesc: " | astronomy and astrophysics",
   title: "Themed Crossword",
   crosswordWidth: 70%,

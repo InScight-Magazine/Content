@@ -19,13 +19,13 @@
       [
         === Across
         #for (index, answer) in answers.a [
-          #enum.item(int(index))[#answer]
+          #enum.item(int(index))[#upper(answer)]
         ]
       ],
       [
         === Down
         #for (index, answer) in answers.d [
-          #enum.item(int(index))[#answer]
+          #enum.item(int(index))[#upper(answer)]
         ]
       ]
     )
@@ -42,15 +42,7 @@
     == Linked List
     #let answers = yaml( "/dataFiles/linkedList.yml").answers
     #for answer in answers [
-      + #answer
+      + #upper[#answer]
     ]
   ]
 )
-
-// = Buy Us A Coffee
-#v(1fr)
-#align(center, 
-block(width: 100%,
-// image("/images/ad.jpeg", width: 40%) + v(30pt) + 
-rect(inset: 1em, align(left, text(size: 1.3em, [We thank _Karmakar Enterprise_ for sponsoring part of this issue. Interested in featuring your brand, event, or initiative in our magazine? Reach out to us at #email. If you are feeling generous and *wish to sponsor some printed copies* of our magazine for greater distribution, you are requested to use this #link(donationForm)[#underline[form]]. Feel free to get in touch with us at #email if you need any clarification.]))) + v(100pt)
-))

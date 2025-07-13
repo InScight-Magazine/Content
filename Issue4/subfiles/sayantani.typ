@@ -3,10 +3,10 @@
 #let title = "The Chemical Ballet: How Volatiles Orchestrate Pest and Predator Behaviour"
 #let authors = ("Sayantani Nath",)
 #let affiliations = ("Interactions Lab, Department of Biological Sciences, IISER Kolkata",)
-#let abstract = "*What if plants could talk? Not with words-but with scents.* In a hidden world of airborne messages and underground signals, plants release special chemicals called VOCs to call for help, warn their neighbors, confuse attackers, and even sabotage rivals. Dive into this fascinating world with Sayantani Nath where leaves cry for help, roots make alliances, and researchers uncover nature’s invisible language-one scent at a time."
+#let abstract = "*What if plants could talk? Not with words-but with scents.* Plants release special chemicals called VOCs to call for help, warn their neighbors, confuse attackers, and even sabotage rivals. Dive into this fascinating world with Sayantani Nath where leaves cry for help, roots make alliances, and researchers uncover nature’s invisible language-one scent at a time."
 #let coverImage = "sayantaniCover.jpeg"
 #let authorImage = "sayantaniFace.jpg"
-#let authorInfo = "*Sukalyan Deb* is a PhD scholar in the Department of Physical Sciences in IISER Kolkata, currently working in theoretical physics, focusing on strongly correlated systems."
+#let authorInfo = "*Sayantani Nath* is a budding researcher with a background in entomology and plant-insect interactions, driven by curiosity and a love for understanding nature’s complexities. Beyond the lab, I find joy in exploring new places and cultures—travelling fuels my creativity and deepens my appreciation for biodiversity across ecosystems."
 #let refsFile = "/dataFiles/sayantaniRefs.yaml"
 #let received = (month: 03, day: 6, year: 2025)
 #let category = "Biology"
@@ -19,7 +19,7 @@
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
-  sideImageFraction: 55%,
+  sideImageFraction: 50%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
   authorImageWidth: (40%,40%),
@@ -27,7 +27,7 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
-  breakAfter: (3,),
+  breakAfter: (4,),
 )
 
 // begin. This is necessary for typst-to-html conversion, do not remove this.
@@ -71,6 +71,7 @@ The importance of comprehending and protecting these fragile networks is undersc
 As our understanding of volatile organic compounds (VOCs) deepens, new frontiers in plant science and agricultural innovation continue to beckon. Long acknowledged for their functions in plant defence, communication, and ecological interactions, VOCs are now central to innovative strategies aiming to revolutionise pest control, pollination, and soil health. The potential for using VOCs in agriculture is enormous and still mostly unrealised. We can create plant varieties that naturally draw pollinators and beneficial insects like parasitoids or predators while also discouraging herbivores and disease vectors by improving and modifying the volatile organic compounds (VOCs) in crops. By providing more ecologically friendly substitutes that complement natural systems, such tactics could drastically lessen our dependency on artificial chemical pesticides.
 
 #img(path: "/images/SN3.png", caption: "This diagram illustrates how volatile organic compounds (VOCs) mediate both *intraspecific* (within-species) and *interspecific* (between-species) signalling in plants. In response to cues like *clipping, herbivory, or infection*, emitter plants release VOCs. These volatiles trigger responses in neighbouring plants—such as direct defences, hormonal changes, the production of extrafloral nectar (EFN), and *enhanced pathogen resistance*—allowing them to prepare for potential threats preemptively. (Heil & Karban, 2009).", position: top, width: 33.3%)
+#img(path: "/images/SNpicture4.png", caption: "This figure illustrates how volatile organic compounds (VOCs) mediate plant interactions. Herbivory induces HIPVs that attract natural enemies. Root-emitted VOCs foster beneficial microbes. GC-MS helps identify VOCs. Synthetic VOCs support sustainable pest control. Climate change alters VOC emission patterns, potentially disrupting ecological functions and plant defence signalling networks.", position: bottom, width: 66.6%)
 
 
 Another fascinating and fast advancing field of research is synthetic biology. Through genetic engineering, it is now possible to reprogram plants or associated microbes to produce specific, beneficial VOCs on demand. This innovation opens up the possibility of designing living systems tailored to address particular agricultural challenges—whether it be pest control, improved disease resistance, or enhanced nutrient uptake and cycling. For instance, while the induction of VOCs signals beneficial microbial colonisation could lead to more resilient plant-microbe interactions, the controlled release of repellent VOCs from engineered microbial communities in the rhizosphere could offer a new form of pest deterrent. By harmonising with ecological ideas and reducing environmental disturbance, these complex biological solutions have great potential to transform contemporary agriculture.
@@ -79,4 +80,4 @@ However, these advances must be considered within the broader context of a chang
 
 As more and more plant-emitted volatiles are being explored, we find their central role in the complex chemical dance of nature. Plants use these molecules as their they choreograph complex ecological relationships, shaping interactions from insect behavior to microbial alliances. Deciphering this silent but significant communication helps us to design sustainable agricultural solutions to safeguard crops, improve ecosystem services, and lower our environmental impact. The hidden symphony of VOCs stands as a powerful testament to the ingenuity and resilience of plants, showcasing their extraordinary ability to adapt and thrive amid ever-evolving environmental challenges. As we continue to delve deeper into this field, we move closer to a future where agriculture and ecology are not in conflict but in concert, united by the invisible threads of chemical communication.
 
-#img(path: "/images/SNpicture4.png", caption: "This figure illustrates how volatile organic compounds (VOCs) mediate plant interactions. Herbivory induces HIPVs that attract natural enemies. Root-emitted VOCs foster beneficial microbes. GC-MS helps identify VOCs. Synthetic VOCs support sustainable pest control. Climate change alters VOC emission patterns, potentially disrupting ecological functions and plant defence signalling networks.", position: bottom, width: 66.6%)
+#colbreak()

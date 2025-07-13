@@ -1,117 +1,92 @@
 - 
-  "Author": "Dhiman Sankar Pal"
-  "Affiliation": "Department of Cell Biology and Center for Cell Dynamics, School of Medicine, Johns Hopkins University, Baltimore, MD, USA"
-  "Title": "New Functions for an Old Protein: How Does RAS Drive Migration in Human Cells?"
-  "Summary": "In mammalian cells, directed migration is crucial for a multitude of physiological processes ranging from embryogenesis, cancer metastasis, to immune response. Although Ras and its downstream pathways are typically associated with longer-term growth control, our studies showed how the Ras-mTORC2-Akt growth-control axis steers leukocyte migration on a rapid timescale, independently of new gene or protein expression.
+  "Author": "Debanuj Chatterjee"
+  "Affiliation": "University of Lille, France"
+  "Title": "Fast and precise atmospheric sensing over 100 km open path"
+  "Summary": "Dual comb spectroscopy (DCS) is a powerful optical sensing technique that leverages two laser frequency combs, to measure gas absorption with high speed and sensitivity. By precisely determining the absorption frequencies of the sample, across a broad spectral range, DCS can detect trace gases like carbon dioxide (CO#sub[2]) and water vapor (H#sub[2]O) in the atmosphere with sub-ppm precision. This makes it ideal for applications in climate science, especially relevant for air quality monitoring, greenhouse gas emissions tracking, etc.
 
 
-  To this end, we designed blue-light controlled, cryptochrome-based dimerizers to abruptly and locally perturb Ras or Akt activity in human neutrophils and macrophages, bypassing the chemoattractant-sensing receptor/G-protein network. Within seconds of global recruitment of CAAX-deleted version of constitutively active Ras isoforms or a RasGEF, RasGRP4, initially quiescent cells spread and migrated rapidly. Thus, Ras proteins directly promote random motility. Furthermore, by activating Ras at the cell rear, new F-actin rich protrusions emerged locally, thereby reversing pre-existing polarity and steering sustained migration towards the light source. Interestingly, locally recruiting the crucial Ras-mTORC2 effector, Akt1 or Akt2, had similar effects. 
+Traditionally, the reach DCS when performed in open path, has been limited to distances under 20 km due to significant signal loss and technical constraints, such as the need for highly reflective mirrors, high atmospheric turbulence, etc. However, last year, in a landmark advancement, researchers from the University of Science and Technology of China have now extended DCS to a staggering 113 km open-air horizontal path; nearly six times longer than previous records.
 
 
-  Next, employing a RasGAP, RASAL3, we were interested to test the effects of reducing Ras in migrating cells. Globally or locally dampening Ras activity at cell fronts could extinguish protrusions and abolish polarity or migration, as expected. However, surprisingly, an acute reduction in Ras activity specifically at the cell back increased both polarity and random motility. Further experimentation showed that cell polarity can be achieved by suppressing Ras activity at the cell rear resulting in locally increased actomyosin contractility. These unexpected outcomes of attenuating Ras activity naturally had strong, context-dependent consequences for chemotaxis.
+To achieve this, the team utilized a novel bistatic configuration, placing one frequency comb at each end of the path and transmitting light bidirectionally through the atmosphere without the need for reflectors. Each comb was synchronized to a rubidium atomic clock, acting as a local timing reference. The system incorporated high-power (1 W) optical frequency combs, stable telescopes, and real-time data acquisition to overcome atmospheric turbulence and extreme signal attenuation, going up to 83 dB.The experiment, conducted between two mountain sites in the Xinjiang, provice of China, viz. Nanshan and Gaoyazi, successfully measured absorption spectra of CO#sub[2] and H#sub[2]O over a 7 nm bandwidth and a frequency accuracy of 10 kHz. The system achieved CO#sub[2] detection sensitivities better than 2 ppm in just 5 minutes and below 0.6 ppm in 36 minutes; a remarkable performance for such a long-range setup.
 
 
-  Our experimental results upended existing models of cell polarity, and a new computational model in which Ras levels control separate front and back feedback loops was proposed. Taken together, our unanticipated findings on cell polarity and migration have crucial implications for cancer treatment. While a target of intense interest for cancer therapy, Ras inhibition may not always be beneficial i.e., attempts to abrogate cell proliferation could force cells into a more polarized migratory state, thereby promoting metastasis. Minimally, our study suggests that a deeper understanding of the different roles of Ras activity is needed for developing therapeutic strategies."
-  "Reference": "Pal, Dhiman Sankar et al. Developmental Cell, Volume 58, Issue 13, 1170 - 1188"
-  "Url": "https://doi.org/10.1016/j.devcel.2023.04.019"
-  "Image": "dhimanDigest.png"
-  "Caption": "Within the human body, migrating cells need to have a stable front-back cytoskeletal polarity where actin polymerization (or F-actin; shown as a mesh of cyan lines) takes place at the cell front and actomyosin-driven contractility (shown as a heavy orange line) occurs at the back of the cell. Our optogenetic study showed that a front-back gradient of the activities of RAS and its downstream effectors of the growth-control signalling pathways on the plasma membrane generates cytoskeletal polarity and steers motility. Thus, an increase in RAS-mTORC2-AKT activation at the front of cells directly promote localized actin polymerization whereas its decrease at the cell back stimulates rear actomyosin-driven contractility. Importantly, these cytoskeletal and migratory effects are independent of new gene/protein expression of classical growth-control network components."
+This breakthrough not only validates DCS for ultra-long-range sensing but also opens a plethora of possibilities for a diverse set of technological advancements. A curious reader would ask, if one can perform DCS over 100 km path in the turbulent atmosphere, why not shoot it towards the sky? Can the dual comb reach the ionosphere (50 km) and get reflected with only the radio wave content? Can it lay the foundation for future satellite-ground dual comb links? Can it perform high-precision monitoring of greenhouse gases from geostationary orbits? I leave the numerous possibilities to the fancy of your imagination!"
+  "Reference": "Han, JJ., Zhong, W., Zhao, RC. et al. Nat. Photon. 18, 1195–1202 (2024)"
+  "Url": "https://www.nature.com/articles/s41566-024-01525-9"
+  "Image": "debanujDigest.png"
+  "Caption": "Google Earth view of the DCS path of 113 km running from Nanshan to Gaoyazi in China."
   "Keywords":
-    - cancer
-    - infection
-    - optogenetics
-    - signalling
+    - dual-comb spectroscopy
+    - environmental sensing
+    - frequency comb
+    - spectroscopy
 - 
-  "Author": "Anusha Biswas"
-  "Image": "anushaDigest.svg"
-  "Caption": "In this work the linear monomer and branched monomer are polymerized through eliminating the Hydrogen gas without participation of any external oxidant or acceptor (ADP) catalyzed by Mn-based catalyst [Mn] resulting in the synthesis of polyethylene-like materials, possessing highly tunable material properties comparable to traditional polyethylenes. The Mn-based catalyst [Mn] also facilitates efficient depolymerization back to monomeric precursors, enabling repolymerization and multiple reuse cycles without significant loss of functionality , thus advancing sustainable materials development and contributing to a closed-loop recycling to the plastic economy."
-  "Affiliation": "19MS, IISER Kolkata"
-  "Title": "Recyclable Bio-based Polyethylene-like Materials from Acceptor-less Dehydrogenative Polymerization of Bio-derived Diols and Catalyst-enabled Closed-loop Recycling"
-  "Summary": "The widespread applications of petroleum-derived polyolefins can be attributed to their favorable physicochemical properties and economic viability. However, the environmental footprint of polyolefins is increasingly concerning, as their mass-production, single-use-nature, and slow decomposition contribute to long-term ecological pollution. Chemical recycling of polyolefins, conventionally involves processes-pyrolysis or steam cracking resulting in significantly lower yields of constituting monomers even under high temperatures(~800 °C) or harsh conditions.
-
-
-Effective resolution of this issue is contingent upon the development of polyethylene-like polymers that are both chemically recyclable and capable of replicating the key attributes of traditional polyolefins. Inclusion of ester or amide functionalities can operate as predetermined breaking sites within the polymer chain, enabling depolymerization at milder condition and yielding monomers suitable for re-polymerization.
-
-
-In the aforementioned paper, Miyake and co-workers had reported the synthesis of bio-based polyethylene-like polymer-materials from linear and branched diols via Acceptor-less Dehydrogenative Polymerization(ADP), which display efficient depolymerization too, catalyzed with earth-abundant Manganese complex and exhibit highly tunable material properties. The crystallizable saturated linear monomer and unsaturated monomer were derived from fatty acids (plant-based oils), contributing high melting temperature(Tm) and modulus with its long linear methylene chains. The thiol-ene reactions with thiols, yielding high efficiency, enables the synthesis of branched monomers influencing polymer morphologies and thermomechanical properties. The authors had highlighted the manganese-based complex [Mn] as the most efficient catalyst for this Acceptor-less Dehydrogenative Polymerization and also depolymerization too, attaining high conversion and turnover number with the low catalyst loading and addition of suitable base.
-
-
-The synthesized thermoplastic polymers demonstrated thermal properties comparable to commercial polyethylenes, with decomposition temperature of 395 °C and melting point(Tm). Increasing the content of branched co-monomers reduced crystallinity and modulus, ultimately leading to elastomeric behavior, while all compositions maintained high tensile strength(σUTS=16–27 MPa) and toughness(UT=100-180 MJ m−3), outstripping that of commercial plastics. Additionally, these PE-like materials showed excellent environmental stability and incorporating thioether or sulfone groups in the copolymers exhibited excellent adhesion to various surfaces-including stainless steel, aluminum and so on.
-
-
-To overcome the traditional plastic recycling challenges, the authors introduced efficient chemical depolymerization of synthesized bio-based-PE-like polymers driven by hydrogen gas in the presence of mixed commercial plastics using the Mn-based catalyst[Mn], achieving high monomer recovery(91-99%), leaving other plastics impurities unaltered. The recovered monomers were successfully repolymerized through multiple cycles without loss of efficiency and stability, confirming the robustness of the closed-loop process. Furthermore, high-yield monomer recovery was achieved even in the presence of post-consumer plastics and at larger scales, highlighting the system’s practical and scalable recycling potential and route to sustainability."
-  "Reference": "Liu, X., Hu, Z., Rettner, E.M. et al. Nat. Chem. 17, 500–506 (2025)"
-  "Url": "https://doi.org/10.1038/s41557-025-01753-8"
+  "Author": "Chitradeep Saha"
+  "Image": "chitradeepDigest.png"
+  "Caption": "A plot showing the variation of Carbon 14 production rate (top two panels), and solar modulation potential -- a measure of solar magnetic activity (bottom two panels) during 1000-1 BCE. Vertical shaded regions depict the two solar grand minima events. Notably, Carbon 14 production goes up during the reduced solar activity phases, and vice-versa."
+  "Affiliation": "CESSI, IISER Kolkata"
+  "Title": "Tree rings unlock the sun's age old secrets"
+  "Summary": "The oldest telescopic observation of the sun is only four centuries old. Thanks to nature's silent archivists, it is possible to unveil how this star behaved multiple millennia ago. Tree rings are one such natural reservoir that keeps a record of the time. Cosmogenic isotope contents in old tree rings carry imprints of the terrestrial climate, which in turn is modulated by the sun's magnetic activity. A more magnetically active sun sweeps away galactic cosmic rays more vigorously. As a consequence, the production rate of radioactive isotopes in the earth’s atmosphere goes down. This results in a reduced amount of Carbon-14 deposition in the tree rings during the period of enhanced solar activity, and vice-versa. Recently, scientists have used precise dendrochronological techniques to retrieve the sun's magnetic behaviour during the first millennium BCE with an unprecedented resolution of annual time scale. They have successfully detected a strong decennial timescale signal in the isotope data, as expected from current understanding of the solar cycles. Besides, their analysis hints towards possible occurrences of two solar grand minimum episodes during this period. Solar grand minima are phases of prolonged magnetic quiescence on the sun. These findings have implications for a better understanding of solar-stellar magnetism."
+  "Reference": "Brehm, N., Pearson, C.L., Christl, M. et al. Nat Commun 16, 406 (2025)"
+  "Url": "https://doi.org/10.1038/s41467-024-55757-y"
   "Keywords":
-   - Acceptor-less Dehydrogenative Polymerization,
-   - Catalytic Closed-loop Recycling,
-   - Depolymerization
+   - Paleoclimatology
+   - Dendrochronology
+   - Solar Magnetic Variabilty
 - 
-  "Author": "Madhura Theng "
-  "Image": "madhuraDigest.jpg"
-  "Caption": "Neurons in the retina (green) making directing blood vessels to forms a complex, three-dimensional lattice as they grow. These lattices are helpful in understand the working of neurons on how these neurons establish direct contact with developing blood vessels. By restoring these lattices, scientist can develop targeted therapies to maintain healthy blood flow and even restore vision!"
-  "Affiliation": "23MS, IISER Kolkata"
-  "Title": "The Neuron With Its Own Brain"
-  "Summary": "We all know that the human brain is filled with neurons that direct our dreams and administer our body's organ functions effectively. But that's not all. Recent studies have found that a specific type of neuron in the eye plays a crucial role in vision—almost as if it has its own \"eye and brain.\" Fascinating, right? For years, scientists have known that a network of blood vessels nourishes the retina (the posterior part of the eye), where light refracted from the lens forms an image. However, how this intricate structure develops remained a mystery. Now, researchers at UC San Francisco have discovered that a specific subset of retinal neurons, called perivascular neurons, directs the formation of the retina’s three-dimensional vascular lattice.
+  "Author": "Madhura Narayan Joshi"
+  "Image": "madhurajoshiDigest.png"
+  "Caption": "Schematic of overturning circulation in modern(upper) and LGM(lower) highlighting change through time. The blue ribbon is indicative of Antarctic bottom water, green indicate North Atlantic deep water, red indicates Indian and Pacific ocean deep waters and orange indicates Antarctic intermediate waters. The black dashed line is an isopycnal which separates two branches of circulation in Southern Ocean. ℓ1 is the distance between the northernmost latitude reached by the ACC, indicated by a solid gray line, and the quasi-permanent sea ice line. The ragged gray line is the crest of the main bathymetric features of the Pacific and Indian ocean basins: mixing is enhanced below this line. The extent of the quasi-permanent sea ice line has shifted equatorward compared with modern climate ðℓ2 < ℓ1Þ. Mixing-driven upwelling of abyssal waters is confined below 2 km and it cannot lift waters high enough to upwell north of the ice line. As a result the abyssal overturning circulation closes on itself, leaving above a small overturning cell of North Atlantic waters."
+  "Affiliation": "22MS, IISER Kolkata"
+  "Title": "How does Antarctic sea ice and circulation change fate of global CO#sub[2] levels"
+  "Summary": "One of the key indicators of climate change is global warming — often discussed in academic circles and increasingly felt in daily life. A major driver of this warming is the rising concentration of atmospheric CO#sub[2] over recent decades. Oceans, which store about 90% of Earth’s carbon (combined oceanic, atmospheric, and terrestrial), play a vital role in regulating the carbon cycle and influencing climate.
 
 
-These researchers worked with newborn mice, whose eyes require several weeks to fully develop. Then they labeled the retinal neurons closest to blood vessels with a protein that glows bright green under ultraviolet light, allowing them to observe the lattice as it formed. These neurons establish direct contact with developing blood vessels through perisomatic endfeet(specialized neuronal structures that extend from the cell bodies of certain neurons) physically connect with surrounding blood vessels. This interaction guides the precise 3D lattice formation, which is essential for retinal health.
+During the Last Glacial Maximum (LGM), around 25,000 to 20,000 years ago, Earth’s surface was 3–6 °C colder, atmospheric CO_2 levels were 80–90 ppm lower, and vast ice sheets and sea ice covered the poles. Unlike the modern ocean, where Arctic-origin waters dominate and Antarctic waters occupy depths below 4 km, LGM oceans were filled with Antarctic-sourced waters up to 2 km, compressing northern water masses into shallower layers. This reorganization of deep water circulation reduced CO_2 escape from the ocean surface and drew down atmospheric concentrations by 10–20 ppm.
 
 
-Perivascular neurons produce a mechanosensitive ion channel protein called PIEZO2, which enables them to sense contact with other cells. Now the absence of PIEZO2 disrupts these neurovascular interactions, leading to disorganized vascular structures, reduced capillary perfusion, and increased susceptibility to something called ischemic damage (tissue damage caused by lack of blood flow, eventually leading to cell death). In mice that could not produce PIEZO2, perivascular neurons failed to maintain contact with blood vessels, causing the vascular network to grow in a tangled, disorganized manner that disrupted blood flow. As a result, the surrounding nerve cells became oxygen-starved, deteriorated, and made the mice more vulnerable to stroke-like injuries.
+Previously, these shifts were seen as a sum of individual physical changes — altered currents, increased layering, and less CO_2 outgassing from the Southern Ocean. Several mechanisms contributed: an equatorward shift of the Southern Hemisphere westerlies weakened upwelling of deeper water, increased stratification acted like a lid on carbon venting, expanded sea ice reduced air-sea exchange, and reduced mixing between northern and southern waters limited carbon leakage.
 
 
-By collaborating with developmental biologists, researchers could confirm that perivascular neurons also exist in the human retina, suggesting their importance in human vascular health. This discovery paves the way for new therapeutic approaches aimed at repairing or reorganizing damaged blood vessel networks, offering potential treatments for glaucoma, diabetic retinopathy, and stroke. By exploring how neurons regulate vascular development, scientists can develop targeted therapies to maintain healthy blood flow, prevent neurodegeneration, and restore vision."
-  "Reference": "Toma K et al. Perivascular neurons instruct 3D vascular lattice formation via neurovascular contact. Cell. 2024 May 23."
-  "Url": "https://doi.org/10.1016/j.cell.2024.04.010"
+Overturning circulation is a large-scale movement of ocean water where warmer, lighter surface waters move toward the poles, cool, and sink to form deep currents that eventually return to the surface. This circulation is driven by two main factors: flow along isopycnals (surfaces of equal density) and surface buoyancy flux — which reflects whether water in a region is becoming lighter (due to warming or precipitation) or denser (due to cooling, brine rejection, or evaporation). These isopycnals slope steeply at high latitudes, and a key one  the 27.9 kg/m³ isopycnal which separates the shallow and deep overturning branches in the Southern Ocean.
+
+
+In today’s climate, the sea ice edge stays close to Antarctica, and the isopycnal plunges below 2 km before reaching ocean basins. There, it intersects topography like ridges and seamounts, enhancing mixing and connecting the two branches into a single, figure-eight-like circulation. However, during the LGM, the summer sea ice line shifted northward by about 500 km. The isopycnal followed, shoaling above 2 km and avoiding major topography. Without significant mixing, the circulation split into two separate loops: deep Antarctic waters recirculated beneath the ice, while northern-sourced waters looped above. This vertical separation helped trap carbon in the deep ocean."
+  "Reference": "R. Ferrari,M.F. Jansen,J.F. Adkins,A. Burke,A.L. Stewart,& A.F. Thompson,  Antarctic sea ice control on ocean circulation in present and glacial climates, Proc. Natl. Acad. Sci. U.S.A. 111 (24) 8753-8758 (2014)"
+  "Url": "https://doi.org/10.1073/pnas.1323922111"
   "Keywords":
-    - Retinal-Neuron
-    - contact-with-blood-vessels-3D lattice
-- 
-  "Author": "Tanusree Mondal"
-  "Title": "Intraspecific competition for a nest and its implication for the fitness of relocating ant colonies"
-  "Affiliation": "DBS, IISER-K"
-  "Image": "tanusreeDigest.svg"
-  "Caption": "The experimental setup consisted of a rectangular arena (122 cm × 92 cm) filled with water to confine the ants. A maze divided into five sections (A–E), each with three arms (15 cm each), was placed in the arena. Two old nests (ON) were positioned at arms A2 and B2, while a single new nest (NN) was located at the end of arm E3, serving as the common path for colony relocation."
-  "Summary": "The study by Eshika Halder and Dr. S. Annagiri from Indian Institute of Science Education and Research Kolkata explores intraspecific competition in Diacamma indicum during colony relocation, a cooperative yet challenging process triggered by environmental stressors like habitat destruction, resource depletion, or predation. Unlike the commonly studied contexts of foraging and mating, this work focuses on competition for limited nesting sites, providing new insights into ant behavioral ecology and colony fitness.
+    - Last glacial maxima
+    - Carbon storage
+    - Antarctic sea ice
+    - Ocean Circulation
+    - Isopycnal slope
 
-
-  The authors investigate how colony size affects competitive success, the nature of aggression during relocation, and how these interactions impact colony fitness. The experiments used both comparable-sized (CS) and non-comparable-sized (NCS) colonies in a controlled lab setup, simulating natural relocation conditions with two old nests and a single new nest. Behavioral data such as aggression, brood theft, and recruitment via tandem running were observed and statistically analyzed. Control groups (colonies relocating without competition and non- relocating colonies) helped assess the baseline levels of mortality and relocation efficiency.
-
-
-  Results show that colony size significantly influences success. In CS trials, one colony successfully relocated in 13 of 17 cases. In NCS trials, larger colonies dominated in 11 of 14 instances due to their numerical advantage in both aggression and recruitment. Smaller colonies struggled to manage both tasks simultaneously. Interestingly, colony mergers occurred in about 25% of trials, facilitated by cross-colony tandem running. These often led to the death of one gamergate, typically from the smaller colony.
-
-
-  Aggression was concentrated around critical zones like old and new nests, especially during the recruitment phase. Winning colonies were more strategic, involving fewer individuals in aggressive acts and reserving more for relocation. Brood theft was a notable behavior, primarily by larger colonies in NCS setups, enabling workforce expansion without reproductive cost.
-
-
-  The study highlights the high fitness costs of competition during relocation. Losing colonies exhibited mortality rates three to five times higher than controls, while even winners experienced elevated losses. These findings underscore the ecological risks associated with relocation, particularly when multiple colonies compete for limited resources. Overall, this research offers valuable insights into how social insects respond to ecological stress and competition. It contributes to our understanding of behavioral strategies, colony dynamics and has implications for conservation, especially under increasing environmental pressures."
-  "Reference": "Halder, E., Annagiri, S. Insect. Soc. 71, 431–440 (2024)"
-  "Url": "https://doi.org/10.1007/s41745-023-00373-w"
-  "Keywords":
-   - Intraspecific competition
-   - Colony relocation
-   - Colony size
-   - Tandem running
-   - Brood theft
 - 
   "Author": "Swarnendu Saha"
-  "Title": "Unlocking the Origins of Animal Multicellularity: A Close Relative Shows the Way"
-  "Affiliation": "Department of Physical Sciences, IISER-K"
-  "Image": "swarnenduDigest.jpeg"
-  "Caption": "a. Live colonies (yellow membranes) show organized cell divisions, pyramid-shaped four-cell groups, and structured growth. b. DNA (blue) and internal structures (magenta) reveal uneven cell splits and nucleus movement to edges. c. Advanced imaging highlights edge-based first division, right-angle splits in two-cell stages, and three-cell groups. d. Nucleus positions near cell edge before division. e. Daughter cells differ in size after splitting. f. Split directions: larger cells divide sideways, smaller ones parallel to first division. g. Four-cell colonies form flat or pyramid shapes. The figure demonstrates that Chromosphaera perkinsii, a single-celled relative of animals, undergoes organized cell divisions and forms structured multicellular colonies with features resembling early animal development (e.g., asymmetrical splits, spatial patterning). These observations support the paper’s conclusion that key traits for multicellularity—like controlled cell division and differentiation—evolved in unicellular ancestors long before true animals emerged, bridging a critical gap in evolutionary history. Adapted from Olivetta et al."
-  "Summary": "Through high-resolution imaging and transcriptomic analysis, the researchers reveal that C. perkinsii undergoes a structured, palintomic (cleavage-like) cell division cycle, forming multicellular colonies with distinct cell types. This process mirrors aspects of early animal development, including spatial cell differentiation and gene regulation patterns similar to those in embryonic stages of sponges, cnidarians, and ctenophores. However, unlike true animals, C. perkinsii does not exhibit coordinated function among its differentiated cells, making it a potential intermediary form in evolutionary history.
+  "Title": "Old carbon routed from land to the atmosphere by global river systems"
+  "Affiliation": "Department of Physical Sciences, IISER Kolkata"
+  "Image": "swarnenduDigest.png"
+  "Caption": "a) In the earlier model, it was believed that river carbon dioxide (CO#sub[2]) was mainly released from young, fast-cycling carbon — recently captured by plants (referred to as decadal-aged, shown in green). A smaller portion was considered to come from rocks (petrogenic carbon, shown in grey). Based on this understanding, it was estimated that about 1.7 billion tons of human-caused CO#sub[2] per year was being absorbed and stored in forests and soils. b) In the revised model, new measurements of carbon age in rivers (using radiocarbon data) revealed that much of the CO#sub[2] released by rivers is from older sources — carbon stored for thousands of years. This old carbon is believed to be released from deeper soils and weathered rocks. As a result, it is now recognized that rivers act as a pathway through which ancient carbon is lost from the land to the atmosphere. This finding requires a change in how Earth's carbon storage is understood and how human CO#sub[2] emissions are tracked."
+  "Summary": "We usually think of rivers as part of the modern carbon cycle — transporting carbon that plants have recently absorbed from the atmosphere. But this new study reveals that rivers also act as a hidden highway, carrying very old carbon — hundreds to thousands of years old — from land into the air.
 
 
-Comparative transcriptomic analysis suggests that some of the genetic regulatory mechanisms underlying C. perkinsii's development align with those found in early-diverging metazoans, implying that the genetic toolkit for multicellularity predates the emergence of animals. These findings challenge the assumption that coordinated, spatial differentiation only evolved with true animal multicellularity. Instead, they support the idea that early unicellular relatives of animals may have already experimented with complex developmental strategies, long before animals emerged.
+Scientists examined over 1,100 samples from rivers all over the world, looking at the type of carbon gases (CO#sub[2] and CH#sub[4]) being released into the air. By measuring radiocarbon (a kind of natural carbon dating), they could determine how “old” the carbon was. Surprisingly, nearly 60% of river CO#sub[2] emissions were found to come from millennia-old carbon, not recent plant activity.
 
 
-This study provides an evolutionary snapshot of the transition from unicellular to multicellular life, demonstrating that fundamental aspects of cell differentiation and developmental regulation were present in the common ancestors of animals and their unicellular relatives. Understanding how and why these mechanisms evolved could offer new insights into the origins of animal life itself."
-  "Reference": "Olivetta, M., Bhickta, C., Chiaruttini, N. et al. Nature 635, 382–389 (2024)"
-  "Url": "https://doi.org/10.1038/s41586-024-08115-3"
+This “old” carbon comes from deep in the soil, sediments, and even from ancient rocks. Rain and groundwater erode and carry this carbon into rivers, which then release it into the atmosphere. The amount of old carbon released — around 1.2 billion tons per year — is nearly as much as all the carbon plants worldwide absorb from the atmosphere in a year.
+
+
+Different factors affect how much old carbon a river releases. Rivers in areas with sedimentary rocks, like limestone, or those in high mountain regions, were more likely to release older carbon. Large rivers also showed older carbon emissions, which challenges the common belief that only small rivers are affected by old carbon sources.
+
+
+These findings mean that current climate models and carbon budgets may be underestimating how much ancient carbon is being released. Old carbon, once locked in the earth, is now entering the modern carbon cycle — potentially speeding up climate change.
+
+
+This study suggests we need to rethink how rivers fit into the global carbon puzzle. Rivers are not just channels for young, fresh carbon. They are also leaks for ancient carbon stores, and this has major implications for how we understand and manage Earth’s carbon balance."
+  "Reference": "Dean, J.F., Coxon, G., Zheng, Y. et al. Old carbon routed from land to the atmosphere by global river systems. Nature 642, 105–111 (2025)"
+  "Url": "https://doi.org/10.1038/s41586-025-09023-w"
   "Keywords":
-   - multicellularity
-   - evolutionary biology
-   - cell differentiation
-   - ichthyosporea
-   - developmental biology
+   - River CO#sub[2] emissions
+   - Radiocarbon dating
+   - Global carbon cycle

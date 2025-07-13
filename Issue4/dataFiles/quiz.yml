@@ -1,84 +1,92 @@
 questions:
-  - "In 1905, Sir _Albert Einstein_ proposed his theory of the photoelectric effect, which supports the idea that light consists of particles carrying discrete packets of energy. A contemporary physicist disagreed with this theory and designed an experiment to disprove it. However, by accident, he ended up confirming Einstein’s theory instead. As a result, he too was awarded the Nobel Prize for proving the photoelectric effect. Can you name the physicist?"
-  - "During a severe cholera outbreak in 1971 at a refugee camp in Bangaon, West Bengal, a pioneering pediatrician developed a simple yet life-saving mixture of salt, sugar, and water—now known as _Oral Rehydration Solution_ (ORS)—which drastically reduced mortality caused by dehydration and became a global breakthrough in public health. Who was the doctor behind this discovery?"
-  - "As scientists and engineers learn more about the DNA molecule and find ways to create synthetic versions, they see great promise. A future class of memory known as nucleic acid memory (NAM) storage could offer several advantages. Under one system, a single gram of DNA could store _215 million gigabytes of data_. Can you identify the sole reason for this?"
-  - "_Roy Plunkett_, while working on a new refrigerant at DuPont, discovered a polymer when he accidentally polymerized the refrigerant he was working with. This resulted in a slippery, non-stick substance now used in various applications, including non-stick cookware. What is the polymer?"
-  - "This _meteor shower_ forms when the Earth passes through a trail of debris left by Comet Thatcher, a long-period comet. The debris consists of small particles of dust and rock that, upon entering the Earth's atmosphere, burn up and create the visible streaks of light we see as meteors. Name this meteor shower."
-  - "The global production of synthetic fertilizers relies heavily on a process that consumes around _3 percent of the world’s annual energy_ and significantly contributes to greenhouse gas emissions. This process chemically fixes nitrogen from the air - unlike certain natural organisms that biologically fix nitrogen through a mechanism we still cannot replicate. Name this industrial process remains the cornerstone of global nitrogen fixation."
-  - "This object, also known as _NGC 2359_, is an emission nebula shaped by the powerful winds and radiation of a central Wolf-Rayet star. It is known by another name - can you say what it is?"
-  - "Which Indian institution is responsible for maintaining SI units, calibrating national measurement standards, providing time signals, and also developed the _indelible ink used in Indian elections_,  - all as part of its efforts to modernize the measurement system post-independence?"
-  - "Who is the Indian-origin aerospace engineering student at Penn State University who recently upgraded _Hermann Glauert’s 1926 aerodynamic equations_ to improve wind turbine efficiency by incorporating thrust and bending moments using the calculus of variations?"
-  - "Which device measures physiological responses such as heart rate, blood pressure, respiration, and skin conductivity to analyze how the body reacts under stress—particularly in response to specific questions—in order to assess the _likelihood of deception_?"
+  - "NASA’s James Webb Space Telescope recently detected several unexpected molecules — including one never before observed in any planetary atmosphere — in the scorching skies of a tidally locked gas giant exoplanet. This planet is approximately 1.2 times the mass of Jupiter and completes an orbit around its star every 30.5 hours. *Which exoplanet is it?*"
+  - "This amino acid, found in certain foods and produced by the human body, has been shown in animal studies to slow signs of aging and extend lifespan when taken as a supplement. However, recent research is questioning this by examining its levels in people, monkeys, and mice across different ages. *Can you name this amino acid?*"
+  - "For years, scientists believed the mysterious dark streaks running down cliffs and crater walls on Mars were caused by flowing water. However, a recent AI-powered study published in _Nature Communications_ suggests a new explanation. *What is now believed to be the more likely cause of these long, dark features that stretch for hundreds of meters down Martian slopes?*"
+  - "Fossilized bones of an extinct human ancestor were recently discovered on the seafloor of the Madura Strait in Indonesia. These remains reveal a previously unknown population that hunted large animals and may have interacted culturally with other human species nearly 140,000 years ago. *Which species was this?*"
+  - "This is one of the most iconic deep-space images ever captured, and reveals thousands of galaxies, some dating back to less than a billion years after the Big Bang. *Which space telescope took this photograph?*"
+  - "Which hospital superbug — known for causing deadly infections — was recently discovered to survive by breaking down and consuming biodegradable medical plastics such as sutures and implants?"
+  - "Jayant Vishnu Narlikar, a pioneering Indian astrophysicist, collaborated with a prominent British cosmologist to develop a theory that challenged the conventional Big Bang model. Their theory incorporated continuous matter creation, avoided a singular beginning of time, and was based on Mach’s Principle, introducing a scalar field responsible for spontaneously generating matter. *What was the name of this cosmological theory?*"
+  - "This renowned string theorist was one of the first recipients of the Breakthrough Prize in Fundamental Physics, for \"opening the path to the realization that all string theories are different limits of the same underlying theory.\" He has made advancements in calculation of black hole entropy from first principles. *What's his name?*"
+  - "The image shows a revolutionary genetic imaging technique that maps DNA and RNA distribution inside living cells with unprecedented detail. themselves, it does not use traditional optics or lenses, instead reconstructing spatial information from genetic sequences alone. *What is this technique called?*"
+  - "The surreal landscape in the image is marked by vivid green, yellow, and orange colors, caused by acidic, mineral-rich brine bubbling from hydrothermal pools. Despite their colorful appearance, some of these pools are completely devoid of life, making them among the harshest environments on Earth. *Which location is this?*"
 options:
   -
-    - Robert Milikan 
-    - Neils Bohr
-    - Henri Poincare
-    - Ernst Rutherford
+    - Kepler-186f
+    - WASP-121b
+    - TRAPPIST-1d
+    - HD 209458b
+
   -
-    - Dr. Sitanath De
-    - Dr. Bidhan Chandra Roy
-    - Dr. Dilip Mahalanabis
-    - Dr. Sambhunath De
+    - Glycine
+    - Taurine
+    - Lysine
+    - Tryptophan
+
   -
-    - DNA’s four-part base (A, T, G and C), as opposed to the binary 0 and 1-based system
-    - The twisted ladder shape of DNA which may make it easy to store data
-    - Every human cell contains about 6 feet of DNA, which can be used for memory storage.
-    - None of these
+    - Lava flows from ancient volcanoes
+    - Subsurface ice melting
+    - Movement of wind and dust 
+    - Seepage of salty brine
+
   -
-    - Plastic
-    - Teflon
-    - Nylon
-    - Ethylene
+    - Neanderthal (Homo neanderthalensis)
+    - Denisovan
+    - Homo habilis
+    - Homo erectus 
   -
-    - Eta Aquarids
-    - Perseids
-    - Draconids
-    - Lyrids
+    - James Webb Space Telescope
+    - Spitzer Space Telescope
+    - Chandra X-ray Observatory
+    - Hubble Space Telescope 
   -
-    - Solvay process
-    - Haber-Bosch process
-    - Fischer-Tropsch process
-    - Contact processn
+    - Escherichia coli
+    - Staphylococcus aureus
+    - Pseudomonas aeruginosa
+    - Clostridium difficile
+
   -
-    - Thor's Helmet
-    - Jewel Box
-    - Hoag's object
-    - Cosmic Bat Nebula 
+    - A model featuring inflation and quantum fluctuations that seeded cosmic structure
+    - A steady-state theory with continuous matter creation via a scalar creation field
+    - A universe governed only by general relativity and cold dark matter, beginning with a singularity
+    - A cyclic model involving repeated big bangs and big crunches
+
   -
-    - ISRO
-    - NPL
-    - DRDO
-    - BARC
+    - Stephen Hawking
+    - Ashoke Sen 
+    - Juan Maldacena 
+    - Edward Witten
+
   -
-    - Manoj Agarwal
-    - Divya Tyagi
-    - Manjul Bhargava
-    - Ranajoy Sarkar
+    - Cryo-electron microscopy
+    - Fluorescence in situ hybridization (FISH)
+    - DNA microscopy 
+    - Optical coherence tomography
+
   -
-    - Lie detector
-    - Brainwave monitor
-    - Stress analyzer
-    - Emotion sensor
+    - Yellowstone Caldera, USA
+    - Danakil Depression, Eritrea
+    - Mount Erebus, Antarctica
+    - Dallol, Northern Ethiopia 
+
 images:
+  - "/images/quizQ1.png"
   - ""
+  - "/images/quizQ3.jpg"
   - ""
+  - "/images/quizQ5.jpg"
   - ""
+  - "/images/quizQ7.jpeg"
   - ""
-  - "/images/lyrid.jpeg"
-  - ""
-  - "/images/NGC2395.jpg"
-  - ""
-  - ""
-  - ""
+  - "/images/quizQ9.jpg"
+  - "/images/quizQ10.jpg"
 answers:
-  - 1
+  - 2
+  - 2
   - 3
-  - 1
-  - 2
   - 4
+  - 4
+  - 3
   - 2
-  - 1
   - 2
-  - 2
-  - 1
+  - 3
+  - 4

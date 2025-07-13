@@ -3,7 +3,7 @@
 #let title = "Topology in Action: From Doughnuts to Quantum Devices"
 #let authors = ("Sukalyan Deb",)
 #let affiliations = ("Department of Physical Sciences, IISER Kolkata",)
-#let abstract = "Topology is a branch of mathematics that focuses on the global properties of systems, ignoring precise details like size or angles. This abstract idea has become a key theme in modern physics, shaping our understanding of how electrons behave in certain materials and even how quantum computers might work. In this article, I explore its origins in Euler’s _Seven Bridges of Königsberg_ problem, and trace its profound impact in condensed matter physics from the quantum Hall effect to topological insulators and quantum computation."
+#let abstract = "Topology focuses on the global properties of systems, ignoring precise details like size or angles. This article explores its origins in Euler’s _Seven Bridges of Königsberg_ problem, and trace its profound impact in condensed matter physics from the quantum Hall effect to topological insulators and quantum computation."
 #let coverImage = "sukalyan.jpg"
 #let authorImage = "sukalyan.jpg"
 #let authorInfo = "*Sukalyan Deb* is a PhD scholar in the Department of Physical Sciences in IISER Kolkata, currently working in theoretical physics, focusing on strongly correlated systems."
@@ -20,7 +20,7 @@
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
   coverCaption: "Knots are hard to untie, making them robust. The article explores how similarly robustness emerges in properties of certain quantum systems.",
-  sideImageFraction: 55%,
+  sideImageFraction: 50%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
   authorImageWidth: (40%,40%),
@@ -28,7 +28,7 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
-  // breakAfter: (4,),
+  breakAfter: (2,9),
 )
 
 // begin. This is necessary for typst-to-html conversion, do not remove this.

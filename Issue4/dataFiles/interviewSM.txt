@@ -6,7 +6,7 @@ Could you please tell us where you come from and walk us through your academic j
 
 How did you arrive at where you are today - what were the key steps or decisions along the way?
 
-SM: That’s actually a long story! Initially, I wanted to pursue engineering. But back then, I barely knew any chemistry. So, the chances of getting into an engineering program were quite low. I thought, “Maybe I’ll take a year, prepare well, and try again next time.” This was during my Class 12 days - I passed school in 1990.
+SM: That’s actually a long story! Initially, I wanted to pursue engineering. But back then, I barely knew any chemistry. So, the chances of getting into an engineering program were quite low. I thought, “Maybe I’ll take a year, prepare well, and try again next time.” This was during my Class 12 days - I passed school in 1993.
 
 At the time, we had Physics, Chemistry, and Mathematics. Chemistry was a subject, yes, but I really didn’t know much about it. I was only interested in Physics and to some extent, Mathematics.
 
@@ -15,6 +15,8 @@ SS: So you didn’t like Chemistry at all? Maybe even wished it wasn’t there?
 SM: [Laughs] Yes, exactly. I knew very little, and I wasn’t fond of it.
 
 Anyway, I planned to spend the next year preparing for entrance exams. But in the meantime, I thought of taking admission to a nearby B.Sc. college. That’s where I met two teachers who left a lasting impression on me - Kiranmoy Sen Sharma and Subir Ghosh. Their teaching was so inspiring.
+
+IMAGE: (path: "/images/SMiucaa.png", caption: "Inter-University Centre for Astronomy & Astrophysics (IUCAA) at Pune. Prof. Mitra completed his PhD from IUCAA in 2006. He returned to the institute as a scientist in 2011, and has been carrying out his research there since then. [Source: pqmlab.iucaa.in]", position: bottom, width:60%)
 
 SS: May I ask where this college is?
 
@@ -40,15 +42,13 @@ SS: Where did you do your Class 11?
 
 SM: I did my Class 11 at St. Xavier’s College, but I had known this friend from Jodhpur Boys’ School. It’s a long story [laughs]. Anyway, he was already at that college and also joined the M.Sc. program. He told me about this place called IUCAA - he suggested I attend a summer school there.
 
-I thought, “Okay, he’s quite knowledgeable, so I’ll follow his advice.” I applied and went to the summer school at IUCAA at the end of my second year of M.Sc. - and I found it to be a wonderful place!
+I thought, “Okay, he’s quite knowledgeable, so I’ll follow his advice.” I applied and went to the summer school at IUCAA at the end of my first year of M.Sc. - and I found it to be a wonderful place!
 
 That’s when I decided: I should do my Ph.D. there. Of course, I had to clear all the competitive exams and go through the usual process.
 
 SS: So even back then, you had to appear for exams like NET and GATE?
 
 SM: I gave JEST, NET  - these two exams. I also applied for TIFR and other places. But IUCAA was just too good, very comfortable.
-
-IMAGE: (path: "/images/SMiucaa.png", caption: "Inter-University Centre for Astronomy & Astrophysics (IUCAA) at Pune. Prof. Mitra completed his PhD from IUCAA in 2006. He returned to the institute as a scientist in 2011, and has been carrying out his research there since then. [Source: pqmlab.iucaa.in]", position: bottom, width:60%)
 
 SS: So, you were a student at IUCAA, and now you are a faculty member there. Correct? Over these long years, how has IUCAA developed and evolved? Also, how is an institute like IUCAA different from universities such as Calcutta, Bombay, or institutes like IISER, IITs?
 
@@ -60,13 +60,11 @@ For example, I was part of two major projects: the LIGO project and the Planck p
 
 This shift means that the era of a few “star” scientists leading everything is fading. Instead, we have groups working together, and the work is more distributed. Along with that, the number of astronomers in the country has probably increased, so that has also contributed to the change.
 
-SS: I had a conversation with Professor Nassim from NCRA. He mentioned that depending on who is the director or the main guiding person of an institute, the nature and functioning of that institute can change. But you’re saying that over the years, science itself has evolved, while IUCAA has not changed that much?
+SS: I had a conversation with Professor Nissim from NCRA. He mentioned that depending on who is the director or the main guiding person of an institute, the nature and functioning of that institute can change. But you’re saying that over the years, science itself has evolved, while IUCAA has not changed that much?
 
-SM: Right, the administration of the institute - how it operates - does change. The amount of time you get for research can vary; sometimes you get more, sometimes less. But scientists are probably the most difficult people to convince to change. Getting them to do something other than what they want to do is almost impossible. They tend not to listen to anyone. They decide what they want to do and then find a thousand excuses to keep doing the same thing. I’m pretty sure that’s true for most people.
+SM: Right, the administration of the institute - how it operates - does change. The amount of time you get for research can vary; sometimes you get more, sometimes less. But scientists are probably the most difficult people to convince to change. Getting them to do something other than what they want to do is almost impossible. 
 
-They might say, “I couldn’t do this because of someone else” or “I had to do that because of some reason,” but honestly, it’s hard to trust those reasons. People mostly ensure they do what they want, and the system allows that. There’s no strict requirement like “you must publish this paper for your contribution to count.” Scientists in Indian institutions are effectively free.
-
-Of course, there are some restrictions - administrative procedures, funding issues, and so on. Funding for instrumentation or expensive research can be affected by the director’s decisions since these need a lot of money. It might also impact computing resources. But because we use shared facilities, I haven’t seen any major change in how we do science.
+On the the other hand, directors have to optimise distribution of resources based on the goals of the institute and priorities of the researchers, which can impact research highly dependant on, say, experimental or computational facilities. But that maybe inevitable since the resources are limited.
 
 SS: So, you said funding can affect research, but it hasn’t affected you much personally. However, when I talk to other professors or researchers at IISER or elsewhere, many say funding issues have affected them a lot over the years.
 
@@ -76,9 +74,7 @@ Maybe I’m saying this because I was fortunate - LIGO India got funding, so tha
 
 For example, IUCAA is part of LIGO India. If I weren’t involved in LIGO India, I’d probably spend more time on different gravitational wave research. But since IUCAA is part of LIGO India, I spend a lot of time working on the collaboration - even if it doesn’t immediately lead to publications, it’s important collaborative work.
 
-This is a special situation. For most people, the director doesn’t affect the kind of work they do; they essentially keep doing the same research regardless.
-
-IMAGE: (path: "/images/SM1.jpg", caption: "[Source: web.iucaa.in/~sanjit/]", position: bottom, width: 55%)
+IMAGE: (path: "/images/SM1.jpg", caption: "Prof. Mitra with Prof. Anand Sengupta of IIT Gandhinagar at IUCAA during his PhD. This picture was taken by Prof. Subharthi Ray, University of KwaZulu-Natal, Durban. [Source: web.iucaa.in/~sanjit/]", position: bottom, width: 55%)
 
 SS: Okay, so for our friends from other disciplines, what does LIGO stand for? What is LIGO, and what is LIGO India? Are they the same thing?
 
@@ -88,9 +84,9 @@ There are two LIGO detectors in the US - one in Livingston, Louisiana, and the o
 
 Localization - finding exactly where the gravitational wave is coming from - is very important because it allows other telescopes to follow up and observe the event in different wavelengths, like visible light or X-rays.
 
-That’s why we need a third LIGO detector, and that one will be in India - it will be called LIGO India. Although it’s an Indian detector, many crucial components will be supplied from the US. Originally, there were supposed to be three detectors in the US, with two co-located at Hanford, but that idea was dropped because co-located detectors tend to have correlated noise, which reduces their effectiveness.
+That’s why we need a third LIGO detector, and that one will be in India - it will be called LIGO India. The detector will be built by the Government of India, while many crucial components will be supplied from the US. Originally, there were supposed to be three detectors in the US, with two co-located at Hanford, but that idea was dropped because co-located detectors tend to have correlated noise, which reduces their effectiveness.
 
-LIGO India is a major project funded by the Indian government, through the Department of Atomic Energy and the Department of Science and Technology. The project budget is around 2600 crore rupees. The Indian detector will work as part of the global network of detectors along with the two LIGOs in the US, the Virgo detector in Italy, and potentially KAGRA in Japan.
+LIGO India is a major project funded by the Indian government, through the Department of Atomic Energy and the Department of Science and Technology, with a Memorandum of Understanding (MoU) with the National Science Foundation (NSF), USA. The project budget is around 2600 crore rupees. The Indian detector will work as part of the global network of detectors along with the two LIGOs in the US, the Virgo detector in Italy, and potentially KAGRA in Japan.
 
 SS: Is KAGRA not operational right now?
 
@@ -115,10 +111,6 @@ IMAGE: (path: "/images/SMdetectors.jpg", caption: "Global Network of Gravitation
 If we can detect the signal a minute beforehand, then electromagnetic telescopes can point to the right spot in the sky in time to catch the event.
 
 For example, in a black hole–neutron star merger, the neutron star can get tidally disrupted by the black hole just before merging. If we have early warning, telescopes can capture this tidal disruption event.
-
-SS: So, I detect the gravitational wave, I analyze it, understand something’s about to happen, and then alert other telescopes to look there?
-
-SM: Exactly! They start observing before the merger happens, during the inspiral phase. This way, they can catch things like the tidal disruption right when it happens.
 
 There was an event called GW170817 in August 2017. After the merger, telescopes pointed there and observed it for months. We know what happens after the merger, but tidal effects before merging - which could tell us a lot about neutron stars - haven’t been observed clearly yet.
 
@@ -208,15 +200,9 @@ SS: And since major rivers originate there, the entire Ganga–Brahmaputra basin
 
 SM: Exactly. That region has been avoided. Instead, we focused on the Deccan Plateau, which is geologically more stable. Several sites were surveyed there, as well as in places like Rajasthan.
 
-SS: Why was Rajasthan not chosen?
-
-SM: One site in Rajasthan was seriously considered. It's anthropogenically quiet, but in Hingoli, Maharashtra, a large stretch of government land was available, which made acquisition and development easier. So, other logistical and administrative factors also came into play.
-
 SS: So it’s not just astrophysicists working on this project.
 
 SM: Exactly. Site selection isn’t based only on astrophysical considerations. For the science part, it doesn’t really matter where in India the detector is, but it has to be quiet, geologically stable, far from airports and highways, but not too remote - since scientists and engineers need to travel and work there regularly.
-
-IMAGE: (path: "/images/SMinteraction2.jpg", caption: "Prof. Sanjit Mitra responding to questions of the then Union Minister of State (I/C) Ministry of Development of North Eastern Region, MoS PMO, Personnel, Public Grievances and Pensions, Atomic Energy and Space, Dr. Jitendra Singh who visited the LIGO-India booth at the inauguration function of the Vigyan Samagam mega science exhibition in February 2020. [Source: LIGO India Facebook page]", position: bottom, width: 65%)
 
 SS: Nissim sir also mentioned that some detectors are placed in deserts, which is good for isolation, but maintaining them becomes expensive and difficult.
 
@@ -226,15 +212,15 @@ SS: But what if the area around Hingoli becomes populated in 20–25 years? Citi
 
 SM: That’s a real concern. It happened with observatories like IUCAA’s Girawali, where the sky used to be dark, but after 20 years, there's now significant light pollution. GMRT also faced issues from mobile towers. For LIGO-India, we’ve taken some protective measures - there are agreements in place to prevent heavy industrial activity nearby, at least for the near future. We’ll try our best to preserve the environment around the site as long as possible.
 
-Ultimately, a gravitational wave detector requires a lot of people, I mean, you can do it in a different country, but will the country be able to sustain the maintenance of this detector, you need technically our people and you need, like, 100, 200 people for the detector. It is not trivial to generate such a large volume of manpower for a small country, India has that advantage. 
-
 SS: How do detectors work?
+
+IMAGE: (path: "/images/SMinteraction2.jpg", caption: "Prof. Sanjit Mitra responding to questions of the then Union Minister of State (I/C) Ministry of Development of North Eastern Region, MoS PMO, Personnel, Public Grievances and Pensions, Atomic Energy and Space, Dr. Jitendra Singh who visited the LIGO-India booth at the inauguration function of the Vigyan Samagam mega science exhibition in February 2020. [Source: LIGO India Facebook page]", position: bottom, width: 65%)
 
 SM: The LIGO detectors are essentially very sophisticated Michelson interferometers. Each has two perpendicular arms with mirrors at the ends and a beam splitter at the intersection. A laser beam is split into the two arms, reflects off the mirrors, and recombines to detect interference caused by passing gravitational waves.
 
 Now, in basic labs, you may have worked with small Michelson interferometers. For LIGO, we need to detect gravitational waves with wavelengths on the order of 1,000 km, but obviously, we can’t build arms that long. The actual arms are 4 km each, but we increase the effective path length using Fabry-Pérot cavities - by placing additional mirrors near the beam splitter, the laser light bounces back and forth roughly 300 times. This increases the effective arm length to about 1,000 km.
 
-However, with so many bounces, shot noise becomes a major issue. It's like trying to take a clear photo in the dark - you need more light. To combat this, LIGO uses a continuous-wave laser, currently at 70 watts, scalable up to 125 watts. This is among the most powerful continuous-wave lasers ever built. Note that while higher-powered pulsed lasers exist, continuous-wave lasers of this strength are rare and essential for LIGO's precision.
+However, even with so many bounces, leading to orders of magnitude increase in laser power, shot noise becomes a major issue. It's like trying to take a clear photo in the dark - you need more light. To combat this, LIGO uses a continuous-wave laser, currently at 70 watts, scalable up to 125 watts. This is among the most powerful continuous-wave lasers ever built. Note that while higher-powered pulsed lasers exist, continuous-wave lasers of this strength are rare and essential for LIGO's precision.
 
 SS: How can students like me - or future students - contribute to the LIGO project? And how can we benefit academically from being involved in such a large-scale experiment?
 
@@ -270,8 +256,6 @@ SM: One issue is the shift from older systems. When I was a student, we had annu
 
 SS: But isn’t that risky - like a one-day match? What if someone just has a bad day?
 
-IMAGE: (path: "/images/SMconsortium.png", caption: "Prof. Mitra at The Future of Gravitational-Wave Astronomy, a discussion meeting at International Centre for Theoretical Sciences [Source: LIGO India facebook page]", position: top, width: 33.3%)
-
 SM: True, but the deeper question is - why are we evaluating, and what are we evaluating? Evaluation should help growth, not dominate the learning process. 
 
 Today’s system robs students of time for creative exploration. When I was a student, I could spend time reading from different books, trying things my way. That’s missing now.
@@ -282,7 +266,7 @@ SM: Yes, definitely. It wasn’t perfect - it had loopholes. But instead of impr
 
 SS: So can’t we just establish certain standard books - those that are locally or globally accepted? For optics, many trust Ajay Ghatak’s book.
 
-SM: Sure, but if everyone blindly trusted one book, there would never be new ones. Ajay Ghatak’s book itself wouldn’t exist if he hadn’t questioned or built upon earlier work. But even Ghatak must have learned from older texts. If he had just trusted those, we wouldn’t have his book today. That’s the issue - we often say “this is the book to follow” simply because it’s convenient. But true learning comes from comparing, questioning, and exploring beyond just one source. There may be a better book which you would be able to write and this is how things will progress because we are showing extreme faith in everything we have right now. 
+SM: Sure, but if everyone blindly trusted one book, there would never be new ones. Even Ghatak must have learned from older texts. If he had just trusted those, we wouldn’t have his book today. That’s the issue - we often say “this is the book to follow” simply because it’s convenient. But true learning comes from comparing, questioning, and exploring beyond just one source. There may be a better book which you would be able to write and this is how things will progress because we are showing extreme faith in everything we have right now. 
 
 SS: If you had the power to reform the Indian education system, what changes would you make?
 
@@ -294,7 +278,6 @@ A good teacher creates independent learners. The best students are those who can
 
 SS: So, tell me, what is more important ? A good teacher or a good student ? Getting analogy from the Mahabharata, who is more important - Dronacharya or Arjun?
 
-IMAGE: (path: "/images/caltech.jpg", caption: "Left to Right: Tarun Souradeep (LIGO-India Project Coordinator, IUCAA); Umakant Rapol (IISER, Pune); Rana Adhikari (LIGO Scientific Collaboration, Caltech), and Sanjit Mitra (LIGO-India, IUCAA) having relaxed dinner-time discussions about LIGO-India experimental program at Centre for Gravitational Physics and Astronomy, Pune. [Source: LIGO-India]", position: bottom, width: 60%)
 
 SM: It’s about resonance. Arjun had potential, but a different teacher might not have brought it out. Good students don’t appear on their own. Good teachers help shape them - but the goal is still to make the student shine, not just obey.
 
@@ -310,49 +293,44 @@ SS: Do you believe in the “brain drain” theory?
 
 SM: Not really. If someone wants to go abroad, let them. Sometimes, it makes sense to go where the best research is happening. But I often feel people go with the assumption that foreign research is automatically better. If they stay back, they may feel they’re missing out - and that lack of commitment can impact their work. You achieve the best results when you’re fully invested in what you're doing.
 
+IMAGE: (path: "/images/caltech.jpg", caption: "Left to Right: Tarun Souradeep (LIGO-India Project Coordinator, IUCAA); Umakant Rapol (IISER, Pune); Rana Adhikari (LIGO Scientific Collaboration, Caltech), and Sanjit Mitra (LIGO-India, IUCAA) having relaxed dinner-time discussions about LIGO-India experimental program at Centre for Gravitational Physics and Astronomy, Pune. [Source: LIGO-India]", position: bottom, width: 60%)
 
 SS: Suppose your current resources were reduced due to policy changes or external factors. Would you still be able to achieve your research goals?
 
 SM: It would certainly affect the outcomes. Reduced resources mean reduced capacity. Some impact is inevitable.
 
-SS: Yes, it’s already affecting things.
+SS: But when another country calls you, and you’re offered an opportunity - maybe not significantly better, but comparable - you tend to go. Let’s not talk about big names like the US, UK, or Russia. Even a smaller country can sometimes provide the support you need. Especially if you’re working on experiments or need high computing power, and those resources aren’t available here - then yes, it makes sense to go. And that’s where the idea of brain drain becomes relevant. You wanted to stay, you contributed here, like to LIGO-India, but when resources start drying up, naturally you start looking elsewhere. Say you’re contributing to LIGO-India, and a month from now, your resources are slowly getting cut off - yet you still get some support. But suppose another country - say, the Philippines - offers you better support. Even if it’s not a “lucrative” destination by general standards, you might consider moving.
 
-SM: But when another country calls you, and you’re offered an opportunity - maybe not significantly better, but comparable - you tend to go. Let’s not talk about big names like the US, UK, or Russia. Even a smaller country can sometimes provide the support you need.
 
-Especially if you’re working on experiments or need high computing power, and those resources aren’t available here - then yes, it makes sense to go. And that’s where the idea of brain drain becomes relevant. You wanted to stay, you contributed here, like to LIGO-India, but when resources start drying up, naturally you start looking elsewhere.
+SM: To be honest, it’s hard for me to answer this objectively. I’m part of LIGO-India, and that’s been a fantastic move by the government. Had India missed this opportunity and the third detector gone to another country, it would’ve been a disaster for us. People like me might still have chosen to stay in India, because I’m comfortable here and I like it. But I would’ve been disappointed. Some people love science more than the country, convenience, or community. That’s not a bad thing - science progresses because of people like that. They go where the science takes them, and maybe that’s how it should be. If I’m not doing that, maybe I’m the one in the wrong.
 
-Say you’re contributing to LIGO-India, and a month from now, your resources are slowly getting cut off - yet you still get some support. But suppose another country - say, the Philippines - offers you better support. Even if it's not a “lucrative” destination by general standards, you might consider moving.
+IMAGE: (path: "/images/SMconsortium.png", caption: "Prof. Mitra at The Future of Gravitational-Wave Astronomy, a discussion meeting at International Centre for Theoretical Sciences [Source: LIGO India facebook page]", position: top, width: 33.3%)
 
-To be honest, it’s hard for me to answer this objectively. I’m part of LIGO-India, and that’s been a fantastic move by the government. Had India missed this opportunity and the third detector gone to another country, it would’ve been a disaster for us. People like me might still have chosen to stay in India, because I’m comfortable here and I like it. But I would’ve been disappointed.
+For example, if you’re doing gravitational wave research in India - especially theory, data analysis, or detector characterization - I don’t think you’ll find a significantly better environment anywhere else. Sure, there are experts across the world, but in India, we have a unique structure. 
 
-Some people love science more than the country, convenience, or community. That’s not a bad thing - science progresses because of people like that. They go where the science takes them, and maybe that’s how it should be. If I’m not doing that, maybe I’m the one in the wrong.
+IMAGE: (path: "/images/SM2.jpg", caption: "Prof. Mitra with Dr. Atul Deep, who works at ESA, during his PhD days at IUCAA. [Source: web.iucaa.in/\~sanjit/]", position: bottom, width: 60%)
 
-Here’s a dilemma I often face: at my age and stage, people still ask me, “Do you have plans to move out?” If I say yes, they say, “Great! You should go - there’s nothing left here.” So no matter what I answer, the question remains.
+COLBREAK
+The LIGO-India Scientific Collaboration (LISC) is one of the largest in the world right now. We meet weekly online. Any problem you have - someone will solve it. The group has more than 100 people, with very diverse backgrounds. You’d be hard-pressed to find such a diverse, supportive, and active group elsewhere. And we have full academic freedom. There’s no pressure to work on a fixed problem. Funding is secured for five years. Where else do you get that kind of flexibility? 
 
-For example, if you're doing gravitational wave research in India - especially theory, data analysis, or detector characterization - I don’t think you’ll find a significantly better environment anywhere else. Sure, there are experts across the world, but in India, we have a unique structure. The LIGO-India Scientific Collaboration (LISC) is one of the largest in the world right now. We meet weekly online. Any problem you have - someone will solve it. The group has more than 100 people, with very diverse backgrounds.
+Of course, government policies - whether from the present or previous administrations - do affect scholarships and funding. These cuts have real consequences. Every year, we see basic statistics showing our research output is declining. It’s not that every country is doing better, but we certainly shouldn’t be slipping. China, for example, is pouring enormous funds into research - there’s no comparison. They’ll do very well. But in gravitational waves, India still has enormous expertise. This is a great place to be - at least for now. Funding cuts will definitely impact instrumentation. Fortunately, LIGO- India is already funded, so we’re not seeing that impact directly yet. But if future instruments aren’t funded properly, it will hurt.
 
-You’d be hard-pressed to find such a diverse, supportive, and active group elsewhere. And we have full academic freedom. There’s no pressure to work on a fixed problem. Funding is secured for five years. Where else do you get that kind of flexibility?
-
-Of course, government policies - whether from the present or previous administrations - do affect scholarships and funding. These cuts have real consequences. Every year, we see basic statistics showing our research output is declining. It’s not that every country is doing better, but we certainly shouldn’t be slipping.
-
-China, for example, is pouring enormous funds into research - there’s no comparison. They’ll do very well. But in gravitational waves, India still has enormous expertise. This is a great place to be - at least for now.
-
-Funding cuts will definitely impact instrumentation. Fortunately, LIGO-India is already funded, so we're not seeing that impact directly yet. But if future instruments aren’t funded properly, it will hurt.
-
-SS: Finally, any advice to my friends?
-
-SM: You know, like you asked earlier about how I came into gravitational waves - it was never a straight path. I was determined to do something, and then something else came along that I liked more, and I took that instead. I thought, “Oh, this seems better.”
-
-IMAGE: (path: "/images/SM2.jpg", caption: "[Source: web.iucaa.in/\~sanjit/]", position: bottom, width: 55%)
+COLBREAK
 
 SS: Do you regret not following the other path?
 
-SM: No. What scares me is what would have happened if I had succeeded in those earlier exams. I would’ve likely taken a completely different route. Maybe that would’ve been the wrong one.
+SM: No. What scares me is what would have happened if I had succeeded in those earlier exams. I would’ve likely taken a completely different route. Maybe that would’ve been the wrong
+one.
 
 SS: Or maybe not. Maybe you’d have loved that path too?
 
-SM: Maybe. It could be that my personality is such that I’d have liked whatever I ended up doing. But I still feel I’m in an optimally placed position now. Whatever happened, happened for the best.
+SM: Maybe. It could be that my personality is such that I’d have liked whatever I ended up doing. But I still feel I’m in an optimally placed position now. Whatever happened, happened for the best. Then again, if something else had happened, maybe I’d be saying the same thing about that path too. We’ll never know.
 
-Then again, if something else had happened, maybe I’d be saying the same thing about that path too. We’ll never know.
+SS: Finally, any advice to my friends?
+
+SM: You know, like you asked earlier about how I came into gravitational waves - it was never a straight path. I was determined to do something, and then something else came along that I
+liked more, and I took that instead. I thought, “Oh, this seems better.” And this is my advice. Just do what you like. 
 
 SS: Thank you, sir.
+
+
