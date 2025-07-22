@@ -108,7 +108,7 @@
         columns: ((200% - 2 * sideImageFraction) * 1fr, 2 * sideImageFraction * 1fr),
         gutter: 2em,
         par(justify: true, first-line-indent: 0pt)[
-          #eval(mode: "markup", abstract)
+          #abstract
         ] + emph(text(fill: white, attribution))
 ,
         image(sideImage)
@@ -153,7 +153,7 @@
   ) = {
   // set text(size: 1.1em, font: heading-font)
   // set par(leading: 0.15em)
-  if portrait == true or width < 33.3% {
+  if portrait == true or width <= 33.3% {
   place(
     position,
     scope: "column",

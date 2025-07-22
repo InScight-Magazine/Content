@@ -8,7 +8,7 @@
 #let authorImage = "manoharFace.png"
 #let authorInfo = "*Dr. Manohar Lal* did his Master's degree in Physics from Gorakhpur University. He did his Ph.D. from Gujarat University (PRL), Ahmedabad. He did CSIR Research Associateship from NPL, New Delhi. He joined IIG Mumbai in 1996 as a Fellow and got superannuation in April 2025 from IIG as an Associate Professor."
 #let received = (month: 05, day: 17, year: 2025)
-#let category = "Environmental Science"
+#let category = "Earth Science"
 #let reviewedBy = ("Sharanya Chatterjee", "Aranya Mukherjee") 
 
 #show: section.with(
