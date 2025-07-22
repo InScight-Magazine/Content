@@ -3,44 +3,33 @@
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  title: "A Word from the Editor", 
-  intro: [_To those who still marvel at stars, cells, and stories—we turn these pages with you_...],
+  title: "A Word From The Editor", 
   permalinkSuffix: "editor",
+  numCols: 2,
 )
 
-#place(
-  top + left,
-  float: true,
-  scope: "parent",
-  [
-    #grid(
-      columns: (1.2fr, 1.2fr),
-      align: left + top,
-      gutter: 5em,
-      [#dcap("As we bring you the *third* issue of InScight, we’re excited to continue this journey of exploring science in all its depth and variety. Every issue is driven by a *shared curiosity* and the joy of learning—things we believe science is truly about.")
+Hello Friends! Welcome to the fourth issue of InSight. As we celebrate the turning of another issue, I take this opportunity to thank you all who have stood with us, and helped us to continue this journey of InScight Magazine - The IISER Kolkata Science Magazine. Filled with vibrant stories and voices of our alumni, Professors, and guest scientists, this month, we have tried to add colour to the magazine and take the readers on a journey through the history of IISER Kolkata and also to newer domains of Science today.
 
-This edition brings together stories, reflections, and discoveries that we hope will spark your interest and imagination. Inside, you’ll find a wide range of topics: from the clever ways *temple langurs* adapt their behaviour, to the stunning natural nanostructures found on *dragonfly wings*. There's a deeply personal piece on the path from being a BS-MS student to becoming an *independent scientist*, and thoughtful interviews with researchers like Dr. Chandra Shekhar Sharma and Prof. Mustansir Barma, who generously share their *insights and journeys*. We also explore advances in understanding rare diseases, efforts to protect *marine ecosystems*, and bring you a themed crossword and word-linking game for a bit of fun.
+As Prof. Ayan Banerjee has rightly mentioned, in his words, Science is a method and an attitude, and Prof. Tapas Kumar Sengupta, in his foreword to this issue of InScight Science, is the celebration of unravelling the mysteries of our evolving universe - it is our duty as scientists, who are funded by the tax paid by the commoners, to come out of the labs and take our research to the mass. InScight envisions bridging the gap between distance between the scientists and the masses in the upcoming days.
 
-What makes InScight special is the *spirit of collaboration* that goes into it—students, alumni, faculty, and enthusiasts all contributing in their own ways. If you’ve enjoyed reading this
-    ],
-      image("/covers/digest.jpeg", height: 25%, width: 100%, fit: "cover") + text(fill: header-dark-color, weight: "black", [Competition for limited nesting sites during relocation imposes significant fitness costs on Diacamma indicum colonies. See Insight Digest submission by #pageLink(<digest-Tanusree>,underline[Tanusree]).]),
-    )
+In this issue, we have featured our alumni from the Department of Physical Sciences - Dr. Rajarshi Bhattacharyya, who is currently working in Germany as a Cryogenic Systems Engineer at attocubes systems AG. We believe that his journey from a BSMS student at IISER to PhD scholar in Israel and finally now as a professional engineer in Germany would show you all a newer perspective of the higher education and job market after BSMS. 
 
-    #v(2em)
-    #grid(
-      columns: (1.2fr, 1.2fr),
-      align: left + top,
-      gutter: 5em,
-     image("/covers/MB2Cropped.jpeg", height: 25%, width: 100%, fit: "cover") + text(fill: header-dark-color, weight: "black", [\"Question everything. How do you even know if a question is right or wrong until you define it and explore the answer?\" - Prof. Mustansir Barma in his #pageLink(<Swarnendu-Barma>, underline[interview]).]),
-      [issue and appreciate the effort behind it, we would be thrilled to *have you join us*. We warmly welcome contributions in the form of articles, art, opinions, or ideas for future pieces.
+In the other two interviews, we have featured Prof. Sushanta Dattagupta - the founder director of IISER Kolkata, and Dr. Sanjit Mitra of IUCAA - a leading scientist of the LIGO-India project, and we hope the interview with them shall help you all in your journey forward.
 
-Looking ahead, we dream of growing this platform—not just online, but possibly as a beautiful print edition that you could flip through with a cup of coffee in hand. If you’ve enjoyed our work and believe in what we’re building, any kind of support or encouragement — whether through kind words, *contribution of content*, or helping us reach that future - is something we’ll always be grateful for.
+We have started a new section in the magazine, where we advertise academic internships, PhD positions, and Post-Doctoral applications, gathered by scraping the internet and email conversations. We believe that this section will help the students plan accordingly and in advance for their upcoming academic and scientific journey. Of course, we by ourselves cannot gather all the news that can be gathered, so we request all our readers to bring such information to our notice, so that we can better distributed the information.
 
-Thank you for reading, for your time, and for being part of this little community of science lovers. We hope you enjoy this issue as much as we enjoyed creating it. And as always, we’d love to hear what you think.
+We are planning on adding a new section to the magazine - write about your PhD thesis! The point is to discuss the story of your PhD thesis; the questions, the results and the philosophy of your approach, written so that students across the disciplines can understand and have a feel for it. We aim to tighten the research community of IISER Kolkata across disciplines, and who knows - you may find a newer possibility and a collaboration for your project too!
+
+We are always looking for your contributions and feedback. Thank you for journeying with us. On behalf of the entire team, happy reading—and here’s to building bridges, one insight at a time.
 
 With warmth,
-#sign([Suman Halder,\ Editor,\ InScight]),
-],
-)
-]
-)
+#sign([Swarnendu Saha,\ Editor-in-chief,\ InScight])
+
+#colbreak()
+
+#image("/covers/sukalyan.jpg")
+#text(size:1.1em, [Knots are hard to untie, making them robust. #pageLink(<Sukalyan-Devices>, [Sukalyan Deb's article]) explores how similar robustness emerges in properties of certain quantum systems.])
+#v(1fr)
+#image("/covers/comicCover.jpg")
+#text(size:1.1em, [Dicover how a simple question - why does the sea look blue - led to one of the most groundbreaking discoveries in physics. #pageLink(<Shreya-Effect>, [This engaging science comic]) traces C.V.Raman's journey to uncover the phenomenon that now bears his name.])
+#v(1fr)

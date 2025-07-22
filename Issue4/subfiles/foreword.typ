@@ -24,7 +24,7 @@
   grid(
     columns: (1.8fr, 1.2fr),
     gutter: 2em,
-    figure(image("/covers/SMzeroshadowday.jpg"), caption: [Prof. Mitra explains the phenomenon of zero shadow day to the introductory summer school students at the Inter-University Centre for Astronomy & Astrophysics (IUCAA). Read #pageLink(<Swarnendu-Mitra>, [his interview]).], supplement: "", numbering: none),
+    figure(image("/covers/SMzeroshadowday.jpg"), caption: [Prof. Mitra explains the phenomenon of zero shadow day to the introductory summer school students at the Inter-University Centre for Astronomy & Astrophysics (IUCAA). Read #pageLink(<Swarnendu-India>, [his interview]).], supplement: "", numbering: none),
     align(left, [For that, besides the traditional scientific studies and standard scientific research, out of the box thinking is required for seeding and cultivating young minds for innovations. Let _InScight_ be the platform for the Insight of our future to seed, cultivate and nurture the open minds and unbound thoughts of the young scientists.
 
   After the first release of _InScight_ in the month of January in 2025, this journey is going on with a clear motivation and with fullest energy and enthusiasm to publish the fourth issue. My sincere thanks to the InScight team for having such an endeavour.  Keep going, keep doing and thinking about science. Very best wishes to the team InScight.])

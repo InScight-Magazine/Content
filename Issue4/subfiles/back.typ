@@ -1,5 +1,4 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
 #set page(
     header: none,
     footer: none,
@@ -7,6 +6,6 @@
   )
 
 #backCover(
-  images: ("/images/back2.jpg", "/images/back1.jpg", "/images/back3.jpg"),
-  captions: ([*Courage, love, and destiny*. Sandra (Gandhari) and Sattwik (Krishna) from the IISER K drama club enacting Andh dhwand - a drama set against the backdrop of the timeless story of Mahabharata, at the Spring Fest at IIT KGP. _Credit: IISER K Drama Club_], [*Graceful melodies.* Eastern classical music performance at IICM 2024, in the institute auditorium. _Credit: Swarnendu_], [*Eyeing the honour*. A contestant from the IISER Kolkata contingent at the Fashion Designing event at IICM 2024 held at IISER Kolkata. _Credit: Swarnendu_])
+  images: ("/images/back1.jpeg", "/images/back2.jpg", "/images/back3.JPG"),
+  captions: ([_Tradition and Modernity_: A Dazzling Fusion of Culture and Creativity - IISER Kolkata's Fashion Show Celebrates Bold Expression and Timeless Aesthetics], [On the occasion the _20th Institute Foundation Day_ and the Open House event with science exhibition organized was attended by more than 1000 students from neighbouring  schools with  lots of excitement. _Credit: IISER Kolkata_], [_The Prisoner of Conscience_ - A still from the IICM 2024 stage act. _Credit: Swarnendu_])
 )

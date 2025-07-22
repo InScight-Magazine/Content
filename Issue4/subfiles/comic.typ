@@ -7,6 +7,7 @@
   authorAffiliations: ("IISER Kolkata",),
   abstract: [Dicover how a simple question - why does the sea look blue - led to one of the most groundbreaking discoveries in physics. This engaging *science comic* traces C.V.Raman's journey to uncover the phenomenon that now bears his name.],
   sideImageFraction: 40%,
+  locator: "Shreya-Effect"
 )
 
 #pagebreak()

@@ -78,6 +78,7 @@ IMAGE: (path: "/images/SM1.jpg", caption: "Prof. Mitra with Prof. Anand Sengupta
 
 SS: Okay, so for our friends from other disciplines, what does LIGO stand for? What is LIGO, and what is LIGO India? Are they the same thing?
 
+IMAGE: (path: "/images/SMdetectors.jpg", caption: "Global Network of Gravitational Wave Detectors: Clockwise from top left - LIGO Hanford (USA), KAGRA (Japan), LIGO Livingston (USA), and Virgo (Italy). Together, these state-of-the-art observatories listen to the ripples in spacetime caused by cataclysmic cosmic events. LIGO-India (Laser Interferometer Gravitational-Wave Observatory) is a planned advanced gravitational-wave observatory to be located in India as part of the worldwide network. *Sanjit Mitra* is a LIGO-India Project Coordinator. [Source: ligo.caltech.edu]", position: bottom, width: 60%)
 SM: LIGO stands for Laser Interferometer Gravitational-Wave Observatory. It’s a highly sensitive detector designed to detect gravitational waves directly. Currently, it’s the most sensitive instrument of its kind in the world.
 
 There are two LIGO detectors in the US - one in Livingston, Louisiana, and the other in Hanford, Washington. These two detectors are placed far apart, almost diagonally across the country, to maximize the distance between them. While they can detect gravitational wave events, having only two detectors makes it difficult to accurately pinpoint the exact location of the source in the sky.
@@ -106,7 +107,6 @@ SS: So, the more the two objects come together, they emit gravitational waves at
 
 SM: Yes, exactly. The frequency goes up as they spiral closer, and they emit gravitational waves more rapidly. It’s like a nonlinear collapse process. Even before the two objects actually merge or touch, if the detectors are sensitive enough, we can detect them early and predict that something is going to happen within seconds or maybe a few minutes - at least about a minute before.
 
-IMAGE: (path: "/images/SMdetectors.jpg", caption: "Global Network of Gravitational Wave Detectors: Clockwise from top left - LIGO Hanford (USA), KAGRA (Japan), LIGO Livingston (USA), and Virgo (Italy). Together, these state-of-the-art observatories listen to the ripples in spacetime caused by cataclysmic cosmic events. LIGO-India (Laser Interferometer Gravitational-Wave Observatory) is a planned advanced gravitational-wave observatory to be located in India as part of the worldwide network. *Sanjit Mitra* is a LIGO-India Project Coordinator. [Source: ligo.caltech.edu]", position: bottom, width: 60%)
 
 If we can detect the signal a minute beforehand, then electromagnetic telescopes can point to the right spot in the sky in time to catch the event.
 
@@ -136,6 +136,7 @@ When you combine this timing information from multiple pairs of detectors, a met
 
 SS: So LIGO is already doing this. Then what’s the role of VIRGO and KAGRA?
 
+IMAGE: (path: "/images/ligo.jpeg", caption: "This diagram shows how scientists detect gravitational waves-tiny ripples in the fabric of spacetime - using a tool called a laser interferometer, like LIGO or Virgo. A powerful laser (a) sends a beam of light to a beam splitter (b), which divides it into two identical beams that travel down two long arms - each 4 kilometers in length (paths b→c and b→d). These beams reflect off mirrors (c and d) and return to the beam splitter, where they recombine. Under normal conditions, the two light waves are perfectly synchronized and cancel each other out (e), meaning no light reaches the detector. But if a gravitational wave - like one from two black holes merging - passes through (top of image), it subtly stretches one arm and squeezes the other (d). This tiny shift (smaller than a proton!) disrupts the perfect balance of the light waves. Now, they no longer cancel completely and some light reaches the detector (f), signaling that a gravitational wave has passed. [Illustration: ©Johan Jarnestad/The Royal Swedish Academy of Sciences]", position: bottom, width: 62%)
 SM: Good question. The key point is: for triangulation to work well, you need at least three detectors taking good data at the same time.
 
 However, gravitational wave detectors like LIGO, VIRGO, or KAGRA are not always collecting usable data. Even when operational, they give useful data only about 70–80% of the time. Let’s take 70% for calculation.
@@ -188,7 +189,6 @@ SM: Right. Geologically, you want low ambient seismic noise - not near the sea, 
 
 SS: So not in the Himalayas either - they’re geologically active.
 
-IMAGE: (path: "/images/ligo.jpeg", caption: "This diagram shows how scientists detect gravitational waves-tiny ripples in the fabric of spacetime - using a tool called a laser interferometer, like LIGO or Virgo. A powerful laser (a) sends a beam of light to a beam splitter (b), which divides it into two identical beams that travel down two long arms - each 4 kilometers in length (paths b→c and b→d). These beams reflect off mirrors (c and d) and return to the beam splitter, where they recombine. Under normal conditions, the two light waves are perfectly synchronized and cancel each other out (e), meaning no light reaches the detector. But if a gravitational wave - like one from two black holes merging - passes through (top of image), it subtly stretches one arm and squeezes the other (d). This tiny shift (smaller than a proton!) disrupts the perfect balance of the light waves. Now, they no longer cancel completely and some light reaches the detector (f), signaling that a gravitational wave has passed. [Illustration: ©Johan Jarnestad/The Royal Swedish Academy of Sciences]", position: bottom, width: 62%)
 
 SM: Yes, the Himalayas are too seismically active. While occasional earthquakes are manageable (the detector can be reset), in regions with frequent or strong earthquakes, there's a real risk of permanent damage. So those sites are avoided.
 
@@ -254,6 +254,7 @@ SS: So where do you think we’ve gone wrong?
 
 SM: One issue is the shift from older systems. When I was a student, we had annual exams. We had the whole year to learn in our own way, and only one exam at the end. Sure, some students didn’t study and struggled, but even forcing them to study all year wouldn’t have made much difference if the drive wasn’t there.
 
+IMAGE: (path: "/images/caltech.jpg", caption: "Left to Right: Tarun Souradeep (LIGO-India Project Coordinator, IUCAA); Umakant Rapol (IISER, Pune); Rana Adhikari (LIGO Scientific Collaboration, Caltech), and Sanjit Mitra (LIGO-India, IUCAA) having relaxed dinner-time discussions about LIGO-India experimental program at Centre for Gravitational Physics and Astronomy, Pune. [Source: LIGO-India]", position: bottom, width: 60%)
 SS: But isn’t that risky - like a one-day match? What if someone just has a bad day?
 
 SM: True, but the deeper question is - why are we evaluating, and what are we evaluating? Evaluation should help growth, not dominate the learning process. 
@@ -278,6 +279,8 @@ A good teacher creates independent learners. The best students are those who can
 
 SS: So, tell me, what is more important ? A good teacher or a good student ? Getting analogy from the Mahabharata, who is more important - Dronacharya or Arjun?
 
+IMAGE: (path: "/images/SM2.jpg", caption: "Prof. Mitra with Dr. Atul Deep, who works at ESA, during his PhD days at IUCAA. [Source: web.iucaa.in/\~sanjit/]", position: bottom, width: 60%)
+
 
 SM: It’s about resonance. Arjun had potential, but a different teacher might not have brought it out. Good students don’t appear on their own. Good teachers help shape them - but the goal is still to make the student shine, not just obey.
 
@@ -293,7 +296,6 @@ SS: Do you believe in the “brain drain” theory?
 
 SM: Not really. If someone wants to go abroad, let them. Sometimes, it makes sense to go where the best research is happening. But I often feel people go with the assumption that foreign research is automatically better. If they stay back, they may feel they’re missing out - and that lack of commitment can impact their work. You achieve the best results when you’re fully invested in what you're doing.
 
-IMAGE: (path: "/images/caltech.jpg", caption: "Left to Right: Tarun Souradeep (LIGO-India Project Coordinator, IUCAA); Umakant Rapol (IISER, Pune); Rana Adhikari (LIGO Scientific Collaboration, Caltech), and Sanjit Mitra (LIGO-India, IUCAA) having relaxed dinner-time discussions about LIGO-India experimental program at Centre for Gravitational Physics and Astronomy, Pune. [Source: LIGO-India]", position: bottom, width: 60%)
 
 SS: Suppose your current resources were reduced due to policy changes or external factors. Would you still be able to achieve your research goals?
 
@@ -308,19 +310,13 @@ IMAGE: (path: "/images/SMconsortium.png", caption: "Prof. Mitra at The Future of
 
 For example, if you’re doing gravitational wave research in India - especially theory, data analysis, or detector characterization - I don’t think you’ll find a significantly better environment anywhere else. Sure, there are experts across the world, but in India, we have a unique structure. 
 
-IMAGE: (path: "/images/SM2.jpg", caption: "Prof. Mitra with Dr. Atul Deep, who works at ESA, during his PhD days at IUCAA. [Source: web.iucaa.in/\~sanjit/]", position: bottom, width: 60%)
-
-COLBREAK
 The LIGO-India Scientific Collaboration (LISC) is one of the largest in the world right now. We meet weekly online. Any problem you have - someone will solve it. The group has more than 100 people, with very diverse backgrounds. You’d be hard-pressed to find such a diverse, supportive, and active group elsewhere. And we have full academic freedom. There’s no pressure to work on a fixed problem. Funding is secured for five years. Where else do you get that kind of flexibility? 
 
 Of course, government policies - whether from the present or previous administrations - do affect scholarships and funding. These cuts have real consequences. Every year, we see basic statistics showing our research output is declining. It’s not that every country is doing better, but we certainly shouldn’t be slipping. China, for example, is pouring enormous funds into research - there’s no comparison. They’ll do very well. But in gravitational waves, India still has enormous expertise. This is a great place to be - at least for now. Funding cuts will definitely impact instrumentation. Fortunately, LIGO- India is already funded, so we’re not seeing that impact directly yet. But if future instruments aren’t funded properly, it will hurt.
-
 COLBREAK
-
 SS: Do you regret not following the other path?
 
-SM: No. What scares me is what would have happened if I had succeeded in those earlier exams. I would’ve likely taken a completely different route. Maybe that would’ve been the wrong
-one.
+SM: No. What scares me is what would have happened if I had succeeded in those earlier exams. I would’ve likely taken a completely different route. Maybe that would’ve been the wrong one.
 
 SS: Or maybe not. Maybe you’d have loved that path too?
 
@@ -332,5 +328,3 @@ SM: You know, like you asked earlier about how I came into gravitational waves -
 liked more, and I took that instead. I thought, “Oh, this seems better.” And this is my advice. Just do what you like. 
 
 SS: Thank you, sir.
-
-

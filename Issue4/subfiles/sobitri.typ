@@ -28,7 +28,7 @@
   reviewedBy: reviewedBy,
   received: received,
   // coverCaption: coverCaption,
-  breakAfter: (32, 39),
+  // breakAfter: (32, 39),
 )
 
 // begin. This is necessary for typst-to-html conversion, do not remove this.

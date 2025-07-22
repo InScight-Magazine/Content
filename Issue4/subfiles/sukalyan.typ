@@ -19,7 +19,7 @@
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
-  coverCaption: "Knots are hard to untie, making them robust. The article explores how similarly robustness emerges in properties of certain quantum systems.",
+  coverCaption: "Knots are hard to untie, making them robust. The article explores how similar robustness emerges in properties of certain quantum systems.",
   sideImageFraction: 50%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
@@ -28,7 +28,7 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
-  breakAfter: (2,9),
+  breakAfter: (7,),
 )
 
 // begin. This is necessary for typst-to-html conversion, do not remove this.
@@ -41,7 +41,7 @@ Topology studies the properties of spaces preserved under *continuous deformatio
 
 This is the key difference between topology and geometry. Geometry is concerned with precise measurements: angles, lengths, and areas. Two geometric shapes are considered different if those measurements differ. In contrast, topology focuses on the more abstract, structural aspects of a shape - *how it's connected*, how many holes it has, whether it’s bounded or unbounded. In a topological sense, a coffee mug and a doughnut (torus) are the same because *each has one hole*; their detailed shapes and sizes are irrelevant (Fig 1).
 
-#img(path: "/images/doughnut.svg", caption: "*Left*: A cup (with a handle) is topologically the same as a doughnut but topologically inequivalent to a bowl. This is because while a coffee cup and a doughnut both have the same number of holes (1), a bowl has no holes. *Right*: Shows pictorially why the cup is equivalent to a doughnut. Starting from the cup, one can gradually make continuous deformations (changes that do not introduce or remove holes into the system) and eventually form a doughnut. Because one can be transformed into the other through continuous deformations, we say that the objects are topologically equivalent.", position: bottom, width: 90%)
+#img(path: "/images/doughnut.svg", caption: "_Left_: A cup (with a handle) is topologically the same as a doughnut but topologically inequivalent to a bowl. This is because while a coffee cup and a doughnut both have the same number of holes (1), a bowl has no holes. _Right_: Shows pictorially why the cup is equivalent to a doughnut. Starting from the cup, one can gradually make continuous deformations (changes that do not introduce or remove holes into the system) and eventually form a doughnut. Because one can be transformed into the other through continuous deformations, we say that the objects are topologically equivalent.", position: bottom, width: 90%)
 
 == How to quantify topology: Topological invariants
 
@@ -74,7 +74,7 @@ In mathematical terms, if a non-terminal node is traversed $n$ times, it must th
 
 Note that the solution of the problem *required no knowledge of the shape and size* of the landmasses or the lengths of the bridges; the only relevant details were the *connections among the nodes*. In fact, distorting the size and shapes of the nodes or displacing the nodes by small distances does not alter the solution in any way. The solution is therefore *impervious to continuous deformations*, and is dictated purely by the topology of the graph. In this way, the Königsberg bridge problem also led to the birth of topology as a new field of mathematics.
 
-#img(path: "/images/graph.svg", caption: "A stylized historical map of Königsberg, where seven bridges (orange marks) connected four different parts of the city separated by the river Pregel (blue). This setup posed a famous problem: is it possible to walk through the city crossing each bridge exactly once? Euler’s resolution of this question in 1736 marked the birth of graph theory and laid the foundations for modern topology.", position: top, width: 33.3%)
+#img(path: "/images/graph.svg", caption: "Abstracted graphical form of the Seven bridges problem. The blue circles represent landmasses while the connecting orange lines represent bridges. Euler noted that the original problem was equivalent to figuring out whether one can construct a path along the graph that traverses every edge exactly once while passing through every node.", position: top, width: 40%)
 
 == Topology in action: The quantum hall effect
 
@@ -83,6 +83,7 @@ $ R_H = frac(V_H, I)quad, $
 increases linearly with magnetic field in the classical case:
 $ R_H ("classical") prop B quad. $
 
+#img(path: "/images/plateaus.png", caption: "Comparison of Hall resistance behavior in different regimes. In classical systems (solid straight line), the Hall resistivity increases linearly with the magnetic field. In contrast, under strong magnetic fields and low temperatures, the system enters the quantum Hall regime, where the Hall resistivity forms sharply defined plateaus at quantized values. These plateaus are robust against disorder and signal topological protection.", position: bottom, width: 60%)
 However, in a two-dimensional system with a bit of disorder (e.g., impurities or imperfections in the material) - such as a thin film of semiconductor subjected to very high *magnetic fields* and very low temperatures, the Hall resistance no longer follows a smooth linear trend. Instead, it exhibits a series of *quantized, precise plateaus* - meaning the Hall resistance takes on discrete values, each corresponding to a specific fraction involving fundamental constants (Fig 5):
 $ R_H ("quantum") prop frac(1, n) frac(h, e^2), n=1,2,... $
 where $h$ and $e$ are the Plancks constant and charge of electron. This is the quantum hall effect [3]. Its most remarkable feature is the *robustness of these plateaus*: they are unaffected by imperfections in the material, such as impurities or small variations in geometry. This stability is a hallmark of topological phases of matter [4].
@@ -93,10 +94,10 @@ adding impurities and turning on a perpendicular magnetic field makes these leve
 $ E(B eq.not 0) prop n + frac(1, 2)quad, n=1,2... $
 Each value of $n$ represents a distinct Landau level. Each Landau level is macroscopically *degenerate*, consisting of a huge number of electronic states at the same energy. These degenerate states in each Landau level are spatially distributed along the transverse (Hall) direction, each state *localised* (cannot travel too far) at various positions [5], but are *extended* (can travel from one end to the other end) in the longitudinal direction.
 
-#img(path: "/images/plateaus.png", caption: "Comparison of Hall resistance behavior in different regimes. In classical systems (solid straight line), the Hall resistivity increases linearly with the magnetic field. In contrast, under strong magnetic fields and low temperatures, the system enters the quantum Hall regime, where the Hall resistivity forms sharply defined plateaus at quantized values. These plateaus are robust against disorder and signal topological protection.", position: bottom, width: 60%)
 
 #img(path: "/images/landau.svg", caption: "Evolution of electronic energy levels under the influence of a magnetic field. In the absence of a magnetic field (left), energy levels of a free-electron gas are continuous. Under strong magnetic fields and disorder (right), the energy levels split into discrete Landau levels, with each level broadened into a band by impurities. The emergence of localized and extended states within these broadened bands is key to the quantized behavior of the quantum Hall effect.", position: top, width: 50%)
 
+#img(path: "/images/skipping.svg", caption: "Depiction of chiral edge states in a two-dimensional electron system under a strong perpendicular magnetic field. In the bulk, electrons follow closed cyclotron orbits and remain localized. Near the boundary, these orbits are interrupted, creating skipping trajectories that propagate in one direction along the edge. These unidirectional states are topologically protected and form the basis of dissipationless edge transport in the quantum Hall effect.", position: bottom, width: 40%)
 == Origin of quantisation: Chiral edge states
 It's important to note that *disorder* plays a crucial role in enabling the quantized Hall plateaus. By localizing most bulk states in between Landau levels, disorder prevents small changes in electron density from altering the number of conducting channels. This makes the quantization *experimentally robust*.
 
@@ -106,8 +107,9 @@ The important point is that the directionality of the magnetic field forces thes
 
 How does the presence of chiral edge states explain the quantisation of resistivity in the plateaus? Given that each Landau level contributes one pair of *robust delocalised current-carrying* edge states moving in opposite directions on the opposite edges of the sample, applying a hall voltage difference between the left and right states leads to a net current $I$ flowing along the edge of each Landau level. Because of the presence of energy gaps between the Landau levels, the number of Landau levels that are occupied (below the dashed line in Fig 8) *cannot change continuously, but can only increase by one each time the dashed line passes through the center of a Landau level*. If the number of Landau levels below the dashed line is $n$, there are $n$ such edge states that have electrons in them and hence contribute a current $n I$. The Hall resistance is the total Hall current divided by the Hall voltage $V$, which comes out to be $n I \/ V$, which is clearly quantised through the integer $n$. 
 
-#img(path: "/images/skipping.svg", caption: "Depiction of chiral edge states in a two-dimensional electron system under a strong perpendicular magnetic field. In the bulk, electrons follow closed cyclotron orbits and remain localized. Near the boundary, these orbits are interrupted, creating skipping trajectories that propagate in one direction along the edge. These unidirectional states are topologically protected and form the basis of dissipationless edge transport in the quantum Hall effect.", position: bottom, width: 40%)
+#img(path: "/images/chiral.svg", caption: "A schematic showing how edge states emerge from Landau levels and contribute to quantized Hall conductance. The dashed line represents the chemical potential. Each filled Landau level below the chemical potential contributes one chiral edge channel (right-moving on one edge and left-moving on the other edge), leading to a quantized Hall current. Because the number of filled levels changes only when the chemical potential crosses a Landau level, the Hall conductance remains constant over a range of energies, resulting in quantized plateaus.", position: top, width: 55%)
 
+#img(path: "/images/berryPhase.svg", caption: "Visual representation of the geometric phase (Berry phase) acquired by a quantum wavefunction as its momentum traces a closed loop in momentum space. The central point represents a singularity in momentum space created by the magnetic field. The number of times the wavefunction’s path wraps around this singularity determines the accumulated Berry phase - 0, π, or 2π in the examples shown. The total winding over the Brillouin zone gives an integer topological invariant known as the Chern number, which dictates quantized physical observables like the Hall conductance.", position: bottom, width: 50%)
 == What’s the topological invariant? 
 What is the role of topology in all of this? The quantisation arises owing to the robustness of two aspects: 
 - robustness of the gaps in the Landau level which ensures the number of edge states do not change smoothly but rather in discrete steps, and
@@ -123,8 +125,6 @@ $ sigma_H = C frac(e^2,h) $
 
 The Chern number is a *topological invariant*; it is insensitive to local details of the wavefunction and only depends on how many times the wavefunction wraps around in momentum space. This topological nature of the Chern number explains the robustness of the Hall conductivity: *it cannot change gradually as experimental conditions are tweaked*. Instead, it only jumps when the system undergoes a true topological transition - such as when the chemical potential crosses a Landau level and a new chiral edge state emerges. This is why the plateaus are sharp and stable: *they reflect changes in an integer-valued invariant that counts how the wavefunction "winds" in momentum space* [8].
 
-#img(path: "/images/chiral.svg", caption: "A schematic showing how edge states emerge from Landau levels and contribute to quantized Hall conductance. The dashed line represents the chemical potential. Each filled Landau level below the chemical potential contributes one chiral edge channel (right-moving on one edge and left-moving on the other edge), leading to a quantized Hall current. Because the number of filled levels changes only when the chemical potential crosses a Landau level, the Hall conductance remains constant over a range of energies, resulting in quantized plateaus.", position: top, width: 55%)
-#img(path: "/images/berryPhase.svg", caption: "Visual representation of the geometric phase (Berry phase) acquired by a quantum wavefunction as its momentum traces a closed loop in momentum space. The central point represents a singularity in momentum space created by the magnetic field. The number of times the wavefunction’s path wraps around this singularity determines the accumulated Berry phase - 0, π, or 2π in the examples shown. The total winding over the Brillouin zone gives an integer topological invariant known as the Chern number, which dictates quantized physical observables like the Hall conductance.", position: bottom, width: 50%)
 
 
 == Beyond quantum hall: Topological insulators
@@ -141,10 +141,11 @@ Quantum computers leverage the unique property of quantum particles to exist in 
 
 #img(path: "/images/spinHall.svg", caption: "Comparison of the edge state structures in two topological systems. Left: In the quantum Hall effect, chiral edge states carry charge in a single direction along each edge, determined by the magnetic field. All current flows unidirectionally on a given edge, and backscattering is suppressed by spatial separation. Right: In the quantum spin Hall effect, helical edge states consist of counter-propagating modes with opposite spins on each edge. These states are protected by time-reversal symmetry and immune to backscattering from non-magnetic impurities, enabling dissipationless spin-polarised transport.", position: top, width: 50%)
 
-#img(path: "/images/majorana-1.jpeg", caption: "Microsoft’s “Majorana 1” chip, an experimental platform designed to probe topological superconductivity. The chip architecture supports bound states consistent with spatially separated Majorana modes, which could serve as building blocks for topological qubits. This marks a major step toward realizing fault-tolerant quantum computation grounded in the topological robustness of quantum states where information is stored not in physical configurations, but in the winding and braiding of emergent excitations.", position: bottom, width: 33.3%)
 
+#img(path: "/images/majorana-1.jpeg", caption: "Microsoft’s “Majorana 1” chip, an experimental platform designed to probe topological superconductivity. The chip architecture supports bound states consistent with spatially separated Majorana modes, which could serve as building blocks for topological qubits. This marks a major step toward realizing fault-tolerant quantum computation grounded in the topological robustness of quantum states where information is stored not in physical configurations, but in the winding and braiding of emergent excitations.", position: bottom, width: 40%)
 *Topological quantum computation* addresses this by using topological qubits that encode information not in the precise configuration of a system, but in its topological properties - features that are preserved under continuous deformation [10].  One approach towards this is by using *anyons* - exotic emergent particles that appear in two dimensions. The collective quantum state of such systems depends on *global properties* such as the winding pattern of the anyons around each other (a process known as braiding), and is independent of the precise geometric or local details [11]. This topological nature of the quantum state makes the system inherently robust against local disturbances or errors, providing a promising foundation for *fault-tolerant quantum computation* [12].
 
 Several platforms are being explored to realize these ideas, including systems based on *Majorana modes* [13]. Recently, Microsoft published a study in Nature that carries out measurements on a topological superconductor [14] (Fig 11). In *topological superconductors*, it is theorised  that the lowest-energy excitation corresponds to a single electron being nonlocally stored between two spatially separated Majorana modes. Microsoft’s results show evidence for an extra electron occupying a low-energy bound state, consistent with theoretical predictions for a Majorana mode. While the report is not unequivocal in the demonstration of the topological Majorana modes and does not rule out non-topological explanations, it highly constrains such non-topological states and advances the field of topological computation in a concrete way by demonstrating that such measurements are certainly consistent with topological computation.
-
+#colbreak()
 While the full experimental verification of Majorana-based qubits remains an ongoing challenge - previous claims have been met with skepticism and rigorous scrutiny - Microsoft’s results are a tangible step forward in the quest to harness topological phases of matter for real-world quantum computing. If successful, it would validate years of theoretical predictions and could signal a turning point where topology moves from abstract mathematics into the heart of practical, next-generation technologies.
+

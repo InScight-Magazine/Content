@@ -1,6 +1,6 @@
 #import "/template-files/inscight-template.typ": *
 
-#let title = "In Conversation with Prof. Sanjit Mitra"
+#let title = "Meet Prof. Sanjit Mitra, the Spokesperson Behind LIGO India"
 #let file = "/dataFiles/interviewSM.txt"
 #let group1 = ("SS:",)
 #let group2 = "SM:"

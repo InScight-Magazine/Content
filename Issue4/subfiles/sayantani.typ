@@ -6,7 +6,7 @@
 #let abstract = "*What if plants could talk? Not with words-but with scents.* Plants release special chemicals called VOCs to call for help, warn their neighbors, confuse attackers, and even sabotage rivals. Dive into this fascinating world with Sayantani Nath where leaves cry for help, roots make alliances, and researchers uncover nature’s invisible language-one scent at a time."
 #let coverImage = "sayantaniCover.jpeg"
 #let authorImage = "sayantaniFace.jpg"
-#let authorInfo = "*Sayantani Nath* is a budding researcher with a background in entomology and plant-insect interactions, driven by curiosity and a love for understanding nature’s complexities. Beyond the lab, I find joy in exploring new places and cultures—travelling fuels my creativity and deepens my appreciation for biodiversity across ecosystems."
+#let authorInfo = "*Sayantani Nath* is a budding researcher with a background in entomology and plant-insect interactions, driven by curiosity and a love for understanding nature’s complexities. Beyond the lab, she finds joy in exploring new places and cultures; travelling fuels her creativity and deepens her appreciation for biodiversity across ecosystems."
 #let refsFile = "/dataFiles/sayantaniRefs.yaml"
 #let received = (month: 03, day: 6, year: 2025)
 #let category = "Biology"
@@ -27,7 +27,7 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
-  breakAfter: (4,),
+  // breakAfter: (4,),
 )
 
 // begin. This is necessary for typst-to-html conversion, do not remove this.
@@ -80,4 +80,3 @@ However, these advances must be considered within the broader context of a chang
 
 As more and more plant-emitted volatiles are being explored, we find their central role in the complex chemical dance of nature. Plants use these molecules as their they choreograph complex ecological relationships, shaping interactions from insect behavior to microbial alliances. Deciphering this silent but significant communication helps us to design sustainable agricultural solutions to safeguard crops, improve ecosystem services, and lower our environmental impact. The hidden symphony of VOCs stands as a powerful testament to the ingenuity and resilience of plants, showcasing their extraordinary ability to adapt and thrive amid ever-evolving environmental challenges. As we continue to delve deeper into this field, we move closer to a future where agriculture and ecology are not in conflict but in concert, united by the invisible threads of chemical communication.
 
-#colbreak()

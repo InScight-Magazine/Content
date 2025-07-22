@@ -1,9 +1,8 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
 
 #let gamesSummary = (
     ("Questions drawn from ideas of general science.", "Science Quiz"),
-    ("The theme for this issue is Astronomy and Astrophysics.", "Themed Crossword"),
+    ("The theme for this issue is Chemistry.", "Themed Crossword"),
     ("Link each term with the next, and complete the science word chain!", "Linked List"),
   )
 
@@ -19,9 +18,10 @@
 #let links = createLinks(url: permalink)
 #articleCover(
   title: "Science Games", 
-  coverImage: "/covers/games.jpeg",
+  coverImage: "/covers/games.jpg",
   abstract: coverData,
-  coverCaption: "NGC 2359 is an emission nebula located 12,000 lightyears away in Canis Major, and is considered to be 280,000 times more bright than our Sun and 16 times more massive. Credit: Gerald Rhemann/CCDGuide.com and BBC Sky at Night Magazine.",
+  coverCaption: "This issue's crossword is drawn from Chemistry.",
   attribution: [#links.at("long") #v(1em) Games designed by *Alekhya*],
   outlined: false,
+  sideImageFraction: 0%,
 )

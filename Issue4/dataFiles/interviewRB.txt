@@ -16,7 +16,7 @@ The transition to the permanent campus brought significant improvements, particu
 
 Another key difference was recreational space. The transit campus had some play areas, including a badminton court near AJC Bose Hall. There was also a popular tea stall and a small, shaded eating area, which were well-loved by students. A food outlet initially operated inside the transit campus before moving outside. These informal gathering spots were particularly cherished by many.
 
-IMAGE: (path: "/images/RBoldCampus.jpg", caption: "The transit campus of IISER Kolkata, where Rajarshi started his UG. [Source: alumni.iiserkol.ac.in]", position: bottom)
+IMAGE: (path: "/images/RBoldCampus.jpg", caption: "Rajarshi started his BS-MS classes in the transit campus of IISER Kolkata in 2010. [Source: alumni.iiserkol.ac.in]", position: bottom, width: 80%)
 
 SS: We had Bimalda, I mean we still have it, it is now in cafeteria form. I have seen Bimalda's old shop.
 
@@ -40,7 +40,7 @@ Another key reason for choosing Israel was its strong reputation for scientific 
 
 In summary, my journey from school to IISER Kolkata and eventually to Israel was driven by my passion for scientific exploration and a desire to develop a structured, problem-solving mindset. This experience has profoundly shaped my academic and intellectual growth.
 
-IMAGE: (path: "/images/RBconvocation.jpg", caption: "Rajarshi in his UG convocation ceremony with his MS guide Prof. Partha Mitra. [Source: www.facebook.com/rajarshi.bhattacharyya.35]", position: bottom)
+IMAGE: (path: "/images/RBconvocation.jpg", caption: "Rajarshi in his BS-MS convocation ceremony with his MS guide Prof. Partha Mitra. [Source: www.facebook.com/rajarshi.bhattacharyya.35]", position: bottom, width: 90%)
 
 SS: Before going forward, I would request you to explain to our readers what your area of specialization is. How has that shaped you, and have you had a chance to maybe shape the field in some way?   
 
@@ -48,9 +48,7 @@ RB: Sure. Okay, again, this question has multiple parts, so I will try to split 
 
 In a very, very broad category, it's experimental physics. If you try to narrow it down a little bit, it's condensed matter physics. If you narrow it down further, it's called mesoscopic physics.
 
-Mesoscopic is basically a scale which is not really, which is not nanometer scale, which is neither nanometer scale nor microscopic scale. So, it's like, it's like a sub-microscopic scale and it's called mesoscopic basically, which means the samples that we deal with are of the order of, let's say, hundreds of nanometers to, let's say, a few micrometers, something like that. It's not angstrom scale, neither it's like a macroscopic scale.
-
-It's somewhere in between.
+Mesoscopic is basically a scale which is not really, which is not nanometer scale, which is neither nanometer scale nor microscopic scale. So, it's like, it's like a sub-microscopic scale and it's called mesoscopic basically, which means the samples that we deal with are of the order of, let's say, hundreds of nanometers to, let's say, a few micrometers, something like that. It's not angstrom scale, neither it's like a macroscopic scale. It's somewhere in between.
 
 SS: Since our magazine targets people from various backgrounds, can you please explain mesoscopic physics and its scale using a real world analogy?
 
@@ -68,7 +66,7 @@ Regarding how my PhD shaped me, I like to think of it as a rigorous training pro
 
 Through this journey, I realised that a PhD is essentially a training of thought—an intellectual discipline that prepares one to tackle any problem, whether in research or beyond. I am particularly glad that I chose Israel for my PhD because, as I mentioned earlier, the mindset there is distinct. People, regardless of their profession, tend to address problems head-on, solve them, and then move forward. This approach left a deep impact on me, and I believe it is one of the most valuable aspects of my training.
 
-IMAGE: (path: "/images/weizmanAdmin.jpg", caption: "Weizmann Institute of Science, Israle, where he did his PhD. [Source: weizmann.ac.il]", position: bottom)
+IMAGE: (path: "/images/weizmanAdmin.jpg", caption: "Rajarshi earned his PhD in condensed matter and material physics in the Weizmann Institute of Science, Israle. [Source: weizmann.ac.il]", position: bottom, width: 90%)
 
 SS: If you don't mind me interrupting you, I would like to add something. Israel, after its birth, had to face many hurdles. I believe I am correct when I say that they have a minimum 2-3 years of mandatory military service, and you seem to be saying they have this mindset of solving any problems they face. If possible, they fully eliminate it. Do you think the experiences and history of the Israelites somehow shaped this mindset? 
 
@@ -78,13 +76,11 @@ It's probably this military training that they get at this early age has quite s
 
 It's really something that comes from that training part. Of course it has another mix you get really a good exposure into research but these are things that everybody knows. Mostly it's a training period, that's what I would like to think about it.
 
-The third part is how you would say that I might have shaped my particular field. I would say every PhD student shapes its field in one way or the other because a PhD, what does a PhD mean? A PhD means that you can think of it in a geographic way like let's say there's a circle of knowledge which is pre-existing and you are inside and your idea of doing the PhD while being inside the circle would be to expand the boundary no matter how small or how large it is.
-
-That is the idea. The moment you are able to expand the boundary of that knowledge you will be called a PhD. This is the ideal case.
+The third part is how you would say that I might have shaped my particular field. I would say every PhD student shapes its field in one way or the other because a PhD, what does a PhD mean? A PhD means that you can think of it in a geographic way like let's say there's a circle of knowledge which is pre-existing and you are inside and your idea of doing the PhD while being inside the circle would be to expand the boundary no matter how small or how large it is. That is the idea. The moment you are able to expand the boundary of that knowledge you will be called a PhD. This is the ideal case.
 
 Of course there are many different circumstantial issues that come into the picture but this is the ideal, this is the idea of being a PhD that the idea is that the moment you are able to push the boundary you are called a PhD. So in that sense I would say every single PhD in the world has shaped the particular field that they have worked on and I probably won't be an exception in that sense.
 
-SS: Moving on to other stuff, have a couple of short questions, particularly from the perspective of prospective PhD applicants. Since you did not apply to the US, I will not ask about that. However, you applied to both Europe and Asia—specifically Israel—so how would you compare the application processes? How did the individual steps, such as CV preparation, contacting professors, and selecting an institute, differ between these regions?
+SS: Moving on to other stuff, have a couple of short questions, particularly from the perspective of prospective PhD applicants. You applied to both Europe and Asia—specifically Israel—so how would you compare the application processes? How did the individual steps, such as CV preparation, contacting professors, and selecting an institute, differ between these regions?
 
 I ask this with the hope that your insights will benefit future applicants. While students at IISER Kolkata are somewhat aware of opportunities in Israel, the most common choices for PhD aspirants tend to be the US as the primary target, followed by Europe. The order may sometimes vary, and occasionally, students consider Japan or Australia, though these are less common. However, Israel is not typically on the radar for many students outside IISER Kolkata. Even within IISER, interest in Israel as a PhD destination, while present, is comparatively lower.
 
@@ -106,7 +102,7 @@ One challenge for PhD students in the US is that survival often requires additio
 
 From this perspective, Israel offers a balance between the US and European systems. While European PhDs are shorter and contract-based, and US PhDs are longer but come with additional commitments, Israel falls in a sweet spot. The PhD structure in Israel provides adequate research time without the additional burden of extensive teaching or coursework requirements.
 
-IMAGE: (path: "/images/RBlab.png", caption: "Rajarshi at Submicron Center in Weizmann Institute of Science. [Source: facebook.com/rajarshi.bhattacharyya.35]", position: bottom, width: 60%)
+IMAGE: (path: "/images/RBlab.png", caption: "Rajarshi at Submicron Center during his PhD in the Weizmann Institute of Science. [Source: www.facebook.com/rajarshi.bhattacharyya.35]", position: left + bottom, width: 130%, portrait: true)
 
 Additionally, for students from IISER Kolkata, there is another unique consideration. IISER students already graduate with a master’s degree (BS-MS), but US PhD programs often do not require a master’s degree for admission. This means that IISER students are technically overqualified when applying to US graduate schools, as they already possess a master’s degree but would still be required to enroll in a program that includes a master’s component.
 
@@ -117,7 +113,7 @@ SS: That sounds like our practice of conducting research progress committee eval
 RB: In Israel, the PhD system is somewhat similar to the graduate school model in the US, but with key differences. Two professors are typically assigned by the grad school system to oversee a student’s PhD progress throughout their research. At the Weizmann Institute of Science, for example, the average time to complete a PhD is four and a half years. While I cannot confirm whether the same structure applies to other institutions like Hebrew University of Jerusalem or Technion, I do know that the overall PhD duration in Israel strikes a balance—it is neither as short as three years (as in some European programs) nor as long as six years (as in the US).
 
 Another advantage of doing a PhD in Israel is the manageable coursework requirement. At Weizmann, students need to complete 12 credits, which typically translates to four to five courses over the entire PhD duration. This is relatively light compared to the coursework burden in the US. If a student chooses to complete these requirements within the first three years, it averages to about one and a half courses per year, leaving ample time for research.
-COLBREAK
+
 Of course, given the current situation in Israel, prospective students might find it a difficult decision to pursue a PhD there. However, history has shown that tough times do not last forever, and I strongly believe that once this challenging period is over, the situation will stabilize. When I pursued my PhD in Israel, I was able to complete it peacefully without facing any major disruptions. I am confident that Israel, known for its resilience and innovation, will navigate through this phase successfully. The recovery is not a matter of five or ten years—things are already in motion, and stability will return soon.
 
 SS: Okay Dada, so it was nice to talk to you. Any last comments for our students?

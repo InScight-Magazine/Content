@@ -1,5 +1,4 @@
 #import "/template-files/inscight-template.typ": *
-#import "/dataFiles/issueConstants.typ": *
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),

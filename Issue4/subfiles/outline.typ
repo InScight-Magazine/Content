@@ -1,7 +1,6 @@
 #import "/template-files/inscight-template.typ": *
 
-// #outline(depth: 1)
 #fullOutline(
-  dividers: (28, 50), 
-  imagePaths: ("/images/outlineLeft.jpg","/images/outlineRight.jpg",),
+  issueDetails: yaml("/dataFiles/issueData.yml"),
+  classes: ("meta": (2, 3, 5, 64), "int": (14, 33, 54), "cas": (60, 69, 72, 73)),
 )
