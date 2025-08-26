@@ -6,7 +6,7 @@
 #let group2 = "SDG:"
 #let authors = ("Swarnendu Saha",)
 #let affiliations = ("IISER Kolkata",)
-#let abstract = "“You have to do what makes you happy, what brings you peace, and what makes you feel that you are your own person. You hold your own destiny in your hands.” says Prof. Sushanta Dattagupta, renowned condensed matter physicist and Shanti Swarup Bhatnagar awardee. As the founding Director of IISER Kolkata, he reflects on the interdisciplinary spirit of IISERs, critiques academic gatekeeping, and urges students to seek fulfillment over mere careers."
+#let abstract = "“You have to do what makes you happy, what brings you peace, and what makes you feel that you are your own person. You hold your own destiny in your hands.” says renowned condensed matter physicist Prof. Sushanta Dattagupta. As the founding Director of IISER Kolkata, he reflects on the interdisciplinary spirit of IISERs, critiques academic gatekeeping, and urges students to seek fulfillment over mere careers."
 #let coverImage = "/covers/SDG.jpg"
 #let coverCaption = "BS-MS graduate Swarnendu Saha with Prof. Dattagupta at the IISER Kolkata campus, after the interview."
 #let sideImage = "/images/SDG.jpg"
