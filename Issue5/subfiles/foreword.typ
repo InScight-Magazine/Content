@@ -2,32 +2,32 @@
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  title: "The Celebration of Science For A Better Future", 
-  intro: [_Foreword by Prof. Tapas Kumar Sengupta_],
-  outlineDesc: "Foreword by Prof. Tapas Kumar Sengupta",
+  title: "Frontiers in Biomedical and Sustainable Science", 
+  intro: [_Foreword by Prof. Amitava Das_],
+  outlineDesc: "Foreword by Prof. Amitava Das",
   permalinkSuffix: "foreword",
 )
 
-#place(
-  auto,
-  float: true,
-  scope: "parent",
-  grid(
-    columns: (1.2fr, 1.8fr),
-    gutter: 3em,
-    align(left, [Science is the celebration of unravelling the mysteries of our evolving universe. Unravelling the existence and functions of galaxies involved in formation of stars, planets and evolution of life itself on our beloved blue planet. Through observations, studies and discoveries of the true facts we practise science in our everyday life. Our scientific studies made us able to understand the importance of the ecosystem and its conservation, necessity of food production and storage, combating and preventing diseases and innovation of new, better and safer therapy, safer energy production and its sustainability, faster communication and making artificial intelligence as a new tool.
+It gives me great pleasure to present this issue of InScight, a forum for discussing the frontier issues in contemporary science.  True to its spirit, InScight reflects the diversity of inquiry that defines our institute and the larger scientific community. Contemporary science is increasingly interdisciplinary, requiring contributions from every branch—physics, chemistry, biology, mathematics, earth sciences, and beyond—to address the grand challenges of our times. From health and disease to sustainability and climate, progress depends on dialogue and collaboration across disciplinary boundaries.
 
-    As we cannot freeze any condition forever, contentious studies and scientific experimentations are required to understand the ever-changing ecosystem and need of our civilization and to come up with more and more innovations in order to address those changes to make our planet more habitable.]),
+Among the most dynamic areas of present-day research is biomedical science, where new ideas emerge at the interface of chemistry and biology. A compelling example is the study of disease biology and the therapeutic potential of short peptides. Recent publications highlight how these versatile biomolecules are not just fragments of larger proteins but highly functional agents capable of modulating protein–protein interactions, serving as enzyme inhibitors, receptor modulators, or drug carriers. Chemical innovations such as stapling and conjugation have enhanced their stability and efficacy, opening avenues against cancer, neurodegeneration, antimicrobial resistance, and other complex diseases. This exemplifies how fundamental molecular science converges with medicine to generate solutions with transformative impact.
 
-    figure(image("/covers/sukalyan.jpg"), caption: [Knots are hard to untie, making them robust. #pageLink(<Sukalyan-Devices>, [Sukalyan Deb's article]) explores how similar robustness emerges in properties of certain quantum systems.], supplement: "", numbering: none)
-  ) +
-  v(2em) +
-  grid(
-    columns: (1.8fr, 1.2fr),
-    gutter: 2em,
-    figure(image("/covers/sukalyan.jpg"), caption: [Knots are hard to untie, making them robust. #pageLink(<Sukalyan-Devices>, [Sukalyan Deb's article]) explores how similar robustness emerges in properties of certain quantum systems.], supplement: "", numbering: none),
-    align(left, [For that, besides the traditional scientific studies and standard scientific research, out of the box thinking is required for seeding and cultivating young minds for innovations. Let _InScight_ be the platform for the Insight of our future to seed, cultivate and nurture the open minds and unbound thoughts of the young scientists.
+In keeping with this interdisciplinary ethos, IISER Kolkata recently hosted the Bioanalytical Workshop 2025, which brought together researchers, students, and industry experts to share cutting-edge methods in biomedical analysis. Such platforms foster exchange across domains, ensuring that our students and young scientists remain well-equipped to push the frontiers of knowledge.
 
-  After the first release of _InScight_ in the month of January in 2025, this journey is going on with a clear motivation and with fullest energy and enthusiasm to publish the fourth issue. My sincere thanks to the InScight team for having such an endeavour.  Keep going, keep doing and thinking about science. Very best wishes to the team InScight.])
-  )
+To promote and nurture interdisciplinary learning, IISER Kolkata has introduced a two-year MS program in Sustainable Science. The faculties of various departments of IISER Kolkata have come together in developing this course with the aim of addressing unmet challenges in Sustainable Ecosystems and emphasising our commitment to society.
+
+This issue of InScight thus celebrates the synergy of disciplines—from molecular medicine to sustainability—while showcasing the creativity and commitment of our community. I hope these pages will inspire readers to appreciate the richness of interdisciplinary science and to envision new collaborations that advance both knowledge and societal well-being.
+
+#colbreak()
+
+#figure(
+  image("../images/Fig1.svg"),
+  caption: [A schematic representation of the process of cell death. Read the #link(<Chandrima-Easier>)[article by Prof. Chandrima Saha] to find out more.],
 )
+
+#v(1fr)
+#figure(
+  image("../covers/tamal.png"),
+  caption: [Epithelial cells work together like a neighborhood watch, sensing when one of their neighbors turns abnormal and pushing it out before it can cause harm. This captures the essence of homeostasis that constitutes one aspect of Prof. Das’s research. Read his interview #link(<Suman-Curiosity>)[here].],
+)
+#v(1fr)

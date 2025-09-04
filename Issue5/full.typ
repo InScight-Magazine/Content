@@ -5,7 +5,7 @@
 )
 
 // #include "/subfiles/front.typ"
-// #include "/subfiles/foreword.typ"
+#include "/subfiles/foreword.typ"
 // #include "/subfiles/editor.typ"
 #include "/subfiles/outline.typ"
 // #include "/subfiles/openings.typ"
