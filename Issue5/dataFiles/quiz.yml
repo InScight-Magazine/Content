@@ -1,92 +1,87 @@
 questions:
-  - "NASA’s James Webb Space Telescope recently detected several unexpected molecules — including one never before observed in any planetary atmosphere — in the scorching skies of a tidally locked gas giant exoplanet. This planet is approximately 1.2 times the mass of Jupiter and completes an orbit around its star every 30.5 hours. *Which exoplanet is it?*"
-  - "This amino acid, found in certain foods and produced by the human body, has been shown in animal studies to slow signs of aging and extend lifespan when taken as a supplement. However, recent research is questioning this by examining its levels in people, monkeys, and mice across different ages. *Can you name this amino acid?*"
-  - "For years, scientists believed the mysterious dark streaks running down cliffs and crater walls on Mars were caused by flowing water. However, a recent AI-powered study published in _Nature Communications_ suggests a new explanation. *What is now believed to be the more likely cause of these long, dark features that stretch for hundreds of meters down Martian slopes?*"
-  - "Fossilized bones of an extinct human ancestor were recently discovered on the seafloor of the Madura Strait in Indonesia. These remains reveal a previously unknown population that hunted large animals and may have interacted culturally with other human species nearly 140,000 years ago. *Which species was this?*"
-  - "This is one of the most iconic deep-space images ever captured, and reveals thousands of galaxies, some dating back to less than a billion years after the Big Bang. *Which space telescope took this photograph?*"
-  - "Which hospital superbug — known for causing deadly infections — was recently discovered to survive by breaking down and consuming biodegradable medical plastics such as sutures and implants?"
-  - "Jayant Vishnu Narlikar, a pioneering Indian astrophysicist, collaborated with a prominent British cosmologist to develop a theory that challenged the conventional Big Bang model. Their theory incorporated continuous matter creation, avoided a singular beginning of time, and was based on Mach’s Principle, introducing a scalar field responsible for spontaneously generating matter. *What was the name of this cosmological theory?*"
-  - "This renowned string theorist was one of the first recipients of the Breakthrough Prize in Fundamental Physics, for \"opening the path to the realization that all string theories are different limits of the same underlying theory.\" He has made advancements in calculation of black hole entropy from first principles. *What's his name?*"
-  - "The image shows a revolutionary genetic imaging technique that maps DNA and RNA distribution inside living cells with unprecedented detail. themselves, it does not use traditional optics or lenses, instead reconstructing spatial information from genetic sequences alone. *What is this technique called?*"
-  - "The surreal landscape in the image is marked by vivid green, yellow, and orange colors, caused by acidic, mineral-rich brine bubbling from hydrothermal pools. Despite their colorful appearance, some of these pools are completely devoid of life, making them among the harshest environments on Earth. *Which location is this?*"
+  - "The figure below shows an immunohistochemistry (IHC) image of a solid tumor section. The brown-stained cells represent an immune cell population that accumulates in the tumor microenvironment (TME) and is known for suppressing cytotoxic T lymphocyte activity, thereby promoting tumor immune evasion. *Which immune cell type is most consistent with this immunosuppressive role in the TME?*"
+  - "Chronic psychosocial stress has been repeatedly associated with increased risk for cardiovascular and metabolic diseases. A recent Frontiers in Physiology (2024) review emphasized the central role of neuroendocrine dysregulation in linking stress to long-term disease outcomes. In particular, one hormonal axis has been shown to mediate the release of glucocorticoids such as cortisol, which in turn dysregulate glucose metabolism, immune function, and cardiovascular physiology. *Which of the following pathways is most directly involved in this mechanism?*"
+  - "Artificial intelligence (AI) and machine learning are being rapidly integrated into healthcare to improve early disease prediction. A Frontiers in Medicine (2023) review showed that AI algorithms applied to radiological imaging have dramatically increased diagnostic accuracy in certain infectious diseases. *Among the following, which disease has seen the greatest progress in AI-based diagnostic imaging due to global prevalence and high chest X-ray availability?*"
+  - "Parkinson’s disease is characterized by progressive degeneration of dopaminergic neurons in the substantia nigra. Beyond dopamine loss, recent studies in Nature Medicine (2024) highlight the contribution of neuroinflammation to disease progression. Clinical trials are now investigating therapies that specifically target inflammatory signaling pathways. *Which pathway is currently one of the most promising therapeutic targets for slowing Parkinson’s progression?*"
+  - "Recent research on SARS-CoV-2 (Cell, 2023) has highlighted that the viral spike protein is not only responsible for enabling viral entry into host cells through ACE2 binding but also plays an active role in disease severity. Studies have demonstrated that the spike protein can act as a signaling molecule that interacts with host immune sensors. *Which of the following findings best explains this additional role of the spike protein in infection biology?*"
+  - "Pathogenic bacteria often interfere with host cell processes to create a favorable niche for survival and replication. A Nature Microbiology (2024) study recently revealed that certain bacterial effectors delivered via secretion systems directly modify host chromatin, influencing transcriptional activity. This strategy allows the pathogen to silence host defense genes and promote infection. *Which of the following mechanisms best describes this form of epigenetic manipulation?*"
+  - "Advances in cancer diagnostics are shifting toward minimally invasive approaches that can detect tumors at earlier stages. According to Lancet Oncology (2024), liquid biopsy has emerged as one of the most powerful clinical tools in oncology, as it allows detection of tumor-derived genetic material in circulation. *Which of the following is the primary biomarker analyzed in liquid biopsy for cancer detection and monitoring?*"
+  - "Cognitive decline in Alzheimer’s disease has long been attributed to amyloid plaque deposition, but recent Nature Neuroscience (2023) findings challenge this view by showing that synaptic dysfunction occurs much earlier than visible plaque accumulation. Researchers now argue that pathological mislocalization of a specific neuronal protein destabilizes microtubules and disrupts synaptic signaling before large aggregates form. *Which protein is primarily implicated in this early synaptic dysfunction?*"
+  - "Refer to the diagram below showing the HIF-1 signaling pathway under normoxic and hypoxic conditions. *Which process occurs as a direct consequence of HIF-1α stabilization under hypoxic tumor conditions?*"
+  - "Refer to the schematic diagram above illustrating the structure and activation of the Piezo1 mechanosensitive ion channel. Under mechanical stimuli such as changes in substrate stiffness or shear stress, *which of the following correctly describes the role of the Piezo1 channel in stem cell fate regulation?*"
+
 options:
   -
-    - Kepler-186f
-    - WASP-121b
-    - TRAPPIST-1d
-    - HD 209458b
-
+    - "CD8+ cytotoxic T cells"
+    - "Natural killer (NK) cells"
+    - "Myeloid-derived suppressor cells (MDSCs)"
+    - "B-lymphocytes"
   -
-    - Glycine
-    - Taurine
-    - Lysine
-    - Tryptophan
-
+    - "Hypothalamic–pituitary–adrenal (HPA) axis leading to cortisol overproduction"
+    - "Growth hormone axis leading to reduced IGF-1 release"
+    - "Hypothalamic–pituitary–thyroid axis causing reduced T3/T4 secretion"
+    - "Pineal gland activity leading to suppressed melatonin levels"
   -
-    - Lava flows from ancient volcanoes
-    - Subsurface ice melting
-    - Movement of wind and dust 
-    - Seepage of salty brine
-
+    - "Alzheimer’s disease via PET imaging of amyloid"
+    - "Tuberculosis through automated chest X-ray screening"
+    - "Type 1 diabetes via ultrasound imaging"
+    - "Sickle cell anemia via blood smear analysis"
   -
-    - Neanderthal (Homo neanderthalensis)
-    - Denisovan
-    - Homo habilis
-    - Homo erectus 
+    - "Inhibition of the IL-1β / NLRP3 inflammasome pathway"
+    - "Upregulation of dopamine transporters"
+    - "Serotonin reuptake inhibition"
+    - "NMDA receptor antagonism"
   -
-    - James Webb Space Telescope
-    - Spitzer Space Telescope
-    - Chandra X-ray Observatory
-    - Hubble Space Telescope 
+    - "Acts as transcription factor in nuclei"
+    - "Alters mitochondrial metabolism"
+    - "Activates Toll-like receptor (TLR) pathways, inducing inflammation"
+    - "Blocks antigen presentation via MHC-I"
   -
-    - Escherichia coli
-    - Staphylococcus aureus
-    - Pseudomonas aeruginosa
-    - Clostridium difficile
-
+    - "Direct methylation of bacterial DNA by host enzymes"
+    - "Secretion of bacterial proteins that modify histone acetylation"
+    - "Interference with host mRNA splicing"
+    - "Enhanced ribosomal translation of host proteins"
   -
-    - A model featuring inflation and quantum fluctuations that seeded cosmic structure
-    - A steady-state theory with continuous matter creation via a scalar creation field
-    - A universe governed only by general relativity and cold dark matter, beginning with a singularity
-    - A cyclic model involving repeated big bangs and big crunches
-
+    - "Circulating tumor DNA (ctDNA) fragments"
+    - "Erythrocyte membrane proteins"
+    - "HbA1c levels"
+    - "Synaptic vesicle proteins"
   -
-    - Stephen Hawking
-    - Ashoke Sen 
-    - Juan Maldacena 
-    - Edward Witten
-
+    - "Hyperphosphorylated tau protein"
+    - "Excess acetylcholine release"
+    - "Dopamine imbalance"
+    - "Serotonin transporter reduction"
   -
-    - Cryo-electron microscopy
-    - Fluorescence in situ hybridization (FISH)
-    - DNA microscopy 
-    - Optical coherence tomography
-
+    - "HIF-1α is hydroxylated by PHDs, leading to degradation"
+    - "HIF-1α complexes with HIF-1β, inducing VEGF and glycolytic genes"
+    - "HIF-1α activates p53-mediated apoptosis"
+    - "HIF-1α triggers NF-κB inflammatory signaling"
   -
-    - Yellowstone Caldera, USA
-    - Danakil Depression, Eritrea
-    - Mount Erebus, Antarctica
-    - Dallol, Northern Ethiopia 
+    - "Permits selective chloride influx, inhibiting differentiation"
+    - "Forms propeller-shaped channel for Ca2+ influx and mechanotransduction"
+    - "Recruits NAD+/K+ ATPase pumps"
+    - "Interacts with CFTR to regulate glutamate transport"
 
 images:
-  - "/images/quizQ1.png"
-  - ""
-  - "/images/quizQ3.jpg"
-  - ""
-  - "/images/quizQ5.jpg"
-  - ""
-  - "/images/quizQ7.jpeg"
-  - ""
-  - "/images/quizQ9.jpg"
-  - "/images/quizQ10.jpg"
+  - 
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+
 answers:
-  - 2
-  - 2
   - 3
-  - 4
-  - 4
+  - 1
+  - 2
+  - 1
   - 3
   - 2
+  - 1
+  - 1
   - 2
-  - 3
-  - 4
+  - 2

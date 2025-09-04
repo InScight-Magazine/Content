@@ -64,7 +64,7 @@ set page(
   )[
     #{
       set text(font: header-font, fill: header-bright-color, weight: "semibold")
-      [INSCIGHT \##issueDetails.at("number")] + h(5pt) + [ ] + h(5pt) + [#issueDetails.at("time")]
+      [INSCIGHT \##issueDetails.at("number")] + h(5pt) + headerSeparator + h(5pt) + [#issueDetails.at("time")]
     }
     #v(header-raise)
   ]
@@ -326,14 +326,20 @@ content
   let counter = 1
   content = for (question, options, img) in questions.zip(options, images) {
     set enum(numbering: "I. ")
-    grid(
-      columns: (1.2fr, 1fr),
-      gutter: 3em,
+    if img != none { 
+      grid(
+        columns: (1.2fr, 1fr),
+        gutter: 3em,
+        [*Q#counter\.* ] + [#eval(question, mode: "markup")] + for line in options {
+        [+ #eval(line, mode: "markup")]
+        },
+        align(center, image(img, height:15em))
+      )
+    } else {
       [*Q#counter\.* ] + [#eval(question, mode: "markup")] + for line in options {
-      [+ #eval(line, mode: "markup")]
-    },
-      if img.len() > 0 { align(center, image(img, height:15em)) }
-    )
+        [+ #eval(line, mode: "markup")]
+      }
+    }
     if counter < questions.len() {
       linebreak()
     }
@@ -417,12 +423,9 @@ content
 #let crossword(
   issueDetails: none,
   file: none,
-  crosswordImage: none,
-  crosswordWidth: 100%,
   title: none,
   intro: none,
   outlineDesc: none,
-  leftColWidth: 1fr,
 ) = {
   let data = json(file)
   let locations = ()
@@ -583,5 +586,68 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
       capt(titles.at(2), captions.at(2)),
       image(images.at(2), width: 100%),
     )
+  )
+}
+
+#let whoami(
+  issueDetails: (),
+  file: none,
+  title: none,
+  intro: none,
+) = {
+  let data = yaml(file)
+  let items = ()
+  for (i, item) in data.enumerate() {
+    let gd = none
+    if calc.rem(i, 2) == 1 {
+      gd = grid(
+          columns: (0.8fr, 0.5fr),
+          align: left + top,
+          gutter: 4em,
+          [
+          == #item.question
+
+          #list(
+            tight:false,
+            ..item.hints
+          )
+        ],
+         image("../images/" + item.image, height: 18%, width: 100%, fit: "cover"),
+      )
+    } else {
+      gd = grid(
+          columns: (0.5fr, 0.8fr),
+          align: left + top,
+          gutter: 4em,
+          image("../images/" + item.image, height: 18%, width: 100%, fit: "cover"),
+          [
+          == #item.question
+
+          #list(
+            tight:false,
+            ..item.hints
+          )
+          ],
+      )
+    }
+    items.push(gd)
+    if i < data.len() - 1 {
+      items.push(align(center, line(length: 40%)))
+    }
+  }
+
+  let content = intro + v(2em) + stack(
+    dir: ttb,
+    spacing: 2em,
+    ..items
+  )
+
+  section(
+    issueDetails: issueDetails,
+    title: title,
+    numCols: 1,
+    permalinkSuffix: "whoami",
+    type: "cas",
+    content
   )
 }

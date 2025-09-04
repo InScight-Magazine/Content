@@ -20,8 +20,7 @@
   title: "Science Games", 
   coverImage: "/covers/games.jpg",
   abstract: coverData,
-  coverCaption: "This issue's crossword is drawn from Chemistry.",
-  attribution: [#links.at("long") #v(1em) Games designed by *Alekhya*],
+  coverCaption: "Microscopic Shot Of a Virus. This issue's crossword is drawn from Diseases and Biology",
   outlined: false,
   sideImageFraction: 0%,
 )

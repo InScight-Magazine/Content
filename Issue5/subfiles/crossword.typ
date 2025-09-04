@@ -3,10 +3,7 @@
 #crossword(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/crossword.json",
-  crosswordImage: "/images/crossword.svg",
-  intro: [This issue's crossword is drawn from *chemistry*.],
+  intro: [This issue's crossword is based on *Diseases and Biology*.],
   outlineDesc: " | astronomy and astrophysics",
   title: "Themed Crossword",
-  crosswordWidth: 70%,
-  leftColWidth: 1.1fr,
 )

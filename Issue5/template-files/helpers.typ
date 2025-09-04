@@ -15,9 +15,9 @@
     [
       #v(1em)
       #if locator != none [
-        = #heading(outlined: false, level:1)[#title]#label(locator)
+        = #heading(outlined: false, level:1)[#eval(title, mode: "markup")]#label(locator)
       ] else [
-        = #heading(outlined: false, level:1)[#title]
+        = #heading(outlined: false, level:1)[#eval(title, mode: "markup")]
       ]
       #v(1em)
 
@@ -398,7 +398,6 @@
   shortLink: none,
   toc: false,
 ) = {
-  let headerSeparator = text(fill: header-dark-color, [])
   return rect(
       fill: header-bg-color, 
       inset: 0cm,
@@ -417,7 +416,7 @@
         #if title.len() > header-title-maxsize {
           text(title.slice(0, count: header-title-maxsize) + "...")
         } else {
-          text(title)
+          text(eval(title, mode: "markup"))
         }
       ]
       #v(header-raise)
