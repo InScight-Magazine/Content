@@ -3,43 +3,58 @@
     header: none,
     footer: none,
     margin: 0em,
-    background: image("/covers/front2.svg", height: 100%, width: 100%, fit: "cover")
+    background: image("/covers/front.png", height: 100%, width: 100%, fit: "cover")
 )
-#set text(fill: rgb("ddd"), font: "Neuton SC")
-#set par(leading: 0.2em, justify: false)
-#place(
+
+#set text(fill: rgb("ddd"))
+#set par(leading: 0.15em, spacing: 0.25em, justify: false)
+#{
+set text(font: "Neuton SC")
+place(
   center,
   dy: 6em,
-  image("/covers/lightBanner.svg", width: 50%) + 
-  // v(1em) +
+  image("/covers/lightBanner.svg", width: 70%) + 
   grid(
     columns: (auto, auto),
     align: center + horizon,
     gutter: 5em,
-    text(size: 1.8em, weight: "bold", [The IISER Kolkata \ Science Magazine]),
-    text(size: 1.8em, weight: "bold", "#4 | July 2025"),
+    text(size: 2.3em, weight: "bold", [The IISER Kolkata Science Magazine]),
+    text(size: 2.3em, weight: "bold", "#4 | July 2025"),
   )
 )
+}
 
-#set text(font: "Neuton")
-#set par(leading: 0.15em, spacing: 0.25em)
-#place(
+#link(<Chandrima-Easier>)[
+  #set text(font: "Neuton", size: 2.5em, weight: "bold")
+  #place(
+  center + horizon,
+  dy: 8em,
+  box(width: 100% - 3em,
+    [CELL DEATH MAKES \ LIVING EASIER #parbreak() #text(fill: orange, [Chandrima Shaha])],
+  )
+)
+]
+
+#{
+set text(font: "Neuton", size: 1.4em, weight: "bold")
+place(
   center + bottom,
   dy: -2em,
-  box(width: 100% - 7em,
+  box(width: 100% - 3em,
   grid(
-    columns: (1fr, auto, 1fr, auto, 1fr),
-    align: center + horizon,
+    columns: (1fr, auto, 1.2fr, auto, 1fr),
+    align: (left + horizon, center + horizon, center + horizon, center + horizon, right + horizon),
     // stroke: (x,y) => if x < 2 { (right: 0.2em + white) },
-    gutter: 1em,
-    text(size: 1.3em, [*THROUGH THE EYES OF \ THE FOUNDING DIRECTOR* #parbreak() Interview with Prof. Dattagupta]),
+    gutter: 0.5em,
+    link(<Suman-Curiosity>)[AT THE INTERSECTION OF PHYSICS AND BIOLOGY #parbreak() #text(fill: orange, [Tamal Das on Forces \& Cells])],
     line(angle: 90deg, length: 5em, stroke: 0.2em + white),
-    text(size: 1.3em, [*A CENTURY OF \ QUANTUM MECHANICS*#parbreak() From Paradoxes to Possibilities]),
+    link(<Swarnendu-InScight>)[FROM CANCER RESEARCH TO PARADIGM SHIFTS#parbreak() #text(fill: orange, [Interview with Sushanta Roychoudhury])],
     line(angle: 90deg, length: 5em, stroke: 0.2em + white),
-    text(size: 1.3em, [*THE QUEST FOR THE \ SEA'S BLUE*#parbreak() Comic on the Raman Effect]),
+    link(<Swarnendu-Curiosity>)[WHY THERAPIES FAIL?#parbreak() #text(fill: orange, [Ofer Reizes on cancer, collaboration, and curiosity])],
   )
   )
 )
+}
 
 // #place(
 //   center + bottom,

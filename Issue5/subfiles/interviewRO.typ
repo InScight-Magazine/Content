@@ -6,7 +6,7 @@
 #let group2 = "OR:"
 #let authors = ("Swarnendu Saha",)
 #let affiliations = ("IISER Kolkata",)
-#let abstract = [Swarnendu Saha interviews *Prof. Reizes Ofer* of Cleveland Clinic of the United States to discuss American academia, his current focus on women’s cancers and therapy resistance, and the vital role of collaboration between scientists and clinicians.]
+#let abstract = [Swarnendu Saha interviews *Prof. Ofer Reizes* of Cleveland Clinic of the United States to discuss American academia, his current focus on women’s cancers and therapy resistance, and the vital role of collaboration between scientists and clinicians.]
 #let coverImage = "/covers/ofer.jpeg"
 #let coverCaption = ""
 #let sideImage = "/images/ofer.jpeg"

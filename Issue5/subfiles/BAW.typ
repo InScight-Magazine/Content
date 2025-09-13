@@ -51,7 +51,7 @@ Complementing these discussions were immersive training sessions in essential te
 #img(path: "/images/BAW3.JPG", caption: "_CAPTION NEEDED_", position: top, width: 100%, portrait: true)
 == Diverse Themes, Shared Vision
 
-The strength of BAW 2025 lay in its interdisciplinary approach. Themes spanned infection biology, stress physiology, molecular triggers of disease, neurodegeneration, mechanobiology, and tumor microenvironments. The integration of these diverse areas fostered a holistic understanding of disease biology and encouraged participants to think beyond traditional silos, sparking ideas for inovative collaborations.
+The strength of BAW 2025 lay in its interdisciplinary approach. Themes spanned infection biology, stress physiology, molecular triggers of disease, neurodegeneration, mechanobiology, and tumor microenvironments. The integration of these diverse areas fostered a holistic understanding of disease biology and encouraged participants to think beyond traditional silos, sparking ideas for innovative collaborations.
 
 == Impact Beyond the Event
 The impact of BAW 2025 goes far beyond the five days of sessions. The knowledge, skills, and networks built during the conference will empower participants to launch impactful research initiatives and forge partnerships that address health challenges at local, national, and global scales. By inspiring and equipping a new generation of scientists, BAW strengthens not only India’s biomedical research ecosystem but also its contribution to worldwide efforts to improve human health.

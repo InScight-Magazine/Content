@@ -231,10 +231,6 @@ content
   let firstFlag = true
   let step = -1
   let content = for textLine in lines {
-    set par(
-      first-line-indent: 0em,
-      justify: true,
-    )
     step += 1
     let trimmedLine = textLine.trim()
     if trimmedLine.len() == 0 {
@@ -280,7 +276,6 @@ content
         text(weight: "bold", group2) + [~] + trimmedLine
       } else {
       set par(
-        first-line-indent: 1em,
         justify: true,
       )
         trimmedLine
@@ -327,14 +322,25 @@ content
   content = for (question, options, img) in questions.zip(options, images) {
     set enum(numbering: "I. ")
     if img != none { 
-      grid(
-        columns: (1.2fr, 1fr),
-        gutter: 3em,
-        [*Q#counter\.* ] + [#eval(question, mode: "markup")] + for line in options {
-        [+ #eval(line, mode: "markup")]
-        },
-        align(center, image(img, height:15em))
-      )
+      if img.split(".").at(0).ends-with("-ttb") {
+        stack(
+          dir: ttb,
+          spacing: 2em,
+          align(center, image(img, width: 100%)),
+          [*Q#counter\.* ] + [#eval(question, mode: "markup")] + for line in options {
+          [+ #eval(line, mode: "markup")]
+          },
+        )
+      } else {
+        grid(
+          columns: (1.2fr, 1fr),
+          gutter: 3em,
+          [*Q#counter\.* ] + [#eval(question, mode: "markup")] + for line in options {
+          [+ #eval(line, mode: "markup")]
+          },
+          align(center, image(img, height: 15em))
+        )
+      }
     } else {
       [*Q#counter\.* ] + [#eval(question, mode: "markup")] + for line in options {
         [+ #eval(line, mode: "markup")]
@@ -363,7 +369,7 @@ content
   intro: none,
 ) = {
   let data = yaml(file)
-  let seed = data.seed
+  let seed = upper(data.seed)
   let hints = data.hints
   let answers = data.answers
   assert.eq(answers.len(), hints.len())

@@ -1,34 +1,44 @@
 #import "/template-files/inscight-template.typ": *
-// #import "/dataFiles/issueConstants.typ": *
+
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  title: "A Word From The Editor", 
+  title: "Behind The Pages", 
   permalinkSuffix: "editor",
   numCols: 2,
 )
 
-Hello Friends! Welcome to the fourth issue of InSight. As we celebrate the turning of another issue, I take this opportunity to thank you all who have stood with us, and helped us to continue this journey of InScight Magazine - The IISER Kolkata Science Magazine. Filled with vibrant stories and voices of our alumni, Professors, and guest scientists, this month, we have tried to add colour to the magazine and take the readers on a journey through the history of IISER Kolkata and also to newer domains of Science today.
+We are back with another fascinating issue of _InScight_, where we celebrate biology not only as a field of study but also as a metaphor for how science itself should evolve—through courage, adaptability, cooperation, and a readiness to prune.
 
-As Prof. Ayan Banerjee has rightly mentioned, in his words, Science is a method and an attitude, and Prof. Tapas Kumar Sengupta, in his foreword to this issue of InScight Science, is the celebration of unravelling the mysteries of our evolving universe - it is our duty as scientists, who are funded by the tax paid by the commoners, to come out of the labs and take our research to the mass. InScight envisions bridging the gap between distance between the scientists and the masses in the upcoming days.
+In the living world, survival is not merely about clinging to existence—it is about knowing when to let go. Biology teaches us this in the quiet, orchestrated drama of apoptosis, as explained by Prof. Chandrima Saha, senior scientist at IICB Kolkata. A cell willingly embraces death so that the organism may thrive. By removing what is damaged or dangerous, life safeguards its integrity.
 
-In this issue, we have featured our alumni from the Department of Physical Sciences - Dr. Rajarshi Bhattacharyya, who is currently working in Germany as a Cryogenic Systems Engineer at attocubes systems AG. We believe that his journey from a BSMS student at IISER to PhD scholar in Israel and finally now as a professional engineer in Germany would show you all a newer perspective of the higher education and job market after BSMS. 
+This self-cleansing is not limited to cells. In epithelial tissues, neighbors sense a cell gone astray—mutated or invasive—and preserve harmony by pruning it.
 
-In the other two interviews, we have featured Prof. Sushanta Dattagupta - the founder director of IISER Kolkata, and Dr. Sanjit Mitra of IUCAA - a leading scientist of the LIGO-India project, and we hope the interview with them shall help you all in your journey forward.
+Science, too, must adopt this wisdom. Just as tissues expel threats, society must shed dogma and superstition. Just as apoptosis clears the path for renewal, scientific inquiry must have the courage to discard outdated certainties and embrace curiosity.
 
-We have started a new section in the magazine, where we advertise academic internships, PhD positions, and Post-Doctoral applications, gathered by scraping the internet and email conversations. We believe that this section will help the students plan accordingly and in advance for their upcoming academic and scientific journey. Of course, we by ourselves cannot gather all the news that can be gathered, so we request all our readers to bring such information to our notice, so that we can better distributed the information.
+Biology also teaches adaptability. As Prof. Nagraj Balasubramaniam from IISER Pune points out, cancer cells survive across a wide range of tissue stiffness. To defeat them, we must first understand how they rewire themselves. Their resilience, unsettling as it is, also teaches us a lesson: progress requires versatility, the ability to grow across both rigid and fluid terrains. Paradigm shifts of the kind Dr. Sushanta Roychoudhury from IICB envisions are possible only then.
 
+Institutions, too, can embody this principle. TIFR Hyderabad is thriving by weaving together disciplines, as highlighted by Dr. Tamal Das in an interview with us. Much like cells coordinating in a tissue, chemists, physicists, and biologists engage in constant dialogue, allowing ideas to fuse and evolve. This interdisciplinary networking sparks creativity—mirroring the collective intelligence of living systems. Science should be done like that: not in isolation, but in vibrant, communicating networks—like Prof. Ofer Reizes’ group at the Cleveland Clinic Lerner Research Institute, where surgeons and oncologists collaborate to tackle uterine cancer.
+
+However steep the road, let us keep hope alive. To quote Darwin: “It is those who know little, and not those who know much, who so positively assert that this or that problem will never be solved by science.”
+
+And if life and science can evolve, why not us? _InScight_, too, is maturing. With each issue, it adapts and refines itself—much like the living systems it seeks to illuminate. As it grows, it prepares to widen our view, sharpening our collective vision of what science can be and what it must become.
+
+Let us keep evolving.
+
+Happy Reading,\
+Budhaditya Banerjee\
+Editor, _InScight_
 #colbreak()
-We are planning on adding a new section to the magazine - write about your PhD thesis! The point is to discuss the story of your PhD thesis; the questions, the results and the philosophy of your approach, written so that students across the disciplines can understand and have a feel for it. We aim to tighten the research community of IISER Kolkata across disciplines, and who knows - you may find a newer possibility and a collaboration for your project too!
 
-We are always looking for your contributions and feedback. Thank you for journeying with us. On behalf of the entire team, happy reading—and here’s to building bridges, one insight at a time.
+#figure(
+  image("/images/cells.jpg"), 
+  caption: [\"... there’s a movie called The Matrix ... which plays on a similar idea: there’s this unseen system all around you that shapes everything. In biology, the extracellular matrix functions the same way. It’s present everywhere and affects how cells behave and how they interpret their surroundings.\" - Prof. Balasubramanian. #link(<Sharanya-Science>)[Read his interview].]
+)
 
-With warmth,
-#sign([Swarnendu Saha,\ Editor-in-chief,\ InScight])
-
-#image("/covers/sukalyan.jpg")
-#text(size:1.1em, [Knots are hard to untie, making them robust. #pageLink(<Sukalyan-Devices>, [Sukalyan Deb's article]) explores how similar robustness emerges in properties of certain quantum systems.])
 #v(1fr)
-#image("/covers/sukalyan.jpg")
-#text(size:1.1em, [Knots are hard to untie, making them robust. #pageLink(<Sukalyan-Devices>, [Sukalyan Deb's article]) explores how similar robustness emerges in properties of certain quantum systems.])
+#figure(
+  image("/images/breast.jpg"),
+  caption: [Breast cancer cells stained with six primary antibodies to show areas of tumor. A research team led by Ofer Reizes and Justin Lathia designed a peptide therapeutic that disrupts the molecular processes behind aggressive cancer growth when delivered into cells. The study was highlighted in the January issue of Molecular Cancer Therapeutics. Learn more in #link(<Swarnendu-Curiosity>)[his interview].],
+)
 #v(1fr)
