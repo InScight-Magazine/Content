@@ -8,7 +8,7 @@
   permalinkSuffix: "foreword",
 )
 
-It gives me great pleasure to present this issue of InScight, a forum for discussing the frontier issues in contemporary science.  True to its spirit, InScight reflects the diversity of inquiry that defines our institute and the larger scientific community. Contemporary science is increasingly interdisciplinary, requiring contributions from every branch—physics, chemistry, biology, mathematics, earth sciences, and beyond—to address the grand challenges of our times. From health and disease to sustainability and climate, progress depends on dialogue and collaboration across disciplinary boundaries.
+It gives me great pleasure to present this issue of _InScight_, a forum for discussing the frontier issues in contemporary science.  True to its spirit, _InScight_ reflects the diversity of inquiry that defines our institute and the larger scientific community. Contemporary science is increasingly interdisciplinary, requiring contributions from every branch—physics, chemistry, biology, mathematics, earth sciences, and beyond—to address the grand challenges of our times. From health and disease to sustainability and climate, progress depends on dialogue and collaboration across disciplinary boundaries.
 
 Among the most dynamic areas of present-day research is biomedical science, where new ideas emerge at the interface of chemistry and biology. A compelling example is the study of disease biology and the therapeutic potential of short peptides. Recent publications highlight how these versatile biomolecules are not just fragments of larger proteins but highly functional agents capable of modulating protein–protein interactions, serving as enzyme inhibitors, receptor modulators, or drug carriers. Chemical innovations such as stapling and conjugation have enhanced their stability and efficacy, opening avenues against cancer, neurodegeneration, antimicrobial resistance, and other complex diseases. This exemplifies how fundamental molecular science converges with medicine to generate solutions with transformative impact.
 
@@ -16,7 +16,7 @@ In keeping with this interdisciplinary ethos, IISER Kolkata recently hosted the 
 
 To promote and nurture interdisciplinary learning, IISER Kolkata has introduced a two-year MS program in Sustainable Science. The faculties of various departments of IISER Kolkata have come together in developing this course with the aim of addressing unmet challenges in Sustainable Ecosystems and emphasising our commitment to society.
 
-This issue of InScight thus celebrates the synergy of disciplines—from molecular medicine to sustainability—while showcasing the creativity and commitment of our community. I hope these pages will inspire readers to appreciate the richness of interdisciplinary science and to envision new collaborations that advance both knowledge and societal well-being.
+This issue of _InScight_ thus celebrates the synergy of disciplines—from molecular medicine to sustainability—while showcasing the creativity and commitment of our community. I hope these pages will inspire readers to appreciate the richness of interdisciplinary science and to envision new collaborations that advance both knowledge and societal well-being.
 
 #colbreak()
 

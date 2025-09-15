@@ -19,7 +19,7 @@ place(
     align: center + horizon,
     gutter: 5em,
     text(size: 2.3em, weight: "bold", [The IISER Kolkata Science Magazine]),
-    text(size: 2.3em, weight: "bold", "#4 | July 2025"),
+    text(size: 2.3em, weight: "bold", [\##yaml("/dataFiles/issueData.yml").number | #yaml("/dataFiles/issueData.yml").time]),
   )
 )
 }

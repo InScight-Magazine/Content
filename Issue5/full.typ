@@ -15,6 +15,7 @@
 #include "/subfiles/chandrima.typ"
 #include "/subfiles/interviewSR.typ"
 #include "/subfiles/interviewRO.typ"
+#include "/subfiles/mahua.typ"
 #include "/subfiles/games.typ"
 #include "/subfiles/quiz.typ"
 #include "/subfiles/whoami.typ"

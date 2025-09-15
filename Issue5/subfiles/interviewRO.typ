@@ -1,6 +1,6 @@
 #import "/template-files/inscight-template.typ": *
 
-#let title = "Why Therapies Fail: Prof. Ofer Reizes on Cancer, Collaboration, and Curiosity"
+#let title = "Why Therapies Fail: Prof. Ofer Reizes on Cancer, Collaboration, Curiosity"
 #let file = "/dataFiles/interviewRO.txt"
 #let group1 = ("SS:",)
 #let group2 = "OR:"

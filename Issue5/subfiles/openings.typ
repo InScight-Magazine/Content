@@ -19,7 +19,7 @@
         gutter: 2em,
         align: (right, left),
         link(item.at(0))[*#item.at(0)*],
-        [#emoji.clock.alarm *Deadline*: #item.at(1)\  #emoji.clip #link(item.at(0))[*Website*]]
+        [#emoji.clock.alarm *Deadline*: #item.at(1)\  #emoji.clip #link(item.at(3))[*Website*]]
       )
     ]
   ]
