@@ -1,12 +1,12 @@
 #import "/template-files/inscight-template.typ": *
 
 #let title = "BAW 2025 – Shaping the Next Generation of Biomedical Scientists"
-#let authors = ("Chandrima Shaha",)
+#let authors = ("Bishal Hazra",)
 #let affiliations = ("Infectious Diseases and Immunology Division, Indian Institute of Chemical Biology",)
 #let abstract = "Why do cells choose to die? From shaping embryos to protecting entire communities of cells, programmed cell death is one of nature’s quiet survival tricks. Prof. Chandrima Shaha, ex-President of INSA and panelist at BAW 2025, explores how life depends on death - even in the tiniest organisms."
 #let coverImage = "BAW.svg"
-#let authorImage = "BAW1.JPG"
-#let authorInfo = "\<Author Bio Required\>"
+#let authorImage = "BAW.JPG"
+#let authorInfo = "*Prof. Jayasri Das Sarma*'s research at IISER Kolkata spans neurovirology, neuroimmunology and neural Cell Biology of Diseases among other things. She has been a leading figure in advancing understanding of virus–host interactions in the nervous system. #parbreak() *Bishal Hazra* is her fourth-year PhD student. His doctoral research focuses on the neuroimmunological aspects of viral pathogenesis."
 #let received = (month: 6, day: 6, year: 2025)
 #let category = "Biology"
 #let reviewedBy = ("Madhura T",)
@@ -34,47 +34,119 @@
 
 == Genesis Of The Conference
 
-The Bioanalytical Workshop (BAW), organized by the Department of Biological Sciences at IISER Kolkata, has emerged as a unique platform that seamlessly blends hands-on training with interactive learning. Designed for students and early-career researchers, BAW focuses on advanced analytical techniques while emphasizing translational research, equipping participants with the skills needed to make meaningful contributions to cutting-edge biomedical science.
+The Bioanalytical Workshop (BAW) is a specialized conference organized by the Department
+of Biological Sciences, IISER Kolkata, that integrates hands-on training and interactive
+learning, aimed at strengthening expertise in the field of bioanalysis. Designed primarily for
+students and early-career researchers, the workshop focuses on advanced analytical
+techniques with a strong emphasis on translational research. Its core objective is to enhance
+scientific competence and equip participants with the tools necessary to contribute
+meaningfully to cutting-edge biomedical research.
 
-Since its first edition in 2018 in Gangtok, BAW has grown rapidly in scale and reputation. Subsequent editions, held at IISER Kolkata, Ooty, Kalimpong, and supported by agencies such as SERB and DHR-ICMR, have received overwhelming responses. Each edition has built on the success of its predecessors, with BAW 2025 continuing this legacy under the theme “*Frontiers in Disease Biology*”. This edition combined an international scientific conference with immersive, skill-based workshops, reflecting the initiative’s commitment to keeping pace with evolving research technologies and preparing the next generation of scientists for the challenges of modern biomedicine
+BAW typically attracts participants from
+diverse backgrounds, including life sciences, medical sciences, pharmaceutical sciences,
+clinical research, and related disciplines. The program provides both theoretical knowledge
+and practical experience, thereby fostering technical proficiency and innovation among
+attendees. The inaugural edition of BAW was held in 2018 in Gangtok, drawing 67 national
+and international participants. Building on the success of its previous editions, BAW 2025: Frontiers in Disease Biology was scheduled to take place from June 27th to July 1st, 2025, combining a scientific conference with a hands-on workshop focused on preclinical animal models. The overarching goal of BAW 2025 is to align with the pace of evolving research technologies and methodologies. By offering immersive, skill-based training, the workshop aims to empower young scientists with practical expertise in high-demand areas.
 
-#img(path: "/images/BAW2.JPG", caption: "_CAPTION NEEDED_", position: bottom, width: 100%, portrait: true)
+== About BAW 2025
+The Indian Institute of Science Education and Research (IISER) Kolkata conducted the
+BAW 2025: Frontiers in Disease Biology, a premier five-day conference dedicated to
+advancing the understanding of disease mechanisms and innovative research approaches in
+biomedical sciences. Held from 27th June to 1st July 2025, the event brought together
+leading national and international scientists, early-career investigators, and researchers to
+share groundbreaking insights into disease biology.
+The conference featured a dynamic format, blending didactic lectures and hands-on
+workshops to offer a comprehensive learning experience.
 
-== BAW 2025: A Confluence of Science and Skills
+== Major scientific disciplines covered in the conference
+The BAW conference encompassed rich and interdisciplinary themes that brought together
+diverse areas of cutting-edge biomedical research. It focused on Infection Biology, exploring
+host-pathogen interactions and mechanisms of immune evasion. Secondly, Stress Biology
+and Physiology examined how cells and organisms responded to various stressors and the physiological consequences of such responses. Thirdly, Pathways to Pathogenesis:
+Molecular Triggers of Diseases highlighted the signaling disruptions and molecular events
+that initiated and drove disease processes. The conference also addressed
+Neurodegeneration and the Neurobiology of Diseases, offering insights into the
+mechanisms underlying neural dysfunction and progressive neurodegenerative disorders.
+Mechanobiology featured prominently, emphasizing the influence of mechanical cues on
+cellular behavior and disease progression. In addition, the theme included 
+Tissue Microenvironment and Cancer Biology, investigating how the local cellular and
+extracellular environment shapes tumor development and metastasis. Lastly, the conference
+emphasized Translational Frontiers in Human Health, focusing on how basic research
+findings could be translated into clinical innovations to improve human health outcomes.
 
-BAW 2025 brought together a vibrant community of scientists, researchers, and students to explore the latest breakthroughs in disease biology. The conference featured internationally renowned experts such as *Ofer Reizes* from the Cleveland Clinic Lerner Research Institute (USA), *Yasuyuki Fujita* from Kyoto University (Japan), and *Yusuke Toyama* from the Mechanobiology Institute at the National University of Singapore. Their talks offered invaluable insights into areas ranging from mechanobiology to cancer biology, setting the tone for a truly global exchange of ideas.
+#img(path: "/images/BAW1.png", caption: "The success of this event was made possible by the tireless dedication of volunteers across the Department of Biological Sciences, led by Prof. Jayasri Das Sarma, who served as the Organizing Secretary. Students, including PhD scholars and BS-MS students from various laboratories, contributed with remarkable enthusiasm to ensure the smooth execution of the program.", position: top, width: 66%, portrait: false)
 
-Equally inspiring were contributions from some of India’s leading scientists, including *Partha Pratim Majumder*, National Science Chair and Founding Director of NIBMG; *Chandrima Shaha* from CSIR-IICB; and *Arup Banerjee* from the Regional Centre for Biotechnology, Haryana. Their lectures covered cutting-edge topics such as disease genetics, cellular dynamics, and innovative therapeutic strategies, ensuring participants were exposed to the forefront of biomedical research.
+== Speakers of BAW 2025
+The conference featured an exceptional lineup of speakers, including both distinguished
+national and international scientists who delivered insightful and thought-provoking talks
+across a broad spectrum of topics.
 
-Complementing these discussions were immersive training sessions in essential techniques like animal handling, histopathology, flow cytometry, and advanced microscopy. For many attendees, this was their first real experience working with sophisticated research methods, making the workshop as practical as it was intellectually enriching. This combination of expert-led discourse and hands-on training gave participants not just knowledge, but the confidence to translate their learning into impactful research.
-	
-#img(path: "/images/BAW3.JPG", caption: "_CAPTION NEEDED_", position: top, width: 100%, portrait: true)
-== Diverse Themes, Shared Vision
+=== International Speakers
 
-The strength of BAW 2025 lay in its interdisciplinary approach. Themes spanned infection biology, stress physiology, molecular triggers of disease, neurodegeneration, mechanobiology, and tumor microenvironments. The integration of these diverse areas fostered a holistic understanding of disease biology and encouraged participants to think beyond traditional silos, sparking ideas for innovative collaborations.
+- Ofer Reizes - Cleveland Clinic Lerner Research Institute (LRI), USA
 
-== Impact Beyond the Event
-The impact of BAW 2025 goes far beyond the five days of sessions. The knowledge, skills, and networks built during the conference will empower participants to launch impactful research initiatives and forge partnerships that address health challenges at local, national, and global scales. By inspiring and equipping a new generation of scientists, BAW strengthens not only India’s biomedical research ecosystem but also its contribution to worldwide efforts to improve human health.
+- Yasuyuki Fujita- from  Graduate School of Medicine and Faculty of Medicine, Kyoto University
 
-== Hands-on workshop on pre-clinical mouse models
+- Yusuke Toyama- Mechanobiology Institute, National University of Singapore
 
-The BAW conference provided students with an invaluable and immersive opportunity to engage directly with fundamental experimental techniques at the heart of modern biomedical research. Through focused, hands-on sessions, participants developed essential skills in key areas. *Animal Handling* gave them a deeper understanding of how preclinical models are used to explore disease mechanisms and test therapeutic interventions. The *Histopathology* module introduced them to the microscopic study of tissues, sharpening their ability to recognize disease-associated changes at the cellular level. In *Flow Cytometry* sessions, they gained practical experience with high-throughput cell analysis techniques that are crucial for immunological profiling and disease characterization. *Microscopy* training acquainted them with advanced imaging tools that reveal intricate cellular and molecular structures in exceptional detail.For many students, this was their first real experience of working hands-on in a biomedical research setting. It not only strengthened their technical abilities but also sparked genuine curiosity and broadened their understanding of biology, inspiring many to consider future careers in life sciences, research, and translational medicine.
+#img(path: "/images/BAW2.png", caption: "The BAW attendees, including professors, speakers, and directors, came together to ensure the success of the event.", position: bottom, width: 100%, portrait: false)
+=== National Speakers
 
-#img(path: "/images/BAW5.JPG", caption: "_CAPTION NEEDED_", position: bottom, width: 100%, portrait: true)
+- Partha Pratim Majumder
+- Susanta Roychoudhury
+- Sushanta Dattagupta
+- Chandrima Shaha
+- Arup Banerjee
+- Prasenjit Guchhait
+- Srimonta Gayen
+- Partha Pratim Datta
+- Rupak Datta
+- Ellora Sen
+- Anirban Basu
+- Pankaj Seth
+- Tamal Das
+- Abhijit Majumder
+- Nagaraj Balasubramanium,
+
+=== Chairpersons of various sessions
+
+- Jayasri Das Sarma
+- Rupak Datta
+- Snehasikta Swarnakar
+- Biswanath Maity
+- Shubhra Majumder
+- Malancha Ta
+- Subhas C Biswas
+- Bidisha Sinha
+- Siddhartha Jana,
+
+
+#img(path: "/images/BAW3.JPG", caption: "Students getting hands-on experience in Animal Handling and Mouse dissection in the conference. Animal models helps us to study various diseases because of their close association with humans. In an aim to become a researcher in animal studies, Animal Handling and Dissection module proved to be a very valuable module to the students/participants.", position: top, width: 100%, portrait: true)
+#img(path: "/images/BAW4.JPG", caption: "Theory behind Histopathology being taught to the students by the volunteers. Histopathology module helped the students/ participants to understand about the diagnosis and study of diseases of the tissues, as it involves examining tissues and/or cells under a microscope.", position: bottom, width: 100%, portrait: true)
+== The hands-on workshop on pre-clinical mouse models
+The BAW conference offered students a unique and enriching opportunity to engage directly
+with fundamental experimental techniques widely used in biomedical research. Through
+dedicated hands-on sessions, they learned essential skills such as Animal Handling, which
+provided insight into the use of preclinical models for studying disease mechanisms and
+therapeutic interventions. The Histopathology module introduced them to the microscopic
+examination of tissues, enhancing their understanding of disease-associated changes at the
+cellular level. In the Flow Cytometry sessions, students gained experience with high-
+throughput cell analysis techniques crucial for immunological profiling and disease
+characterization. Additionally, Microscopy training familiarized them with advanced imaging
+tools used to visualize cellular and molecular structures in detail.
+
+#img(path: "/images/BAW5.jpg", caption: "The volunteers of BAW, comprising students from IISER Kolkata.", position: top, width: 100%, portrait: true)
 == The Spirit of BAW: Student Initiative, Scientific Excellence, and Cultural Expression
 
 What truly sets BAW 2025 apart is its collaborative and student-driven foundation. Unlike conventional scientific conferences, BAW thrives on the passion, dedication, and teamwork of its student organizers. The event reflects the commitment of faculty mentors and the tireless efforts of an exceptionally enthusiastic group of student volunteers who take responsibility for everything. They manage accommodation and travel arrangements, host and anchor events, oversee food and hospitality, capture the moments through photography, and even lead live laboratory demonstrations. Their involvement goes far beyond logistics. It gives them a rare opportunity to develop leadership, organizational, and communication skills that will serve them throughout their careers.
 
 The conference also provides a stage to showcase IISER Kolkata’s state-of-the-art research facilities to national and international participants, strengthening the institute’s presence in the global scientific community. Adding warmth and vibrancy, BAW ends each year with a cultural evening. This is a celebration of art and camaraderie where faculty, students, and participants come together to share their talents in music, dance, drama, and poetry. This unique blend of science and culture creates an atmosphere that is as inspiring as it is welcoming.As BAW continues to grow in scale and reputation, it is set to evolve into a recognized scientific society that will nurture the next generation of bioscience professionals.
 
-#img(path: "/images/BAW6.JPG", caption: "_CAPTION NEEDED_", position: bottom, width: 100%, portrait: true)
 == Conclusion
-
 Since its inception in 2012, the Bioanalytical Workshop has grown remarkably, attracting an increasing number of applicants each year. About 250 students took part in the 2025 edition, which reflects both the program’s credibility and the transformative experience it offers. One of BAW’s defining features is its student-led model, where young scholars are not just attendees but active contributors. They take charge of organizing and leading the hands-on demonstrations that form the core of the event.
-
-#colbreak()
 Over time, the workshop has expanded well beyond its early focus on neurobiology to embrace multiple areas of disease biology. This year’s theme, “Frontiers in Disease Biology,” reflects that broader vision. Beyond technical training, BAW has become a vibrant platform for networking, professional growth, and peer-to-peer learning. It creates opportunities for meaningful connections that often lead to collaborations shaping the future of biomedical research.
 
+#colbreak()
 The workshop also ensures that participants feel at home. Each year, they are treated to delicious meals, and 2025 was no exception. The variety, flavor, and quality of the food earned praise from both students and distinguished speakers, adding a thoughtful and memorable touch to the scientific program.
-
 The cultural evening provided the perfect conclusion. It was a time to relax, celebrate, and showcase creativity through art and performance. Altogether, BAW 2025 was far more than just a workshop. It was a transformative experience that shaped skilled researchers, encouraged leadership, and fostered a dynamic and close-knit scientific community.

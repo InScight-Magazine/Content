@@ -1,7 +1,7 @@
 #import "/template-files/inscight-template.typ": *
 
 #let title = "A Stranger Crashes the Party: Decoding the White Matter Wipeout"
-#let authors = ("Chandrima Shaha",)
+#let authors = ("Mahua Maulik",)
 #let affiliations = ("Infectious Diseases and Immunology Division, Indian Institute of Chemical Biology",)
 #let abstract = "Why do cells choose to die? From shaping embryos to protecting entire communities of cells, programmed cell death is one of nature’s quiet survival tricks. Prof. Chandrima Shaha, ex-President of INSA and panelist at BAW 2025, explores how life depends on death - even in the tiniest organisms."
 #let coverImage = "mahua.png"
@@ -67,3 +67,5 @@ _2 Indian Institute of Science Education and Research (IISER) – Kolkata, Mohan
 This study is supported by funding from DBT/Wellcome Trust India Alliance Early Career Research Grant (Grant number IA/E/17/1/503659) and BRIC-NIBMG Intramural support to M.M.
 #img(path: "/images/Figure 4.png", caption: "Schematic of single nucleus RNA sequencing experimental design and workflow. Thoracic spinal cord segments collected from mock-infected control and MHV-A59 virus-infected mice at 30 days post-infection were subjected to single nuclei isolation and droplet-based barcoding for RNA sequencing. Sequencing reads were aligned to mouse reference genome and analyzed to quantify gene expression levels for each nucleus. Bioinformatic analyses, including clustering, differential expression analysis, and cell-cell interaction analysis are performed to gain biological insights (Image created in BioRender.com).
 ", position: top, width: 80%, portrait: false)
+
+_Image credit: Sai Gayathri R and Soubhik Das_

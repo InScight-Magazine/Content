@@ -6,7 +6,7 @@
   )
 
 #backCover(
-  images: ("/images/back1.jpeg", "/images/back2.jpg", "/images/back3.JPG"),
-  titles: ("Tradition and Modernity", "Germination", "The Prisoner of Conscience"),
-  captions: ([A Dazzling Fusion of Culture and Creativity - IISER Kolkata's Fashion Show Celebrates Bold Expression and Timeless Aesthetics. _Credit: Jibitesh Das_], [On the occasion the _20th Institute Foundation Day_ and the Open House event with science exhibition organized was attended by more than 1000 students from neighbouring  schools with  lots of excitement. _Credit: IISER Kolkata_], [A still from the IICM 2024 stage act. _Credit: Swarnendu_])
+  images: ("/images/back1.jpeg", "/images/back2.png", "/images/back3.jpg"),
+  titles: ("79th Independence Day", "The Moon in Eclipse", "Kabaddi Showdown: IISER K vs IISER TVM"),
+  captions: ([As light diffracts into its vibrant spectrum, the tricolour unfurled at IISER Kolkata, symbolizing the diverse yet united spirit of our nation. _Credit: IISER Kolkata_], [Bathed in Earth’s shadow, the Moon turned into a canvas of cosmic beauty. The Total Lunar Eclipse witnessed at IISER Kolkata, brought closer through a telescope session by Singularity: The Astro Club. _Credit: Susnata Chattopadhyay_], [In one of the most intense matches of IISM-2024, IISER Kolkata clinched victory over IISER Thiruvananthapuram in Kabaddi after four thrilling tie-breakers. _Credit: Madhura Theng_])
 )
