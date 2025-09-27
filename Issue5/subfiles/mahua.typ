@@ -10,6 +10,7 @@
 #let received = (month: 6, day: 6, year: 2025)
 #let category = "Biology"
 #let reviewedBy = ("Madhura T",)
+#let refsFile = "/dataFiles/mahua.yml"
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
@@ -26,7 +27,7 @@
   category: category,
   received: received,
   reviewedBy: reviewedBy,
-  refsFile: "/dataFiles/mahua.yml",
+  refsFile: refsFile,
   breakAfter: (5,),
 )
 

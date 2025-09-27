@@ -1,9 +1,9 @@
 #import "/template-files/inscight-template.typ": *
 
 #let title = "BAW 2025 – Shaping the Next Generation of Biomedical Scientists"
-#let authors = ("Bishal Hazra",)
+#let authors = ("Bishal Hazra", "Jayasri Das Sarma")
 #let affiliations = ("Infectious Diseases and Immunology Division, Indian Institute of Chemical Biology",)
-#let abstract = "Why do cells choose to die? From shaping embryos to protecting entire communities of cells, programmed cell death is one of nature’s quiet survival tricks. Prof. Chandrima Shaha, ex-President of INSA and panelist at BAW 2025, explores how life depends on death - even in the tiniest organisms."
+#let abstract = "The Bioanalytical Workshop (BAW) 2025 at IISER Kolkata brought together over 250 participants for five days of lectures and hands-on training under the theme Frontiers in Disease Biology. Driven by student initiative, the event combined cutting-edge science, skill-building, and cultural exchange to inspire and equip the next generation of biomedical researchers."
 #let coverImage = "BAW.svg"
 #let authorImage = "BAW.JPG"
 #let authorInfo = "*Prof. Jayasri Das Sarma*'s research at IISER Kolkata spans neurovirology, neuroimmunology and neural Cell Biology of Diseases among other things. She has been a leading figure in advancing understanding of virus–host interactions in the nervous system. #parbreak() *Bishal Hazra* is her fourth-year PhD student. His doctoral research focuses on the neuroimmunological aspects of viral pathogenesis."
