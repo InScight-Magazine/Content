@@ -1,0 +1,44 @@
+#import "/template-files/inscight-template.typ": *
+
+
+#show: section.with(
+  issueDetails: yaml("/dataFiles/issueData.yml"),
+  title: "Behind The Pages", 
+  permalinkSuffix: "editor",
+  numCols: 2,
+)
+
+We are back with another fascinating issue of _InScight_, where we celebrate biology not only as a field of study but also as a metaphor for how science itself should evolve—through courage, adaptability, cooperation, and a readiness to prune.
+
+In the living world, survival is not merely about clinging to existence—it is about knowing when to let go. Biology teaches us this in the quiet, orchestrated drama of apoptosis, as explained by Prof. Chandrima Saha, senior scientist at IICB Kolkata. A cell willingly embraces death so that the organism may thrive. By removing what is damaged or dangerous, life safeguards its integrity.
+
+This self-cleansing is not limited to cells. In epithelial tissues, neighbors sense a cell gone astray—mutated or invasive—and preserve harmony by pruning it.
+
+Science, too, must adopt this wisdom. Just as tissues expel threats, society must shed dogma and superstition. Just as apoptosis clears the path for renewal, scientific inquiry must have the courage to discard outdated certainties and embrace curiosity.
+
+Biology also teaches adaptability. As Prof. Nagraj Balasubramaniam from IISER Pune points out, cancer cells survive across a wide range of tissue stiffness. To defeat them, we must first understand how they rewire themselves. Their resilience, unsettling as it is, also teaches us a lesson: progress requires versatility, the ability to grow across both rigid and fluid terrains. Paradigm shifts of the kind Dr. Sushanta Roychoudhury from IICB envisions are possible only then.
+
+Institutions, too, can embody this principle. TIFR Hyderabad is thriving by weaving together disciplines, as highlighted by Dr. Tamal Das in an interview with us. Much like cells coordinating in a tissue, chemists, physicists, and biologists engage in constant dialogue, allowing ideas to fuse and evolve. This interdisciplinary networking sparks creativity—mirroring the collective intelligence of living systems. Science should be done like that: not in isolation, but in vibrant, communicating networks—like Prof. Ofer Reizes’ group at the Cleveland Clinic Lerner Research Institute, where surgeons and oncologists collaborate to tackle uterine cancer.
+
+However steep the road, let us keep hope alive. To quote Darwin: “It is those who know little, and not those who know much, who so positively assert that this or that problem will never be solved by science.”
+
+And if life and science can evolve, why not us? _InScight_, too, is maturing. With each issue, it adapts and refines itself—much like the living systems it seeks to illuminate. As it grows, it prepares to widen our view, sharpening our collective vision of what science can be and what it must become.
+
+Let us keep evolving.
+
+Happy Reading,\
+Budhaditya Banerjee\
+Editor, _InScight_
+#colbreak()
+
+#figure(
+  image("/images/cells.jpg"), 
+  caption: [\"... there’s a movie called The Matrix ... which plays on a similar idea: there’s this unseen system all around you that shapes everything. In biology, the extracellular matrix functions the same way. It’s present everywhere and affects how cells behave and how they interpret their surroundings.\" - Prof. Balasubramanian. #link(<Sharanya-Science>)[Read his interview].]
+)
+
+#v(1fr)
+#figure(
+  image("/images/breast.jpg"),
+  caption: [Breast cancer cells stained with six primary antibodies to show areas of tumor. A research team led by Ofer Reizes and Justin Lathia designed a peptide therapeutic that disrupts the molecular processes behind aggressive cancer growth when delivered into cells. The study was highlighted in the January issue of Molecular Cancer Therapeutics. Learn more in #link(<Swarnendu-Curiosity>)[his interview].],
+)
+#v(1fr)

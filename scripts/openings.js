@@ -1,9 +1,9 @@
 import fs from "fs";
-// Change this to your published sheet export URL
+
 const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8Ae9TtmUWrWC3yx0dg_B7uhFcEX2MvahcpjWUGxh6092I3ZgnK92WYiqbGTN-Q7kVrIQzy1DS3HBh/pub?output=tsv";
 
 // Where to save the Typst file
-const OUT_FILE = process.argv[2];
+const OUT_FILE = "openings"
 
 function isDateInFuture(dateStr) {
   if (!dateStr) return true; // keep if no deadline
@@ -30,10 +30,20 @@ const openings = rows
     line[3] || ""  // Link
   ]);
 
+// write tsv file
+const tsvData = "Name\tDeadline\tType\tUrl\n" + `${openings.map(o => `${o[0]}\t${o[1]}\t${o[2]}\t${o[3]}`).join("\n")}`;
+fs.writeFile(`${OUT_FILE}.tsv`, tsvData, 'utf8', function (err) {
+  if (err) {
+    console.log('Some error occured - file either not saved or corrupted file saved.');
+  } else{
+	console.log(`✅ Wrote ${openings.length} openings to ${OUT_FILE}.csv`);
+  }
+});
+
 // Write Typst file
 const typstData = `#let openings = (
 ${openings.map(o => `  ("${o[0]}", "${o[1]}", "${o[2]}", "${o[3]}")`).join(",\n")}
 )`;
 
-fs.writeFileSync(OUT_FILE, typstData);
-console.log(`✅ Wrote ${openings.length} openings to ${OUT_FILE}`);
+fs.writeFileSync(OUT_FILE + ".typ", typstData);
+console.log(`✅ Wrote ${openings.length} openings to ${OUT_FILE}.typ`);
