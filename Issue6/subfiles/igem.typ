@@ -1,0 +1,113 @@
+#import "/template-files/inscight-template.typ": *
+
+#let title = "From Waves To Leaves: Story of the First Biophysicist"
+#let authors = ("Gautam Basu",)
+#let affiliations = ("Quantum Algorithm Scientist, Espoo, Finland",)
+#let abstract = "We live in an age ruled by information—streams of data moving invisibly through chips, clouds, and cables. Yet behind this seemingly immaterial flow lies a profound physical truth: every act of remembering, measuring, or deleting information leaves a scar in the fabric of the universe. It releases heat. This connection, known as \textbf{Landauer’s Principle}, bridges two of  greatest intellectual adventures—computation and thermodynamics—and reveals that information itself obeys the laws of physics."
+#let coverImage = "iGEM.pdf"
+#let authorImage = "sharanyaFace.jpg"
+#let authorInfo = "*Sharanya Chatterjee* is a BS-MS student of IISER Kolkata and an aspiring researcher who is passionate in the field of neuroscience, developmental biology and its manifestations. She believes in responsible research facets and habitually reads 'maybe nots' as 'maybes'."
+#let received = (month: 10, day: 12, year: 2025)
+#let category = "Physics"
+#let reviewedBy = ("Swarnendu Saha", "Archita Sarkar") 
+#let refsFile = "/dataFiles/basu.yml"
+
+#show: section.with(
+  issueDetails: yaml("/dataFiles/issueData.yml"),
+  title: title, 
+  authors: authors,
+  authorAffiliations: affiliations,
+  abstract: abstract,
+  coverImage: "/covers/" + coverImage,
+  coverCaption: "In the universe’s grand computation, even forgetting has a thermodynamic cost. This article explores a visual echo of Landauer’s principle, where every erased bit leaves a trace of heat behind.",
+  sideImageFraction: 35%,
+  authorImage: "/authFaces/" + authorImage,
+  authorInfo: authorInfo,
+  authorImageWidth: (40%,40%),
+  type: "art",
+  category: category,
+  received: received,
+  reviewedBy: reviewedBy,
+  // refsFile: refsFile,
+  // breakAfter: (7,),
+)
+
+// begin. This is necessary for typst-to-html conversion, do not remove this.
+
+#dcap("The red and blue probiotic pills on your bedside table could be the newest therapy for cancer! Unbelievable right? Well a bunch of college kids are here to make your eyes pop with an innovative take on the most ravenous disease of all time — cancer.")
+
+== iGEM: The Global Stage for Synthetic Biology
+
+*iGEM* (International Genetically Engineered Machine) is a World Expo of Synthetic Biology held every year where people from all over the world come together, be it government organisations or your scientist-next door, for a celebration of synthetic biology at large. Fast-paced and boisterous, iGEM is home to your coolest Ad-Hocs, the most promising green energy businesses and some of the finest biologists of the world.
+
+And keeping the banner flying high, the newest endeavour of IISER Kolkata in the form of its iGEM Team 2025 brings forth the talk of today - a fusion of therapy and diagnostics — a true theranostic approach – *ReSET*. A team of ten undergraduates guided by some of the most passionate scientists of IISER Kolkata and high-facility labs can only smell of success!
+
+The  project idea grew from a fascination with the concept of the tumor microbiota, how bacteria can naturally colonize tumors and potentially be reprogrammed to fight cancer. *The team was excited by the possibility of using genetically engineered bacteria as living therapeutics within the tumor microenvironment*.
+
+#img(path: "/images/igem1.jpg", caption: "IISER KOLKATA iGEM Team.", position: bottom, width: 100%, portrait: true)
+  
+== Targeting Regulatory T Cells
+
+Just as Mary Brunkow, Fred Ramsdell and Shimon Sakaguchi turned the Nobel Prize of 2025 in their hands, defining ‘*peripheral immune tolerance*’, the iGEM team of IISER Kolkata visualised a therapy which deployed the very same key-players – the regulatory T cells (Tregs) — cells that are normally protective but, within tumors, become co-opted to suppress immune responses.
+
+This led them to Dr. Shilpak Chatterjee’s work on *CD38*, an ectoenzyme highly expressed on intratumoral Tregs, which depletes NAD⁺ and dampens effector T-cell activity. His paper led them to realize that targeting CD38 could ‘re-heat’ cold tumors (those resistant to immunotherapy) and restore immune surveillance. 
+
+#img(path: "/images/igem2.png", caption: "Gene Circuit created by the team.", position: top, width: 100%, portrait: true)
+== System Design: Tumor-Specific Activation via Synthetic Circuit
+
+Combining these ideas — bacterial tumor targeting, the immunosuppressive role of CD38⁺ Tregs, and the concept of localized therapy — the team conceived ReSET, a probiotic system that senses tumor cues and releases an *anti-CD38 nanobody* specifically within the tumor while also enabling non-invasive monitoring of therapeutic activity. 
+
+While most cancer treatments are either therapeutic or diagnostic, *ReSET proposes to do both*: it treats tumors by locally blocking CD38 and reports its activity through the secretion of salicylate, a harmless metabolite easily detected using a low-cost paper strip. 
+
+== Core Technology: Control with an AND Gate Biosensor
+At the heart of ReSET lies a *biosensor circuit* engineered to function as an AND gate, adapted from the lldPRD operon. This core module ensures that gene expression is activated only when both lactate and hypoxia — the hallmark conditions of the tumor microenvironment — are present, to prevent off-target killing. The LldR/LldP system acts as the lactate sensor, where high lactate levels lift LldR-mediated repression, while the PdmsA promoter drives expression specifically under hypoxic conditions. Together, these inputs tightly *regulate downstream expression*, ensuring precise tumor-restricted activation and eliminating off-target effects. 
+
+Downstream of the AND gate, two key modules operate in parallel — the therapeutic module, encoding the anti-CD38 nanobody-Fc fusion, and the diagnostic module, comprising Irp9 and PchB, which synthesize salicylate as an externally detectable biomarker. In addition to the probiotic system, they also designed a *hardware-linked sensing circuit* featuring a bidirectional promoter responsive to salicylate. This interface allows the bacterial signal to be translated into a measurable output on the paper-strip–based detection platform, completing the loop between biological computation and real-world monitoring. 
+
+#img(path: "/images/igem3_mod.jpg", caption: "Optimization of promoter activity under varying lactate and sodium sulfite concentrations and growth media. (A) Relative promoter activity increased with higher inducer concentrations. (B) Comparison of promoter strength across different media. (C) Visual representation of the experimental setup showing color variation with increasing inducer concentration.", position: bottom, width: 100%, portrait: false)
+== Tumor-Selective Targeting 
+You furrow your eyes and murmur “Target killing?”, but Team iGEM has got you covered. 
+Specificity in RESET is ensured at multiple levels. First, the chassis — E. coli Nissle 1917 — was chosen for its natural ability to *selectively colonize tumor tissues*, a property that provides an inherent layer of spatial targeting. Second, the biosensor operates through an AND gate that requires both lactate and hypoxia signals for activation. These two conditions rarely overlap in healthy tissues but are defining features of the tumor microenvironment, ensuring that the therapeutic module is expressed only within the tumor. Finally, the therapeutic nanobody targets CD38, a marker highly specific to intratumoral regulatory T cells (Tregs). By focusing on this subset, they *prevent off-target effects on peripheral Tregs* and reduce the risk of triggering autoimmune responses. 
+
+== Mathematical Modeling that helps predicting Efficacy 
+The project’s mathematical model comes in to enhance precision and robustness. _From kinetically modelling the inhibition of the hydrolase activity of CD38 by the nanobody-CD38 interaction to stochastic stimulation of the AND gate in the genetic circuit_. At tissue-level they *analysed tumour-growth models* to integrate tumour-immune dynamics. At the cellular level, they modeled the tumor cell cycle phases to understand how NAD⁺ restoration and Treg depletion affect tumor proliferation and apoptosis dynamics. By integrating CD38 activity inhibition with cell cycle checkpoints, the model *predicted a shift toward cell cycle arrest* and increased sensitivity to immune-mediated killing. 
+
+_It is now that you wonder how safe is ReSET as a therapy?_
+As the team themselves say, what sets their approach apart is its precision, safety, and accessibility. 
+
+#img(path: "/images/igem4.jpg", caption: "Kinetic profile of promoter activity showing fluorescence intensity over time for different concentrations of lactate, sodium sulfite, and their combinations. Co-induction with both substrates led to the strongest and most sustained promoter activation.", position: top, width: 100%, portrait: true)
+== Tumor-Selective Approach
+Traditional cancer treatments like chemotherapy, radiation, or surgery are invasive, systemically toxic and often non-specific, harming healthy cells alongside cancerous ones. In contrast, *ReSET is non-invasive and tumor-selective*. It deploys engineered E. coli Nissle, a safe, well-characterized probiotic, that naturally homes to the colon, where it senses tumor-specific cues and secretes the therapeutic module precisely within the tumor microenvironment. 
+
+== Biocontainment: Advanced Kill Switches and Scalability
+
+Additionally, the bacterial system, a *GRAS* (Generally Recognized As Safe) strain with a long record of human probiotic use, is programmable, cost-effective, and easily scalable, unlike monoclonal antibodies that require expensive production and intravenous administration. 
+To further ensure safety, the team implemented a *dual-layered lysis-based kill switch* inspired by advanced biocontainment systems for engineered probiotics. This circuit employs a ccdB toxin fused to a ssrA degradation tag, which keeps the toxin inactive within the host. Upon escape to external environments, cold-shock promoter activation triggers TEV protease expression, which cleaves off the ssrA tag, stabilizing the ccdB toxin. The now-active toxin inhibits DNA gyrase, leading to rapid self-lysis and *ensuring that the bacteria cannot survive outside the anaerobic tumor core or colon*. 
+
+== Outreach : Making Science Accessible
+ReSET stands out as a radical leap in cancer therapeutics — living and self-aware, a protector who talks back. However, science without striving for the community is just indulgence, so team iGEM's outreach philosophy began with a simple belief — science should speak a language everyone understands.
+
+They began by listening. Conversations with cancer survivors, caregivers, onco-psychology experts, and the NGO Life Beyond Cancer grounded our project in the lived realities of cancer — the emotional toll, financial burden, and stigma that often remain unseen. 
+
+#img(path: "/images/igem5.jpg", caption: "Fluorescence microscopy of engineered E. coli under varying induction conditions. (a) Uninduced control, (b) cells showing GFP fluorescence upon lactate induction, (c) sodium sulfite induction, and (d) co-induction with both inducers resulting in RFP signal, confirming dual-input promoter responsiveness.", position: bottom, width: 100%, portrait: true)
+
+Partnering with schools, NGOs, and prominent educators like *Mr. Subhanath Chattopadhyay*, the iGEM team launched *Biology Beyond the Microscope* — a series of workshops that combined storytelling, hands-on experiments, and games to make biology intuitive and fun. From colour-changing chemistry and good-vs-bad bacteria activities for primary students, to demonstrations on genetic engineering and biosensing for high schoolers, every session aimed to spark curiosity and make science inclusive — especially for neurodivergent and special-needs learners. 
+
+Another collaboration with the *Breakthrough Science Society* and the *Satyendranath Bose Science Learning Centre* allowed them to reach hundreds of students through interactive science exhibitions and bilingual (English-Bengali) educational materials. 
+
+At the community level, they conducted cancer awareness drives during Durga Puja (a regional festival), held blood donation camps, and hosted public sessions at NGOs such as Ashar Alo, where even specially abled children participated in playful learning activities. These efforts were featured in Anandabazar Patrika,a regional newspaper, and led to widespread creation of awareness through the social media handle reaching people in thousands. 
+
+A cup of instant coffee in hand, missing protein ladders, and PCRs gone wrong, as the team raced to catch the last campus bus, they discovered that research isn’t just about spreadsheets of success — it’s about resilience, laughter, and teamwork.
+
+== Innovating for India's Future
+
+#img(path: "/images/igem6.jpg", caption: "Team member conducting a school outreach session to introduce students to the fundamentals of synthetic biology and its real-world applications.", position: top, width: 100%, portrait: true)
+
+The blistering population of a billion in India stands today at — “Cancer? A disease too complex to understand and too expensive to fight!” This quirky, bright team of IISERites takes a chance for millions across the globe, to innovate and protect. For as Buckminster Fullerene had once said, “The best way to predict your future is to design it!”
+
+On November 1st, at the prestigious International iGEM Jamboree held in Paris, the IISER Kolkata team was awarded the *coveted Gold Medal in the oncology village* which is the most popular and has the highest competition. This recognition celebrates the team's innovative contributions to cancer therapy and diagnostics, marking a noteworthy achievement for undergraduate level in synthetic biology on a global platform 
+
+#img(path: "/images/igem7.jpg", caption: "From classrooms to labs — inspiring the next generation of bioengineers through interactive discussions and fun activities.", position: top, width: 100%, portrait: true)
+
+#img(path: "/images/igem8.jpg", caption: "Gold glory for Team IISER Kolkata! Months of innovation, teamwork, and passion paid off at the iGEM 2025 Jamboree at Paris.", position: bottom, width: 90%, portrait: false)
+
