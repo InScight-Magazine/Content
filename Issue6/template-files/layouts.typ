@@ -182,9 +182,14 @@ if authors.len() == 0 {
 counter(figure.where(kind: image)).update(0)
 columns(numCols,
 if authorInfo != none {
-    v(1fr)
-    auth-profile(authorInfo: authorInfo, authorImage: authorImage)
-    v(1fr)
+    block(width: 90%,
+    par(leading: 0.3em, text(font: heading-font, size:1.4em, weight: "medium",[#abstract]))
+    + v(1em)
+    + text(font: main-font, size:1.3em, weight: "medium", fill: navy, [*EDITED BY*: #reviewedBy.join(", ")])
+    + v(1fr)
+    + auth-profile(authorInfo: authorInfo, authorImage: authorImage)
+    + v(1fr)
+    )
     colbreak()
 } + 
 content
@@ -192,22 +197,6 @@ content
   references(refsFile: refsFile, breakAfter: breakAfter)
 }
 )
-// if authorInfo != none or refsFile != none {
-//   line(length:80%)
-//   grid(
-//     columns: (1fr, 2fr),
-//     gutter: 2em,
-//     if authorInfo != none {
-//         eval(authorInfo, mode: "markup")
-//         image(authorImage)
-//     },
-//     grid.cell(breakable: false,
-//     if refsFile != none {
-//       references(refsFile: refsFile, breakAfter: breakAfter)
-//     }
-//   )
-//   )
-// }
 }
 
 #let interview(

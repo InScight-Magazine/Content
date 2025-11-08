@@ -1,15 +1,15 @@
 #import "/template-files/inscight-template.typ": *
 
-#let title = "From Waves To Leaves: Story of the First Biophysicist"
-#let authors = ("Gautam Basu",)
-#let affiliations = ("Quantum Algorithm Scientist, Espoo, Finland",)
-#let abstract = "We live in an age ruled by information—streams of data moving invisibly through chips, clouds, and cables. Yet behind this seemingly immaterial flow lies a profound physical truth: every act of remembering, measuring, or deleting information leaves a scar in the fabric of the universe. It releases heat. This connection, known as \textbf{Landauer’s Principle}, bridges two of  greatest intellectual adventures—computation and thermodynamics—and reveals that information itself obeys the laws of physics."
+#let title = "Engineering Living Medicine To Reprogram Cancer: The Story of IISER Kolkata's Triumph at iGEM 2025"
+#let authors = ("Sharanya Chatterjee", "Madhura Theng")
+#let affiliations = ("IISER Kolkata",)
+#let abstract = "IISER Kolkata’s iGEM 2025 team has engineered ReSET, a probiotic-based theranostic system that senses tumor-specific cues to deliver an anti-CD38 nanobody while simultaneously reporting therapeutic activity through a simple biosensor readout. Blending synthetic biology, mathematical modeling, and community outreach, the project pioneers a tumor-selective, safe, and accessible approach to cancer therapy, earning the team a Gold Medal at the iGEM Grand Jamboree in Paris."
 #let coverImage = "iGEM.pdf"
 #let authorImage = "sharanyaFace.jpg"
 #let authorInfo = "*Sharanya Chatterjee* is a BS-MS student of IISER Kolkata and an aspiring researcher who is passionate in the field of neuroscience, developmental biology and its manifestations. She believes in responsible research facets and habitually reads 'maybe nots' as 'maybes'."
 #let received = (month: 10, day: 12, year: 2025)
 #let category = "Physics"
-#let reviewedBy = ("Swarnendu Saha", "Archita Sarkar") 
+#let reviewedBy = ("Archita Sarkar",) 
 #let refsFile = "/dataFiles/basu.yml"
 
 #show: section.with(
@@ -44,7 +44,7 @@ And keeping the banner flying high, the newest endeavour of IISER Kolkata in the
 
 The  project idea grew from a fascination with the concept of the tumor microbiota, how bacteria can naturally colonize tumors and potentially be reprogrammed to fight cancer. *The team was excited by the possibility of using genetically engineered bacteria as living therapeutics within the tumor microenvironment*.
 
-#img(path: "/images/igem1.jpg", caption: "IISER KOLKATA iGEM Team.", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/igem1.jpg", caption: "IISER KOLKATA iGEM Team. From ground left: Asmi, Albin, Sagnik, Anjali, Iishaan. 2nd line: Amrik, Deepanshu, Shankha, Gautam, Nandita, Sattwik", position: bottom, width: 100%, portrait: true)
   
 == Targeting Regulatory T Cells
 

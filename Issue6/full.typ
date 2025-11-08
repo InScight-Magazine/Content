@@ -13,6 +13,7 @@
 #include "/subfiles/basu.typ"
 #include "/subfiles/tanmoy.typ"
 #include "/subfiles/igem.typ"
+#include "/subfiles/apurba.typ"
 #include "/subfiles/digest.typ"
 // #include "/subfiles/games.typ"
 // #include "/subfiles/quiz.typ"

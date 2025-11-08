@@ -9,7 +9,7 @@
 #let authorInfo = "*Dr. Gautam Basu* is a Biophysicist and a former Professor at Bose Institute. Beyond scientific research, he is actively involved in science communication and has interest in History of Science. He is an elected Fellow of the West Bengal Academy of Science and Technology and the Indian National Science Academy."
 #let received = (month: 10, day: 12, year: 2025)
 #let category = "Physics"
-#let reviewedBy = ("Swarnendu Saha", "Archita Sarkar") 
+#let reviewedBy = ("Ishita Bardhan",)
 #let refsFile = "/dataFiles/basu.yml"
 
 #show: section.with(

@@ -3,13 +3,13 @@
 #let title = "The Physics of Forgetting: When Information Becomes Heat"
 #let authors = ("Tanmoy Pandit",)
 #let affiliations = ("Quantum Algorithm Scientist, Espoo, Finland",)
-#let abstract = "We live in an age ruled by information—streams of data moving invisibly through chips, clouds, and cables. Yet behind this seemingly immaterial flow lies a profound physical truth: every act of remembering, measuring, or deleting information leaves a scar in the fabric of the universe. It releases heat. This connection, known as *Landauer’s Principle*, bridges two of  greatest intellectual adventures—computation and thermodynamics—and reveals that information itself obeys the laws of physics."
+#let abstract = "Every act of remembering, measuring, or deleting information leaves a scar in the fabric of the universe by releasing heat. This connection, known as *Landauer’s Principle*, bridges two of  greatest intellectual adventures—computation and thermodynamics—and reveals that information itself obeys the laws of physics."
 #let coverImage = "tanmoy.svg"
 #let authorImage = "tanmoy.png"
 #let authorInfo = "*Tanmoy Pandit* is a Quantum Algorithm Scientist at QMill (Espoo, Finland), focusing on quantum error mitigation, quantum noise characterization, and algorithms for NISQ devices, alongside large-scale simulations of open many-body quantum systems. Beyond physics, he switched from  Quantum Algorithm to music—violin and piano—and he's committed to scientist activism and public-interest science through the India March for Science – Abroad Chapter (IMFS-A) and the Breakthrough Science Society (BSS) – Abroad Chapter. #parbreak() This article draws inspiration from: T. Pandit, G. Paul, A. Misra, and P. Chattopadhyay, _Landauer Principle and Thermodynamics of Computation_, *Rep. Prog. Phys.* *88*, 086001 (2025)."
 #let received = (month: 10, day: 12, year: 2025)
 #let category = "Physics"
-#let reviewedBy = ("Swarnendu Saha", "Archita Sarkar") 
+#let reviewedBy = ("Archita Sarkar", "Debanuj Chatterjee") 
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
