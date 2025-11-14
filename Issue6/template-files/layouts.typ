@@ -183,12 +183,11 @@ counter(figure.where(kind: image)).update(0)
 columns(numCols,
 if authorInfo != none {
     block(width: 90%,
-    par(leading: 0.3em, text(font: heading-font, size:1.4em, weight: "medium",[#abstract]))
-    + v(1em)
-    + text(font: main-font, size:1.3em, weight: "medium", fill: navy, [*EDITED BY*: #reviewedBy.join(", ")])
+    par(leading: 0.6em, text(font: abstract-font, size:2em, weight: "medium", fill:header-bg-color, [#abstract.first()]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(1), mode:"markup")))
+    + v(1fr)
+    + text(font: abstract-font, size:1.3em, weight: "medium", fill: navy, [*EDITED BY*: #reviewedBy.join(", ")])
     + v(1fr)
     + auth-profile(authorInfo: authorInfo, authorImage: authorImage)
-    + v(1fr)
     )
     colbreak()
 } + 
@@ -422,7 +421,7 @@ content
   intro: none,
   outlineDesc: none,
 ) = {
-  let data = json(file)
+  let data = toml(file)
   let locations = ()
   for (k,v) in data.at("down") {
     locations.push(v.at(0))

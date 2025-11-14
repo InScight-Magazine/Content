@@ -3,6 +3,6 @@
 #whoami(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/whoami.yml",
-  title: "Who Am I? --- Natural Laws & Processes Edition",
-  intro: "Identify the natural laws and biochemical processes from the hints."
+  title: "Who Am I? --- Scientists Edition",
+  intro: "Guess the names of the scientists from the hints."
 )

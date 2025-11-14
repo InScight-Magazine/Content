@@ -444,9 +444,9 @@
 }
 
 #let gen_crossword(
-  json_file,
+  toml_file,
 ) = {
-  let data = json(json_file)
+  let data = toml(toml_file)
   let size = data.at("size")
   let blanks = data.at("blanks")
   let locations = ()
@@ -488,9 +488,9 @@
 
 
 #let crossword_solution(
-  json_file,
+  toml_file,
 ) = {
-  let data = json(json_file)
+  let data = toml(toml_file)
   let locations = ()
   for (k,v) in data.at("down") {
     locations.push(v.at(0))

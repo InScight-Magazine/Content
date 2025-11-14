@@ -1,28 +1,28 @@
-- question: Which law of nature am I?
-  image: "fizzy.jpg"
+- question: Which crystallographer am I?
+  image: "image51.jpeg"
   hints:
-    - Discovered in the early 19th century, I explain why carbon dioxide stays trapped in your soda until the cap is opened.
-    - I describe how the amount of gas dissolved in a liquid depends on the pressure above it, keeping soft drinks fizzy under a sealed lid.
-    - Beyond beverages, I also govern how gases like oxygen dissolve into the bloodstream, maintaining nature’s delicate balance of exchange.
-  answer: "Henry's law"
-- question: Which natural process am I?
-  image: "decompose.jpg"
+    - I was a British scientist in the mid-20th century, specializing in techniques that captured the hidden structures of molecules.
+    - My precise X-ray images provided critical evidence of a spiral form in the molecule that carries life’s blueprint.
+    - Before my work with biological molecules, I studied the porous structure of coal, shedding light on its molecular makeup.
+  answer: "Rosalind Franklin"
+- question: Which alchemist am I?
+  image: "newton.jpg"
   hints:
-    - I transform fallen leaves, dead plants, and animal remains into simpler building blocks that enrich the earth.
-    - Driven by microbes like bacteria and fungi, I break down complex organic matter and release nutrients that help plants thrive.
-    - Beyond nourishing the soil, I also influence the planet’s carbon balance, subtly shaping the air we breathe.
-  answer: "Decomposition"
-- question: Which scientific principle am I?
-  image: "hardy.jpg"
+    - I spent much of my career at a renowned English university, diving deep into mathematics and the mysteries of the natural world.
+    - In 1687, I published a work that mathematically proved the elliptical paths of planets, building on the ideas of an earlier stargazer.
+    - My curiosity extended to the nature of light, where my experiments with prisms showed how it could be broken into a rainbow of colors, revealing its hidden properties.
+  answer: "Isaac Newton"
+- question: Which mathematician am I?
+  image: "descartes.jpg"
   hints:
-    - Formulated in 1908, I describe how a population’s genetic makeup can remain in balance when no external forces act upon it.
-    - Named after two mathematicians, I predict that allele frequencies stay constant unless altered by mutation, selection, or migration.
-    - Beyond representing stability, I provide a baseline for detecting shifts in genetic variation, helping scientists trace how populations evolve over time.
-  answer: "Hardy–Weinberg principle"
-- question: Which fundamental constant of nature am I?
-  image: "light.jpg"
+    - I was a French thinker in the 17th century, blending mathematics with philosophy to unravel the mysteries of the world.
+    - A moment of inspiration, sparked by watching a fly move across a ceiling, led me to devise a new way to pinpoint locations using numbers.
+    - My work laid the foundation for a system that maps points in space with pairs or triplets of values, revolutionizing how we describe position.
+  answer: "René Descartes"
+- question: Which chemist am I?
+  image: "haber.jpg"
   hints:
-    - I am reported to have been measured for the first time by the Danish astronomer Ole Christensen Rømer.
-    - I connect electricity and magnetism, quietly emerging from Maxwell’s equations in the 19th century.
-    - By remaining finite, I ensure that the past and the future remain distinct.
-  answer: "Speed of light"
+    - I was a German chemist in the early 20th century, driven to solve one of agriculture’s greatest challenges through industrial innovation.
+    - By combining nitrogen from the air with hydrogen under extreme conditions, I developed a process that revolutionized food production for billions.
+    - My early experiments delved into the electrical properties of chemical reactions, but it was my use of a rare metal catalyst that changed the world.
+  answer: "Fritz Haber"

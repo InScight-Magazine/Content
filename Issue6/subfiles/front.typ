@@ -3,7 +3,7 @@
     header: none,
     footer: none,
     margin: 0em,
-    background: image("/covers/front.png", height: 100%, width: 100%, fit: "cover")
+    background: image("/covers/tanmoy.png", height: 100%, width: 100%, fit: "cover")
 )
 
 #set text(fill: rgb("ddd"))
@@ -13,7 +13,8 @@ set text(font: "Neuton SC")
 place(
   center,
   dy: 6em,
-  image("/covers/lightBanner.svg", width: 70%) + 
+  image("/covers/lightBanner.png", width: 70%) + 
+  v(2em) +
   grid(
     columns: (auto, auto),
     align: center + horizon,
@@ -24,42 +25,41 @@ place(
 )
 }
 
-#link(<Chandrima-Easier>)[
-  #set text(font: "Neuton", size: 2.5em, weight: "bold")
+#link(<Sharanya-2025>)[
+  #set text(font: "Neuton", size: 2.4em, weight: "bold")
   #place(
-  center + horizon,
-  dy: 8em,
-  box(width: 100% - 3em,
-    [CELL DEATH MAKES \ LIVING EASIER #parbreak() #text(fill: orange, [Chandrima Shaha])],
+  left + horizon,
+  dx: 1em,
+  dy: -2em,
+  box(width: 220pt,
+    [THE PHYSICS OF FORGETTING #parbreak() When Information Becomes Heat #parbreak() #text(fill: yellow, [Chandrima Shaha])]
   )
 )
 ]
 
-#{
-set text(font: "Neuton", size: 1.4em, weight: "bold")
-place(
-  center + bottom,
-  dy: -2em,
-  box(width: 100% - 3em,
-  grid(
-    columns: (1fr, auto, 1.2fr, auto, 1fr),
-    align: (left + horizon, center + horizon, center + horizon, center + horizon, right + horizon),
-    // stroke: (x,y) => if x < 2 { (right: 0.2em + white) },
-    gutter: 0.5em,
-    link(<Suman-Curiosity>)[AT THE INTERSECTION OF PHYSICS AND BIOLOGY #parbreak() #text(fill: orange, [Tamal Das on Forces \& Cells])],
-    line(angle: 90deg, length: 5em, stroke: 0.2em + white),
-    link(<Swarnendu-InScight>)[FROM CANCER RESEARCH TO PARADIGM SHIFTS#parbreak() #text(fill: orange, [Interview with Sushanta Roychoudhury])],
-    line(angle: 90deg, length: 5em, stroke: 0.2em + white),
-    link(<Swarnendu-Curiosity>)[WHY THERAPIES FAIL?#parbreak() #text(fill: orange, [Ofer Reizes on cancer, collaboration, and curiosity])],
-  )
+#link(<Sharanya-2025>)[
+  #set text(font: "Neuton", size: 2.4em, weight: "bold")
+  #place(
+  right + horizon,
+  dx: -1em,
+  dy: 4em,
+  box(width: 190pt,
+    [BREAKING THE ICE #parbreak() India's First Women In Antarctica #parbreak() #text(fill: yellow, [comic by Arya Mhatre])]
   )
 )
-}
+]
 
-// #place(
-//   center + bottom,
-//   dy: -3em,
-//   text(size: 1.6em, weight: "bold", [\[#link("https://scicomm.iiserkol.ac.in")[scicomm.iiserkol.ac.in]\]]),
-// )
+
+#link(<Sharanya-2025>)[
+  #set text(font: "Neuton", size: 2.4em, weight: "bold")
+  #place(
+  left + horizon,
+  dx: 1em,
+  dy: 10em,
+  box(width: 190pt,
+    [THEMED CROSSWORD #parbreak() Women In Science #parbreak() #text(fill: yellow, [comic by Arya Mhatre])]
+  )
+)
+]
 
 #pagebreak()

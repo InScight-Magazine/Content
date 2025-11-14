@@ -4,5 +4,5 @@
 #quiz(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/quiz.yml",
-  title: "Quiz: Diseases and Biology",
+  title: "Quiz: Earth and Moon",
 )

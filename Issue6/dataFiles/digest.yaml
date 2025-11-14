@@ -48,3 +48,28 @@ In short, the study shows how “listening” to rivers can help us better under
    - River CO#sub[2] emissions
    - Radiocarbon dating
    - Global carbon cycle
+- 
+  "Author": "Suman Haldar"
+  "Title": "What do the fundamental constants of physics tell us about life?"
+  "Affiliation": "Department of Physical Sciences, IISER Kolkata"
+  "Image": "suman.svg"
+  "Caption": "Characterizing chemical self-replicators. (a) Self-replication requires organisms to break down food molecules from the environment to extract energy and metabolic precursors (catabolism) and then use this energy to synthesize the complex molecules necessary for selfreplication (anabolism). (b) We focus on three properties of self-replication: (i) the mass per unit energy consumed needed to self-replicate, (ii) the time it takes for self-replication, and (iii) the energy per unit time a dormant cell must expend in order to stay alive and counter entropic forces."
+  "Summary": "In this extraordinary work by Pankaj Mehta and Jané Kondev, physics reaches toward the living world with the same audacity Weisskopf once used to estimate the height of mountains. Half a century ago Weisskopf showed that with just six physical constants—ℏ, c, e, mₑ, mₚ, Gₙ—the universe allowed one to estimate densities, mountain heights, stable matter. But life was missing from that program. This paper attempts the most radical extension: to put “life” itself inside the Weisskopf reasoning game. To ask: how much of biology can be read directly from quantum constants? How much inevitability is buried inside the Rydberg energy? How much universality does α, mₑ / mₚ impose on metabolism and replication?
+
+
+Life on Earth is, fundamentally, electrons falling downhill toward lower energy states. Szent-Gyorgi called life a high-energy electron searching for a place to rest — this paper takes that statement literally and quantitatively. The authors argue that three essential biological numbers — growth yield, minimum possible doubling time, and the minimum maintenance power of dormancy — can all be derived from fundamental constants plus a few geometric/structural fudge factors. The Rydberg energy (~13.6 eV) and Bohr radius (~0.53 Å) define the quantum base units of chemistry. Thermal fluctuations (kBT ~ 25 meV) are orders of magnitude lower — this gigantic asymmetry explains why chemistry is stable, why catalysts exist, why biological time must scale between these two worlds (quantum & thermal).
+
+
+From this, they estimate the yield Y: mass (g) produced per Joule consumed. Using only α, Ry, molecular atomic numbers and bond fudge factors, they get ~10⁻⁵–10⁻⁴ g/J — astonishingly matching microbes on Earth. This, they argue, may be universal, even for alien life, because it is not exponentially sensitive to activation energy — unlike kinetics.
+
+
+Minimum doubling time emerges from the interplay of quantum-set minimum viscosity (Berg viscosity) and diffusion-limited kinetics. With Arrhenius activation barriers of 0.4–1.1 eV, one gets doubling times from seconds to geological years — perfectly spanning Vibrio natriegens (~10 minutes) to deep-ocean microbes (~years). And finally, dormant power — arises simply from thermally-opened membrane pores leaking charge requiring pumping — giving ~10⁻¹³ –10⁻¹⁵ J/s/cell, exactly the natural order biological measurements report.
+
+
+The result is profound: evolution explores details, but the gross “possibility space” of life is already sharply bounded by physics itself long before chemistry, DNA, or selection. The production of biomass, the speed of replication, the lowest energy to stay alive — are already written in the constants of nature. Growth yield is the least free, most universal property of life. This is not biology derived from empirical catalogs — this is life emerging almost poetically from ℏ, α, mₑ, mₚ. Physics gives life a skeleton before evolution gives life a story."
+  "Reference": "Mehta, Pankaj, and Jane Kondev. What do the fundamental constants of physics tell us about life?. arXiv preprint arXiv:2509.09892 (2025)."
+  "Url": "https://arxiv.org/abs/2509.09892"
+  "Keywords":
+    - Biological Physics
+    - Earth and Planetary Astrophysics
+    - Statistical Mechanics

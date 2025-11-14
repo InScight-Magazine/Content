@@ -12,7 +12,7 @@
   gutter: 2em,
   align: left,
   [
-    #let answers = crossword_solution("/dataFiles/crossword.json")
+    #let answers = crossword_solution("/dataFiles/crossword.toml")
     == Crossword
     #grid(
       columns: (1fr, 1fr),

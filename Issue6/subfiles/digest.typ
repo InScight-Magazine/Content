@@ -3,8 +3,8 @@
 #insightDigest(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/digest.yaml",
-  heights: (52%, 49%, 51%, 40%),
-  widths: (81%, 70%, 45%, 100%),
+  heights: (52%, 49%, 54%, 40%),
+  widths: (81%, 70%, 100%, 100%),
   title: "Insight Digest",
   intro: "Summarising The Frontiers In Research",
   abstract: ("Fresh highlights from the frontiers of science",),

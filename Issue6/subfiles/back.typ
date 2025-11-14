@@ -6,7 +6,7 @@
   )
 
 #backCover(
-  images: ("/images/back1.jpeg", "/images/back2.png", "/images/back3.jpg"),
-  titles: ("79th Independence Day", "The Moon in Eclipse", "Kabaddi Showdown: IISER K vs IISER TVM"),
-  captions: ([As light diffracts into its vibrant spectrum, the tricolour unfurled at IISER Kolkata, symbolizing the diverse yet united spirit of our nation. _Credit: IISER Kolkata_], [Bathed in Earth’s shadow, the Moon turned into a canvas of cosmic beauty. The Total Lunar Eclipse witnessed at IISER Kolkata, brought closer through a telescope session by Singularity: The Astro Club. _Credit: Susnata Chattopadhyay_], [In one of the most intense matches of IISM-2024, IISER Kolkata clinched victory over IISER Thiruvananthapuram in Kabaddi after four thrilling tie-breakers. _Credit: Madhura Theng_])
+  images: ("/images/back1.jpg", "/images/back2.jpg", "/images/back3.JPG"),
+  titles: ("Stride of Unity", "Checkmate Chronicles", "The Science Carnival"),
+  captions: ([A spirited celebration of National Sports Day as students and faculty joined together for the Freedom Run Marathon, embodying unity, health, and enthusiasm across the IISER Kolkata campus. _Credit: IISER Kolkata_], [Snapshots from the Chess Club Tournament — IISER Kolkata’s chess enthusiasts showcasing strategic brilliance, camaraderie, and the thrill of mind games in action. _Credit: IISER Kolkata_], [An exciting water rocket event from Inquivesta where engineering ingenuity, teamwork and pure excitement meet. _Credit: Inquivesta_])
 )

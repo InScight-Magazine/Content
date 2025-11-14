@@ -1,12 +1,12 @@
 #import "/template-files/inscight-template.typ": *
 
-#let title = "Engineering Living Medicine To Reprogram Cancer: The Story of IISER Kolkata's Triumph at iGEM 2025"
+#let title = "Engineered Probiotics And The New-Age Onco-weapon: The Story of IISER Kolkata's Triumph at iGEM 2025"
 #let authors = ("Sharanya Chatterjee", "Madhura Theng")
 #let affiliations = ("IISER Kolkata",)
 #let abstract = "IISER Kolkata’s iGEM 2025 team has engineered ReSET, a probiotic-based theranostic system that senses tumor-specific cues to deliver an anti-CD38 nanobody while simultaneously reporting therapeutic activity through a simple biosensor readout. Blending synthetic biology, mathematical modeling, and community outreach, the project pioneers a tumor-selective, safe, and accessible approach to cancer therapy, earning the team a Gold Medal at the iGEM Grand Jamboree in Paris."
-#let coverImage = "iGEM.pdf"
-#let authorImage = "sharanyaFace.jpg"
-#let authorInfo = "*Sharanya Chatterjee* is a BS-MS student of IISER Kolkata and an aspiring researcher who is passionate in the field of neuroscience, developmental biology and its manifestations. She believes in responsible research facets and habitually reads 'maybe nots' as 'maybes'."
+#let coverImage = "iGEM.svg"
+#let authorImage = "igem.jpeg"
+#let authorInfo = "*Madhura Theng* and *Sharanya Chatterjee* are 23 MS students in the Department of Biological Sciences, driven by a shared fascination for synthetic biology and its potential to solve real-world problems. #linebreak() Sharanya previously represented her institute as part of the gold winning iGEM team in 2024 and her research focus lies in neuro-immune cross talk. Madhura’s academic focus lies in neural circuitry, behaviour, and the cellular mechanisms that underpin them."
 #let received = (month: 10, day: 12, year: 2025)
 #let category = "Physics"
 #let reviewedBy = ("Archita Sarkar",) 
@@ -44,7 +44,7 @@ And keeping the banner flying high, the newest endeavour of IISER Kolkata in the
 
 The  project idea grew from a fascination with the concept of the tumor microbiota, how bacteria can naturally colonize tumors and potentially be reprogrammed to fight cancer. *The team was excited by the possibility of using genetically engineered bacteria as living therapeutics within the tumor microenvironment*.
 
-#img(path: "/images/igem1.jpg", caption: "IISER KOLKATA iGEM Team. From ground left: Asmi, Albin, Sagnik, Anjali, Iishaan. 2nd line: Amrik, Deepanshu, Shankha, Gautam, Nandita, Sattwik", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/igem1.jpg", caption: "IISER KOLKATA iGEM Team. From Ground Left : Iishaan Pyne , Asmi Mhatre , Anjali Mishra, Gautam Menon, Deepanshu. Top left : Sattwik Pradhan , S Nandita, Albin Ajesh, Shana Shuvra, Sagnik Jana, Amrik Das.", position: bottom, width: 100%, portrait: true)
   
 == Targeting Regulatory T Cells
 
@@ -101,7 +101,7 @@ A cup of instant coffee in hand, missing protein ladders, and PCRs gone wrong, a
 
 == Innovating for India's Future
 
-#img(path: "/images/igem6.jpg", caption: "Team member conducting a school outreach session to introduce students to the fundamentals of synthetic biology and its real-world applications.", position: top, width: 100%, portrait: true)
+#img(path: "/images/igem6.jpg", caption: "Ishan Payne, one of the team members, conducts a school outreach session to introduce students to the fundamentals of synthetic biology and its real-world applications.", position: top, width: 100%, portrait: true)
 
 The blistering population of a billion in India stands today at — “Cancer? A disease too complex to understand and too expensive to fight!” This quirky, bright team of IISERites takes a chance for millions across the globe, to innovate and protect. For as Buckminster Fullerene had once said, “The best way to predict your future is to design it!”
 

@@ -3,8 +3,8 @@
 #let title = "From Waves To Leaves: Story of the First Biophysicist"
 #let authors = ("Gautam Basu",)
 #let affiliations = ("Quantum Algorithm Scientist, Espoo, Finland",)
-#let abstract = "We live in an age ruled by information—streams of data moving invisibly through chips, clouds, and cables. Yet behind this seemingly immaterial flow lies a profound physical truth: every act of remembering, measuring, or deleting information leaves a scar in the fabric of the universe. It releases heat. This connection, known as \textbf{Landauer’s Principle}, bridges two of  greatest intellectual adventures—computation and thermodynamics—and reveals that information itself obeys the laws of physics."
-#let coverImage = "basu.svg"
+#let abstract = "In this article, we trace Jagadish Chandra Bose’s extraordinary scientific evolution—from pioneering wireless communication to founding the field of biophysics. His 1924 work The Physiology of Photosynthesis transformed plant science through quantitative, instrument-driven research, revealing early evidence of the C₄ pathway decades before its formal discovery and securing his legacy as a global pioneer in photosynthesis research."
+#let coverImage = "bose.svg"
 #let authorImage = "basu.jpg"
 #let authorInfo = "*Dr. Gautam Basu* is a Biophysicist and a former Professor at Bose Institute. Beyond scientific research, he is actively involved in science communication and has interest in History of Science. He is an elected Fellow of the West Bengal Academy of Science and Technology and the Indian National Science Academy."
 #let received = (month: 10, day: 12, year: 2025)
