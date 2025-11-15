@@ -4,7 +4,7 @@
 #let authors = ("Apurba Das",)
 #let affiliations = ("Quantum Algorithm Scientist, Espoo, Finland",)
 #let abstract = "In this story, Apurba Das chronicles her PhD journey uncovering how lysosomal defects trigger neurodegeneration in Mucopolysaccharidosis Type VII using the humble fruit fly as a model. Her work not only reveals how restoring the cell’s self-cleaning process can rescue brain function but also points toward affordable, brain-targeted therapies for rare diseases."
-#let coverImage = "apurba.pdf"
+#let coverImage = "apurba.svg"
 #let authorImage = "apurba.jpg"
 #let authorInfo = "*Apurba Das* is a recent PhD graduate from Lysosome Biology and Related Disease lab at Department of Biological Sciences, IISER Kolkata, under the guidance of Prof. Rupak Datta. She is interested in understanding neurodegeneration, lysosomal storage disorders, and rare diseases."
 #let received = (month: 10, day: 12, year: 2025)

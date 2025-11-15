@@ -5,7 +5,6 @@
 )
 
 #include "/subfiles/front.typ"
-// #include "/subfiles/anamitra.typ"
 // #include "/subfiles/editor.typ"
 // #include "/subfiles/foreword.typ"
 #include "/subfiles/outline.typ"
@@ -21,7 +20,7 @@
 #include "/subfiles/quiz.typ"
 #include "/subfiles/whoami.typ"
 #include "/subfiles/crossword.typ"
-// #include "/subfiles/linkedlist.typ"
-// #include "/subfiles/contribute.typ"
+#include "/subfiles/linkedlist.typ"
+#include "/subfiles/contribute.typ"
 #include "/subfiles/solutions.typ"
 #include "/subfiles/back.typ"

@@ -6,8 +6,8 @@
 #let abstract = "Take a walk through the Carboniferous, when dragonflies the size of hawks ruled the skies — and discover how oxygen, temperature, and evolution conspired to shape the rise and fall of these insect giants. This article dives into the deep-time data and modern models that reveal why ancient insects grew so large, and why they never did again."
 #let coverImage = "atri.svg"
 #let authorImage = "atri.jpeg"
-#let authorInfo = "*Atri Majumdar* is an undergraduate working in paleontology. His primary passion lies in theoretical paleontology and macroevolutionary theory. He is currently working on a collaborative project between the University of Oslo (Norway) and Lunds University (Sweden) that explores the evolution of dragonflies. Outside of geology he is an avid bass player and has an active band called Nakshattra Krittika."
-#let received = (month: 10, day: 14, year: 2025)
+#let authorInfo = "*Atri Majumdar* is an undergraduate at IISER Kolkata with a primary passion for theoretical paleontology and macroevolutionary theory. He currently works in the IISER Kolkata paleobiology lab under Dr. Subhronil Mondal and is also part of a collaborative project between the University of Oslo (Norway) and Lund University (Sweden) exploring the evolution of dragonflies. Outside of geology, he is an avid bass player and performs with his band, Nakshattra Krittika."
+#let received = (month: 10, day: 21, year: 2025)
 #let category = "Earth Sciences"
 #let reviewedBy = ("Suddhajit Bishayee", "Archita Sarkar", "Swarnendu Saha") 
 
@@ -106,7 +106,19 @@ In multivariate modelling, we see whether one time series is affecting another t
 
 Before delving into the model data we can first take a glance at our raw datasets. Visually we can see that there appears to be some negative correlation between our two time series which is very promising.
 
-#img(path: "/images/atri7.jpg", caption: "Multivariate OU and URW results (wing size of odonate modelled alongside temperature). Log-lik and AICc are internal scoring systems that the models have. They simply represent how good of a fit each model is compared to the other models. For log-lik a bigger value is better (less negative) and for AICc a smaller value is better. Delta AICc shows the difference between the best scoring model (OU2) and the rest. Delta AICc score allows us to easily determine the ranking of the model scores.", position: top, width: 100%, portrait: true)
+#tables(file: "/dataFiles/atri.csv", caption: "Multivariate OU and URW results (wing size of odonate modelled alongside temperature). Log-lik and AICc are internal scoring systems that the models have. They simply represent how good of a fit each model is compared to the other models. For log-lik a bigger value is better (less negative) and for AICc a smaller value is better. Delta AICc shows the difference between the best scoring model (OU2) and the rest. Delta AICc score allows us to easily determine the ranking of the model scores.",)
+// #tables(
+//   headings: ([Model], [K], [log-Lik], [AICc], [$Delta$ AICc]),
+//   caption: "Multivariate OU and URW results (wing size of odonate modelled alongside temperature). Log-lik and AICc are internal scoring systems that the models have. They simply represent how good of a fit each model is compared to the other models. For log-lik a bigger value is better (less negative) and for AICc a smaller value is better. Delta AICc shows the difference between the best scoring model (OU2) and the rest. Delta AICc score allows us to easily determine the ranking of the model scores.",
+//   "URWdiag","0","-52.54092","113.6972","23.27788",
+//   "URWsym metric","0","-51.70938","114.3563","23.93698",
+//   "OU1","8","-44.64526","107.6512","17.23188",
+//   "OU2","9","-34.70966","90.41932","0.0",
+//   "OU3","9","-39.21412","99.42824","9.00892",
+//   "OU4","11","-35.77253","98.09679","7.67747",
+//   "OU5","8","-136.2054","290.7714","200.35208",
+//   "OU5 param","9","-39.54269","100.0854","9.66608",
+// )
 
 Looking at our model results we can see that OU2 offers the most support. Which means that our best supported model is an Ornstein Uhnbleck process. When temperature is reaching an optima of some kind it is also pulling wing size towards a peak.
 

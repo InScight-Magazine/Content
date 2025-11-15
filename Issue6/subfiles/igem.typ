@@ -7,7 +7,7 @@
 #let coverImage = "iGEM.svg"
 #let authorImage = "igem.jpeg"
 #let authorInfo = "*Madhura Theng* and *Sharanya Chatterjee* are 23 MS students in the Department of Biological Sciences, driven by a shared fascination for synthetic biology and its potential to solve real-world problems. #linebreak() Sharanya previously represented her institute as part of the gold winning iGEM team in 2024 and her research focus lies in neuro-immune cross talk. Madhura’s academic focus lies in neural circuitry, behaviour, and the cellular mechanisms that underpin them."
-#let received = (month: 10, day: 12, year: 2025)
+#let received = (month: 10, day: 16, year: 2025)
 #let category = "Physics"
 #let reviewedBy = ("Archita Sarkar",) 
 #let refsFile = "/dataFiles/basu.yml"
