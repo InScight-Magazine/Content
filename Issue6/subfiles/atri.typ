@@ -1,6 +1,6 @@
 #import "/template-files/inscight-template.typ": *
 
-#let title = "A Story of Ice or Fire: How Does Temperature Affect Body Size in Insects"
+#let title = "A Story of Ice or Fire: How Temperature Affects Body Size in Insects"
 #let authors = ("Atri Majumdar",)
 #let affiliations = ("IISER Kolkata",)
 #let abstract = "Take a walk through the Carboniferous, when dragonflies the size of hawks ruled the skies — and discover how oxygen, temperature, and evolution conspired to shape the rise and fall of these insect giants. This article dives into the deep-time data and modern models that reveal why ancient insects grew so large, and why they never did again."

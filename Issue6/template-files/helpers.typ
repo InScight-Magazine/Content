@@ -50,6 +50,7 @@
   outlineDesc: none,
   issueId: none,
   locator: none,
+  coverHeight: 60%,
   outlined: true,
 ) = {
   page(
@@ -60,8 +61,8 @@
     footer: none,
   )[
     #block[
-      #image(coverImage, width: 100%, height: heroImage-height)
-      #if coverCaption != none [
+      #image(coverImage, width: 100%, height: coverHeight)
+      #if coverCaption.len() > 0 [
         #place(bottom + right, box(width: 45%, fill: rgb(0, 0, 0, 150), inset: 0.5em, text(font: main-font, size: main-size - 1pt, fill: rgb(240, 240, 240), weight: "semibold", eval(coverCaption, mode: "markup"))))
       ]
     ]

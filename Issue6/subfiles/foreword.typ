@@ -2,32 +2,28 @@
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  title: "Frontiers in Biomedical and Sustainable Science", 
-  intro: [_Foreword by Prof. Amitava Das_],
-  outlineDesc: "Foreword by Prof. Amitava Das",
+  title: "Lighting the Spark of Science Communication", 
+  intro: [_Foreword by Prof. Soumitra Banerjee_],
+  outlineDesc: "Foreword by Prof. Soumitra Banerjee",
   permalinkSuffix: "foreword",
 )
 
-It gives me great pleasure to present this issue of _InScight_, a forum for discussing the frontier issues in contemporary science.  True to its spirit, _InScight_ reflects the diversity of inquiry that defines our institute and the larger scientific community. Contemporary science is increasingly interdisciplinary, requiring contributions from every branch—physics, chemistry, biology, mathematics, earth sciences, and beyond—to address the grand challenges of our times. From health and disease to sustainability and climate, progress depends on dialogue and collaboration across disciplinary boundaries.
+I warmly welcome the initiative of the IISER student community to publish the popular science magazine _InScight_. Popular science has the remarkable ability to spark curiosity in young minds and inspire schoolchildren to pursue careers in science. It also plays a vital role in educating the general public about genuine scientific ideas, helping them distinguish science from pseudoscience. This is truly the need of the hour if we aspire to build India into a scientifically informed nation. Yet, India faces a shortage of quality popular science writers; we have not seen the emergence of authors comparable to George Gamow, Carl Sagan, Isaac Asimov, or Richard Dawkins.
 
-Among the most dynamic areas of present-day research is biomedical science, where new ideas emerge at the interface of chemistry and biology. A compelling example is the study of disease biology and the therapeutic potential of short peptides. Recent publications highlight how these versatile biomolecules are not just fragments of larger proteins but highly functional agents capable of modulating protein–protein interactions, serving as enzyme inhibitors, receptor modulators, or drug carriers. Chemical innovations such as stapling and conjugation have enhanced their stability and efficacy, opening avenues against cancer, neurodegeneration, antimicrobial resistance, and other complex diseases. This exemplifies how fundamental molecular science converges with medicine to generate solutions with transformative impact.
+Excellence in any craft demands continuous practice, and popular science writing is no exception. No one is born with the ability to communicate science compellingly. One must learn from the works of the great masters—observe their style, structure, and clarity—and then practice consistently. But such practice thrives only when there is a platform to showcase it. I hope _InScight_ will become that platform for budding popular science communicators.
 
-In keeping with this interdisciplinary ethos, IISER Kolkata recently hosted the Bioanalytical Workshop 2025, which brought together researchers, students, and industry experts to share cutting-edge methods in biomedical analysis. Such platforms foster exchange across domains, ensuring that our students and young scientists remain well-equipped to push the frontiers of knowledge.
+India also lags behind advanced nations in another crucial area: science journalism. Very few Indian newspapers employ dedicated science journalists, and consequently, scientific breakthroughs achieved within the country seldom reach the wider public. I sincerely hope that some IISER students will consider science journalism as a career path. Here too, a medium is needed for students to develop and refine their journalistic skills, and I trust that _InScight_ will help fill this gap.
 
-To promote and nurture interdisciplinary learning, IISER Kolkata has introduced a two-year MS program in Sustainable Science. The faculties of various departments of IISER Kolkata have come together in developing this course with the aim of addressing unmet challenges in Sustainable Ecosystems and emphasising our commitment to society.
-
-This issue of _InScight_ thus celebrates the synergy of disciplines—from molecular medicine to sustainability—while showcasing the creativity and commitment of our community. I hope these pages will inspire readers to appreciate the richness of interdisciplinary science and to envision new collaborations that advance both knowledge and societal well-being.
-
-#colbreak()
+The November 2025 issue presents an engaging spectrum of topics—from physics to biology—and I am confident that readers will find it both enlightening and enjoyable.
 
 #figure(
-  image("../images/Fig1.svg"),
-  caption: [A schematic representation of the process of cell death. Read the #link(<Chandrima-Easier>)[article by Prof. Chandrima Saha] to find out more.],
+  image("../covers/bose.svg", width: 90%),
+  caption: [Gautam Basu traces Jagadish Chandra Bose’s extraordinary scientific evolution - from pioneering wireless communication to founding the field of biophysics. Read the #link(<Gautam-Biophysicist>)[article] to find out more.],
 )
 
 #v(1fr)
 #figure(
-  image("../covers/tamal.png"),
-  caption: [Epithelial cells work together like a neighborhood watch, sensing when one of their neighbors turns abnormal and pushing it out before it can cause harm. This captures the essence of homeostasis that constitutes one aspect of Prof. Das’s research. Read his interview #link(<Suman-Curiosity>)[here].],
+  image("../covers/AAN.jpg", width: 90%),
+  caption: [From a financially humble childhood, doing odd jobs to fund his education, to becoming a scientist shaped by Germany, industry, and decades at NCL, #link(<Swarnendu-Natu>)[this interview] with Prof. Arvind Natu brings out the inner self of the current top most office holder of IISER Kolkata, the chairperson of the Board of Governors.],
 )
 #v(1fr)

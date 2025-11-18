@@ -126,6 +126,7 @@ set page(
   permalinkSuffix: none,
   locator: none,
   type: none,
+  coverHeight: 60%,
   content
 ) = {
   if permalinkSuffix == none {
@@ -165,6 +166,7 @@ if coverImage != none {
       reviewedBy: reviewedBy,
       category: category,
       received: received,
+      coverHeight: coverHeight,
       attribution: links.at("long"),
       outlineDesc: text(font: "Hero New", if authorAffiliations.len() > 0  { authors.join(", ") } else { outlineDesc }),
       locator: if authors.len() > 0 { authors.at(0).split().at(0) + "-" + title.split().at(-1) } else { none },
@@ -211,6 +213,7 @@ content
   coverCaption: none,
   sideImage: none,
   sideImageFraction: 50%,
+  coverHeight: 60%,
 ) = {
   let afterBreak = false
   let boldflag = true
@@ -256,8 +259,8 @@ content
     }
 
     if boldflag == true {
-      set par(leading: 0.5em, justify: false)
-      text(weight: "bold", size: 1.1em, fill: category-colors.int, trimmedLine)
+      set par(leading: 0.5em, justify: true)
+      text(weight: "bold", size: 1.1em, fill: questionColor, trimmedLine)
     } else {
       if boldStartflag == true {
         boldStartflag = false
@@ -286,6 +289,7 @@ content
       coverCaption: coverCaption,
       sideImage: sideImage,
       sideImageFraction: sideImageFraction,
+      coverHeight: coverHeight,
       numCols: 2,
     )
     #counter(figure.where(kind: image)).update(0)
