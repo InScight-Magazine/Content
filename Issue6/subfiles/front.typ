@@ -32,7 +32,7 @@ place(
   dx: 1em,
   dy: -2em,
   box(width: 220pt,
-    [THE PHYSICS OF FORGETTING #parbreak() When Information Becomes Heat #parbreak() #text(fill: yellow, [Chandrima Shaha])]
+    [THE PHYSICS OF FORGETTING #parbreak() When Information Becomes Heat #parbreak() #text(fill: yellow, [Tanmoy Pandit])]
   )
 )
 ]
@@ -57,7 +57,7 @@ place(
   dx: 1em,
   dy: 10em,
   box(width: 190pt,
-    [THEMED CROSSWORD #parbreak() Women In Science #parbreak() #text(fill: yellow, [comic by Arya Mhatre])]
+    [THEMED CROSSWORD #parbreak() #text(fill: yellow, [Women In Science])]
   )
 )
 ]

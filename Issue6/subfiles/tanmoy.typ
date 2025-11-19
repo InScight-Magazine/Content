@@ -9,7 +9,7 @@
 #let authorInfo = "*Tanmoy Pandit* is a Quantum Algorithm Scientist at QMill (Espoo, Finland), focusing on quantum error mitigation, quantum noise characterization, and algorithms for NISQ devices, alongside large-scale simulations of open many-body quantum systems. Beyond physics, he switched from  Quantum Algorithm to music—violin and piano—and he's committed to scientist activism and public-interest science through the India March for Science – Abroad Chapter (IMFS-A) and the Breakthrough Science Society (BSS) – Abroad Chapter. #parbreak() This article draws inspiration from: T. Pandit, G. Paul, A. Misra, and P. Chattopadhyay, _Landauer Principle and Thermodynamics of Computation_, *Rep. Prog. Phys.* *88*, 086001 (2025)."
 #let received = (month: 11, day: 01, year: 2025)
 #let category = "Physics"
-#let reviewedBy = ("Archita Sarkar", "Debanuj Chatterjee") 
+#let reviewedBy = ("Archita Sarkar",) 
 
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),

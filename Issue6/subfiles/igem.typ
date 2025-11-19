@@ -6,7 +6,7 @@
 #let abstract = "IISER Kolkata’s iGEM 2025 team has engineered ReSET, a probiotic-based theranostic system that senses tumor-specific cues to deliver an anti-CD38 nanobody while simultaneously reporting therapeutic activity through a simple biosensor readout. Blending synthetic biology, mathematical modeling, and community outreach, the project pioneers a tumor-selective, safe, and accessible approach to cancer therapy, earning the team a Gold Medal at the iGEM Grand Jamboree in Paris."
 #let coverImage = "iGEM.svg"
 #let authorImage = "igem.jpeg"
-#let authorInfo = "*Madhura Theng* and *Sharanya Chatterjee* are 23 MS students in the Department of Biological Sciences, driven by a shared fascination for synthetic biology and its potential to solve real-world problems. #linebreak() Sharanya previously represented her institute as part of the gold winning iGEM team in 2024 and her research focus lies in neuro-immune cross talk. Madhura’s academic focus lies in neural circuitry, behaviour, and the cellular mechanisms that underpin them."
+#let authorInfo = "*Madhura Theng* and *Sharanya Chatterjee* are 23 MS students in the Department of Biological Sciences, driven by a shared fascination for synthetic biology and its potential to solve real-world problems. #linebreak() Sharanya (right) previously represented her institute as part of the gold winning iGEM team in 2024 and her research focus lies in neuro-immune crosstalk. Madhura’s (left) academic focus lies in neural circuitry, behaviour, and the cellular mechanisms that underpin them."
 #let received = (month: 10, day: 16, year: 2025)
 #let category = "Physics"
 #let reviewedBy = ("Archita Sarkar",) 
@@ -44,7 +44,7 @@ And keeping the banner flying high, the newest endeavour of IISER Kolkata in the
 
 The  project idea grew from a fascination with the concept of the tumor microbiota, how bacteria can naturally colonize tumors and potentially be reprogrammed to fight cancer. *The team was excited by the possibility of using genetically engineered bacteria as living therapeutics within the tumor microenvironment*.
 
-#img(path: "/images/igem1.jpg", caption: "IISER KOLKATA iGEM Team. From Ground Left : Iishaan Pyne , Asmi Mhatre , Anjali Mishra, Gautam Menon, Deepanshu. Top left : Sattwik Pradhan , S Nandita, Albin Ajesh, Shana Shuvra, Sagnik Jana, Amrik Das.", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/igem1.jpg", caption: "IISER KOLKATA iGEM Team. From Ground Left : Iishaan Pyne , Asmi Mhatre , Anjali Mishra, Gautam Menon, Deepanshu. Top left : Sattwik Pradhan , S Nandita, Albin Ajesh, Shankha Shuvra Chattopadhyay, Sagnik Jana, Amrik Das.", position: bottom, width: 100%, portrait: true)
   
 == Targeting Regulatory T Cells
 
@@ -103,7 +103,7 @@ A cup of instant coffee in hand, missing protein ladders, and PCRs gone wrong, a
 
 #img(path: "/images/igem6.jpg", caption: "Ishan Payne, one of the team members, conducts a school outreach session to introduce students to the fundamentals of synthetic biology and its real-world applications.", position: top, width: 100%, portrait: true)
 
-The blistering population of a billion in India stands today at — “Cancer? A disease too complex to understand and too expensive to fight!” This quirky, bright team of IISERites takes a chance for millions across the globe, to innovate and protect. For as Buckminster Fullerene had once said, “The best way to predict your future is to design it!”
+The blistering population of over a billion in India stands today saying “Cancer? A disease too complex to understand and too expensive to fight!” This quirky, bright team of IISERites takes a chance for millions across the globe, to innovate and protect. For as Buckminster Fullerene had once said, “The best way to predict your future is to design it!”
 
 On November 1st, at the prestigious International iGEM Jamboree held in Paris, the IISER Kolkata team was awarded the *coveted Gold Medal in the oncology village* which is the most popular and has the highest competition. This recognition celebrates the team's innovative contributions to cancer therapy and diagnostics, marking a noteworthy achievement for undergraduate level in synthetic biology on a global platform 
 

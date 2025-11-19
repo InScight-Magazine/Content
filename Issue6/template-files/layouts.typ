@@ -3,7 +3,6 @@
 
 #let default(
   issueDetails: (),
-  frontImage: none,
   doc
 ) = {
 set text(

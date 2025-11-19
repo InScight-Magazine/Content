@@ -7,7 +7,7 @@
   permalinkSuffix: "openings",
   numCols: 1,
 )
-#let types = ("IN": "INTERNSHIPS", "PH": "PHD POSITIONS", "PD": "POSTDOCTORAL AND OTHER SHORT-TERM POSITIONS")
+#let types = ("IN": "INTERNSHIPS", "PH": "PHD POSITIONS", "PD": "POSTDOCTORAL AND OTHER POSITIONS")
 #set par(leading: 1em, spacing: 1.8em)
 #for pair in types [
   == #pair.at(1)
@@ -19,7 +19,7 @@
         gutter: 2em,
         align: (right, left),
         link(item.at(0))[*#item.at(0)*],
-        [#emoji.clock.alarm *Deadline*: #item.at(1)\  #emoji.clip #link(item.at(3))[*Website*]]
+        [#emoji.clock.alarm *Deadline*: #item.at(1)]
       )
     ]
   ]

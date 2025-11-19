@@ -3,7 +3,7 @@
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   title: "Lighting the Spark of Science Communication", 
-  intro: [_Foreword by Prof. Soumitra Banerjee_],
+  intro: [_Foreword by Soumitra Banerjee_],
   outlineDesc: "Foreword by Prof. Soumitra Banerjee",
   permalinkSuffix: "foreword",
 )
@@ -15,6 +15,12 @@ Excellence in any craft demands continuous practice, and popular science writing
 India also lags behind advanced nations in another crucial area: science journalism. Very few Indian newspapers employ dedicated science journalists, and consequently, scientific breakthroughs achieved within the country seldom reach the wider public. I sincerely hope that some IISER students will consider science journalism as a career path. Here too, a medium is needed for students to develop and refine their journalistic skills, and I trust that _InScight_ will help fill this gap.
 
 The November 2025 issue presents an engaging spectrum of topics—from physics to biology—and I am confident that readers will find it both enlightening and enjoyable.
+
+*Prof. Soumitra Banerjee*,\
+Retired Professor,
+Department of Physical Sciences,\
+IISER Kolkata
+
 
 #figure(
   image("../covers/bose.svg", width: 90%),

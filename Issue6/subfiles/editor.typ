@@ -44,4 +44,3 @@ Editor, _InScight_
   image("/covers/iGEM.svg", width: 75%), 
   caption: [Sharanya Chatterjee and Madhura Theng from _InScight_ cover the story  of IISER Kolkata’s iGEM 2025 team has engineered ReSET, a probiotic-based theranostic system that senses tumor-specific cues. Learn more in #link(<Sharanya-2025>)[this article].],
 )
-// #v(1fr)
