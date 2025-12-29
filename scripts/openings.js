@@ -25,7 +25,7 @@ const openings = rows
   .filter(line => line[0] !== "" && (isDateInFuture(line[1]) || line[1] === ""))
   .map(line => [
     line[0], // Title
-    line[1] || "⚠️", // Deadline
+    line[1] || "➖", // Deadline
     line[2] || "", // Category
     line[3] || ""  // Link
   ]);

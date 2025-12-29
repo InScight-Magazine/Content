@@ -1,0 +1,124 @@
+\documentclass[11pt, reqno]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, enumerate, amsfonts, mathrsfs,mathtools}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathdots}
+\usepackage{diagbox}
+\DeclarePairedDelimiter \floor {\lfloor} {\rfloor}
+\DeclareMathOperator{\Tr}{Tr}
+
+\usepackage[top=27mm,bottom=27mm,left=25mm,right=25mm]{geometry}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{problem}{Problem}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{remark*}{Remark}
+\newtheorem*{problem*}{Problem}
+\newtheorem*{conjecture*}{Conjecture}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\title{Patterns in Primes via Probability}
+\author{Anup Dixit \& Siddhi Pathak}
+\date{ }
+
+\begin{document}
+
+\maketitle
+
+
+
+The idea of a \emph{number} lies at the very foundation of human civilization. Some of the earliest archaeological records of writing already reveal an awareness of natural numbers, marking a crucial step in the development of abstract thought. Reflecting on this, R. Dedekind famously wrote that ``numbers are free creations of the human intellect; they serve as a means of grasping more easily and more sharply the diversity of things.'' Since numbers provide a lens through which we interpret the world, their study has fascinated mathematicians for centuries. \\
+
+One of the earliest and most profound discoveries in mathematics, dating back to Euclid, is that every natural number can be written as a product of prime numbers. In this sense, primes serve as the fundamental building blocks of arithmetic. A \emph{prime number} is a natural number $n>1$ that has no divisors other than $1$ and itself. For instance, $2$, $3$, $5$, $7$, and $11$ are prime, whereas $9=3^2$ is not. The study of prime numbers has attracted many of the greatest mathematicians, including Euler, Gauss, Dirichlet, and Riemann. \\
+
+One of the first striking facts about primes is Euclid’s theorem asserting that there are infinitely many of them. Yet even a brief inspection of the primes among the first $100$ natural numbers reveals an apparent lack of regularity. Aside from the trivial observation that all primes except $2$ are odd, no simple pattern emerges. It is therefore unsurprising that there is no fast and fully deterministic procedure for locating very large primes. Indeed, the largest known prime as of December 2025 is
+\[
+2^{136{,}279{,}841}-1,
+\]
+a number discovered through extensive computation rather than a simple formula. \\
+
+Despite this apparent irregularity, prime numbers exhibit remarkable \emph{statistical} regularities. In the late eighteenth century, Adrien-Marie Legendre and Carl Friedrich Gauss independently observed, based on extensive numerical evidence, that the number of primes up to a large number $N$ satisfies
+\[
+\pi(N) := \#\{ p \le N : p \text{ is prime} \} \sim \frac{N}{\log N}
+\quad \text{as } N \to \infty.
+\]
+Gauss further suggested that primes occur near a large number $n$ with density approximately $1/\log n$, leading to the refined approximation
+\[
+\pi(N) \sim \int_2^N \frac{dt}{\log t} =: \mathrm{li}(N),
+\]
+known as the \emph{logarithmic integral}. This approximation is surprisingly accurate: for example, there are exactly $78{,}498$ primes below $10^6$, while $\mathrm{li}(10^6) \approx 78{,}627$, an error of only about $0.16\%$. \\
+
+This observation, now known as the \emph{Prime Number Theorem}, was proved independently by Jacques Hadamard and Charles Jean de la Vall\'ee Poussin in 1896, building on ideas introduced earlier by Riemann. Thus, although primes may appear erratic, their overall distribution follows a precise and elegant law. \\
+
+Still, the intuition that primes behave in many ways like an unpredictable sequence remains useful. In this article, we explore how this perspective can lead to meaningful predictions, focusing in particular on the behavior of gaps between consecutive primes. The smallest possible gap is $2$, as seen in twin primes such as $(3,5)$ or $(11,13)$. On the other hand, by considering the numbers
+\[
+n!+2,\, n!+3,\, \dots,\, n!+n,
+\]
+one can construct arbitrarily long stretches of composite numbers, and hence arbitrarily large gaps between primes. This naturally raises the question: near a large number $N$, what should a \emph{typical} gap between consecutive primes look like? \\
+
+To investigate this, consider an interval $[N, N+H]$, where $N$ is large and $H$ is much smaller than $N$, but still large enough to contain many primes. The Prime Number Theorem predicts that the number of primes in this interval is approximately
+\[
+\pi(N+H) - \pi(N) \approx \frac{H}{\log N}.
+\]
+Dividing the length of the interval by the number of primes it contains suggests that the \emph{average} gap between consecutive primes near $N$ is about $\log N$. This reasoning also reinforces Gauss’s original insight that roughly one out of every $\log N$ numbers near $N$ is prime. \\
+
+This line of thought inspired the Swedish mathematician Harald Cram\'er in 1936 to introduce a probabilistic model for primes. Imagine an infinite sequence of urns $(U_n)_{n\in\mathbb{N}}$. The urn $U_1$ contains only blue balls, $U_2$ only red balls, and for $n\ge3$, the urn $U_n$ contains both colors. Suppose that when drawing a ball from $U_n$, the probability of obtaining a red ball is $1/\log n$. Drawing independently from each urn produces an infinite sequence of red and blue outcomes. Let $P_n$ denote the index of the urn from which the $n$-th red ball is drawn. The resulting sequence $(P_n)_{n\in\mathbb{N}}$ is increasing and serves as a model for the sequence of prime numbers. \\
+
+If we define
+\[
+\Pi(N) := \#\{ n \in \mathbb{N} : P_n \le N \},
+\]
+then
+\[
+\mathbb{E}[\Pi(N)] = \sum_{n=1}^N \frac{1}{\log n} \approx \mathrm{li}(N) \approx \frac{N}{\log N}.
+\]
+This mirrors the behavior of $\pi(N)$, reinforcing the analogy between $(P_n)$ and the primes. In particular, one may expect the largest gaps between primes to resemble the largest gaps between successive $P_n$. \\
+
+Using results from probability theory, Cram\'er showed that with probability one,
+\[
+\limsup_{n\to\infty} \frac{P_{n+1}-P_n}{(\log P_n)^2} = 1.
+\]
+Motivated by this, he conjectured that prime gaps satisfy a similar bound.
+
+\begin{conjecture}[Cram\'er’s Conjecture]
+Let $2=p_1<p_2<p_3<\cdots$ be the sequence of prime numbers.
+\begin{enumerate}
+    \item[(a)] (Strong form) $\displaystyle \limsup_{n\to\infty} \frac{p_{n+1}-p_n}{(\log p_n)^2} = 1$.
+    \item[(b)] (Weak form) $\displaystyle p_{n+1}-p_n \ll (\log p_n)^2$.
+\end{enumerate}
+\end{conjecture}
+
+Although powerful, Cram\'er’s model is undeniably simplistic. It ignores basic arithmetic constraints, such as the fact that all primes except $2$ are odd, or that no number divisible by $3$ can be prime. Consequently, relying on the model without modification can lead to misleading predictions. \\
+
+A striking example concerns twin primes—pairs of primes $(p,p+2)$. While it is widely believed that infinitely many twin primes exist, this remains unproven. Cram\'er’s model predicts that the number of twin primes up to $N$ should be approximately
+\[
+\sum_{n=2}^N \frac{1}{(\log n)(\log(n+2))} \approx \frac{N}{(\log N)^2}.
+\]
+However, the same reasoning would predict a similar number of \emph{consecutive} primes, which is clearly impossible beyond the pair $(2,3)$. This illustrates the limitations of the model. \\
+
+Nevertheless, when refined to account for divisibility by small primes, Cram\'er’s framework yields more accurate predictions. Granville showed that such corrections replace the constant $1$ in the strong conjecture with $2e^{-\gamma}\approx1.229$, where $\gamma$ is Euler’s constant. Similarly, the refined model predicts that the number of twin primes up to $N$ should be
+\[
+\sim 2C_2\,\frac{N}{(\log N)^2},
+\quad
+C_2=\prod_{\substack{p\ \text{prime}\\ p\ge3}}
+\left(1-\frac{1}{(p-1)^2}\right)\approx0.66016.
+\]
+
+Cram\'er’s model also sheds light on the distribution of primes in short intervals. Under this framework, intervals $[N,N+H)$ with $(\log N)^{2+\delta}<H<N$ typically contain about $H/\log N$ primes. In 1943, assuming the Riemann Hypothesis, A. Selberg showed that this holds for \emph{almost all} such intervals. For many years, it was believed that this behavior should hold uniformly. However, in a groundbreaking result, H. Maier demonstrated in 1985 that there are infinitely many short intervals where the number of primes deviates significantly from this expectation. \\
+
+Seen in this light, Cram\'er’s model reveals both the power and the limitations of probabilistic reasoning in number theory. It captures the correct scale of prime gaps while falling short of fully encoding arithmetic structure. Its successes and failures together show why such models are best viewed as guiding principles rather than final answers. By exploring where the model works, where it breaks down, and how it can be refined, mathematicians continue to uncover subtle patterns beneath the surface, ensuring that the study of prime numbers remains a vibrant and evolving field.\\
+
+\newpage
+
+\section*{\bf Bio:}
+
+\begin{itemize}
+    \item Anup Dixit is an Assistant Professor at the Institute of Mathematical Science (IMSc) India. His research interest lies in number theory. Apart from various outreach programs for school students, he is also involved in training students for the Mathematics Olympiad.
+
+    \item Siddhi Pathak is an Assistant Professor at the Chennai Mathematical Institute (CMI). Her research focuses on topics in number theory. She is a corresponding editor for the mathematics magazine `Bhavana'. 
+\end{itemize}
+
+
+\end{document}

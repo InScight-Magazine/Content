@@ -2,7 +2,7 @@
 
 #let title = "From Waves To Leaves: Story of the First Biophysicist"
 #let authors = ("Gautam Basu",)
-#let affiliations = ("Quantum Algorithm Scientist, Espoo, Finland",)
+#let affiliations = ("former Professor, Bose Institute",)
 #let abstract = "In this article, we trace Jagadish Chandra Bose’s extraordinary scientific evolution—from pioneering wireless communication to founding the field of biophysics. His 1924 work The Physiology of Photosynthesis transformed plant science through quantitative, instrument-driven research, revealing early evidence of the C₄ pathway decades before its formal discovery and securing his legacy as a global pioneer in photosynthesis research."
 #let coverImage = "bose.svg"
 #let authorImage = "basu.jpg"

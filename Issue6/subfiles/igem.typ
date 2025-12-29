@@ -101,7 +101,7 @@ A cup of instant coffee in hand, missing protein ladders, and PCRs gone wrong, a
 
 == Innovating for India's Future
 
-#img(path: "/images/igem6.jpg", caption: "Ishan Payne, one of the team members, conducts a school outreach session to introduce students to the fundamentals of synthetic biology and its real-world applications.", position: top, width: 100%, portrait: true)
+#img(path: "/images/igem6.jpg", caption: "Ishaan Pyne, one of the team members, conducts a school outreach session to introduce students to the fundamentals of synthetic biology and its real-world applications.", position: top, width: 100%, portrait: true)
 
 The blistering population of over a billion in India stands today saying “Cancer? A disease too complex to understand and too expensive to fight!” This quirky, bright team of IISERites takes a chance for millions across the globe, to innovate and protect. For as Buckminster Fullerene had once said, “The best way to predict your future is to design it!”
 
