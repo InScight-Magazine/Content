@@ -12,6 +12,7 @@
 // #include "/subfiles/igem.typ"
 #include "/subfiles/tripathi.typ"
 #include "/subfiles/dixit.typ"
+#include "/subfiles/Bsury.typ"
 // #include "/subfiles/anup.typ"
 #include "/subfiles/interviewSS.typ"
 // #include "/subfiles/interviewAAN.typ"

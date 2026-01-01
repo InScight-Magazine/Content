@@ -77,7 +77,6 @@ Motivated by this, he conjectured that prime gaps satisfy a similar bound.
 
 \begin{conjecture}[Cram\'er’s Conjecture]
 Let $2=p_1<p_2<p_3<\cdots$ be the sequence of prime numbers.
-\begin{enumerate}
     \item[(a)] (Strong form) $lim sup_(n -> 00) frac(p_{n+1}-p_n}{(\log p_n)^2} = 1$.
     \item[(b)] (Weak form) $p_{n+1}-p_n \ll (\log p_n)^2$.
 \end{enumerate}

@@ -45,6 +45,7 @@ show figure.caption: c => [
 ]
 set quote(block: true)
 show quote: set align(center)
+show quote: set par(spacing: 0.8em)
 show quote: set text(style: "italic")
 show quote: set pad(x: 1.5em)
 set page(
