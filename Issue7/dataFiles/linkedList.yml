@@ -1,23 +1,23 @@
-seed: Kadambini Ganguly
+seed: Nucleophilic
 hints:
-  - Rocket propulsion engineer who invented the satellite station-keeping thruster that revolutionized spaceflight stability 
-  - Physicist who explained the process of nuclear fission, contributing key insight that transformed atomic science 
-  - Chemist and crystallographer whose X-ray diffraction image revealed the helical structure of DNA
-  - ISRO mission engineer who helped drive India’s Mars Orbiter Mission through cutting-edge space navigation and systems work
-  -  Mathematician who advanced applied probability and pioneered early work in the theory of plasticity—her calculations helped shape modern mathematical physics.
-  -  Nobel-winning neurobiologist who discovered Nerve Growth Factor (NGF), uncovering how neurons grow, survive, and communicate.
-  - Indian gynecologist who achieved the country’s first test-tube baby and pioneered the Gamete Intrafallopian Transfer (GIFT) technique.
-  - Chemist who created the first effective treatment for leprosy—the ‘Ball Method’ that transformed chaulmoogra oil into an injectable therapy.
-  - Professor of computer science at Brandeis University. Accredited with having coined the phrase "promise" when referring to the completion (or failure) of an asynchronous operation for the JavaScript programming language
-  - Cognitive scientist who revealed how babies learn through exploration—pioneering the ‘theory theory’ of child development and early learning.
+  - A fundamental property of matter that gives rise to electric and magnetic interactions.
+  - The capacity to do work or produce change, appearing in forms such as kinetic, thermal, and electromagnetic energy.
+  - The nutrient-rich core of an egg that provides energy and raw materials for early biological development.
+  - The branch of physics that describes motion in terms of position, velocity, and acceleration, without considering forces.
+  - Collections of interacting components whose overall behavior emerges from their mutual relationships.
+  - A property of physical or mathematical systems that remain invariant under transformations such as rotation or reflection.
+  - A positively charged ion of the element yttrium, commonly encountered in materials science and solid-state physics.
+  - Interconnected structures used to represent relationships in fields ranging from biology and physics to computer science.
+  - Mathematical techniques used to analyze data, quantify uncertainty, and identify patterns in complex systems.
+  - The use of computational or mathematical models to imitate real-world processes and study their behavior.
 answers:
-  - Yvonne Brill
-  - Lise Meitner
-  - Rosalind Franklin
-  - Nandini Harinath
-  - Hilda Geiringer
-  - Rita Levi-Montalcini
-  - Indira Hinduja
-  - Alice Ball
-  - Liuba Shrira
-  - Alison Gopnik 
+  - Charge 
+  - Energy 
+  - Yolk 
+  - Kinematics 
+  - Systems 
+  - Symmetry 
+  - Yttrion 
+  - Networks 
+  - Statistics 
+  - Simulation 

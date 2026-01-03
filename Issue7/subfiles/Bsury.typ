@@ -7,7 +7,7 @@
 #let coverImage = "/covers/Sury.svg" // Same folder(in this case ISSUE 7) → just the filename
 #let authorImage = "/authFaces/sury.jpeg"   // Inside a subfolder → subfolder/filename
 #let received = (month: 12, day: 7, year: 2025)
-#let authorInfo = "*Prof. B. Sury* spent nearly 20 years (1981-1999) at the Tata Institute of Fundamental Research in Bombay. Sury is a Fellow of the National Academy of Sciences, India. His areas of research interest are algebra and number theory. At present, he is a ICTS-Visiting Professor at ICTS-TIFR, Bangalore."
+#let authorInfo = "*Sury* was at the TIFR in Bombay during 1981-1999 and at the I.S.I. in Bangalore during 1999-2025. He is an elected Fellow of the National Academy of Sciences, India and was the National Co-ordinator for the Mathematics Olympiad Programme in India. His areas of research interest are Algebra and Number Theory. At present, he is a Visiting Professor at ICTS-TIFR, Bangalore."
 #let abstract = "This article offers a panoramic journey through Diophantine equations, weaving together history, puzzles, deep theorems, and modern breakthroughs—from Diophantus and Fermat to elliptic curves, Hilbert’s 10th problem, and the ABC conjecture. Blending rigorous mathematics with anecdotes, poetry, and cultural context, it reveals how deceptively simple integer equations lead to some of the most profound ideas in mathematics. Aimed at curious readers, it celebrates Diophantine problems as a unifying thread connecting recreational math, number theory, and contemporary research."
 
 #let coverCaption= "Diophantus"
@@ -54,7 +54,7 @@ But who cares? Let’s celebrate anyway!])
 
 == Diophantus of Alexandria
 
-#img(path: "/images/diophantus.jpeg", caption: "Diophantus of Alexandria, Egypt lived during the 3rd century AD", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/diophantus.jpeg", caption: "Diophantus of Alexandria, Egypt lived during the 3rd century AD. Joseph-Louis Lagrange called Diophantus \"the inventor of algebra\".", position: bottom, width: 100%, portrait: true)
 
 Metrodorus indicated the life span of Diophantus through a puzzle poetically
 as:
@@ -98,7 +98,7 @@ came to be known as Fermat’s last theorem and which is now a theorem. It
 says that for any n > 2 there are no solutions of the equation $x^n + y^n =z^n$ in non-zero integers x, y, z; see the departure from the case $n = 2$ when we
 get infinitely many Pythagorean triples.
 
-#img(path: "/images/bachet.jpeg", caption: "Diophantus's Arithmetica", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/bachet.jpeg", caption: "Diophantus's Arithmetica by Bachet. Arithmetica is the major work of Diophantus and the most prominent work on premodern algebra in Greek mathematics. It is a collection of 290 algebraic problems giving numerical solutions of determinate equations (those with a unique solution) and indeterminate equations.", position: bottom, width: 100%, portrait: true)
 
 In regard to the history of Fermat’s last theorem, many famous mathematicians
 like Cauchy had unsuccessfully attempted (and thought to have solved)
@@ -220,7 +220,7 @@ sum of two cubes.
 However, in this context, what may not be well-known is that $x^3+y^3=1729$ has infinitely many rational solutions. For instance, if u, v is a solution, then
 so is $U = u(u^3-3458) \/ (1729− 2u^3)$ and $V = v(u^3 + 1729)\/(1729 − 2u^3)$.
 
-#img(path: "/images/ramanujan.jpeg", caption: "Ramanujan", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/ramanujan.jpeg", caption: "Ramanujan (1887-1920) from India was deeply interested in Diophantine equations, contributing explicit solutions to sums of two cubes and to Pell-type equations using continued fractions.", position: bottom, width: 100%, portrait: true)
 == Enter Sylvester
 As alluded to earlier, Diophantine equations are polynomial equations for
 which one seeks integer or rational solutions. Existence of rational solutions is
@@ -291,7 +291,7 @@ remember the first few digits of $pi$:
 #quote([Now I want a drink, alcoholic of course, after the heavy lectures involving
 quantum mechanics!”])
 
-#img(path: "/images/pcm.jpeg", caption: "Mahalanobis", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/pcm.jpeg", caption: "Mahalanobis(1893- 1972) engaged with Diophantine problems and played a role in sustaining and promoting mathematical research traditions in India.", position: bottom, width: 100%, portrait: true)
 == Hilbert’s 10th problem
 We already mentioned that many problems of mathematics can be formulated
 as seeking solutions of certain Diophantine equations. However, this
@@ -354,7 +354,7 @@ The LHS is $(r−1)r\/2$ and if we add $1+2+dots+r = r(r+1)/2$ to both sides, we
 One can similarly look at $m^2−d n^2 = 1$ for any square-free positive integer d.These equations are popularly (and erroneously!) known as _Pell equations_.
 Interestingly, it turns out that there are infinitely many pairs m, n of positive integer solutions of $m^2−d n^2 = 1$ and essentially, they are all generated froma single pair. The ancient Indian mathematicians (especially Brahmagupta,Bhaskara II and Jayadeva) studied the equations $x^2-d y^2 = plus.minus 1$ and solved them. What is more - they gave an algorithm (the so-called Chakravala or cyclic method) which produces all the solutions.
 
-#img(path: "/images/indianMaths.svg", caption: "Brahmagupta lived during 598-670 AD. Bhaskaracharya lived from 1114 to 1185 AD.", position: bottom, width: 100%, portrait: false)
+#img(path: "/images/indianMaths.svg", caption: "From left, Brahmagupta (598-670 AD) formulated general solutions for quadratic Diophantine equations and composition rules, while Bhaskaracharya (1114-1185 AD) systematized and perfected the Chakravāla method for solving equations of the form  $x^2−N y^2=1$.", position: bottom, width: 100%, portrait: false)
 
 In 1657, Fermat, writing to his friend Frenicle, he posed “to the English
 mathematicians and all others” the problem of finding a solution of $x^2 −
@@ -437,7 +437,7 @@ Think of this as the equality
 $ (18 + 5√13)(18 − 5√13) = −1. $
 From this a solution for $x^2 − 13y^2 = 1$ can be obtained by considering $(18 +5√13)^2 =649 + 180√13$. Then (649, 180) is a solution of $x^2 − 13y^2 = 1$.
 
-#img(path: "/images/fermat.jpeg", caption: "Fermat : August 17, 1601 to January 12, 1665", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/fermat.jpeg", caption: "Pierre de Fermat (August 17, 1601 to January 12, 1665). Fermat initiated the systematic study of Diophantine equations, introducing the method of infinite descent and posing problems that shaped number theory for centuries.", position: bottom, width: 100%, portrait: true)
 == Congruent Number Problem
 This is one of the oldest problems in Diophantine equations. A natural number
 d is said to be a congruent number if there is a right-angled triangle with
@@ -498,7 +498,7 @@ deeper mathematics. Further, assuming the truth of a famous, deep, open
 conjecture known as the _weak Birch & Swinnerton-Dyer conjecture_, it has
 been shown that this is a complete characterization of congruent numbers.
 
-#img(path: "/images/aweil.jpeg", caption: "Andre Weil : May 6, 1906 to August 6, 1998", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/aweil.jpeg", caption: "Andre Weil (May 6, 1906 to August 6, 1998) emphasized the structural depth of Diophantine equations, interpreting classical integer problems through algebraic curves and modern number-theoretic frameworks.", position: bottom, width: 100%, portrait: true)
 == Arithmetic Progressions
 Here is a set of questions on arithmetic progressions of natural numbers which
 leads us to some very interesting Diophantine equations.
@@ -586,7 +586,7 @@ showed that the only perfect powers differing by 1 are 8 and 9. A more
 general conjecture due to S S Pillai is still open; it asserts that the gaps in
 the sequence of perfect powers tends to infinity.
 
-#img(path: "/images/apollofig.jpeg", caption: "Apollonian circle packing diagram", position: bottom, width: 100%, portrait: true)
+#img(path: "/images/apollofig.jpeg", caption: "In mathematics, Apollonian circle packing is a fractal generated by starting with a triple of circles, each tangent to the other two, and successively filling in more circles, each tangent to another three. Descartes discovered the remarkable fact that the four curvatures satisfy a Diophantine equation.", position: bottom, width: 100%, portrait: true)
 == Apollonian circle packing.
 Apollonius from 200 BC discovered something beautiful. If we have three
 circles touching each other, one may place another circle touching all three.
@@ -621,15 +621,16 @@ There is the as-yet-unsolved Beal’s conjecture (also known as the Tijdeman-
 Zagier conjecture); until it is actually solved, one cannot predict what methods
 will work. The conjecture asserts that $x^a +y^b = z^c$ for a, b, c > 2 implies
 that $x, y, z$ must have a common prime factor, and was formulated in 1993
-by Andrew Beal, a banker and amateur mathematician. One of Beal’s goals
+by Andrew Beal, a banker and amateur mathematician. 
+
+#colbreak()
+One of Beal’s goals
 is to inspire young people to think about the equation, think about winning
 the offered prize, and in the process become more interested in the field of
 mathematics. The prize money - now a million dollars - is being held by
 the AMS until it is awarded. The spendable income from investment of the
 prize money is used to fund the annual Erd¨os Memorial Lecture and other
 activities of the American Mathematical Society.
-
-#colbreak()
 
 The conditions are necessary as shown by the examples
 $ 7^3 + 13^2 = 2^9 , 27^4 + 1623^ = 9^7. $
