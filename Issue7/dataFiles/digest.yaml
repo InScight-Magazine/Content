@@ -1,101 +1,84 @@
-- 
-  "Author": "Aniket Bajaj"
-  "Affiliation": "Department of Physical Sciences, IISER Kolkata"
-  "Title": "Thermal-breach memory: Harnessing metastability for sensing to artificial neurons"
-  "Summary": "In everyday life, memories often surface in unexpected and seemingly random ways. Interestingly, various forms of memory have also been identified in the physical world—ranging from magnetic systems and shape memory alloys to emerging fields like neuromorphic computing. In these systems, \"memory\" refers to the dependence of a system's current state on its history, often manifesting as multivalued or path-dependent behaviour. A system that has not yet fully relaxed to equilibrium can retain information about its creation or prior states, while one that has reached equilibrium loses all traces of its past—the act of equilibration effectively erases its memory.
+- Author: Sukalyan Deb
+  Affiliation: Phd
+  Title: Superconductivity in a 5' twisted bilayer WSe2
+  Summary: 'Twisted bilayer graphene is a paradigmatic platform in the regime of the strongly correlated system, and "twisted" here refers to the slight rotation between the layers of graphene(~1.1'') , known as the magic angle, which creates a unique electronic structure with ''flat bands''. The flat band suppresses the kinetic energy relative to the coulomb enabling rich phases like  magnetic ordering,  unconventional superconductivity, and Chern ferromagnets , and associated quantum anomalous Hall states which appears depends sensitively on carrier density, displacement field, twist-angle homogeneity, and substrate alignment. A closely related  material is twisted bilayer tungsten diselenide ($"tWSe"_2$),formed from two monolayers of the transition-metal dichalcogenide (TMD) but it also brings crucial new ingredients: strong spin-orbit coupling, robust spin-valley locking.  These features reshape the effective low-energy models (often mapped to extended Hubbard models with valley degrees of freedom) and provide powerful electric-field control of bandwidth, band topology, and valley polarization. Experimentally, unconventional superconductivity has been reported in  $"tWSe"_2$ at a 5-degree twist with applying an external electric field. 
 
 
-Recently, our group, led by Prof. B. Bansal, has identified a novel form of memory in phase change materials, coined as thermal-breach memory. Initially, in collaboration with Prof. D. D. Sarma’s group at IISc Bangalore, we discovered this phenomenon in a well-known halide perovskite material (MAPbI3) which has thermally-induced phase change at low temperatures (~ 150 K). And later, by recognizing the broad potential of this memory effect; we collaborated with Prof. D. K. Shukla’s group at UGC-DAE CSR, Indore; to establish this fundamental concept for room temperature applications using another phase change material, vanadium dioxide (VO2). 
+  At small twist angles, the two layers hybridize strongly and generate bands whose bandwidth can be comparable to the on-site interaction U , placing the system in an intermediate-coupling regime. In this window, neither a weak-coupling metal nor a fully Mott-localized insulator is guaranteed ; modest changes in control parameters can tip the balance. A perpendicular displacement field is especially powerful, distorts the bands, shifts van Hove singularities (critical points in the electronic band structure where the slope of the energy dispersion is zero) . Transport reflects this tunability ,without the twist the resistivity  is metallic across dopings and displacement fields--decreasing with temperature and showing no sign of a gap. As the twist angle brings the system into the flat-band regime and the displacement field is tuned, the normal state can evolve from a conventional metal to a correlated metal with enhanced scattering . Upon approaching optimal fillings--where the density of states is elevated and screening is reduced--the system enters a superconducting phase, typically forming a dome in the displacement-field-density plane. On the flanks of this dome , indicating that pairing emerges in close proximity to other interaction-driven orders.In flat-band graphene systems, people have proposed that ordinary phonon-mediated pairing could produce superconductivity, and similar ideas exist for $"tWSe"_2$ . This close tie between superconductivity and magnetism points instead to a magnetically mediated pairing mechanism, e.g. via spin fluctuations, rather than conventional phonons. 
 
 
-These materials exhibit a key characteristic during their phase transition—hysteresis—where the phase fraction follows different paths depending on whether the external parameter (in this case, temperature) is increasing or decreasing (see figure). Memory effects require the system to be in a non-equilibrium state, which corresponds to the hysteretic (metastable) region. And we found that when the system is held within this coexistence region at a constant temperature, the metastable phase becomes \"frozen,\" showing no further progression toward the stable phase. If some perturbation is given to these isothermal conditions, one can track the breach by monitoring the corresponding behaviour of the frozen phase because its response to the given perturbation depends on the history of its creation (prepared while heating or cooling, see figure). This distinct behaviour enables the detection of thermal breaches as small as one degree.
+  The study offers a fresh perspective on the interplay between magnetic ordering and superconductivity that goes beyond the scope of standard transport measurements. It also provides a useful comparison with known graphene and TMD systems, highlighting the crucial role played by twist angle in shaping these correlated phases.'
+  Url: https://doi.org/10.1038/s41586-024-08381-1
+  Caption: 'FIG (a) Resistance as a function of temperature, showing a clear drop to zero below the critical temperature at a specific twist angle, indicating the onset of a superconducting phase.
+
+    FIG (b) Field-tuning at a fixed filling, illustrating a transition from an ordered magnetic phase into the superconducting dome.'
+  Reference: 'Guo, Y., Pack, J., Swann, J. et al. Superconductivity in 5.0° twisted bilayer WSe2. Nature 637, 839–845 (2025)'
+  Image: digest-24
+  Keywords:
+  - Twisted bilayer graphene
+  - superconductivity
+  - strong-correlations
+- Author: Abhinav Prabhu Ligadi
+  Affiliation: Department of Biological Sciences
+  Title: The Microbe That Blurs the Boundary of Life
+  Summary: "For more than a century, biology has maintained a sharp distinction between viruses and cells. Cells grow, divide, and metabolize independently; viruses remain inert until they hijack a host cell. But a discovery by Harada et al., reported in their seminal paper, has challenged this comfortable binary. They identified Candidatus Sukunaarchaeum mirabile--a novel archaeon so extraordinarily reduced in its genetic material that it exists in a conceptual twilight zone between living cells and viral parasites. 
 
 
-Thus, athermal states in phase change materials enable thermal-breach memory, by detecting small thermal breaches via distinct response of its phase fraction, offering stable, sensitive operation for sensor and neuromorphic applications."
-  "Reference": "Aniket Bajaj, Satyaki Kundu, Shikha Sahu, D. K. Shukla, Bhavtosh Bansal. Appl. Phys. Lett. 127, 021902 (2025)"
-  "Url": "https://doi.org/10.1063/5.0276973"
-  "Image": "aniket.svg"
-  "Caption": "Encoding-decoding of thermal-breach memory: Materials such as MAPbI3 and VO2 exhibit hysteresis during their phase transition, where the phase fraction follows different paths depending on whether the external parameter (here, temperature) is increasing or decreasing. This gives rise to a phase-coexistence region (as shown with shaded area). We found that when the system is brought into this region via heating (dotted red) or cooling (dotted blue) and held at a constant temperature, the metastable phase becomes frozen (red and blue square), showing no further evolution toward the stable phase. And further, upon introducing a small perturbation under these isothermal conditions, the decoding occurs: the response of the frozen phase depends on its thermal history. This history-dependent, distinct response enables detection of thermal breaches and highlights the potential of such systems for sensing and neuromorphic computing applications. Adapted from reference."
-  "Keywords":
-    - Phase transitions
-    - Strongly correlated electron systems
-    - Nonvolatile memory
-- 
-  "Author": "Swarnendu Saha"
-  "Title": "Listening to Rivers: How Stream flow Can Help Us Understand Rainfall Better"
-  "Affiliation": "Department of Physical Sciences, IISER Kolkata (20MS)"
-  "Image": "swarnendu.png"
-  "Caption": "Schematic overview of the study’s inverse modelling approach and validation steps for improving precipitation estimates using stream flow discharge. The left panel shows two neural network setups for “Inverse experiments”: the top network predicts precipitation using only meteorological and static inputs, while the bottom network additionally uses discharge as input, illustrating the novel approach of inferring precipitation from stream flow. The right side is divided into three validation sections: the top (“Continental Scale Analysis”) displays application across European catchments; the middle (“Out of Sample Test”) demonstrates independent validation; the bottom (“Hydrological Modelling”) shows how the discharge-informed precipitation feeds hydrological models (HBV, CATFLOW) for simulating soil moisture and stream flow. Together, these subplots capture the workflow from inverse prediction, large-scale and site-specific validation, to testing hydrological consequences. Adapted from reference."
-  "Summary": "Understanding rainfall is key for managing water, predicting floods, and studying climate—but measuring it directly is tricky. Rain gauges and satellites often miss details or have errors. This paper explores a creative idea: can we use the water flowing out of rivers (stream flow) to better estimate how much rain actually fell in a region? In other words, can we trace rainfall backward from the river’s response?
+  The discovery began almost by accident. Researchers at the University of Tsukuba in Japan were sequencing the complete genomic contents of a dinoflagellate--a marine plankton organism called Citharistes regius--which was already known to harbor symbiotic cyanobacteria. Among the expected genetic sequences, they found something entirely unexpected: a small, circular loop of DNA only 238,000 base pairs long. This was remarkable because the previous record for the smallest known archaeal genome stood at 490,000 base pairs. The newly discovered genome was less than half that size, yet phylogenetic analyses confirmed that it belonged to a cell--an archaeon--not a virus. The organism bearing this genome was named after Sukuna-biko-na, a small-statured deity in Japanese mythology, embodying both its diminutive scale and its position between two worlds: Candidatus Sukunaarchaeum mirabile (mirabile meaning \"remarkable\" in Latin).
 
 
-This sounds simple but isn’t. Stream flow depends not only on rain, but also on evaporation, soil moisture, and groundwater—all of which mix together in complicated ways. Many different rain patterns can produce similar river flows, so working backward to find the exact rainfall is impossible. Instead, the researchers aim to estimate the average rainfall over a catchment, which is more realistic and useful.
+  What makes Sukunaarchaeum so extraordinary is not merely the size of its genome, but what that genome contains--and more tellingly, what it lacks. The 238 kilobase genome encodes a profoundly stripped-down, replicative core consisting of the machinery necessary for DNA replication, transcription, and translation. It contains approximately 189 protein-coding genes, nearly all dedicated to self-propagation. However, it lacks virtually all recognizable metabolic pathways. The archaeon cannot synthesize the amino acids that build proteins, cannot produce the nucleotides that build DNA, and cannot generate its own energy. This extreme reduction places it in an unprecedented position: it is a cell in structure yet functions like a parasite, outsourcing nearly every biological process except replication to its host, the dinoflagellate Citharistes regius. In this sense, it resembles a virus more than any previously known cellular organism--yet it retains the ribosomal machinery and genetic architecture of true cellular life.\nThe implications of this discovery extend far beyond taxonomy. The genome organization of Sukunaarchaeum offers a rare window into fundamental questions about the nature of life itself. What are the minimal genetic requirements for an entity to be considered \"alive\"? Is cellular life defined by metabolic autonomy, or can an organism retain that designation by virtue of possessing its own replication machinery? Harada and colleagues argue that Sukunaarchaeum challenges conventional functional distinctions between minimal cellular life and viruses, suggesting that the boundary between these categories may not be as absolute as traditionally conceived.
+
+  
+From an evolutionary perspective, Sukunaarchaeum may represent a living snapshot of an ancient transition. Many evolutionary biologists propose that early life originated from simple, highly dependent molecular systems--perhaps RNA-based replicators that gradually acquired metabolic sophistication and independence. The authors suggest that Sukunaarchaeum could be a remnant of such an intermediate state, a surviving \"evolutionary intermediate\" that has managed to persist within symbiotic relationships over billions of years. If this interpretation is correct, the archaeon offers unprecedented empirical evidence for a gradualist model of life''s emergence from non-living chemistry.\nFurthermore, environmental sequence data analyzed by the research team revealed that this is not an isolated curiosity. For researchers working on synthetic biology and the design of minimal cells, Sukunaarchaeum offers both inspiration and caution. It demonstrates that a cell can function with far fewer genes than previously thought possible, yet raises the question of what trade-offs accompany such reduction. "
+  Url: https://www.biorxiv.org/content/10.1101/2025.05.02.651781v1.full
+  Caption: 'The genome map of Sukunaarchaeum.
+
+    From outermost to innermost circle, the positions of protein-coding genes and rRNA genes on the +/-strands, tRNA genes, GC content, and GC skew are shown. Color codes for the outermost and 2nd outermost circle: Blue, genes of unknown function; light blue, genes of known function; yellow, rRNA genes.'
+  Reference: 'Ryo Harada, Yuki Nishimura, Mami Nomura, Akinori Yabuki, Kogiku Shiba, Kazuo Inaba, Yuji Inagaki, Takuro Nakayama. bioRxiv 2025.05.02.651781'
+  Image: digest-25
+  Keywords:
+  - Archaea
+  - Minimal genome
+  - Symbiosis
+  - Origin of life
+  - Viral-cellular boundary
+- Author: Aranya Mukherjee
+  Affiliation: Department of Physical Sciences
+  Title: Finding the Right Balance for more Stable Qubits
+  Summary: "Quantum computers are often discussed as futuristic machines, but their development depends on solving practical problems at extremely small scales. One such challenge is how to operate qubits--the basic units of quantum information--in a way that is both fast and stable. A recent paper published in Nature Physics addresses this issue for a promising type of qubit known as a hole spin qubit, offering new insight into how these systems can be controlled more reliably.
 
 
-To tackle this, they use a type of artificial intelligence called an LSTM (Long Short-Term Memory) neural network. It’s good at handling time-dependent data, like how rivers respond to rain with delays. They train two models: one predicts rainfall using weather data such as temperature and humidity, while the other adds river discharge information. Comparing the two shows whether including river data actually helps.
+  The work was carried out by researchers at Universit\xE9 Grenoble Alpes, CEA-IRIG (France), and collaborating institutions, led by Silvano De Franceschi and Vivien Schmitt. Their study focuses on semiconductor-based qubits, particularly those built using silicon. This is significant because silicon qubits can, in principle, be fabricated using existing industrial techniques, making them attractive for scalable quantum computing.
 
 
-The results are promising. The model that includes streamflow performs about 20% better in estimating rainfall, especially in areas with good data. However, it slightly underestimates rainfall overall, meaning some adjustments are still needed. When these improved rainfall estimates are used in hydrological models, they better match real-world observations of soil moisture and floods—showing that this method captures important water-cycle behavior.
+  Unlike electron-based qubits, hole spin qubits rely on \"holes,\" which are the absence of electrons in a material. These holes possess a quantum property called spin that can store information. Hole spins respond strongly to electric fields, allowing for fast electrical control. However, this same sensitivity also makes them vulnerable to electrical noise, which can disturb quantum states and reduce qubit performance.
 
 
-The authors note that the approach relies on good-quality data and could benefit from newer AI techniques in the future. Still, their work demonstrates a powerful concept: using river flow (the effect) to learn about rainfall (the cause). It’s a fresh way of combining machine learning with hydrology—looking at the water cycle in reverse—to improve rainfall estimates where observations are limited.
+  To address this, the researchers explored how the qubits behave under different operating conditions. By carefully changing the orientation of an external magnetic field, they identified specific regions, referred to as \"sweet lines,\" where the qubits become much less sensitive to charge noise. At these operating points, stability improves while efficient electrical control is preserved, striking an essential balance for quantum operations.
 
 
-In short, the study shows how “listening” to rivers can help us better understand the rain that feeds them, offering a smart and practical step forward for water and climate science."
-  "Reference": "Dean, J.F., Coxon, G., Zheng, Y. et al. Old carbon routed from land to the atmosphere by global river systems. Nature 642, 105–111 (2025)"
-  "Url": "https://doi.org/10.1038/s41586-025-09023-w"
-  "Keywords":
-   - River CO#sub[2] emissions
-   - Radiocarbon dating
-   - Global carbon cycle
-- 
-  "Author": "Suman Haldar"
-  "Title": "What do the fundamental constants of physics tell us about life?"
-  "Affiliation": "Department of Physical Sciences, IISER Kolkata"
-  "Image": "suman.svg"
-  "Caption": "Characterizing chemical self-replicators. (a) Self-replication requires organisms to break down food molecules from the environment to extract energy and metabolic precursors (catabolism) and then use this energy to synthesize the complex molecules necessary for selfreplication (anabolism). (b) We focus on three properties of self-replication: (i) the mass per unit energy consumed needed to self-replicate, (ii) the time it takes for self-replication, and (iii) the energy per unit time a dormant cell must expend in order to stay alive and counter entropic forces. Adapted from reference."
-  "Summary": "In this extraordinary work by Pankaj Mehta and Jané Kondev, physics reaches toward the living world with the same audacity Weisskopf once used to estimate the height of mountains. Half a century ago Weisskopf showed that with just six physical constants—ℏ, c, e, mₑ, mₚ, Gₙ—the universe allowed one to estimate densities, mountain heights, stable matter. But life was missing from that program. This paper attempts the most radical extension: to put “life” itself inside the Weisskopf reasoning game. To ask: how much of biology can be read directly from quantum constants? How much inevitability is buried inside the Rydberg energy? How much universality does α, mₑ / mₚ impose on metabolism and replication?
-
-
-Life on Earth is, fundamentally, electrons falling downhill toward lower energy states. Szent-Gyorgi called life a high-energy electron searching for a place to rest — this paper takes that statement literally and quantitatively. The authors argue that three essential biological numbers — growth yield, minimum possible doubling time, and the minimum maintenance power of dormancy — can all be derived from fundamental constants plus a few geometric/structural fudge factors. The Rydberg energy (~13.6 eV) and Bohr radius (~0.53 Å) define the quantum base units of chemistry. Thermal fluctuations (kBT ~ 25 meV) are orders of magnitude lower — this gigantic asymmetry explains why chemistry is stable, why catalysts exist, why biological time must scale between these two worlds (quantum & thermal).
-
-
-From this, they estimate the yield Y: mass (g) produced per Joule consumed. Using only α, Ry, molecular atomic numbers and bond fudge factors, they get ~10⁻⁵–10⁻⁴ g/J — astonishingly matching microbes on Earth. This, they argue, may be universal, even for alien life, because it is not exponentially sensitive to activation energy — unlike kinetics.
-
-
-Minimum doubling time emerges from the interplay of quantum-set minimum viscosity (Berg viscosity) and diffusion-limited kinetics. With Arrhenius activation barriers of 0.4–1.1 eV, one gets doubling times from seconds to geological years — perfectly spanning Vibrio natriegens (~10 minutes) to deep-ocean microbes (~years). And finally, dormant power — arises simply from thermally-opened membrane pores leaking charge requiring pumping — giving ~10⁻¹³ –10⁻¹⁵ J/s/cell, exactly the natural order biological measurements report.
-
-
-The result is profound: evolution explores details, but the gross “possibility space” of life is already sharply bounded by physics itself long before chemistry, DNA, or selection. The production of biomass, the speed of replication, the lowest energy to stay alive — are already written in the constants of nature. Growth yield is the least free, most universal property of life. This is not biology derived from empirical catalogs — this is life emerging almost poetically from ℏ, α, mₑ, mₚ. Physics gives life a skeleton before evolution gives life a story."
-  "Reference": "Mehta, Pankaj, and Jane Kondev. What do the fundamental constants of physics tell us about life?. arXiv preprint arXiv:2509.09892 (2025)."
-  "Url": "https://arxiv.org/abs/2509.09892"
-  "Keywords":
-    - Biological Physics
-    - Earth and Planetary Astrophysics
-    - Statistical Mechanics
-- 
-  "Author": "Ashish Ramesh NT"
-  "Title": "From the Arctic to India: Understanding How Barents–Kara Sea Ice Influences the Monsoon"
-  "Affiliation": "IIT Roorkee"
-  "Image": "ashish.png"
-  "Caption": "This schematic shows how melting Arctic sea ice can influence the Indian Summer Monsoon. When spring sea ice in the Barents–Kara region decreases, the Arctic warms more quickly and more heat is exchanged between the ocean and atmosphere. This extra warming disrupts the polar vortex and changes the behaviour of large atmospheric waves and jet streams. These altered jet streams then move southward and affect the circulation over Asia. By the time this disturbance reaches India, it leads to increased sinking of air over the Indo-Gangetic Plain, which reduces upward motion and makes it harder for clouds and rainfall to form. Overall, the figure explains how changes in Arctic sea ice can indirectly weaken monsoon rainfall over northern India. Adapted from reference."
-  "Summary": "The Arctic is warming faster than any other region on Earth, and one of the clearest signs of this rapid change is the steady decline of sea ice. Among the various Arctic seas, the Barents–Kara (B–K) Sea, located north of Russia, has been identified as a particularly sensitive region where warming and ice loss occur rapidly. This study explores how variations in spring sea ice in the B–K region influence the behaviour of the Indian Summer Monsoon Rainfall (ISMR), which is vital for the climate, agriculture, and economy of India.
-
-
-To investigate this link, the researchers examined climate data spanning more than six decades, from 1959 to 2021. They created a springtime sea ice index for the B–K region and identified years with unusually low and unusually high sea ice. They then analysed how the monsoon behaved during the following summer in each of these contrasting years.
-
-
-The study found a clear and consistent relationship between spring Arctic sea ice conditions and the strength of the Indian monsoon. During years with low sea ice in the B–K region, the exposed ocean water absorbs more heat, warming the lower atmosphere and reducing surface pressure. This thermal and pressure imbalance helps generate disturbances that travel across continents as large-scale atmospheric waves. These waves modify the position and strength of the subtropical westerly jet stream during the Indian monsoon season. In low-ice years, the jet stream shifts slightly southward and encourages sinking air over northern India, especially across the Indo-Gangetic Plain. This downward motion suppresses the vertical movement of moist air, limits cloud development, and ultimately weakens monsoon rainfall in one of India’s most important agricultural zones.
-
-
-In contrast, years with higher-than-usual spring sea ice show an opposite response. A colder Arctic surface supports higher pressure and different atmospheric wave patterns, which help strengthen upper-level divergence and promote rising motion over northern India. These conditions favour stronger monsoon circulation, enhanced moisture transport and increased rainfall, particularly in the Indo-Gangetic Plain and parts of Northeast India.
-
-
-The findings highlight how tightly connected the world’s climate systems are. Though India’s monsoon is strongly influenced by tropical factors such as the Indian Ocean, ENSO, and land–sea thermal contrasts, this research demonstrates that conditions in the faraway Arctic also exert an important influence. This has significant implications for water resources, agriculture, and long-term planning. The study suggests that including Arctic indicators in monsoon prediction models could help improve seasonal forecasts and deepen our understanding of global climate linkages."
-  "Reference": "Sardana, D., Agarwal, A. Impact of spring sea ice variability in the Barents–Kara region on the Indian Summer Monsoon Rainfall. Sci Rep 15, 37790 (2025)"
-  "Url": "https://www.nature.com/articles/s41598-025-21544-y"
-  "Keywords":
-    - Arctic Sea Ice
-    - Barents–Kara Region
-    - Indian Summer Monsoon
-    - Teleconnections
+  An important result of the study is that these optimal conditions are not fixed. By adjusting voltages on nearby electrodes, the position of the sweet lines can be shifted, allowing multiple qubits to be tuned into low-noise regimes at the same time. This tunability is crucial for building larger quantum processors, where many qubits must operate together in a controlled and reliable manner.\nThe research builds on years of experimental and theoretical work in semiconductor quantum systems and combines advanced nanofabrication, modeling, and measurements performed at extremely low temperatures. Key contributors include Marion Bassi, Esteban-Alonso Rodr\xEDguez-Mena, Boris Brun, Simon Zihlmann, and others, reflecting the collaborative nature of modern physics research.\nWhile this study does not present a complete quantum computer, it resolves an important operational challenge and provides clear guidance for how hole spin qubits can be used effectively. Incremental advances like this play a central role in turning quantum computing into a scalable and practical technology."
+  Url: https://www.nature.com/articles/s41567-025-03106-1
+  Caption: "Figure demonstrates how the performance of a hole spin qubit changes when the direction of the magnetic field is rotated. The plots show that there are specific magnetic-field orientations where the qubit becomes less sensitive to electrical noise while still remaining easy to control. These are the \"sweet lines\" mentioned in the research paper. "
+  Reference: 'Bassi, M., Rodríguez-Mena, E.A., Brun, B. et al. Optimal operation of hole spin qubits. Nat. Phys. (2025)'
+  Image: digest-26
+  Keywords:
+  - Magnetic-field control
+  - Hole spin qubits
+  - Semiconductor quantum devices
+- Author: Swarnendu Saha
+  Affiliation: don;t give please
+  Title: "When a Cyclone Shakes the Sky: How Super Cyclone Amphan Disturbed Earth''s Upper Atmosphere"
+  Summary: "Tropical cyclones are usually studied for the destruction they cause at Earth''s surface--strong winds, heavy rainfall, storm surges, and flooding. This study shows that their influence does not stop there. Using Super Cyclone Amphan (May 2020) over the Bay of Bengal as a case study, we demonstrate that intense tropical cyclones can also disturb the upper layers of Earth''s atmosphere, including regions that host satellites and radio communication systems.\n\nThe most interesting finding of this work is the clear, multi-altitude link between intense cyclone-driven convection, lightning activity, atmospheric gravity waves, and disturbances in the lower ionosphere. By combining observations from several satellites, we show that Amphan''s powerful convective clouds and strong lightning activity generated atmospheric gravity waves--ripples in the atmosphere similar to waves produced when a stone is thrown into water. These waves traveled upward from the lower atmosphere through the stratosphere and mesosphere, reaching the lower thermosphere and ionosphere.\n\nA particularly novel aspect of this study is its detailed focus on cloud-to-cloud (CC) lightning, which has been largely overlooked in cyclone studies over the Indian region. We find that CC lightning intensified during Amphan''s rapid strengthening phase, especially within the eyewall region, and that a large fraction of these flashes were high-energy and positively charged. This lightning behaviour closely followed the cyclone''s intensification and weakening, suggesting that CC lightning can serve as a valuable indicator of strong internal storm dynamics.\n\nWhy does this matter? For the space-weather and ionospheric community, this study strengthens the evidence that weather systems near Earth''s surface can directly affect the near-space environment through gravity waves. Such disturbances can influence radio wave propagation, satellite drag, and navigation systems like GPS. For meteorologists and climate scientists, the results highlight lightning and gravity waves as key but under-represented components of cyclone dynamics, offering new pathways to improve storm monitoring and modelling.\n\nMore broadly, this work enriches Earth system science by demonstrating how tightly connected different atmospheric layers are--from the ocean-driven cyclone at the surface to electrical and wave processes over 100 km above Earth. By bridging meteorology, atmospheric electricity, and space physics, this study helps move us closer to a truly integrated understanding of how extreme weather events impact the entire Earth-atmosphere-space system.\n"
+  Url: https://doi.org/10.1016/j.jastp.2025.106654
+  Caption: "(a) Daily distribution of Outgoing Longwave Radiation (OLR) at 12:00 UT from 15 to 20 May 2020, illustrating the evolution of convective activity associated with Super Cyclone Amphan over the Bay of Bengal. Regions of low OLR values indicate deep and intense convection, corresponding to the development, rapid intensification, mature, and weakening phases of the cyclone. (b) Corresponding Thermal Infrared (TIR1) satellite images showing cloud-top brightness temperature (CTBT) at 10.8 μm, acquired by the INSAT-3D satellite at 12:00 UT during the same period. Extremely low cloud-top temperatures highlight the presence of strong updrafts, deep convective clouds, and well-developed mesoscale convective systems within the cyclone''s eyewall and rain-band regions. Together, panels (a) and (b) provide a comprehensive view of the temporal evolution of convective intensity during different stages of Super Cyclone Amphan."
+  Reference: 'O. M. Patil, D. Kar, N. Parihar, R. Singh, and A. P. Dimri, Journal of Atmospheric and Solar-Terrestrial Physics, vol. 277, p. 106654, Oct. 2025'
+  Image: digest-27
+  Keywords:
+  - Super Cyclone Amphan
+  - "Atmosphere-Ionosphere Coupling"
+  - Cloud-to-Cloud Lightning
+  - Atmospheric Gravity Waves
+  - Upper Atmospheric Disturbances
+  - Bay of Bengal

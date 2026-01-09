@@ -8,11 +8,11 @@
 
 #set par(justify: false)
 #grid(
-  columns: (1.5fr, 1fr, 1fr),
-  gutter: 2em,
+  columns: (1.1fr, 1.2fr, 0.6fr),
+  gutter: 4em,
   align: left,
   [
-    #let answers = crossword_solution("/dataFiles/crossword.toml")
+    #let answers = crossword_solution("/dataFiles/crossword.yaml")
     == Crossword
     #grid(
       columns: (1fr, 1fr),

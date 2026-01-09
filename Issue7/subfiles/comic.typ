@@ -1,11 +1,12 @@
 #import "/template-files/inscight-template.typ": *
 
-#let title = "Breaking the Ice: India's First Women in Antarctica"
-#let author = "Arya Mhatre"
-#let authorInfo = "*Arya Mhatre* is a student at IISER Kolkata currently pursuing Earth Sciences. Beyond collecting cool rocks, she's also an illustrator and comic artist who wants to learn 2d animation."
+#let title = "Against All Odds: The Man Who Brought IVF To India"
+#let author = "Kajori Barman, Afreen Chowdhury"
+#let authorInfo = "*Kajori* (right( is a student with curiosity in the sciences. Along with pursuing her interest in science, she also indulges in sketching and painting as hobbies. During the lockdown, she started getting into digital art and has since been drawing her favourite anime and comic characters. #linebreak() *Afreen* (left)  has always been very keen about nature, particularly biology. She has always loved reading novels and comics, and as someone who nerds on fiction, she wanted to try understanding how these stories are written by creating this comic with Kajori."
 #let authorAffiliations = "IISER Kolkata"
-#let authorImage = "/authFaces/arya.jpg"
+#let authorImage = "/authFaces/kajori.jpg"
 #let coverImage = "/covers/comic.svg"
+#let comic_images = ("comic_2.jpg", "comic_3.jpg", "comic_4.jpg", "comic_5.jpg", "comic_6.jpg", "comic_7.jpg", "comic_8.jpg", "comic_9.jpg", )
 
 #cover(
   title: title,
@@ -16,30 +17,15 @@
 
 
 #pagebreak()
-#set page(
-  background: image("/images/comic-11.pdf"),
-  header: none,
-  footer: none,
-)
-#pagebreak()
-#set page(
-  background: image("/images/comic-22.pdf"),
-  header: none,
-  footer: none,
-)
-#pagebreak()
-#set page(
-  background: image("/images/comic-33.pdf"),
-  header: none,
-  footer: none,
-)
-#pagebreak()
-#set page(
-  background: image("/images/comic-44.pdf"),
-  header: none,
-  footer: none,
-)
-#pagebreak()
+#for img in comic_images [
+  #set page(
+      background: image("/images/" + img),
+      header: none,
+      footer: none,
+  )
+  #pagebreak()
+]
+
 #set page(background: none)
 #show: default.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),

@@ -2,8 +2,8 @@
 
 #crossword(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  file: "/dataFiles/crossword.toml",
-  intro: [This issue's crossword is based on women who made pathbreaking contributions to science.],
+  file: "/dataFiles/crossword.yaml",
+  intro: [This issue's crossword is based on the Nobel prizes.],
   outlineDesc: " | Women in Science",
-  title: "Themed Crossword | Women in Science",
+  title: "Themed Crossword | Nobel Prizes",
 )

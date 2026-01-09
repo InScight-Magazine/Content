@@ -5,10 +5,10 @@
 #let affiliations = ("Department of Biotechnology, St. Xavier’s College (Autonomous), Kolkata, West Bengal, India.",)
 #let abstract = "In their June 20, 2025 interview, Mr. Nayan Bhunia and Mr. Dibyendu Biswas highlighted the realities of Ph.D. life in India, stressing strong academic foundations, collaboration, multidisciplinary thinking, and resilience. They emphasized *patience*, financial independence, work–life balance, and awareness of narrowing research novelty as key considerations for aspiring researchers."
 #let coverImage = "interview.svg"
-#let authorImage = "interviewSS1.jpeg"
-#let authorInfo = "Mr. Nayan Bhunia (right) and Mr. Dibyendu Biswas, Senior Research Fellows under Dr. Prasun Mukherjee at Centre for Research in Nanoscience and Nanotechnology (CRNN), University of Calcutta, India."
+#let authorImage = "subham.jpg"
+#let authorInfo = "*Subham Sarkar* is a final year Masters student at St. Xavier's College (Kolkata). His research interests converge at the intersection of biomaterials, nanotechnology, and  molecular mycology. He is interested in exploring the design and engineering of nanomaterials towards creating innovative platforms to mitigate spread or aggravation of infectious diseases, among other things."
 #let received = (month: 12, day: 13, year: 2025)
-#let interviewBy = ("Shubham Sarkar",) 
+#let interviewBy = ("Medha Roy Choudhury", "Budhaditya Banerjee") 
 #let refsFile = none
 #show: section.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
