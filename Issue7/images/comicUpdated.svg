@@ -29,7 +29,7 @@
      showgrid="false"
      inkscape:zoom="0.56319798"
      inkscape:cx="7088.9814"
-     inkscape:cy="302.73546"
+     inkscape:cy="482.06849"
      inkscape:window-width="1918"
      inkscape:window-height="1174"
      inkscape:window-x="0"
@@ -101,7 +101,10 @@
        height="297"
        id="page1"
        margin="0"
-       bleed="0" /></sodipodi:namedview><defs
+       bleed="0"
+       inkscape:export-filename="comic_9.jpg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" /></sodipodi:namedview><defs
      id="defs1"><rect
        x="5458.9517"
        y="-1245.1647"

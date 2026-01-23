@@ -1,8 +1,8 @@
 #import "/template-files/inscight-template.typ": *
 
 #let title = "Guiding Tomorrow’s Minds: Conversation with Nayan Bhunia and Dibyendu Biswas"
-#let authors = ("Interview by Subham Sarkar",)
-#let affiliations = ("Department of Biotechnology, St. Xavier’s College (Autonomous), Kolkata, West Bengal, India.",)
+#let authors = ("Subham Sarkar",)
+#let affiliations = ("Department of Biotechnology, St. Xavier’s College, Kolkata",)
 #let abstract = "In their June 20, 2025 interview, Mr. Nayan Bhunia and Mr. Dibyendu Biswas highlighted the realities of Ph.D. life in India, stressing strong academic foundations, collaboration, multidisciplinary thinking, and resilience. They emphasized *patience*, financial independence, work–life balance, and awareness of narrowing research novelty as key considerations for aspiring researchers."
 #let coverImage = "interview.svg"
 #let authorImage = "subham.jpg"

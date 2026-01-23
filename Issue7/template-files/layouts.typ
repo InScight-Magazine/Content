@@ -122,7 +122,7 @@ set page(
   authorImage: none,
   authorImageWidth: 50%,
   refsFile: none,
-  reviewedBy: none,
+  reviewedBy: (),
   category: none,
   received: none,
   authProfPosition: auto,
@@ -151,40 +151,34 @@ set page(
   )
 
 if coverImage != none {
-  if reviewedBy != none {
+    locator = authors.at(0).split().at(0) + "-" + title.split().at(-1)
     cover(
       title: title,
       coverImage: coverImage,
-      locator: if authors.len() > 0 { authors.at(0).split().at(0) + "-" + title.split().at(-1) } else { none },
+      locator: locator,
     )
+}
+if authors != none and authors.len() > 0 {
+  assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
+}
+if authors != none and authors.len() > 0 {
+  let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
+  if intro == "interview by" {
+    let authorList = ()
+    for (auth, aff) in authors.zip(authorAffiliations) {
+      authorList.push([*#eval(auth, mode:"markup")*] + " (" + aff + ")")
+    }
+    intro = intro + h(0.5em) + authorList.join(", ") + parbreak() + date
   } else {
-    articleCover(
-      title: title,
-      authors: authors,
-      authorAffiliations: authorAffiliations,
-      abstract: abstract,
-      coverImage: coverImage,
-      coverCaption: coverCaption,
-      sideImage: sideImage,
-      sideImageFraction: sideImageFraction,
-      reviewedBy: reviewedBy,
-      category: category,
-      received: received,
-      coverHeight: coverHeight,
-      attribution: links.at("long"),
-      outlineDesc: text(font: "Hero New", if authorAffiliations.len() > 0  { authors.join(", ") } else { outlineDesc }),
-      locator: if authors.len() > 0 { authors.at(0).split().at(0) + "-" + title.split().at(-1) } else { none },
-    )
+    intro = { for (auth, aff) in authors.zip(authorAffiliations) { grid(columns: (auto, auto), gutter:10pt, align:(left, left), [*#eval(auth, mode:"markup")*], [(#aff)])} + date }
   }
 }
-if authors.len() == 0 {
-  nonCoverTitle(
-    title: title, 
-    intro: intro,
-    outlineDesc: text(font: "Hero New", outlineDesc),
-    locator: locator,
-  )
-}
+nonCoverTitle(
+  title: title, 
+  intro: intro,
+  outlineDesc: outlineDesc,
+  locator: locator,
+)
 counter(figure.where(kind: image)).update(0)
 columns(numCols,
 if authorInfo != none {
@@ -218,6 +212,9 @@ content
   sideImage: none,
   sideImageFraction: 50%,
   coverHeight: 60%,
+  received: none,
+  intervieweeInfo: none,
+  intervieweeImage: none,
 ) = {
   let afterBreak = false
   let boldflag = true
@@ -239,6 +236,10 @@ content
     if trimmedLine.starts-with("IMAGE:") {
       let dict = eval(trimmedLine.trim("IMAGE:"))
       img(..dict)
+      continue
+    }
+    if trimmedLine.starts-with("QUOTE:") {
+      quote[#eval(trimmedLine.trim("QUOTE:"), mode:"markup")]
       continue
     }
     for name in group1 {
@@ -288,13 +289,17 @@ content
       title: title, 
       authors: authors,
       authorAffiliations: authorAffiliations,
+      authorInfo: intervieweeInfo,
+      authorImage: intervieweeImage,
       abstract: abstract,
       coverImage: coverImage,
       coverCaption: coverCaption,
       sideImage: sideImage,
       sideImageFraction: sideImageFraction,
       coverHeight: coverHeight,
+      received: received,
       numCols: 2,
+      intro: "interview by"
     )
     #counter(figure.where(kind: image)).update(0)
     #content

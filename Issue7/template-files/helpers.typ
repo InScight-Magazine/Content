@@ -4,34 +4,33 @@
 #let nonCoverTitle(
   title: none, 
   intro: none,
-  outlined: true,
   outlineDesc: none,
   locator: none,
 ) = {
+  let outlined = if locator == none { true } else { false }
   place(
     top,
     scope: "parent",
     float: true,
     [
-      #v(1em)
-      #if locator != none [
-        = #heading(outlined: false, level:1)[#eval(title, mode: "markup")]#label(locator)
+      #v(-0.5em)
+      #if locator == "outline" [
+        = #heading(outlined: outlined, level:1)[#eval(title, mode: "markup")]#label(locator)
       ] else [
-        = #heading(outlined: false, level:1)[#eval(title, mode: "markup")]
+          #set par(leading: 0.1em)
+        = #heading(outlined: outlined, level:1)[#eval(title, mode: "markup")]
       ]
-      #v(1em)
-
+      #v(-1em)
       #if intro != none [
-        #text(size: 1.6em, intro)
-        #v(1.5em)
+        #set par(leading: 0.5em)
+        #set par(spacing: 1em)
+        #emph(text(size: 1.1em, intro))
       ]
+      #if locator != "outline" {
+        line(length:100%)
+      }
     ]
   )
-  if outlined == true and locator != "outline" {
-    show heading: none
-    heading(outlined: true, title)
-    // + if outlineDesc != none [#linebreak()#text(font: header-font, outlineDesc)]
-  }
 }
 
 #let articleCover(
@@ -62,7 +61,7 @@
   )[
     #block[
       #image(coverImage, width: 100%, height: coverHeight)
-      #if coverCaption.len() > 0 [
+      #if coverCaption != none and coverCaption.len() > 0 [
         #place(bottom + right, box(width: 45%, fill: rgb(0, 0, 0, 150), inset: 0.5em, text(font: main-font, size: main-size - 1pt, fill: rgb(240, 240, 240), weight: "semibold", eval(coverCaption, mode: "markup"))))
       ]
     ]
