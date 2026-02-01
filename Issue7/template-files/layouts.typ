@@ -202,7 +202,7 @@ content
   issueDetails: (),
   file: none,
   group1: (),
-  group2: none,
+  group2: (),
   title: none,
   authors: (),
   authorAffiliations: (),
@@ -252,10 +252,16 @@ content
         break
       }
     }
-    if trimmedLine.starts-with(group2) {
-      boldflag = false
-      trimmedLine = trimmedLine.replace(group2, "").trim()
-      boldStartflag = true
+
+    let intervieweeName = ""
+    for name in group2 {
+      if trimmedLine.starts-with(name) {
+        intervieweeName = name
+        boldflag = false
+        trimmedLine = trimmedLine.replace(name, "").trim()
+        boldStartflag = true
+        break
+      }
     }
     if firstFlag == true {
       trimmedLine = dcap(trimmedLine, dropWord: true)
@@ -269,7 +275,7 @@ content
     } else {
       if boldStartflag == true {
         boldStartflag = false
-        text(weight: "bold", group2) + [~] + trimmedLine
+        text(weight: "bold", intervieweeName) + [~] + trimmedLine
       } else {
       set par(
         justify: true,

@@ -6,7 +6,7 @@
 #let abstract = "We grow up learning that the everyday world obeys Newton’s laws, while quantum mechanics belongs to the bizarre realm of atoms and electrons—but what if that boundary isn’t so strict after all? Inspired by the 2025 Nobel Prize in Physics, this article explores how carefully engineered electrical circuits can behave like “giant atoms,” exhibiting quantum tunneling and discrete energy levels on a scale you can hold in your hand. From Josephson junctions to artificial atoms, it’s a story of how the quantum world quietly invades the macroscopic one."
 #let coverImage = "raka.svg"
 #let authorImage = "raka.jpg"
-#let authorInfo = "*Prof. Dasgupta* is a theoretical physicist and is engaged in both teaching and research. Presently she is working as Assistant Professor, Dept. of Physics, University of Calcutta, India."
+#let authorInfo = "*Prof. Dasgupta* is a theoretical physicist, engaged in both teaching and research. Presently she is an Assistant Professor at Dept. of Physics, University of Calcutta. Her broad research interests include quantum many-body physics and statistical physics. She is also an acclaimed poet and has been honored with the Krittibas Puraskar, the Bangla Academy Award, and the Yuva Puraskar from the Sahitya Akademi of India."
 #let received = (month: 12, day: 22, year: 2025)
 #let category = "Mathematics"
 #let reviewedBy = ("Shibaraj Sahu", "Sukalyan Deb")

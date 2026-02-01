@@ -28,7 +28,7 @@ More importantly, we would love to hear any feedback that you might have about t
 We are currently looking to expand our team. If you are interested in what we do and are confident that you will be able to devote time to this, please reach out to us at #email. We will be happy to discuss possible roles for you depending on your skills.
 
 #columns(
-  2,
+  3,
   [
     === Chief Editor
     #yaml("/dataFiles/team.yml").at("Chief")
@@ -36,18 +36,16 @@ We are currently looking to expand our team. If you are interested in what we do
     === Advisors
     #yaml("/dataFiles/team.yml").at("Advisors").join("\n")
 
-    === Design & Website
-    #yaml("/dataFiles/team.yml").at("Design").sorted().join("\n")
-
     #colbreak()
     === Editors
     #yaml("/dataFiles/team.yml").at("Editors").sorted().join("\n")
 
-    === Social Media
-    #yaml("/dataFiles/team.yml").at("Social").sorted().join("\n")
+    #colbreak()
+    === Design & Website
+    #yaml("/dataFiles/team.yml").at("Design").sorted().join("\n")
 
-    === Science Games
-    #yaml("/dataFiles/team.yml").at("Games").sorted().join("\n")
+    === Social Media \& Games
+    #yaml("/dataFiles/team.yml").at("SocialGames").sorted().join("\n")
   ]
 )
 

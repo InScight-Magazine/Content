@@ -39,7 +39,7 @@
 
 One of the earliest and most profound discoveries in mathematics, dating back to Euclid, is that every natural number can be written as a product of prime numbers. In this sense, primes serve as the fundamental building blocks of arithmetic. A _prime number_ is a natural number $n>1$ that has no divisors other than $1$ and itself. For instance, $2$, $3$, $5$, $7$, and $11$ are prime, whereas $9=3^2$ is not. The study of prime numbers has attracted many of the greatest mathematicians, including Euler, Gauss, Dirichlet, and Riemann. 
 
-#img(path: "/images/primes100.jpg", portrait: true, position: bottom, caption: "Caption Needed.")
+#img(path: "/images/primes100.jpg", portrait: true, position: bottom, caption: "Apparent lack of patterns among the primes.")
 One of the first striking facts about primes is Euclid’s theorem asserting that there are infinitely many of them. Yet even a brief inspection of the primes among the first $100$ natural numbers reveals an apparent lack of regularity. Aside from the trivial observation that all primes except $2$ are odd, no simple pattern emerges. It is therefore unsurprising that there is no fast and fully deterministic procedure for locating very large primes. Indeed, the largest known prime as of December 2025 is 
 $ 2^(136,279,841) - 1, $
 a number discovered through extensive computation rather than a simple formula. 
@@ -57,7 +57,7 @@ This observation, now known as the _Prime Number Theorem_, was proved independen
 Still, the intuition that primes behave in many ways like an unpredictable sequence remains useful. In this article, we explore how this perspective can lead to meaningful predictions, focusing in particular on the behavior of gaps between consecutive primes. The smallest possible gap is $2$, as seen in twin primes such as $(3,5)$ or $(11,13)$. On the other hand, by considering the numbers
 $  n!+2, n!+3, dots, n!+n, $
 one can construct arbitrarily long stretches of composite numbers, and hence arbitrarily large gaps between primes. This naturally raises the question: near a large number $N$, what should a _typical_ gap between consecutive primes look like? 
-#img(path: "/images/Urns.jpg", portrait: true, position: bottom, caption: "Caption needed.", width: 100%)
+#img(path: "/images/Urns.jpg", portrait: true, position: bottom, caption: "Cramér’s conjecture is a prediction about how large the gaps between consecutive prime numbers can get. Using a probabilistic model in which an integer near $n$ is “randomly prime” with probability $1\/log n$, Cramér argued that unusually large gaps should be rare and that the largest prime gaps near $n$ should grow no faster than about $(log n)^2$. In simple terms, the conjecture says that although prime gaps do grow without bound, they grow much more slowly than the primes themselves, and their size is tightly constrained by logarithmic factors.", width: 100%)
 
 To investigate this, consider an interval $[N, N+H]$, where $N$ is large and $H$ is much smaller than $N$, but still large enough to contain many primes. The Prime Number Theorem predicts that the number of primes in this interval is approximately
 $ pi(N+H) - pi(N) approx H / (log N). $
