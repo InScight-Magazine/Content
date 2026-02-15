@@ -4,7 +4,7 @@
 #let authors = ("Atul Dixit",)
 #let affiliations = ("Department of Mathematics, Indian Institute of Technology Gandhinagar",)
 #let abstract = "From a Soviet labor camp, Nikolai Koshliakov developed a striking generalization of the Riemann zeta function under conditions that defy imagination. This article traces the origins of his work on transcendental functions arising from a generalized Riemann equation. Along the way, it reveals how profound mathematics can emerge even in the most hostile environments."
-#let coverImage = "dixit.jpg"
+#let coverImage = "dixit.svg"
 #let authorImage = "dixit.jpg"
 #let authorInfo = "*Atul Dixit* is a Professor of Mathematics at IIT Gandhinagar and holds the N Rama Rao Chair position at the institute. Atul's research interests are in Analytic Number Theory, Special Functions, Theory of Partitions, q-series and Modular Forms. He also likes to work in the areas of mathematics developed by Srinivasa Ramanujan. "
 #let received = (month: 12, day: 22, year: 2025)
@@ -12,18 +12,17 @@
 #let reviewedBy = ("",)
 #let refsFile = "/dataFiles/dixit.yml"
 
-#show: section.with(
+#show: article.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
-  sideImageFraction: 35%,
+  // sideImageFraction: 35%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
-  authorImageWidth: (40%,40%),
-  category: category,
+  // authorImageWidth: (40%,40%),
   received: received,
   reviewedBy: reviewedBy,
   refsFile: refsFile,

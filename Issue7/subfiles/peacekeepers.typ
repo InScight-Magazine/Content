@@ -11,15 +11,14 @@
 #let reviewedBy = ("Puppala Ainesh Kumar", "Ishita Barddhan",)
 #let refsFile = "/dataFiles/peacekeepers.yml"
 
-#show: section.with(
+#show: article.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
-  coverCaption: "In the universe’s grand computation, even forgetting has a thermodynamic cost. This article explores a visual echo of Landauer’s principle, where every erased bit leaves a trace of heat behind.",
-  sideImageFraction: 50%,
+  // sideImageFraction: 50%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
   received: received,

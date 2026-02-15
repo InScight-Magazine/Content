@@ -4,21 +4,23 @@
 #let nonCoverTitle(
   title: none, 
   intro: none,
-  outlineDesc: none,
   locator: none,
 ) = {
-  let outlined = if locator == none { true } else { false }
   place(
     top,
     scope: "parent",
     float: true,
     [
       #v(-0.5em)
-      #if locator == "outline" [
-        = #heading(outlined: outlined, level:1)[#eval(title, mode: "markup")]#label(locator)
+      #set par(leading: 0.1em)
+      #if locator != none [
+        #if locator == "outline" [
+          #heading(outlined: false, level:1, supplement: locator)[#eval(title, mode: "markup")]#label(locator)
+        ] else [
+          #heading(outlined: true, level:1, supplement: locator)[#eval(title, mode: "markup")]#label(locator)
+        ]
       ] else [
-          #set par(leading: 0.1em)
-        = #heading(outlined: outlined, level:1)[#eval(title, mode: "markup")]
+        #heading(outlined: false, level:1, supplement: locator)[#eval(title, mode: "markup")]
       ]
       #v(-1em)
       #if intro != none [
@@ -33,25 +35,18 @@
   )
 }
 
-#let articleCover(
+#let halfCover(
   title: none, 
-  authors: (), 
-  authorAffiliations: (),
-  abstract: none,
+  intro: none,
   coverImage: none,
-  sideImage: none,
-  sideImageFraction: 50%,
-  reviewedBy: none,
-  category: none,
-  received: none,
   coverCaption: none,
-  attribution: none,
-  outlineDesc: none,
-  issueId: none,
-  locator: none,
   coverHeight: 60%,
+  ending: none,
   outlined: true,
+  coverData: (),
 ) = {
+
+  let locator = "digest"
   page(
     fill: header-dark-color,
     columns: 1, 
@@ -61,7 +56,7 @@
   )[
     #block[
       #image(coverImage, width: 100%, height: coverHeight)
-      #if coverCaption != none and coverCaption.len() > 0 [
+      #if coverCaption != none [
         #place(bottom + right, box(width: 45%, fill: rgb(0, 0, 0, 150), inset: 0.5em, text(font: main-font, size: main-size - 1pt, fill: rgb(240, 240, 240), weight: "semibold", eval(coverCaption, mode: "markup"))))
       ]
     ]
@@ -76,73 +71,38 @@
       #v(-30pt)
       #block(it.body)
     ]
-    #if locator != none [
-      #heading(level: 1, outlined: false, [#title])#label(locator)
-    ] else [
-      #heading(level: 1, outlined: false, [#title])
-    ]
+    #heading(level: 1, outlined: false, eval(title, mode: "markup"), supplement: locator)#label(locator)
     #if outlined == true {
-      {
-        show heading: none
-        heading(outlined: true, title)
-        // + if outlineDesc != none [#linebreak()#text(font: header-font, outlineDesc)]
-      }
+      show heading: none
+      heading(outlined: true, eval(title, mode: "markup"))
     }
-    #par(justify: false, leading: line-spacing, first-line-indent: 0pt)[
+    #v(coverItemGap)
     #text(
       fill: author-color,
       size: author-size,
       font: heading-font,
       weight: "semibold",
     )[
-      #for p in authors.enumerate() { p.at(1) + if authorAffiliations.len() > 0 {" (" + authorAffiliations.at(p.at(0)) + ")" } + linebreak()}
+      #v(-1em)
+      #intro
+      #v(1em)
     ]
-    ]
-    #v(coverItemGap)
     #{
       set text(
         fill: title-color,
         size: abstract-size,
         font: abstract-font, 
       )
-    if sideImage != none {
-      grid(
-        columns: ((200% - 2 * sideImageFraction) * 1fr, 2 * sideImageFraction * 1fr),
-        gutter: 2em,
-        par(justify: true, first-line-indent: 0pt)[
-          #abstract
-        ] + emph(text(fill: white, attribution))
-,
-        image(sideImage)
-      )
-    } else {
-        if reviewedBy != none and received != none and category != none [
-          #let date = datetime(..received)
-          #grid(
-            columns: (2fr * (100% - sideImageFraction), 1fr * sideImageFraction),
-            gutter: 4em,
-            par(justify: true, first-line-indent: 0pt)[
-              #eval(mode: "markup", abstract)
-            ] + emph(text(fill: white, attribution)),
-            if reviewedBy != none [
-              #align(right, [
-              #upper[*Reviewed by*]\
-              #reviewedBy.sorted().join(", ", last: " and ")\ \
-              #upper[*Submitted*]\
-              #date.display("[month repr:short] [day], [year]")\ \
-              #upper[*Category*] \
-              #category
-              ]
-            )
-            ]
-          )
-        ] else [
-          #box(width: 100% - sideImageFraction, par(justify: true, abstract))
-        ]
+      for (t,a) in coverData [
+        #text(font: heading-font, size: abstract-size, fill: author-color, weight: "bold", a)
+        #text(size: abstract-size, fill: title-color, eval(t, mode: "markup"))
+        #linebreak()
+        #linebreak()
+      ] + ending
     }
-  }
-]
-]
+
+  ]
+  ]
 }
 
 
@@ -150,16 +110,15 @@
   title: none, 
   coverImage: none,
   locator: none,
-  outlined: true,
 ) = {
   page(
     header: none,
     footer: none,
     background: image(coverImage, width: 100%, height: 100%)
   )[
-    #if outlined == true {
-        show heading: none
-        [#heading(outlined: true, title) #if locator != none { label(locator) } else { none }]
+    #if locator != none {
+      show heading: none
+      [#heading(outlined: true, eval(title, mode: "markup"), supplement: locator) #label(locator)]
     }
   ]
 }
@@ -298,9 +257,10 @@
 #let auth-profile(
   authorInfo: "",
   authorImage: "",
+  authorImageWidth: 100%,
 ) = {
     line(length:80%, stroke: 0.3em + fg-color)
-    image(authorImage)
+    image(authorImage, width: authorImageWidth)
     { 
       set text(size: 1.2em, font: author-font, weight: "medium")
       set par(justify: false)
@@ -378,28 +338,6 @@
   )
 }
 
-// #let tables(
-//   headings: none,
-//   caption: none,
-//   position: bottom,
-//   ..content
-// ) = {
-//   figure(
-//     placement: position,
-//     table(
-//       columns: headings.len(),
-//       align: horizon,
-//       stroke: 1pt + header-bg-color,
-//         table.header(
-//           ..headings,
-//         ),
-//         ..content
-//       ),
-//       caption: caption,
-//       supplement: "Table"
-//   )
-// }
-
 #let pageLink(
   anchor,
   text,
@@ -424,7 +362,6 @@
   title: none,
   issueDetails: (),
   shortLink: none,
-  toc: false,
 ) = {
   return rect(
       fill: header-bg-color, 
@@ -434,19 +371,13 @@
       height: 100%
     )[
       #set text(font: header-font, fill: header-bright-color, weight: "semibold")
-      #if toc == false [
-        #text([INSCIGHT \##issueDetails.at("number") #h(8pt) #headerSeparator #h(8pt) #issueDetails.at("time") #h(8pt) #headerSeparator #h(8pt) #shortLink])
-      ] else [
-        #text([INSCIGHT \##issueDetails.at("number") #h(8pt) #headerSeparator #h(8pt) #issueDetails.at("time")])
-      ]
+      #text([INSCIGHT \##issueDetails.at("number") #h(8pt) #headerSeparator #h(8pt) #issueDetails.at("time") #h(8pt) #headerSeparator #h(8pt) #shortLink])
       #h(1fr) 
-      #if toc == false [
-        #if title.len() > header-title-maxsize {
-          text(title.slice(0, count: header-title-maxsize) + "...")
-        } else {
-          text(eval(title, mode: "markup"))
-        }
-      ]
+      #if title.len() > header-title-maxsize {
+        text(title.slice(0, count: header-title-maxsize) + "...")
+      } else {
+        text(eval(title, mode: "markup"))
+      }
       #v(header-raise)
     ]
 }

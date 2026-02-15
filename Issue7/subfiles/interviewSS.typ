@@ -10,15 +10,13 @@
 #let received = (month: 12, day: 13, year: 2025)
 #let interviewBy = ("Medha Roy Choudhury", "Budhaditya Banerjee") 
 #let refsFile = none
-#show: section.with(
+#show: article.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
-  coverCaption: ". . . .",
-  sideImageFraction: 35%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
   received: received,
@@ -81,18 +79,3 @@ Overall, Mr. Dibyendu Biswas's interview was far more than a mere report on scie
 
 == Acknowledgement
 I acknowledge that Mr. Nayan Bhunia and Mr. Dibyendu Biswas have graciously consented to be interviewed by me, and I appreciate the valuable insights they have shared.
-
-Furthermore, I confirm that both Mr. Bhunia and Mr. Biswas have reviewed the draft of the publication and have granted their permission for me to submit it for publication.
-
-
-== Contact Information Of The Interviewees
-1. *Mr. Nayan Bhunia*,\
-Senior Research Fellow (DST - INSPIRE),\
-Centre for Research in Nanoscience and Nanotechnology (CRNN), University of Calcutta.\
-Email Address - nayanbhunia8836\@gmail.com \
-\
-
-2.	*Mr. Dibyendu Biswas*,\
-Senior Research Fellow (UGC NFOBC),\
-Centre for Research in Nanoscience and Nanotechnology (CRNN), University of Calcutta.\
-Email Address - dibyendubiswas1996\@gmail.com\

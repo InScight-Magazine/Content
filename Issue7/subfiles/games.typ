@@ -7,21 +7,20 @@
     ("Can you guess the names of these science universities and institutions?", "Who Am I? — Institutions of Science"),
   )
 
-#let coverData = for (a, t) in gamesSummary [
-    #text(font: heading-font, size: abstract-size, fill: author-color, weight: "bold", a)
-    #linebreak()
-    #text(size: abstract-size, fill: title-color, t)
-    #linebreak()
-    #linebreak()
-  ]
+// #let coverData = for (a, t) in gamesSummary [
+//     #text(font: heading-font, size: abstract-size, fill: author-color, weight: "bold", a)
+//     #linebreak()
+//     #text(size: abstract-size, fill: title-color, t)
+//     #linebreak()
+//     #linebreak()
+//   ]
 
 #let permalink = root-website + "issue" + yaml("/dataFiles/issueData.yml").at("number") + "/#games"
 #let links = createLinks(url: permalink)
-#articleCover(
+#halfCover(
   title: "Science Games", 
   coverImage: "/covers/nobel.jpg",
-  abstract: coverData,
+  coverData: gamesSummary,
   coverCaption: "This issue's crossword is based on the Nobel prizes.",
   outlined: false,
-  sideImageFraction: 0%,
 )

@@ -1,9 +1,15 @@
 #import "/template-files/inscight-template.typ": *
 
-#show: section.with(
-  issueDetails: yaml("/dataFiles/issueData.yml"),
-  title: "Join the Conversation",
-  numCols: 1,
+#let issueDetails = yaml("/dataFiles/issueData.yml")
+#let title =  "Join the Conversation"
+#let permalinkSuffix = "contribute"
+#let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+#let links = createLinks(url: permalink)
+#set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+#nonCoverTitle(
+    title: title, 
+    locator: permalinkSuffix,
 )
 
 == Contribute

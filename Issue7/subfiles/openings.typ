@@ -1,12 +1,21 @@
 #import "/template-files/inscight-template.typ": *
 
 #import "/dataFiles/openings.typ": openings
-#show: section.with(
-  issueDetails: yaml("/dataFiles/issueData.yml"),
-  title: "Academic Listings: Internships, PhDs, Post-docs", 
-  permalinkSuffix: "openings",
-  numCols: 1,
+
+#let issueDetails = yaml("/dataFiles/issueData.yml")
+#let permalinkSuffix = "openings"
+#let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+#let links = createLinks(url: permalink)
+#let title = "Academic Listings: Internships, PhDs, Post-docs"
+#set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+#nonCoverTitle(
+  title: title, 
+  locator: permalinkSuffix,
 )
+
+_Position titles are hyperlinked_
+
 #let types = ("IN": "INTERNSHIPS", "PH": "PHD POSITIONS", "PD": "POSTDOCTORAL AND OTHER POSITIONS")
 #set par(leading: 1em, spacing: 1.8em)
 #for pair in types [

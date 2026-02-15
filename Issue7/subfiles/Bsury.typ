@@ -1,14 +1,14 @@
 #import "/template-files/inscight-template.typ": *
 
 #let title = "The World of Diophantus"
-#let authors = ("B.Sury",)
+#let authors = ("B Sury",)
 #let affiliations = ("Visiting Professor,International Centre for Theoretical Sciences Bangalore, India.",)
 
 #let coverImage = "/covers/Sury.svg" // Same folder(in this case ISSUE 7) → just the filename
 #let authorImage = "/authFaces/sury.jpeg"   // Inside a subfolder → subfolder/filename
 #let received = (month: 12, day: 7, year: 2025)
 #let authorInfo = "*Sury* was at the TIFR in Bombay during 1981-1999 and at the I.S.I. in Bangalore during 1999-2025. He is an elected Fellow of the National Academy of Sciences, India and was the National Co-ordinator for the Mathematics Olympiad Programme in India. His areas of research interest are Algebra and Number Theory. At present, he is a Visiting Professor at ICTS-TIFR, Bangalore."
-#let abstract = "This article offers a panoramic journey through Diophantine equations, weaving together history, puzzles, deep theorems, and modern breakthroughs—from Diophantus and Fermat to elliptic curves, Hilbert’s 10th problem, and the ABC conjecture. Blending rigorous mathematics with anecdotes, poetry, and cultural context, it reveals how deceptively simple integer equations lead to some of the most profound ideas in mathematics. Aimed at curious readers, it celebrates Diophantine problems as a unifying thread connecting recreational math, number theory, and contemporary research."
+#let abstract = "Sury  offers a panoramic journey through Diophantine equations, weaving together history, puzzles, deep theorems, and modern breakthroughs—from Diophantus and Fermat to elliptic curves, Hilbert’s 10th problem, and the ABC conjecture. Blending rigorous mathematics with anecdotes, poetry, and cultural context, it reveals how deceptively simple integer equations lead to some of the most profound ideas in mathematics."
 
 #let coverCaption= "Diophantus"
 #let reviewedBy= ("",)
@@ -16,15 +16,14 @@
 
 
 
-#show: section.with(
+#show: article.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: coverImage,
-  coverCaption:coverCaption,
-  sideImageFraction: 35%,
+  // authorImageWidth: 35%,
   authorImage:authorImage,
   authorInfo: authorInfo,
   received: received,
@@ -407,6 +406,7 @@ It is easy to see that this is eventually periodic if and only if $t$ is the roo
 quadratic polynomial with rational coefficients. For any square-free positive
 integer N, the SCF of $√N $ looks like  $[b_0; overline(b_1\, b_2\, dots\, b_(n-1)\, 2 b_0)]$.
 
+#img(path: "/images/fermat.jpeg", caption: "Pierre de Fermat (August 17, 1601 to January 12, 1665). Fermat initiated the systematic study of Diophantine equations, introducing the method of infinite descent and posing problems that shaped number theory for centuries.", position: bottom, width: 100%, portrait: true)
 For instance, using the greedy algorithm, let us find the SCF for the irrational
 number
 $√7$.
@@ -437,7 +437,6 @@ Think of this as the equality
 $ (18 + 5√13)(18 − 5√13) = −1. $
 From this a solution for $x^2 − 13y^2 = 1$ can be obtained by considering $(18 +5√13)^2 =649 + 180√13$. Then (649, 180) is a solution of $x^2 − 13y^2 = 1$.
 
-#img(path: "/images/fermat.jpeg", caption: "Pierre de Fermat (August 17, 1601 to January 12, 1665). Fermat initiated the systematic study of Diophantine equations, introducing the method of infinite descent and posing problems that shaped number theory for centuries.", position: bottom, width: 100%, portrait: true)
 == Congruent Number Problem
 This is one of the oldest problems in Diophantine equations. A natural number
 d is said to be a congruent number if there is a right-angled triangle with

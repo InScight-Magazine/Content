@@ -3,7 +3,6 @@
 #crossword(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/crossword.yaml",
-  intro: [This issue's crossword is based on the Nobel prizes.],
-  outlineDesc: " | Women in Science",
-  title: "Themed Crossword | Nobel Prizes",
+  intro: [This issue's crossword is based on Nobel prize trivia.],
+  title: "Themed Crossword --- Nobel prizes",
 )

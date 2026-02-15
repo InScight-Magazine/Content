@@ -1,6 +1,6 @@
 #import "/template-files/inscight-template.typ": *
 
-#let title = "Against All Odds: The Man Who Brought IVF To India"
+#let title = "India's Silent Architect of Modern Physics"
 #let author = "Lipsamayee Mishra"
 #let authorInfo = "*Lipsamayee Mishra* is a student in IISER Kolkata pursuing physics and maths. She is an art enthusiast who is passionate about illustrations and exploring new visual artforms."
 #let authorAffiliations = "IISER Kolkata"
@@ -11,8 +11,7 @@
 #cover(
   title: title,
   coverImage: coverImage,
-  locator: "comic-antarctica",
-  outlined: true
+  locator: "comic-mishra",
 )
 
 

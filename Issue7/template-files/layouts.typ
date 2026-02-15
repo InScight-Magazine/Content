@@ -92,7 +92,9 @@ set page(
       }
     },
     if calc.even(counter(page).get().first()) {
-      link(<outline>)[JUMP TO TOC]
+      if query(<outline>).len() > 0 {
+        link(<outline>)[JUMP TO TOC]
+      }
     } else {
       upper(website-link)
     },
@@ -104,99 +106,147 @@ set page(
   doc
 }
 
-#let section(
+#let article(
   issueDetails: none,
-  footer-left-1: none, 
-  footer-left-2: none, 
   title: none,
   authors: (),
   authorAffiliations: (),
   abstract: none,
-  intro: none,
   coverImage: none,
-  coverCaption: none,
-  sideImage: none,
-  sideImageFraction: 50%,
-  numCols: 2,
   authorInfo: none,
   authorImage: none,
-  authorImageWidth: 50%,
+  authorImageWidth: 100%,
   refsFile: none,
   reviewedBy: (),
-  category: none,
   received: none,
-  authProfPosition: auto,
   breakAfter: (-1,),
-  outlineDesc: none,
-  permalinkSuffix: none,
-  locator: none,
-  coverHeight: 60%,
   content
 ) = {
-  if permalinkSuffix == none {
-    if authorAffiliations.len() > 0 {
-      permalinkSuffix = lower(authors.at(0).split().at(0) + "-" + title.split().at(-1))
-    } else {
-      permalinkSuffix = lower(title.split().at(-1))
-    }
-  }
+  let permalinkSuffix = lower(authors.at(0).split().at(0) + "-" + title.split().at(-1))
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
-
   let links = createLinks(url: permalink)
+  set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
 
-  set columns(gutter: column-gap)
-  
-  set page(
-    header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short"), toc: locator == "outline")
+  let locator = "article-" + permalinkSuffix
+  cover(
+    title: title,
+    coverImage: coverImage,
+    locator: locator,
   )
-
-if coverImage != none {
-    locator = authors.at(0).split().at(0) + "-" + title.split().at(-1)
-    cover(
-      title: title,
-      coverImage: coverImage,
-      locator: locator,
-    )
-}
-if authors != none and authors.len() > 0 {
   assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
-}
-if authors != none and authors.len() > 0 {
   let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
-  if intro == "interview by" {
-    let authorList = ()
-    for (auth, aff) in authors.zip(authorAffiliations) {
-      authorList.push([*#eval(auth, mode:"markup")*] + " (" + aff + ")")
-    }
-    intro = intro + h(0.5em) + authorList.join(", ") + parbreak() + date
-  } else {
-    intro = { for (auth, aff) in authors.zip(authorAffiliations) { grid(columns: (auto, auto), gutter:10pt, align:(left, left), [*#eval(auth, mode:"markup")*], [(#aff)])} + date }
-  }
-}
-nonCoverTitle(
-  title: title, 
-  intro: intro,
-  outlineDesc: outlineDesc,
-  locator: locator,
-)
-counter(figure.where(kind: image)).update(0)
-columns(numCols,
-if authorInfo != none {
+  let authlist = { for (auth, aff) in authors.zip(authorAffiliations) { grid(columns: (auto, auto), gutter:10pt, align:(left, left), [*#eval(auth, mode:"markup")*], [(#aff)])} + date }
+  nonCoverTitle(
+    title: title, 
+    intro: authlist,
+  )
+  counter(figure.where(kind: image)).update(0)
+  columns(2,
     block(width: 90%,
     par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
     + v(1fr)
     + if reviewedBy.len() > 0 and reviewedBy.at(0).len() > 0 { text(font: abstract-font, size:1.3em, weight: "medium", fill: navy, [*EDITED BY*: #reviewedBy.join(", ")])}
     + v(1fr)
-    + auth-profile(authorInfo: authorInfo, authorImage: authorImage)
+    + auth-profile(authorInfo: authorInfo, authorImage: authorImage, authorImageWidth: authorImageWidth)
     )
-    colbreak()
-} + 
-content
-+ if refsFile != none {
-  references(refsFile: refsFile, breakAfter: breakAfter)
+    + colbreak()
+    + content
+    + if refsFile != none {
+      references(refsFile: refsFile, breakAfter: breakAfter)
+    }
+  )
 }
-)
-}
+
+// #let section(
+//   issueDetails: none,
+//   title: none,
+//   authors: (),
+//   authorAffiliations: (),
+//   abstract: none,
+//   intro: none,
+//   coverImage: none,
+//   sideImage: none,
+//   sideImageFraction: 50%,
+//   numCols: 2,
+//   authorInfo: none,
+//   authorImage: none,
+//   authorImageWidth: 50%,
+//   refsFile: none,
+//   reviewedBy: (),
+//   received: none,
+//   authProfPosition: auto,
+//   breakAfter: (-1,),
+//   outlineDesc: none,
+//   permalinkSuffix: none,
+//   locator: none,
+//   content
+// ) = {
+//   if permalinkSuffix == none {
+//     if authorAffiliations.len() > 0 {
+//       permalinkSuffix = lower(authors.at(0).split().at(0) + "-" + title.split().at(-1))
+//     } else {
+//       permalinkSuffix = lower(title.split().at(-1))
+//     }
+//   }
+//   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+//
+//   let links = createLinks(url: permalink)
+//
+//   set columns(gutter: column-gap)
+//
+//   set page(
+//     header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short"))//, toc: locator == "outline")
+//   )
+//
+// if coverImage != none {
+//   if locator == none {
+//     locator = authors.at(0).split().at(0) + "-" + title.split().at(-1)
+//   }
+//   cover(
+//     title: title,
+//     coverImage: coverImage,
+//     locator: locator,
+//   )
+// }
+// if authors != none and authors.len() > 0 {
+//   assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
+// }
+// if authors != none and authors.len() > 0 {
+//   let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
+//   if intro == "interview by" {
+//     let authorList = ()
+//     for (auth, aff) in authors.zip(authorAffiliations) {
+//       authorList.push([*#eval(auth, mode:"markup")*] + " (" + aff + ")")
+//     }
+//     intro = intro + h(0.5em) + authorList.join(", ") + parbreak() + date
+//   } else {
+//     intro = { for (auth, aff) in authors.zip(authorAffiliations) { grid(columns: (auto, auto), gutter:10pt, align:(left, left), [*#eval(auth, mode:"markup")*], [(#aff)])} + date }
+//   }
+// }
+// nonCoverTitle(
+//   title: title, 
+//   intro: intro,
+//   // outlineDesc: outlineDesc,
+//   locator: locator,
+// )
+// counter(figure.where(kind: image)).update(0)
+// columns(numCols,
+// if authorInfo != none {
+//     block(width: 90%,
+//     par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
+//     + v(1fr)
+//     + if reviewedBy.len() > 0 and reviewedBy.at(0).len() > 0 { text(font: abstract-font, size:1.3em, weight: "medium", fill: navy, [*EDITED BY*: #reviewedBy.join(", ")])}
+//     + v(1fr)
+//     + auth-profile(authorInfo: authorInfo, authorImage: authorImage)
+//     )
+//     colbreak()
+// } + 
+// content
+// + if refsFile != none {
+//   references(refsFile: refsFile, breakAfter: breakAfter)
+// }
+// )
+// }
 
 #let interview(
   issueDetails: (),
@@ -204,17 +254,15 @@ content
   group1: (),
   group2: (),
   title: none,
-  authors: (),
-  authorAffiliations: (),
+  interviewers: (),
+  interviewerAffiliations: (),
   abstract: "",
   coverImage: "",
-  coverCaption: none,
-  sideImage: none,
-  sideImageFraction: 50%,
-  coverHeight: 60%,
-  received: none,
-  intervieweeInfo: none,
+  interviewee: none,
   intervieweeImage: none,
+  intervieweeImageWidth: 100%,
+  intervieweeInfo: none,
+  received: none,
 ) = {
   let afterBreak = false
   let boldflag = true
@@ -289,27 +337,40 @@ content
     }
     // linebreak()
   } 
-  [
-    #show: section.with(
-      issueDetails: issueDetails,
-      title: title, 
-      authors: authors,
-      authorAffiliations: authorAffiliations,
-      authorInfo: intervieweeInfo,
-      authorImage: intervieweeImage,
-      abstract: abstract,
-      coverImage: coverImage,
-      coverCaption: coverCaption,
-      sideImage: sideImage,
-      sideImageFraction: sideImageFraction,
-      coverHeight: coverHeight,
-      received: received,
-      numCols: 2,
-      intro: "interview by"
+  {
+
+  let permalinkSuffix = lower(interviewee)
+  let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+  let links = createLinks(url: permalink)
+  set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+  let locator = "interview-" + permalinkSuffix
+  cover(
+    title: title,
+    coverImage: coverImage,
+    locator: locator,
+  )
+  assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
+  let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
+  let authlist = ()
+  for (auth, aff) in interviewers.zip(interviewerAffiliations) {
+    authlist.push("*"+auth+"*" + " (" + aff + ")")
+  }
+  nonCoverTitle(
+    title: title, 
+    intro: eval("interview by " + authlist.join(",  "), mode:"markup") + linebreak() + date,
+  )
+  counter(figure.where(kind: image)).update(0)
+  columns(2,
+    block(width: 90%,
+    par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
+    + v(1fr)
+    + auth-profile(authorInfo: intervieweeInfo, authorImage: intervieweeImage, authorImageWidth: intervieweeImageWidth)
     )
-    #counter(figure.where(kind: image)).update(0)
-    #content
-  ]
+    + colbreak()
+    + content
+  )
+  }
 }
 
 #let quiz(
@@ -359,13 +420,16 @@ content
     counter += 1
   } + v(2em) + emph[Answers can be found at the end of the issue. For an interactive version of the quiz, check out our #link(createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: "quiz"))[*#underline[website]*]#label("quiz")]
 
-  section(
-    issueDetails: issueDetails,
-    title: title,
-    numCols: 1,
-    permalinkSuffix: "quiz",
-    content
+  let permalinkSuffix = "quiz"
+  let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+  let links = createLinks(url: permalink)
+  set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+  nonCoverTitle(
+    title: title, 
+    locator: "quiz"
   )
+  content
 }
 
 #let linkedlist(
@@ -407,12 +471,23 @@ content
     counter += 1
   }
   [
-    #show: section.with(
-        issueDetails: issueDetails,
-        title: title,
-        numCols: 1,
-        outlineDesc: " | The word linking game",
-        permalinkSuffix: "linkedlist",
+    // #show: section.with(
+    //     issueDetails: issueDetails,
+    //     title: title,
+    //     numCols: 1,
+    //     outlineDesc: " | The word linking game",
+    //     permalinkSuffix: "linkedlist",
+    //     locator: "linkedlist",
+    // )
+
+    #let permalinkSuffix = "linkedlist"
+    #let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+    #let links = createLinks(url: permalink)
+    #set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+    #nonCoverTitle(
+      title: title, 
+      locator: permalinkSuffix,
     )
 
     Linked List is a general science-based word game. The rules are straightforward:
@@ -473,15 +548,16 @@ content
     box(align(left, down)),
   )
   [
-    #show: section.with(
-          issueDetails: issueDetails,
-          title: title,
-          intro: intro,
-          numCols: 1,
-          outlineDesc: outlineDesc,
-          permalinkSuffix: "crossword",
-    )
+    #let permalinkSuffix = "crossword"
+    #let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+    #let links = createLinks(url: permalink)
+    #set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
 
+    #nonCoverTitle(
+      title: title, 
+      intro: intro,
+      locator: permalinkSuffix,
+    )
     #align(center, crossword)
 
     #v(1fr)
@@ -538,23 +614,16 @@ content
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: "digest")
   let links = createLinks(url: permalink)
 
-  coverData = for (t,a) in coverData [
-    #text(font: heading-font, size: abstract-size, fill: author-color, weight: "bold", a)
-    #text(size: abstract-size, fill: title-color, eval(t, mode: "markup"))
-    #linebreak()
-    #linebreak()
-  ] + emph(text(weight: "bold", links.at("long")))
   set page(
     header: createTitleHeader(title: title, shortLink: links.at("short"), issueDetails: issueDetails)
   )
-  articleCover(
+  halfCover(
     title: title, 
-    authors: abstract,
+    intro: "Fresh highlights from the frontiers of science",
     coverImage: coverImage,
-    abstract: coverData,
     coverCaption: coverCaption,
-    sideImageFraction: 0%,
-    outlineDesc: " | " + intro,
+    coverData: coverData,
+    ending: emph(text(weight: "bold", links.at("long")))
   )
 
   for c in content {
@@ -654,11 +723,68 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
     ..items
   )
 
-  section(
-    issueDetails: issueDetails,
-    title: title,
-    numCols: 1,
-    permalinkSuffix: "whoami",
-    content
+  let permalinkSuffix = "whoami"
+  let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+  let links = createLinks(url: permalink)
+  set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+  nonCoverTitle(
+    title: title, 
+    locator: permalinkSuffix,
   )
+  content
 }
+
+#let foreword(
+  content: none,
+  images: (),
+  captions: (),
+  widths: (),
+  issueDetails: none,
+  title: none,
+  author: none,
+  affiliation: none,
+  type: none,
+) = {
+  assert(type == "foreword" or type == "editor")
+  let outlineDesc = "Foreword by " + author
+  if type == "editor" {
+    title = "A Word from the Editors"
+  }
+    
+  let intro = none
+  if type == "foreword" { 
+    intro = [Foreword by *#author*\ #affiliation] 
+  } else {
+    intro = [*#author*\ #affiliation] 
+  }
+  let parts = content.trim().split("// SPLIT HERE")
+  let content = grid(
+      columns: (1fr, 1fr),
+      gutter: 3em,
+      align: (left, center),
+      eval(content, mode:"markup"),
+      for (i, img) in images.enumerate() {
+        if i == 0 {
+          image(images.at(i), width: widths.at(i)) + captions.at(i)
+        } else {
+          v(1fr) + image(images.at(i), width: widths.at(i)) + captions.at(i)
+        }
+      }
+    )
+
+  let permalinkSuffix = "foreword"
+  if title.contains("editor") {
+    permalinkSuffix = "editor"
+  }
+  let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+  let links = createLinks(url: permalink)
+  set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+  nonCoverTitle(
+    title: title, 
+    intro: intro
+  )
+  content
+}
+

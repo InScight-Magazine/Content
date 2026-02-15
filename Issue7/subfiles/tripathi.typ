@@ -13,18 +13,17 @@
 #let reviewedBy = ("Debanuj Chatterjee",)
 #let refsFile = "/dataFiles/tripathi.yml"
 
-#show: section.with(
+#show: article.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
-  sideImageFraction: 35%,
+  // sideImageFraction: 35%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
-  authorImageWidth: (40%,40%),
-  category: category,
+  // authorImageWidth: (40%,40%),
   received: received,
   reviewedBy: reviewedBy,
   refsFile: refsFile,

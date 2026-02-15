@@ -11,19 +11,15 @@
 #let category = "Mathematics"
 #let reviewedBy = ("Suman Halder",)
 
-#show: section.with(
+#show: article.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
-  coverCaption: "From Euler’s infinite product to the explosive growth of the partition function p(n), a simple counting problem unfolds into deep mathematics.",
-  sideImageFraction: 48%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
-  authorImageWidth: (40%,40%),
-  category: category,
   received: received,
   reviewedBy: reviewedBy,
   // breakAfter: (7,),

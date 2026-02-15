@@ -3,28 +3,25 @@
 #let title = "Macroscopic Quantum Phenomena : The Story of 2025 Physics Nobel"
 #let authors = ("Raka Dasgupta",)
 #let affiliations = ("Dept. of Physics, University of Calcutta",)
-#let abstract = "We grow up learning that the everyday world obeys Newton’s laws, while quantum mechanics belongs to the bizarre realm of atoms and electrons—but what if that boundary isn’t so strict after all? Inspired by the 2025 Nobel Prize in Physics, this article explores how carefully engineered electrical circuits can behave like “giant atoms,” exhibiting quantum tunneling and discrete energy levels on a scale you can hold in your hand. From Josephson junctions to artificial atoms, it’s a story of how the quantum world quietly invades the macroscopic one."
+#let abstract = "We grow up learning that the everyday world obeys Newton’s laws, while quantum mechanics belongs to the fascinating realm of atoms and electrons—but what if that boundary isn’t so strict after all? Inspired by the 2025 Nobel Prize in Physics, this article explores how carefully engineered electrical circuits can behave like “giant atoms,” exhibiting quantum tunneling and discrete energy levels on a scale you can hold in your palm."
 #let coverImage = "raka.svg"
 #let authorImage = "raka.jpg"
-#let authorInfo = "*Prof. Dasgupta* is a theoretical physicist, engaged in both teaching and research. Presently she is an Assistant Professor at Dept. of Physics, University of Calcutta. Her broad research interests include quantum many-body physics and statistical physics. She is also an acclaimed poet and has been honored with the Krittibas Puraskar, the Bangla Academy Award, and the Yuva Puraskar from the Sahitya Akademi of India."
+#let authorInfo = "*Raka Dasgupta* is a theoretical physicist, engaged in both teaching and research. Presently she is an Assistant Professor at Dept. of Physics, University of Calcutta. Her broad research interests include quantum many-body physics and statistical physics. She is also an acclaimed poet and has been honored with the Krittibas Puraskar, the Bangla Academy Award, and the Yuva Puraskar from the Sahitya Akademi of India."
 #let received = (month: 12, day: 22, year: 2025)
-#let category = "Mathematics"
 #let reviewedBy = ("Shibaraj Sahu", "Sukalyan Deb")
 #let refsFile = "/dataFiles/raka.yml"
 
-#show: section.with(
+#show: article.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
   title: title, 
   authors: authors,
   authorAffiliations: affiliations,
   abstract: abstract,
   coverImage: "/covers/" + coverImage,
-  coverCaption: "From Euler’s infinite product to the explosive growth of the partition function p(n), a simple counting problem unfolds into deep mathematics.",
-  sideImageFraction: 48%,
+  // sideImageFraction: 48%,
   authorImage: "/authFaces/" + authorImage,
   authorInfo: authorInfo,
-  authorImageWidth: (40%,40%),
-  category: category,
+  // authorImageWidth: (40%,40%),
   received: received,
   reviewedBy: reviewedBy,
   refsFile: refsFile,
@@ -42,7 +39,7 @@ So there are three distinct key-words (or, maybe key phrases!) involved : “mac
 What really are quantum tunneling and energy quantization?  And what does it mean to have them on a macroscopic scale? In this article, we’ll try to find answers to these questions. 
 
 == Quantum Tunneling
-Imagine a ping pong ball  lying at the bottom of a big circular tub. Lightly shake the tub, and the ball start rolling inside it.  Even then, the ball cannot  escape the tub: because before it stands a tall barrier - the wall of the tub. The kinetic energy of the ball is not sufficient for it to climb over that wall. 
+Imagine a ping pong ball  lying at the bottom of a big circular tub. Lightly shake the tub, and the ball starts rolling inside it.  Even then, the ball cannot  escape the tub: because before it stands a tall barrier - the wall of the tub. The kinetic energy of the ball is not sufficient for it to climb over that wall. 
 
 Now replace the ball by a  tiny particle like an atom, and the tub by a potential well where it is trapped.  There is a certain probability that the quantum particle might cross the barrier, and land outside.  This is more like the apparition or magical transportation you come across in Harry Potter books or our very own Gupi Gayen Bagha Bayen movies. This is not guaranteed that it will definitely cross the wall, but yes, there is a high chance of it. So if you have hundreds of such particles, maybe ten or twenty will  “Break on through the  other side”. 
 
@@ -67,7 +64,7 @@ Interestingly, macroscopic quantum behavior is not, in itself, new either. At ve
 
 Bose–Einstein condensation, (named after  Satyendra Nath Bose, and Albert Einstein) is another fascinating phenomenon. Bosons , i.e., particles with integer spins, condense to the lowest momentum state collectively. In spirit, these condensates belong to the same family as that of superconductors and superfluids. These all are quantum phenomena, observed on a macroscopic scale. Unlike the electrons and protons that you cannot see with your bare eyes, you can see how a superconducting circuit functions or a superfluid rises up the capillary well in our lab environment. 
 
-Here is a catch again. These are undoubtedly manifestations of quantum physics, emerging in a macro system. However, the real culprits behind such occurrences are micro again : electron pairs (average distance between those electrons: 10-100 nm) ,  bosonic atoms(radius : fraction of a nm) , etc.  What if it could be demonstrated that a large robject itself can behave the way a quantum particle does? *If we see that the effect is not merely because of its constituent particles following quantum mechanics, but the large system itself, as a whole, shows quantum signatures? That would be even more remarkable. Clarke, Devoret, and Martinis s precisely did  this.*
+Here is a catch again. These are undoubtedly manifestations of quantum physics, emerging in a macro system. However, the real culprits behind such occurrences are micro again : electron pairs (average distance between those electrons: 10-100 nm), bosonic atoms (radius : fraction of a nm), etc.  What if it could be demonstrated that a large object itself can behave the way a quantum particle does? *If we find that the effect arises not merely because the constituent particles follow quantum mechanics, but because the large system itself, as a whole,show clear quantum signatures? That would be even more remarkable. Clarke, Devoret, and Martinis precisely did this.*
 
 #img(path: "/images/raka2.jpeg", position: bottom, caption: "Quantum particles can stay on  distinct  energy levels only: like the steps  of a staircase.", portrait: true)
 == It’s all about Scales
@@ -80,7 +77,7 @@ Thermal fluctuations result from random motion of particles : a temperature effe
 
 Clarke and team used a classical circuit to mimic a quantum system like an atom, and engineered it such a way that the corresponding “quantum-like” energy scales dominate over the thermal scale. This is the key to the macroscopic quantum behavior they observed. 
 
-#img(path: "/images/raka3.svg", position: bottom, caption: "Circuit diagram of the experiment : taken from  [4].  The Josephson junction is marked by a cross,  and is shunted by a capacitance C.  R is the resistance. The junction is connected to two current sources :  static bias (IB) and microwave (Iμw) . The voltage V across the junction is measured by a low-noise amplifier.", portrait: false, width: 80%)
+#img(path: "/images/raka3.svg", position: bottom, caption: "Circuit diagram of the experiment : taken from  [4].  The Josephson junction is marked by a cross,  and is shunted by a capacitance C.  R is the resistance. The junction is connected to two current sources :  static bias ($I_B$) and microwave ($I_(mu w)$) . The voltage V across the junction is measured by a low-noise amplifier.", portrait: false, width: 80%)
 == Simulating  an Atom 
 
 *How a system can mimic another? *
@@ -95,13 +92,13 @@ This junction was an essential ingredient in the experiment conducted by Clarke,
 
 Around 1984–1985, the trio carried out a series of laboratory experiments. At that time, Clarke was the supervising professor, Devoret a postdoctoral researcher, and Martinis a PhD student. Their experiments unveiled a new generation of quantum-mechanical behaviors: that on a macroscopic scale. 
 
-How did they come up with the idea? Well, Science never advances through sudden, unprepared miracles. Clarke’s work was grounded in decades of theoretical and experimental studies. *Theoretical physicist Anthony Leggett (he won Nobel prize for his works on  superfluidity) suggested this possibility in 1980, distinguishing two kinds of macroscopic quantum phenomena: (1) where a large object behaves strangely because its microscopic constituents obey quantum mechanics (like superconductivity, superfluidity), and (2) where the large object itself shows quantum behaviour*. Clarke’s 1985 experiments  attempted to demonstrate the second. The team numerically simulated the experiment beforehand with help from Daniel Estève to identify the exact range of parameters, before  Thus, theory, experiment, and computater simulation — the three pillars of modern science — all played essential roles in this discovery.
+How did they come up with the idea? Well, Science never advances through sudden, unprepared miracles. Clarke’s work was grounded in decades of theoretical and experimental studies. *Theoretical physicist Anthony Leggett (he won Nobel prize for his works on  superfluidity) suggested this possibility in 1980, distinguishing two kinds of macroscopic quantum phenomena: (1) where a large object behaves strangely because its microscopic constituents obey quantum mechanics (like superconductivity, superfluidity), and (2) where the large object itself shows quantum behaviour*. Clarke’s 1985 experiments  attempted to demonstrate the second. The team numerically simulated the experiment beforehand with help from Daniel Estève to identify the exact range of parameters. Thus, theory, experiment, and computater simulation — the three pillars of modern science — all played essential roles in this discovery.
 
 Clarke and his team  fabricated Josephson junctions on oxidized silicon chips by layering specific materials. They connected the junction to a current source, a microwave radiation source of fixed frequency, and a voltage meter. The entire experiment was conducted at extremely low temperatures — in the milliKelvin range.
 
 Because it was a Josephson junction, they observed current flowing even without any applied voltage. This zero-voltage state is the junction’s initial and most stable configuration — like the ball trapped at the bottom of a parabolic potential, or, in this particular case, at one of the minima of the cosine potential. 
 
-Now recall that ping pong ball. classical mechanics forbids it from climbing out. Yet a quantum version could escape via tunneling.
+Now recall that ping pong ball. Classical mechanics forbids it from climbing out. Yet a quantum version could escape via tunneling.
 
 *In the Clarke–Devoret–Martinis experiment, the junction did  escape from the zero-voltage state to a finite-voltage state — by tunneling through the energy barrier, exactly like a quantum particle*. How much of that tunneling occurred? Since the “trapped” system corresponds to the zero-voltage state, any non-zero voltage appearing in the voltage measuring amplifier implies a tunneling of the system from it, and can directly measured this “escape rate”. 
 
@@ -113,15 +110,15 @@ But the story doesn’t end there. Remember energy quantization, i.e., he stairc
 
 Martinis applied microwaves. Remarkably, the voltage, i.e., the tunneling probability, sharply increased at exactly three specific current values, and not at intermediate ones. *This meant the system had climbed to particular higher energy levels before the tunneling took place*. Just like atoms, the Josephson junction circuit behaved as if it possessed discrete quantum energy states. In effect, it acted like an artificial atom.
 
-#img(path: "/images/raka4.svg", position: bottom, caption: "Left: Energy levels for a quantum particle in a harmonic potential, and induced transitions. Right (from [4]): The same for a cosine potential in the experiment being discussed (δ is the phase difference of the Josephson junction). Here ωp is the natural frequency of oscillation of the Josephson junction, and Ω is the frequency of the externally applied microwave, causing the transition.", portrait: false)
+#img(path: "/images/raka4.svg", position: bottom, caption: "Left: Energy levels for a quantum particle in a harmonic potential, and induced transitions. Right (from [4]): The same for a cosine potential in the experiment being discussed (δ is the phase difference of the Josephson junction). Here $omega_p$ is the natural frequency of oscillation of the Josephson junction, and Ω is the frequency of the externally applied microwave, causing the transition.", portrait: false)
 
 == What’s Next? 
 
 The range of applications is vast. If you can design a circuit that can mimic the properties of an atom, you end up having highly controllable “artificial atoms”. Whatever you aspire to do using an atom by exploiting its quantum mechanical features, you can do it now using the circuit, and with much better  precision.  An atom that can stay in either of its two lowest energy levels can function as a qubit: with states |0> and |1>. The same can be achieved with this Josephson junction circuit, utilizing its ground state and the first excited state.  Only now, the  controlling knobs are much more efficient: one can simple change the resistance or capacitance , or the microwave frequency to change the state of the system as per need.  *Thus, such a Josephson junction circuit can be employed as versatile platforms for quantum computation. *
 
-These systems also hold potential for more application-oriented areas such as quantum teleportation (a protocol that transfers quantum information across a distance) and quantum cryptography (ensuring secure communication that using principles of quantum mechanics). 
+These systems also hold potential for more application-oriented areas such as quantum teleportation (a protocol that transfers quantum information across a distance) and quantum cryptography (ensuring secure communication using principles of quantum mechanics). 
 
-Even if we put aside the application  aspects, Clarke and team’s work does not lose its significance. For, this work is also about the fundamental nature of physics. It springs from the very premise quantum mechanics was built upon, and probes our basic understanding of matter. The demonstration that a quantum effect can be harnessed and controlled in an otherwise classical circuit is marks a profound step forward, and  adds to humankind’s eternal quest for deciphering the grammar of this universe. 
+Even if we put aside the application  aspects, Clarke and team’s work does not lose its significance. For, this work is also about the fundamental nature of physics. It springs from the very premise quantum mechanics was built upon, and probes our basic understanding of matter. The demonstration that a quantum effect can be harnessed and controlled in an otherwise classical circuit marks a profound step forward, and  adds to humankind’s eternal quest for deciphering the grammar of this universe. 
 
 #line(length:100%)
 _Some schematic illustrations in this article were created using generative AI tools (ChatGPT, OpenAI)._
