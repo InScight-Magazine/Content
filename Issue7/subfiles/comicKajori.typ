@@ -18,7 +18,7 @@
 #pagebreak()
 #for img in comic_images [
   #set page(
-      background: image("/images/" + img),
+      background: image("/images/" + img, width: 95%),
       header: none,
       footer: none,
   )

@@ -270,7 +270,6 @@ SS: As a teacher, what do you look for in a student who wants to work with you?
 SDA: First and foremost, the subject must be natural to that person. I try to see whether their thinking is natural for mathematics. Sometimes a person may be very capable, but meant for something else. Second, the person must be hardworking and motivated. If that initial spark is there, I can help motivate further. But if the basic inclination is missing, I cannot push it. You see, if you take a square object, no matter how much you kick it, it won’t roll. But a round ball will. So that initial nature matters. Everyone has some talent. I believe that in nature—God’s world—everyone is meant for something. You have to discover what that is and follow it. By doing work that is natural to you, you are worshipping that work. And that itself is worship of God. As  Bhagavad Gita (BG 18.46) says 
 
 QUOTE:Swakarmana tamabhyarchya siddhim vindati Manavah. 
-#colbreak()
 So work—work incessantly, as Swamiji said—but do not bind yourself. Bondage is terrible. Working with expectations of praise, success, or recognition creates bondage. Success will come. Failure will come. Praise will come. Criticism will come. You continue working and enjoy the work itself. That is what Faiz also said: 
 
 QUOTE: Faiz thi raah sarbasar manzil\ Hum jahaan pahunche kaamyaaab aaye.
@@ -280,4 +279,5 @@ SS: Finally, what would you like to say to upcoming mathematics students?
 SDA: When I enter a classroom, I stand with folded hands—internally. You never know who is sitting in front of you. That person may become a great mathematician in the future, perhaps far greater than me. You are initiating someone into a subject. You don’t know who will become what. So one should always remain humble, with folded hands before the miracle of God. We are doing very little, really. But this attitude helps both yourself and others.  There should be no aham—no ego. An egoistic person thinks, “I did this.” But in reality, I met the right person, I encountered the right question, someone else gave the right input, and together we solved it. So where is “me” in this? If nature is doing everything, I am only an instrument.
 
 SS: Thank you sir for your time with us. We truly believe our readers shall have a great time to spend some time with you through the pages of InScight. With that thought, we end today’s discussion. Thank you.
+#colbreak()
 IMAGE: (path: "/images/rkmveri.jpg", caption: "Prof.Adhikari is a professor at *Ramakrishna Mission Vivekananda Educational and Research Institute (RKMVERI)* and dean of School of Mathematical Sciences", position: top, width:100%, portrait: true)

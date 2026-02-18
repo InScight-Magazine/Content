@@ -76,7 +76,9 @@ after attaining half the measure of his father’s life chill fate took him.
 After consoling his fate by the science of numbers for four years, he ended
 his life.’])
 This puzzle implies that Diophantus’s age x =?? is a solution of the equation:
-$ x = x/6 + x/12 + x/7 + 5 + x/2 + 4. $
+```
+ x = x/6 + x/12 + x/7 + 5 + x/2 + 4. 
+```
 
 For those who wish to verify the answer they got, here is a crossword type
 of hint: endless Hindustani Classical flautist!
@@ -86,7 +88,7 @@ where he sought solutions in integers or, more generally, in rational numbers.
 He wrote a number of books titled ‘Arithmetica’ many of which have got lost.
 Thus, the nomenclature of Diophantine equations arose to describe the broad
 subject of finding integer solutions of polynomial equations. For instance,
-the Diophantine equation $x^2 + y^2 = z^2$ seeks integer triples (the so-called
+the Diophantine equation `x^2 + y^2 = z^2` seeks integer triples (the so-called
 Pythagorean triples) describing the lengths of the sides of a right-angles triangle.
 
 
@@ -94,7 +96,7 @@ Pythagorean triples) describing the lengths of the sides of a right-angles trian
 The amateur mathematician Pierre de Fermat had, in his copy of Bachet’s
 translation of Diophantus’s Arithmetica, made a famous marginal note which
 came to be known as Fermat’s last theorem and which is now a theorem. It
-says that for any n > 2 there are no solutions of the equation $x^n + y^n =z^n$ in non-zero integers x, y, z; see the departure from the case $n = 2$ when we
+says that for any n > 2 there are no solutions of the equation `x^n + y^n =z^n` in non-zero integers x, y, z; see the departure from the case `n = 2` when we
 get infinitely many Pythagorean triples.
 
 #img(path: "/images/bachet.jpeg", caption: "Diophantus's Arithmetica by Bachet. Arithmetica is the major work of Diophantus and the most prominent work on premodern algebra in Greek mathematics. It is a collection of 290 algebraic problems giving numerical solutions of determinate equations (those with a unique solution) and indeterminate equations.", position: bottom, width: 100%, portrait: true)
@@ -105,8 +107,8 @@ it. The first seriously successful attempt was by Kummer when he proved
 Fermat’s assertion for certain types of primes called regular primes. Sophie
 Germain (who had to go under an alias of a male name as women were not
 allowed to enrol at the university at that time) was a protege of Gauss and
-she proved the truth of Fermat’s assertion when the exponent $n$ is a prime
-p such that $1 + 2p$ is also a prime. Only in the 1980s, the whole picture
+she proved the truth of Fermat’s assertion when the exponent `n` is a prime
+p such that `1 + 2p` is also a prime. Only in the 1980s, the whole picture
 changed with the advent of highly state-of-the-art methods into this topic
 by Gerd Faltings, Gerhard Frey, Kenneth Ribet and finally ending with the
 deep work of Andrew Wiles supported by Richard Taylor. One might say:
@@ -182,15 +184,21 @@ the answer was given simply as “42”. Deep Thought was then instructed to
 design the Earth supercomputer to determine what the Question actually is!
 
 For the sake of those who are interested, here is the solution expressing 42:
-$ 42 = (−80538738812075974)^3 + &(80435758145817515)^3 +\ &(12602123297335631)^3 . $
+```
+ 42 =& (−80538738812075974)^3 +\ &(80435758145817515)^3 +\ &(12602123297335631)^3 . 
+```
 
 In passing, we mention that it is easy to see the smallest solutions to expressing
 3 as a sum of three cubes of integers are:
-$ 3 = 1^3 + 1^3 + 1^3 = 4^3 + 4^3 + (−5)^3. $
+```
+ 3 = 1^3 + 1^3 + 1^3 = 4^3 + 4^3 + (−5)^3. 
+```
 For those who wonder how big the next solution could be, here it is:
-$ 3 =& (5699368212219628380720)^3 +
+```
+ 3 =& (5699368212219628380720)^3 +
 \ &(−569936821113563493509)^3 +
-\ &(−472715493453327032)^3. $
+\ &(−472715493453327032)^3. 
+```
 Concerning such questions, Terence Tao suggests as a challenge for the clairvoyant:
 
 #quote([
@@ -207,7 +215,7 @@ story thanks to Mahalanobis, who was a contemporary of Ramanujan
 at Cambridge (and who actually taught him for the first time how to get
 inside an English bed after realizing that for months Ramanujan had been
 freezing without being privy to this know-how). The Ramanujan taxicab
-number concerns the Diophantine equation $x^3+y^3=1729$. When Hardy
+number concerns the Diophantine equation `x^3+y^3=1729`. When Hardy
 mentioned that the taxicab he travelled bore the number 1729 and this number
 appeared dull to Hardy, Ramanujan immediately responded that this
 was far from a dull number as it was the smallest positive integer which is a
@@ -216,8 +224,8 @@ sum of two cubes of integers in two different ways. The two integer solutions
 it to check that each number < 1729 has at the most one expression as a
 sum of two cubes.
 
-However, in this context, what may not be well-known is that $x^3+y^3=1729$ has infinitely many rational solutions. For instance, if u, v is a solution, then
-so is $U = u(u^3-3458) \/ (1729− 2u^3)$ and $V = v(u^3 + 1729)\/(1729 − 2u^3)$.
+However, in this context, what may not be well-known is that `x^3+y^3=1729` has infinitely many rational solutions. For instance, if u, v is a solution, then
+so is `U = u(u^3-3458) \/ (1729− 2u^3)` and `V = v(u^3 + 1729)\/(1729 − 2u^3)`.
 
 #img(path: "/images/ramanujan.jpeg", caption: "Ramanujan (1887-1920) from India was deeply interested in Diophantine equations, contributing explicit solutions to sums of two cubes and to Pell-type equations using continued fractions.", position: bottom, width: 100%, portrait: true)
 == Enter Sylvester
@@ -227,14 +235,14 @@ often an easier problem to study than that of determining if integer solutions
 exist. A heuristic reason is that the set of rational solutions may have a
 much better structure - for instance it often has the structure of a group
 where two rational points can be composed to give a new third rational
-point. For example, a Diophantine equation like $y^2= x^3 + 54$ has only two integer solutions (x, y) = (3, 9), (3,−9) whereas if we consider a picture of
+point. For example, a Diophantine equation like `y^2= x^3 + 54` has only two integer solutions (x, y) = (3, 9), (3,−9) whereas if we consider a picture of
 the real locus of this equation, one may produce a new point with rational
 co-ordinates from two points with rational co-ordinates simply by drawing a
 chord between the two points and then reflecting about the x-axis the third
 point where this chord intersects the graph. To start with one can draw the
 tangent at (3, 9) and take the point where it cuts the graph and reflecting
 that point. In this manner, we can produce infinitely many solutions with
-rational co-ordinates! Of course, an equations like $y^2 = f(x)$ with $f(x)$ a cubic polynomial with distinct roots are special; they are called ‘elliptic
+rational co-ordinates! Of course, an equations like `y^2 = f(x)` with `f(x)` a cubic polynomial with distinct roots are special; they are called ‘elliptic
 curves’ and they have a group law as described above where two points give
 rise to a third point.
 
@@ -246,7 +254,7 @@ leave a remainder 2 or 5 when divided by 9 are not sums of two rational
 cubes, while primes which leave a remainder of 4, 7, or 8 are sums of two
 rational cubes. In contrast, primes p that leave a remainder of 1 or 8 when
 divided by 9 may or may not be sums of two rational cubes. The problem
-gets related to the elliptic curve $y^2= x^3 - 432p^2$. Only very recently the
+gets related to the elliptic curve `y^2= x^3 - 432p^2`. Only very recently the
 last prediction mentioned above (considered particularly difficult) has been
 proved for infinitely many prime numbers.
 
@@ -264,28 +272,30 @@ in mathematics - like syzygy.
 Like the Diophantine equations, a related notion that arises in many situations
 is that of Diophantine approximation - we briefly mention one place
 where π occurs.
-Here is a routine-looking question? Is the infinite series $Σ 1 / (n^3sin^2(n))$ convergent?
+Here is a routine-looking question? Is the infinite series `Σ 1 / (n^3sin^2(n))` convergent?
 
-The convergence of the series depends on the behavior of the sequence $n| sin(n)|$
-as $n$ gets infinitely large and, this behavior is mysterious. It depends on how
-well can $pi$ be approximated by rational numbers - something unknown as
+The convergence of the series depends on the behavior of the sequence `n| sin(n)|`
+as `n` gets infinitely large and, this behavior is mysterious. It depends on how
+well can `pi` be approximated by rational numbers - something unknown as
 yet!
-To make it a bit more precise, we briefly describe something called the _irrationality measure_ $mu(alpha)$ of an irrational number α.Consider the positive
-numbers a > 0 for which the distance $|alpha − p \/ q|$ of $alpha$ from a rational number
-can be less than the quantity $1\/q^a$ only for finitely many $p, q$. The smallest
-(or the infimum of) all such $a > 0$ is defined to be the irrationality measure of
-$alpha$. It quantifies how well-approximable the number $alpha$ is by rational numbers.
+To make it a bit more precise, we briefly describe something called the _irrationality measure_ `mu(alpha)` of an irrational number α.Consider the positive
+numbers a > 0 for which the distance `|alpha − p \/ q|` of `alpha` from a rational number
+can be less than the quantity `1\/q^a` only for finitely many `p, q`. The smallest
+(or the infimum of) all such `a > 0` is defined to be the irrationality measure of
+`alpha`. It quantifies how well-approximable the number `alpha` is by rational numbers.
 
-The Dirichlet box principle implies that the irrationality measure $mu(alpha) >= 2$
-and generically (that is, almost all) $alpha$ have $mu(alpha) = 2$. For a specific number,
-it is difficult to find $mu$; for instance, $mu(e) = 2$ but, the constant $mu(pi)$ is still
-unknown! One knows $mu(pi) < 8$ but not much more is known
+The Dirichlet box principle implies that the irrationality measure `mu(alpha) >= 2`
+and generically (that is, almost all) `alpha` have `mu(alpha) = 2`. For a specific number,
+it is difficult to find `mu`; for instance, `mu(e) = 2` but, the constant `mu(pi)` is still
+unknown! One knows `mu(pi) < 8` but not much more is known
 Here is the shocker - the series 
-$ Σ 1 / (n^3sin^2(n)) $
-diverges if $mu(pi) > 5/2$ and converges
-if, $mu(pi) < 5/2$. So, take your pick!
+```
+ Σ 1 / (n^3sin^2(n)) 
+```
+diverges if `mu(pi) > 5/2` and converges
+if, `mu(pi) < 5/2`. So, take your pick!
 Before we move on to other things, we recall an interesting mnemonic to
-remember the first few digits of $pi$:
+remember the first few digits of `pi`:
 
 #quote([Now I want a drink, alcoholic of course, after the heavy lectures involving
 quantum mechanics!”])
@@ -327,13 +337,13 @@ an elementary problem that leads to it.
 Think of a fruit-seller arranging her fruits in a triangular pattern in the
 morning and in a square pattern in the evening. Can she do both of these
 with the same number of fruits? For instance, if he has 36 fruits, he can do
-this because $6^2 = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8$. Which other squares are so
+this because `6^2 = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8`. Which other squares are so
 expressible as ‘triangular numbers’?
 
-If $n^2 = 1 + 2 + dots + k = k(k + 1)\/2$, then $8n^2 = 4k(k + 1) = (2k + 1)^2 − 1$. Thus,$
-(2k + 1, 2n)$ is a solution of the equation $x^2 − 2y^2 = 1$. Being aestheticallyminded
+If `n^2 = 1 + 2 + dots + k = k(k + 1)\/2`, then `8n^2 = 4k(k + 1) = (2k + 1)^2 − 1`. Thus,
+`(2k + 1, 2n)` is a solution of the equation `x^2 − 2y^2 = 1`. Being aestheticallyminded
 fruit-sellers, all of us of course want to know what the solutions of
-$x^2 − 2y^2 = 1$ are! Before addressing how to solve this equation, we jump to
+`x^2 − 2y^2 = 1` are! Before addressing how to solve this equation, we jump to
 another instance when the same equation arises and it involves Ramanujan.
 
 
@@ -347,17 +357,19 @@ dictated something called a ‘continued fraction’ (to be explained below) say
 that it contained the solution! Evidently, Ramanujan wanted to have
 some fun instead of directly giving the answer! So, what is behind this?
 
-If the house number is $r$, then we have
-$ 1 + 2 + dots + (r − 1) = (r + 1) + dots + n $
-The LHS is $(r−1)r\/2$ and if we add $1+2+dots+r = r(r+1)/2$ to both sides, we have $r^2 = n(n+1)\/2$ . Multiplying by 8 and adding 1, we have $8r^2 +1 = (2n+1)^2$, the very same equation encountered by the fruit-seller!
-One can similarly look at $m^2−d n^2 = 1$ for any square-free positive integer d.These equations are popularly (and erroneously!) known as _Pell equations_.
-Interestingly, it turns out that there are infinitely many pairs m, n of positive integer solutions of $m^2−d n^2 = 1$ and essentially, they are all generated froma single pair. The ancient Indian mathematicians (especially Brahmagupta,Bhaskara II and Jayadeva) studied the equations $x^2-d y^2 = plus.minus 1$ and solved them. What is more - they gave an algorithm (the so-called Chakravala or cyclic method) which produces all the solutions.
+If the house number is `r`, then we have
+```
+ 1 + 2 + dots + (r − 1) = (r + 1) + dots + n 
+```
+The LHS is `(r−1)r\/2` and if we add `1+2+dots+r = r(r+1)/2` to both sides, we have `r^2 = n(n+1)\/2` . Multiplying by 8 and adding 1, we have `8r^2 +1 = (2n+1)^2`, the very same equation encountered by the fruit-seller!
+One can similarly look at `m^2−d n^2 = 1` for any square-free positive integer d.These equations are popularly (and erroneously!) known as _Pell equations_.
+Interestingly, it turns out that there are infinitely many pairs m, n of positive integer solutions of `m^2−d n^2 = 1` and essentially, they are all generated froma single pair. The ancient Indian mathematicians (especially Brahmagupta,Bhaskara II and Jayadeva) studied the equations `x^2-d y^2 = plus.minus 1` and solved them. What is more - they gave an algorithm (the so-called Chakravala or cyclic method) which produces all the solutions.
 
-#img(path: "/images/indianMaths.svg", caption: "From left, Brahmagupta (598-670 AD) formulated general solutions for quadratic Diophantine equations and composition rules, while Bhaskaracharya (1114-1185 AD) systematized and perfected the Chakravāla method for solving equations of the form  $x^2−N y^2=1$.", position: bottom, width: 100%, portrait: false)
+#img(path: "/images/indianMaths.svg", caption: "From left, Brahmagupta (598-670 AD) formulated general solutions for quadratic Diophantine equations and composition rules, while Bhaskaracharya (1114-1185 AD) systematized and perfected the Chakravāla method for solving equations of the form  `x^2−N y^2=1`.", position: bottom, width: 100%, portrait: false)
 
 In 1657, Fermat, writing to his friend Frenicle, he posed “to the English
-mathematicians and all others” the problem of finding a solution of $x^2 −
-N y^2 = 1$ “pour ne vous donner pas trop de peine” like N = 61, 109.
+mathematicians and all others” the problem of finding a solution of `x^2 −
+N y^2 = 1` “pour ne vous donner pas trop de peine” like N = 61, 109.
 
 The 20th century great Andr´e Weil’s comment on this was:
 “What would have been Fermat’s astonishment if some missionary, just back
@@ -365,8 +377,10 @@ from India, had told him that his problem had been successfully tackled there
 by native mathematicians almost six centuries earlier ?”
 
 Indeed, in 1150 A.D., Bhaskara II gave the explicit solutions
-$ 1766319049^2 − 61(226153980)^2 = 1\
-158070671986249^2 − 109(15140424455100)^2 = 1 $
+```
+ 1766319049^2 − 61(226153980)^2 = 1\
+158070671986249^2 − 109(15140424455100)^2 = 1 
+```
 Indeed, Brahmagupta (598-665) had already solved this equation in 628 A.D.
 for several values like N = 83 and N = 92.
 
@@ -382,60 +396,76 @@ Perhaps the oldest Diophantine equation to be considered is one posed by
 Archimedes (287 -212 B.C.) to Eratosthenes known as the cattle problem.
 We avoid the long wording and just state the modern equivalent which is to
 find the smallest solution of the equation 
-$ X^2 − 410286423278424Y^2 = 1; $
+```
+ X^2 − 410286423278424Y^2 = 1; 
+```
 it turns out that the smallest solution has at least 206545 digits.
 
 We make a brief interlude on continued fractions and indicate how they are used in solving the Brahmagupta-Pell equations.
 
 A simple continued fraction (SCF) is a nested expression
 
-$ a_0 + 1/a_1 + 1/a_2+ dots $
+```
+ a_0 + 1/a_1 + 1/a_2+ dots 
+```
 
-where $a_i$ are integers and $a_n > 0$ for all n > 0. That is, consider the sequence of fractions $a_0, a_0 + 1/ℓ_1$, where $ℓ_1 = a_1 + 1/ℓ_2$, where $ℓ_2 = a_2 + 1/ℓ_3$ etc.
+where `a_i` are integers and `a_n > 0` for all n > 0. That is, consider the sequence of fractions `a_0, a_0 + 1/ℓ_1`, where `ℓ_1 = a_1 + 1/ℓ_2`, where `ℓ_2 = a_2 + 1/ℓ_3` etc.
 The above infinitely nested expression stands for the limiting value of the
-fractions $ℓ_1, ℓ_2, ℓ_3, dots$ (which can be easily shown to exist). The main point is
-every real number $t$ can not only be expanded as a decimal but also expanded
+fractions `ℓ_1, ℓ_2, ℓ_3, dots` (which can be easily shown to exist). The main point is
+every real number `t` can not only be expanded as a decimal but also expanded
 as a simple continued fraction by the ‘greedy’ algorithm:
-Consider any real number $t$ which is not already an integer. Then, take $a_0$
-to be the greatest integer $[t]$ not exceeding $t$. Next consider the real number
+Consider any real number `t` which is not already an integer. Then, take `a_0`
+to be the greatest integer `[t]` not exceeding `t`. Next consider the real number
 
-$ t_1 := 1/(t−a_0) < 1 . $
-Take $a_1 = [t_1]$ and consider $1/(t_1−a_1)$ etc. In this manner, we get a continued fraction expansion
-$ t = [a_0; a_1, a_2, a − 3, dots]. $
-It is easy to see that this is eventually periodic if and only if $t$ is the root of a
+```
+ t_1 := 1/(t−a_0) < 1 . 
+```
+Take `a_1 = [t_1]` and consider `1/(t_1−a_1)` etc. In this manner, we get a continued fraction expansion
+```
+ t = [a_0; a_1, a_2, a − 3, dots]. 
+```
+It is easy to see that this is eventually periodic if and only if `t` is the root of a
 quadratic polynomial with rational coefficients. For any square-free positive
-integer N, the SCF of $√N $ looks like  $[b_0; overline(b_1\, b_2\, dots\, b_(n-1)\, 2 b_0)]$.
+integer N, the SCF of `√N ` looks like  `[b_0; overline(b_1\, b_2\, dots\, b_(n-1)\, 2 b_0)]`.
 
 #img(path: "/images/fermat.jpeg", caption: "Pierre de Fermat (August 17, 1601 to January 12, 1665). Fermat initiated the systematic study of Diophantine equations, introducing the method of infinite descent and posing problems that shaped number theory for centuries.", position: bottom, width: 100%, portrait: true)
 For instance, using the greedy algorithm, let us find the SCF for the irrational
-number
-$√7$.
+number`√7`.
 
-$ √7 = 2 + (√7 − 2) = 2 +3/(√7 + 2)= 2 +1/((√7 + 2)\/3). $
-$ (√7 + 2)/3 = 1 + ((√7 + 2)/3-1)= 1 + (√7 − 1)/3 $
-$ √7 − 2 &= frac(1, 1+)frac(sqrt(7) - 1, 3) = frac(1, 1+)frac(1, (sqrt(7) + 1)\/2) = frac(1, 1+)frac(1, 1+)frac(sqrt(7) - 1, 2) \
+```
+ √7 &= 2 + (√7 − 2) = 2 +3/(√7 + 2)= 2 +1/((√7 + 2)\/3). \
+ (√7 + 2)/3 &= 1 + ((√7 + 2)/3-1)= 1 + (√7 − 1)/3 \
+ √7 − 2 &= frac(1, 1+)frac(sqrt(7) - 1, 3) = frac(1, 1+)frac(1, (sqrt(7) + 1)\/2) = frac(1, 1+)frac(1, 1+)frac(sqrt(7) - 1, 2) \
  &= frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, sqrt(7) + 2)= frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, 4 + sqrt(7) - 2)
-$
-T hus, we have a repetition and
-$ sqrt(7) - 2 = frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, 4+)frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, 4+) dots $
-So, $√7 = [2;overline(1\,1\,1\,4)]$.
+```
+
+Thus, we have a repetition and
+```
+ sqrt(7) - 2 = frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, 4+)frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, 4+) dots 
+```
+So, `√7 = [2;overline(1\,1\,1\,4)]`.
 
 Here is the interesting thing about SCFs of
-$√N$ and their relation to the Pell equation $x^2 − N y^2 = 1$.
-$√N =  [b_0; overline(b_1\, b_2\, dots\, b_(n-1)\, 2 b_0)]$, the rational numbers $b_0 + 1\/b_1$,$b_0 + 1\/(b_1 + (1\/b_2))$ etc. are called convergents of the SCF. When the SCF is periodic like that for $√N$ , the penultimate convergent p_(n−1)/q_(n−1) before the recurring period gives a solution of $x^2 − N y^2 = (−1)^n$. This is so simple to prove that it is explained in the classical school level text by Hall and Knight.
+`√N` and their relation to the Pell equation `x^2 − N y^2 = 1`.
+```
+√N =  [b_0; overline(b_1\, b_2\, dots\, b_(n-1)\, 2 b_0)],
+```
+the rational numbers `b_0 + 1\/b_1`,`b_0 + 1\/(b_1 + (1\/b_2))` etc. are called convergents of the SCF. When the SCF is periodic like that for `√N` , the penultimate convergent p_(n−1)/q_(n−1) before the recurring period gives a solution of `x^2 − N y^2 = (−1)^n`. This is so simple to prove that it is explained in the classical school level text by Hall and Knight.
 This is how Ramanujan could give the solution to the house number problem
 quickly.
 
-For example, $√7 = [2;overline(1\,1\,1\,4), dots]$ gives the penultimate convergent beforethe period to be [2;1,1,1] = 8/3.Then, (8, 3) is a solution of $x^2 − 7y^2 = 1$
-(as the period is of even length). Note that  $x^2 − 7y^2 =-1$  has no solution as seen by looking at the remainders on dividing by 4.
+For example, `√7 = [2;overline(1\,1\,1\,4), dots]` gives the penultimate convergent beforethe period to be [2;1,1,1] = 8/3.Then, (8, 3) is a solution of `x^2 − 7y^2 = 1`
+(as the period is of even length). Note that  `x^2 − 7y^2 =-1`  has no solution as seen by looking at the remainders on dividing by 4.
 
 Another example is
-$√13 = [3; overline(1\, 1\, 1\, 1\, 6 ),dots]$ which has the penultimate
+`√13 = [3; overline(1\, 1\, 1\, 1\, 6 ),dots]` which has the penultimate
 convergent before the period to be [3; 1, 1, 1, 1] = 18/5.
-Then (18, 5) is a solution of $x^2 −13y^2 = −1 $(as the period is of odd length).
+Then (18, 5) is a solution of `x^2 −13y^2 = −1 `(as the period is of odd length).
 Think of this as the equality
-$ (18 + 5√13)(18 − 5√13) = −1. $
-From this a solution for $x^2 − 13y^2 = 1$ can be obtained by considering $(18 +5√13)^2 =649 + 180√13$. Then (649, 180) is a solution of $x^2 − 13y^2 = 1$.
+```
+ (18 + 5√13)(18 − 5√13) = −1. 
+```
+From this a solution for `x^2 − 13y^2 = 1` can be obtained by considering `(18 +5√13)^2 =649 + 180√13`. Then (649, 180) is a solution of `x^2 − 13y^2 = 1`.
 
 == Congruent Number Problem
 This is one of the oldest problems in Diophantine equations. A natural number
@@ -443,32 +473,31 @@ d is said to be a congruent number if there is a right-angled triangle with
 rational sides and area d. For example, 5, 6, 7 are congruent numbers. Of
 course, 6 is congruent as seen from the usual 3, 4, 5 triangle. To see that
 5 is a congruent number, we consider the right-angled triangle with sides
-
-$3\/2, 20\/3, 41\/6$. For 7, look at a right triangle with sides $35\/12, 24\/5, 337\/60$.
+`3\/2, 20\/3, 41\/6`. For 7, look at a right triangle with sides `35\/12, 24\/5, 337\/60`.
 How did we guess this? More importantly, how do we decide if a given
 number is a congruent number? This will be done by relating it to another problem! This is the following one.
 
 Can we have an arithmetic progression of three terms which are all squares of
-rational numbers and the common difference d? That is, can $x^2−d, x^2, x^2+d$
+rational numbers and the common difference d? That is, can `x^2−d, x^2, x^2+d`
 be squares of rational numbers and x rational? The congruent number problem
 and the above question are equivalent!
 
-Indeed, Let $u <= v < w$ be the sides of a right triangle with rational sides.
-Then $x = w\/2$ is such that $(v − u)^2/4,w^2/4, (u + v)^2/4$ form an arithmetic
-progression. Conversely, if $x^2 − d = y^2, x^2, x^2 + d = z^2$ are three rational
-squares in arithmetic progression, then: $z−y, z+y$ are the legs of a right angled
-triangle with rational legs, area $(z^2−y^2)$/2 = d and rational hypotenuse
-2x because $2(y^2 + z^2) = 4x^2$.
+Indeed, Let `u <= v < w` be the sides of a right triangle with rational sides.
+Then `x = w\/2` is such that `(v − u)^2/4,w^2/4, (u + v)^2/4` form an arithmetic
+progression. Conversely, if `x^2 − d = y^2, x^2, x^2 + d = z^2` are three rational
+squares in arithmetic progression, then: `z−y, z+y` are the legs of a right angled
+triangle with rational legs, area `(z^2−y^2)`/2 = d and rational hypotenuse
+2x because `2(y^2 + z^2) = 4x^2`.
 
 Now 1, 2, 3 are not congruent numbers. The fact that 1, 2 are not congruent
 numbers is essentially equivalent to Fermat’s last theorem for the exponent
 4(!)
-Here is the argument. If $a^2+b^2 = c^2, 1/2 a b = 1$ for some rational numbers a, b, c
-then $x = c/2, y = |a^2 − b^2|/4$ are rational numbers satisfying $y^2 = x^4 − 1$.
-In terms of integers, this is the Diophantine equation $u^4 − v^4 = w^2$. As
+Here is the argument. If `a^2+b^2 = c^2, 1/2 a b = 1` for some rational numbers a, b, c
+then `x = c/2, y = |a^2 − b^2|/4` are rational numbers satisfying `y^2 = x^4 − 1`.
+In terms of integers, this is the Diophantine equation `u^4 − v^4 = w^2`. As
 this has no non-zero integer solutions, it follows that 1 is not a congruent
-number. Similarly, if $a^2 + b^2 = c^2, 1/2 a b = 2$ for rational numbers a, b, c, then
-$x = a/2, y = a c/4$ are rational numbers satisfying $y^2 = x^4 + 1$. Again, the
+number. Similarly, if `a^2 + b^2 = c^2, 1/2 a b = 2` for rational numbers a, b, c, then
+`x = a/2, y = a c/4` are rational numbers satisfying `y^2 = x^4 + 1`. Again, the
 nonexistence of solutions shows that 2 is not congruent.
 
 Here is a (rather unusual!) way of using the above fact that 1 is not a
@@ -480,16 +509,16 @@ congruent, it is only in late 20th century that substantial results were obtaine
 and progress has been made which is likely to lead to its complete
 solution.
 The rephrasing in terms of arithmetic progressions of squares emphasizes
-a connection of the problem with rational solutions of the equation $y^2 = x^3 − d^2 x$; recall we referred to such equations as “elliptic curves”. It is easy
+a connection of the problem with rational solutions of the equation `y^2 = x^3 − d^2 x`; recall we referred to such equations as “elliptic curves”. It is easy
 to show that:
 The positive integer d is a congruent number if, and only if, the elliptic curve
-$y^2 = x^3 − d^2 x$ has a solution with $y!= 0$.
+`y^2 = x^3 − d^2 x` has a solution with `y!= 0`.
 
-In fact, $a^2+b^2 = c^2, 1/2 a b = d$ implies $b d\/(c−a), 2d^2\/(c−a)$ is a rational solution of $y^2 = x^3 −d^2 x$. Conversely, a rational solution of $y^2 = x^3 −d^2 x$ with $y != 0$ gives the rational, right-angled triangle with sides $(x^2 − d^2)\/y, 2x d\/y, (x^2 + d^2)\/y$ and area $d$.
+In fact, `a^2+b^2 = c^2, 1/2 a b = d` implies `b d\/(c−a), 2d^2\/(c−a)` is a rational solution of `y^2 = x^3 −d^2 x`. Conversely, a rational solution of `y^2 = x^3 −d^2 x` with `y != 0` gives the rational, right-angled triangle with sides `(x^2 − d^2)\/y, 2x d\/y, (x^2 + d^2)\/y` and area `d`.
 
 In a nutshell, here is the reason we got this elliptic curve. The real solutions
-of the equation $a^2 + b^2 = c^2$ defines a surface in 3-space and so do the real
-solutions of $1/2 a b = d$. The intersection of these two surfaces is a curve whose
+of the equation `a^2 + b^2 = c^2` defines a surface in 3-space and so do the real
+solutions of `1/2 a b = d`. The intersection of these two surfaces is a curve whose
 equation in suitable co-ordinates is the above elliptic curve!
 The connection with elliptic curves has been used, more generally, to show
 that numbers which are 1, 2 or 3 mod 8 are not congruent. This uses much
@@ -502,11 +531,15 @@ been shown that this is a complete characterization of congruent numbers.
 Here is a set of questions on arithmetic progressions of natural numbers which
 leads us to some very interesting Diophantine equations.
 Can we have a finite arithmetic progression
-$ a, a + d, a + 2d, dots , a + n d $
-such that a first part $a, a + d, dots , a + (r − 1)d$ has the same sum as that of
-the second part $a + r d, a + (r + 1)d, dots , a + n d$? Note
-$ 20 + 25 + 30 = 35 + 40 $
-$ 14 + 21 + 28 + 35 + 42 + 49 = 56 + 63 + 70 . $
+```
+ a, a + d, a + 2d, dots , a + n d 
+```
+such that a first part `a, a + d, dots , a + (r − 1)d` has the same sum as that of
+the second part `a + r d, a + (r + 1)d, dots , a + n d`? Note
+```
+ 20 + 25 + 30 = 35 + 40 \
+ 14 + 21 + 28 + 35 + 42 + 49 = 56 + 63 + 70 . 
+```
 More generally, we can try to break an arithmetic progression into THREE
 parts with equal sums; here, we mean that each of the three parts consist
 of consecutive terms. The answer turns out to be ‘No’ which we leave as an
@@ -514,12 +547,16 @@ exercise for the interested reader.
 
 A related question is whether we can have four perfect squares of positive
 integers in arithmetic progression.
-Well, if $a^2, b^2, c^2, d^2$ are in arithmetic progression, then
-$ b^2 − a^2 = c^2 − b^2 = d^2 − c^2, $
+Well, if `a^2, b^2, c^2, d^2` are in arithmetic progression, then
+```
+ b^2 − a^2 = c^2 − b^2 = d^2 − c^2, 
+```
 and so
-$ 2a + 1, 2a + 3, dots , 2b − 1 $
-$ 2b + 1, 2b + 3, dots , 2c − 1 $
-$ 2c + 1, 2c + 3, dots , 2d − 1 $
+```
+ 2a + 1, 2a + 3, dots , 2b − 1 \
+ 2b + 1, 2b + 3, dots , 2c − 1 \
+ 2c + 1, 2c + 3, dots , 2d − 1 
+```
 would be 3 parts of an A.P. whose sums are all equal, which we mentioned
 above does not exist. Hence, we cannot have four perfect squares of positive
 integers in an arithmetic progression.
@@ -528,8 +565,10 @@ integers in an arithmetic progression.
 The fact that a product of (at least 2) consecutive positive integers can not
 be a perfect power was settled more than 50 years back by Erd¨os & Selfridge.
 In other words, the Diophantine equation
-$ (x + 1)(x + 2) ... (x + r) = y^2 $
-does not solutions in positive integers $x, y, r > 1$.
+```
+ (x + 1)(x + 2) ... (x + r) = y^2 
+```
+does not solutions in positive integers `x, y, r > 1`.
 
 Erdös-Selfridge theorem is so simple to state (and easy to prove for 2 or 3
 consecutive numbers) that one may be tempted to think it could perhaps have
@@ -537,48 +576,58 @@ an elementary proof. However, for r > 3, the proof needs deeper properties
 of prime numbers, such as a classical theorem due to Sylvester which asserts
 that any set of k consecutive numbers with the smallest one > k contains
 a multiple of a prime > k. The special case of this when the numbers are
-$k + 1, dots , 2k$ is known as Bertrand’s postulate.
+`k + 1, dots , 2k` is known as Bertrand’s postulate.
 
 Yet another Diophantine equation arises from the natural question: _Which natural numbers have all their digits to be 1 with respect to two different
 bases?_
 
 Equivalently, if the bases are x, y and he numbers have m and n digits
 respectively, then we wish to solve
-$ (x^m − 1)/(x − 1)=(y^n − 1)/(y − 1) $
-in natural numbers $x, y > 1; m, n > 2$.
+```
+ (x^m − 1)/(x − 1)=(y^n − 1)/(y − 1) 
+```
+in natural numbers `x, y > 1; m, n > 2`.
 For example 31 and 8191 have this property;
-$ (11111)_2 = (111)_5, quad (111)_90 = 2^13 − 1. $
+```
+ (11111)_2 = (111)_5, quad (111)_90 = 2^13 − 1. 
+```
 This was observed by Goormaghtigh nearly a century ago. However, it is
-still unknown whether there are only finitely many solutions in $x, y, m, n$. In
-fact, no other solutions are known. For any fixed bases $x, y$, it was proved
-only as recently as in 2002 that the number of solutions for $m, n$ is at the
+still unknown whether there are only finitely many solutions in `x, y, m, n`. In
+fact, no other solutions are known. For any fixed bases `x, y`, it was proved
+only as recently as in 2002 that the number of solutions for `m, n` is at the
 most 2.
 
 Another question is whether one can have different finite arithmetic progressions
 with the same product. For instance
-$ 2.6 dots (4n − 2) = (n + 1)(n + 2) dots (2n) $
-for all natural numbers $n$. So, the question as to whether there are other
+```
+ 2.6 dots (4n − 2) = (n + 1)(n + 2) dots (2n) 
+```
+for all natural numbers `n`. So, the question as to whether there are other
 solutions to the Diophantine equation
-$x(x + d_1) dots (x + (m − 1)d_1) = y(y + d_2) dots (y + (n − 1)d_2)$
-where $d_1, d_2$ are positive rational numbers and $d_1  ̸= d_2$ if $m = n$ is quite
+```
+x(x + d_1) dots (x + (m − 1)d_1) = y(y + d_2) dots (y + (n − 1)d_2)
+```
+where `d_1, d_2` are positive rational numbers and `d_1  ̸= d_2` if `m = n` is quite
 open. It is only in 1999 that using deeper ideas from the subject of algebraic
-geometry, it was proved that if $m, n, d_1, d_2$ are fixed, then the equation has
+geometry, it was proved that if `m, n, d_1, d_2` are fixed, then the equation has
 only finitely many solutions in integers apart from some exceptions which
-occur when $m = 2, n = 4$. A deep unsolved conjecture due to Erdös in 1975
+occur when `m = 2, n = 4`. A deep unsolved conjecture due to Erdös in 1975
 asserts:
 
-For each $c in bb(Q)$, the number of $(x, y, m, n)$ satisfying
-$ x(x + 1) dots (x + m − 1) = c y(y + 1) dots (y + n − 1) $
-with $y >= x + m , min(m, n) ≥ 3$, is finite.
+For each `c in bb(Q)`, the number of `(x, y, m, n)` satisfying
+```
+ x(x + 1) dots (x + m − 1) = c y(y + 1) dots (y + n − 1) 
+```
+with `y >= x + m , min(m, n) ≥ 3`, is finite.
 
 There are so-called transcendental methods that often prove by general ideas
 that certain classes of Diophantine equations can have only finitely many
 integer solutions. But, they are not ‘effective’ in the sense that one does not
 know any number which bounds the size of possible solutions. For instance,
-for the so-called Catalan equation $x^m − y^n = 1$, Robert Tijdeman proved
+for the so-called Catalan equation `x^m − y^n = 1`, Robert Tijdeman proved
 (ineffectively) finiteness of the number of solutions. Later, although it was
-made effective by Langevin, he obtained an upper bound for $x, y, m, n$ that
-was of the order of $exp(exp(exp(exp(730))))$ which is out of the range of
+made effective by Langevin, he obtained an upper bound for `x, y, m, n` that
+was of the order of `exp(exp(exp(exp(730))))` which is out of the range of
 any present-day computer. Of course, later in 2024, the Catalan equation
 was completely solved by Preda Mihailescu by totally different methods; he
 showed that the only perfect powers differing by 1 are 8 and 9. A more
@@ -586,14 +635,16 @@ general conjecture due to S S Pillai is still open; it asserts that the gaps in
 the sequence of perfect powers tends to infinity.
 
 #img(path: "/images/apollofig.jpeg", caption: "In mathematics, Apollonian circle packing is a fractal generated by starting with a triple of circles, each tangent to the other two, and successively filling in more circles, each tangent to another three. Descartes discovered the remarkable fact that the four curvatures satisfy a Diophantine equation.", position: bottom, width: 100%, portrait: true)
-== Apollonian circle packing.
+== Apollonian circle packing
 Apollonius from 200 BC discovered something beautiful. If we have three
 circles touching each other, one may place another circle touching all three.
 
 In the 17th century, Descartes discovered the remarkable fact that the four
 curvatures (which are taken to be the reciprocals of the radii) satisfy the
 Diophantine equation
-$ ((C_1 + C_2 + C_3 + C_4)^2) = 2(C_1^2 + C_2^2 + C_3^2 + C_4^2 ) $
+```
+ ((C_1 + C_2 + C_3 + C_4)^2) = 2(C_1^2 + C_2^2 + C_3^2 + C_4^2 ) 
+```
 Here, the circles are supposed to have no common interior point which means
 by convention that the outermost circle’s exterior is the interior and the
 interior is the exterior and the radius is negative.
@@ -609,17 +660,17 @@ them. It formalizes the intuitive observation that when two numbers A and
 B are divisible by large powers of small primes, then A + B tends to be
 divisible by small powers of large primes. More precisely:
 
-#quote([For any $ϵ > 0$, there are only finitely many triples $A,B,C$ of relatively prime
-integers satisfying $A + B = C$, and $max(A,B,C) > "Rad"(A B C)1+ϵ$, where
-$"Rad"(n)$ is the product of all distinct prime divisors of $n$.])
+#quote([For any `ϵ > 0`, there are only finitely many triples `A,B,C` of relatively prime
+integers satisfying `A + B = C`, and `max(A,B,C) > "Rad"(A B C)1+ϵ`, where
+`"Rad"(n)` is the product of all distinct prime divisors of `n`.])
 
 For instance, the ABC-conjecture implies Fermat’s last theorem for sufficiently
 large exponents; in fact, it implies finiteness of the number of solutions
-of the generalized Fermat equation $A x^r + B y^s = C z^t$.
+of the generalized Fermat equation `A x^r + B y^s = C z^t`.
 There is the as-yet-unsolved Beal’s conjecture (also known as the Tijdeman-
 Zagier conjecture); until it is actually solved, one cannot predict what methods
-will work. The conjecture asserts that $x^a +y^b = z^c$ for a, b, c > 2 implies
-that $x, y, z$ must have a common prime factor, and was formulated in 1993
+will work. The conjecture asserts that `x^a +y^b = z^c` for a, b, c > 2 implies
+that `x, y, z` must have a common prime factor, and was formulated in 1993
 by Andrew Beal, a banker and amateur mathematician. 
 
 #colbreak()
@@ -632,14 +683,16 @@ prize money is used to fund the annual Erd¨os Memorial Lecture and other
 activities of the American Mathematical Society.
 
 The conditions are necessary as shown by the examples
-$ 7^3 + 13^2 = 2^9 , 27^4 + 1623^ = 9^7. $
+```
+ 7^3 + 13^2 = 2^9 , 27^4 + 1623^ = 9^7. 
+```
 
 Finally, we would like to mention that we have not discussed some other topics
 that involve the name of Diophantus. One is an unsolved problem that
 goes under the name of Diophantine tuples (both integer and rational) problem.
-Diophantus himself found a rational 4-tuple $1\/16, 33\/16, 17\/4, 105\/16$.
-The question as to how large a set of positive rationals $a_1, a_1, dots , a_n$ can be
-found so that all $a_i a_j +1$ are squares for $1 <= i < j <= n$ is still open? For integer
+Diophantus himself found a rational 4-tuple `1\/16, 33\/16, 17\/4, 105\/16`.
+The question as to how large a set of positive rationals `a_1, a_1, dots , a_n` can be
+found so that all `a_i a_j +1` are squares for `1 <= i < j <= n` is still open? For integer
 tuples, 4 is the limit as was proved in 2016. Another fertile area of current
 research involves the so-called Frobenius Coin exchange problem: “Given n
 positive integers with no common factor > 1, what is the largest integer that

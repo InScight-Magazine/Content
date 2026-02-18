@@ -304,10 +304,15 @@
   content,
   dropWord: false,
 ) = {
-  let first = if dropWord == false { content.at(0) } else { content.split(regex(" ")).at(0) }
-  content = if dropWord == false { content.replace(first, "", count: 1) } else { content.replace(first + " ", "", count: 1) }
-  assert(first.len() > 0)
-  dropcap(height: 3, font: dcap-font, gap: 0.5em, overhang: 0.0em, depth: 0.0em, weight: "regular", emph(first), eval(content, mode: "markup"))
+  let html = if "html" in sys.inputs { if sys.inputs.html == "true" { true } else { false } } else { false }
+  if html {
+    content
+  } else {
+    let first = if dropWord == false { content.at(0) } else { content.split(regex(" ")).at(0) }
+    content = if dropWord == false { content.replace(first, "", count: 1) } else { content.replace(first + " ", "", count: 1) }
+    assert(first.len() > 0)
+    dropcap(height: 3, font: dcap-font, gap: 0.5em, overhang: 0.0em, depth: 0.0em, weight: "regular", emph(first), eval(content, mode: "markup"))
+  }
 }
 
 #let tables(
@@ -495,3 +500,6 @@
     }
   )
 }
+
+#let m(expr) = eval("$" + expr + "$", mode: "markup")
+#let M(expr) = align(center, [\ #m(expr.text)\ ])

@@ -10,7 +10,7 @@
 #let abstract = "Two distinguished mathematicians reflect on the origins of their curiosity, the mentors who shaped their paths, and the philosophy that sustained their research journeys. From self-learning calculus in high school to mastering seminal papers and embracing collaboration without ego, they reveal the human side of mathematical discovery. This conversation offers rare insights into creativity, perseverance, and the mindset required to thrive in mathematics."
 #let coverImage = "/covers/murty.svg"
 #let coverCaption = "Ram Murty and Kumar Murty at CRM Montreal with \ R. Raghunathan, S. Adhikari, M. Nair & C.S. Rajan, 1994"
-#let authorImage = "/images/RMKM1.jpeg"
+#let authorImage = "/authFaces/RMKM1.jpeg"
 #let received = (day: 12, month: 12, year: 2025)
 
 #interview(
@@ -23,8 +23,6 @@
   interviewerAffiliations: affiliations,
   abstract: abstract,
   coverImage: coverImage,
-  // coverHeight: 45%,
-  // sideImageFraction: 40%,
   received: received,
   interviewee: "Ram-Kumar-Murty",
   intervieweeInfo: authorInfo,

@@ -9,7 +9,6 @@
 #let authors = ("Swarnendu Saha",)
 #let affiliations = ("IISER Kolkata",)
 #let abstract = "In this conversation with our representative, Prof. Sukumar Das Adhikari connects number theory, combinatorics, physics, and Indian philosophy to argue that mathematical structures emerge from human cognition as much as from the external world. The interview offers fresh insights into how abstract ideas—pursued for beauty alone—later become foundational to physics, computing, and AI, while also revealing rarely discussed personal experiences with mentors, global collaborations, and unsolved problems."
-
 #let coverImage = "/covers/SDA.jpg"
 #let coverCaption = "Dr. Sukumar Das Adhikari in his workspace—calmly presiding over ideas, equations, and insight."
 #let sideImage = "/authFaces/SDA.jpeg"

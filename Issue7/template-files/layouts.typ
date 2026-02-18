@@ -128,125 +128,41 @@ set page(
   set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
 
   let locator = "article-" + permalinkSuffix
-  cover(
-    title: title,
-    coverImage: coverImage,
-    locator: locator,
-  )
   assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
   let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
   let authlist = { for (auth, aff) in authors.zip(authorAffiliations) { grid(columns: (auto, auto), gutter:10pt, align:(left, left), [*#eval(auth, mode:"markup")*], [(#aff)])} + date }
-  nonCoverTitle(
-    title: title, 
-    intro: authlist,
-  )
-  counter(figure.where(kind: image)).update(0)
-  columns(2,
-    block(width: 90%,
-    par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
-    + v(1fr)
-    + if reviewedBy.len() > 0 and reviewedBy.at(0).len() > 0 { text(font: abstract-font, size:1.3em, weight: "medium", fill: navy, [*EDITED BY*: #reviewedBy.join(", ")])}
-    + v(1fr)
-    + auth-profile(authorInfo: authorInfo, authorImage: authorImage, authorImageWidth: authorImageWidth)
-    )
-    + colbreak()
-    + content
-    + if refsFile != none {
-      references(refsFile: refsFile, breakAfter: breakAfter)
-    }
-  )
-}
 
-// #let section(
-//   issueDetails: none,
-//   title: none,
-//   authors: (),
-//   authorAffiliations: (),
-//   abstract: none,
-//   intro: none,
-//   coverImage: none,
-//   sideImage: none,
-//   sideImageFraction: 50%,
-//   numCols: 2,
-//   authorInfo: none,
-//   authorImage: none,
-//   authorImageWidth: 50%,
-//   refsFile: none,
-//   reviewedBy: (),
-//   received: none,
-//   authProfPosition: auto,
-//   breakAfter: (-1,),
-//   outlineDesc: none,
-//   permalinkSuffix: none,
-//   locator: none,
-//   content
-// ) = {
-//   if permalinkSuffix == none {
-//     if authorAffiliations.len() > 0 {
-//       permalinkSuffix = lower(authors.at(0).split().at(0) + "-" + title.split().at(-1))
-//     } else {
-//       permalinkSuffix = lower(title.split().at(-1))
-//     }
-//   }
-//   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
-//
-//   let links = createLinks(url: permalink)
-//
-//   set columns(gutter: column-gap)
-//
-//   set page(
-//     header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short"))//, toc: locator == "outline")
-//   )
-//
-// if coverImage != none {
-//   if locator == none {
-//     locator = authors.at(0).split().at(0) + "-" + title.split().at(-1)
-//   }
-//   cover(
-//     title: title,
-//     coverImage: coverImage,
-//     locator: locator,
-//   )
-// }
-// if authors != none and authors.len() > 0 {
-//   assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
-// }
-// if authors != none and authors.len() > 0 {
-//   let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
-//   if intro == "interview by" {
-//     let authorList = ()
-//     for (auth, aff) in authors.zip(authorAffiliations) {
-//       authorList.push([*#eval(auth, mode:"markup")*] + " (" + aff + ")")
-//     }
-//     intro = intro + h(0.5em) + authorList.join(", ") + parbreak() + date
-//   } else {
-//     intro = { for (auth, aff) in authors.zip(authorAffiliations) { grid(columns: (auto, auto), gutter:10pt, align:(left, left), [*#eval(auth, mode:"markup")*], [(#aff)])} + date }
-//   }
-// }
-// nonCoverTitle(
-//   title: title, 
-//   intro: intro,
-//   // outlineDesc: outlineDesc,
-//   locator: locator,
-// )
-// counter(figure.where(kind: image)).update(0)
-// columns(numCols,
-// if authorInfo != none {
-//     block(width: 90%,
-//     par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
-//     + v(1fr)
-//     + if reviewedBy.len() > 0 and reviewedBy.at(0).len() > 0 { text(font: abstract-font, size:1.3em, weight: "medium", fill: navy, [*EDITED BY*: #reviewedBy.join(", ")])}
-//     + v(1fr)
-//     + auth-profile(authorInfo: authorInfo, authorImage: authorImage)
-//     )
-//     colbreak()
-// } + 
-// content
-// + if refsFile != none {
-//   references(refsFile: refsFile, breakAfter: breakAfter)
-// }
-// )
-// }
+  [#metadata((title: title, authors: authors, authorAffiliations: authorAffiliations, abstract: abstract, coverImage: coverImage, authorInfo: authorInfo, authorImage: authorImage, refsFile: refsFile, reviewedBy: reviewedBy, received: received, permalink: permalink, type: "article")) #label("vars")]
+  [#metadata(content.fields()) #label("content")]
+  {
+    show raw.where(block: false): it => text(size: 1.3em, eval(it.text, mode: "math"))
+    show raw.where(block: true): it => align(center, text(size: 1.5em, eval(it.text, mode: "math")))
+    cover(
+      title: title,
+      coverImage: coverImage,
+      locator: locator,
+    )
+    nonCoverTitle(
+      title: title, 
+      intro: authlist,
+    )
+    counter(figure.where(kind: image)).update(0)
+    columns(2,
+      block(width: 90%,
+      par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
+      + v(1fr)
+      + if reviewedBy.len() > 0 and reviewedBy.at(0).len() > 0 { text(font: abstract-font, size:1.3em, weight: "medium", fill: navy, [*EDITED BY*: #reviewedBy.join(", ")])}
+      + v(1fr)
+      + auth-profile(authorInfo: authorInfo, authorImage: authorImage, authorImageWidth: authorImageWidth)
+      )
+      + colbreak()
+      + content
+      + if refsFile != none {
+        references(refsFile: refsFile, breakAfter: breakAfter)
+      }
+    )
+  }
+}
 
 #let interview(
   issueDetails: (),
@@ -345,31 +261,34 @@ set page(
   set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
 
   let locator = "interview-" + permalinkSuffix
-  cover(
-    title: title,
-    coverImage: coverImage,
-    locator: locator,
-  )
-  assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
-  let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
-  let authlist = ()
-  for (auth, aff) in interviewers.zip(interviewerAffiliations) {
-    authlist.push("*"+auth+"*" + " (" + aff + ")")
-  }
-  nonCoverTitle(
-    title: title, 
-    intro: eval("interview by " + authlist.join(",  "), mode:"markup") + linebreak() + date,
-  )
-  counter(figure.where(kind: image)).update(0)
-  columns(2,
-    block(width: 90%,
-    par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
-    + v(1fr)
-    + auth-profile(authorInfo: intervieweeInfo, authorImage: intervieweeImage, authorImageWidth: intervieweeImageWidth)
+
+  {
+    cover(
+      title: title,
+      coverImage: coverImage,
+      locator: locator,
     )
-    + colbreak()
-    + content
-  )
+    assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
+    let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
+    let authlist = ()
+    for (auth, aff) in interviewers.zip(interviewerAffiliations) {
+      authlist.push("*"+auth+"*" + " (" + aff + ")")
+    }
+    nonCoverTitle(
+      title: title, 
+      intro: eval("interview by " + authlist.join(",  "), mode:"markup") + linebreak() + date,
+    )
+    counter(figure.where(kind: image)).update(0)
+    columns(2,
+      block(width: 90%,
+      par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
+      + v(1fr)
+      + auth-profile(authorInfo: intervieweeInfo, authorImage: intervieweeImage, authorImageWidth: intervieweeImageWidth)
+      )
+      + colbreak()
+      + content
+    )
+  }
   }
 }
 
