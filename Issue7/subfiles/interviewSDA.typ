@@ -12,6 +12,7 @@
 #let coverImage = "/covers/SDA.jpg"
 #let coverCaption = "Dr. Sukumar Das Adhikari in his workspace—calmly presiding over ideas, equations, and insight."
 #let sideImage = "/authFaces/SDA.jpeg"
+#let authorBio = "*Prof. Adhikari* started his academic journey from B.B. College Asansol and spent time with Prof. Balasubramanium at Tifr and IMSc Chennai. He is a former member of National Board of Higher Mathematics, Fellow of National Academy of Science. Prof. Adhikari is presently the dean of school of mathematical Sciences at RKMVERI, Belur."
 #let received = (day: 7, month: 01, year: 2026)
 
 #interview(
@@ -25,7 +26,7 @@
   interviewee: "S-D-Adhikari",
   interviewers: authors,
   interviewerAffiliations: affiliations,
-  intervieweeInfo: lorem(20),
+  intervieweeInfo: authorBio,
   intervieweeImage: sideImage,
   received: received,
 )

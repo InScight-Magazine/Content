@@ -702,7 +702,8 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
 
   nonCoverTitle(
     title: title, 
-    intro: intro
+    intro: intro,
+    locator: type,
   )
   content
 }

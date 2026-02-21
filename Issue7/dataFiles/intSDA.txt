@@ -57,9 +57,7 @@ SDA: No. I received a fellowship at Burdwan University.
 SS: For your master’s degree?
 
 IMAGE: (path: "/images/univburdwan.jpg", caption: "Prof. Adhikari completed his MSc  at *Burdwan University*, where he secured the *first rank in Pure Mathematics* and was awarded a fellowship.", position: top, width:100%, portrait: true)
-SDA: No, for my PhD. I joined Burdwan University for doctoral research. However, not much research activity was happening there at
-that time. So I tried to move elsewhere and even explored the possibility of joining Chandigarh University. Then someone advised me to apply to TIFR. I joined TIFR, but after about two and a half years I found someone  willing to be my supervisor; Professor Balasubramaniam gave me a few things to study. But soon after that, he was moving to Chennai, and fortunately, I was able to move in with him. That turned out to be very good luck for  me. He was an exceptional teacher.
-
+SDA: No, for my PhD. I joined Burdwan University for doctoral research. However, not much research activity was happening there at that time. So I tried to move elsewhere and even explored the possibility of joining Chandigarh University. Then someone advised me to apply to TIFR. I joined TIFR, but after about two and a half years I found someone  willing to be my supervisor; Professor Balasubramaniam gave me a few things to study. But soon after that, he was moving to Chennai, and fortunately, I was able to move in with him. That turned out to be very good luck for  me. He was an exceptional teacher.
 
 SS: Two and a half years?
 
@@ -77,10 +75,9 @@ SDA: Yes. He gave me that option, and I chose to go with him. In hindsight, it w
 SS: Why do you think it was a good decision?
 
 SDA: Because of the teacher—purely because of the teacher.
-He gives a lot of freedom and a lot of encouragement. He allows you to work independently, and at the same time, he helps you exactly when it is needed. Even now, I remain in touch with him. I visited him again in August when I went for a family function—he invited me, and I went. I also met him again in Chandigarh during an event connected to Professor Bambah. There was a conference organized in Professor Bambah’s honor, where about twelve people were invited speakers, all of them are rather senior. Among them were Professor Balasubramaniam, Professor Raghunathan, and Professor Kulkarni, who was a former director of  HRI, Allahabad. Professor Kulkarni was 83, Professor Balasubramaniam was 75, Professor Raghunathan was 84, and I was 69. Professor Bambah passed away in May 2025, about four months before his 100th birthday. So the conference was  held in his memory, and I met Professor Balasubramaniam again there, on September 30.
+He gives a lot of freedom and a lot of encouragement. He allows you to work independently, and at the same time, he helps you exactly when it is needed. Even now, I remain in touch with him. I visited him again in August when I went for a family function—he invited me, and I went. I also met him again in Chandigarh during an event connected to Professor Bambah. There was a conference organized in Professor Bambah’s honour, where about twelve people were invited speakers, all of them are rather senior. Among them were Professor Balasubramaniam, Professor Raghunathan, and Professor Kulkarni, who was a former director of  HRI, Allahabad. Professor Kulkarni was 83, Professor Balasubramaniam was 75, Professor Raghunathan was 84, and I was 69. Professor Bambah passed away in May 2025, about four months before his 100th birthday. So the conference was  held in his memory, and I met Professor Balasubramaniam again there, on September 30.
 
-SS: At one point, you mentioned that you joined TIFR and spent about two and a half years doing coursework etc. before moving to 
-Chennai. But that reading phase alone wasn’t for two and a half years, right?
+SS: At one point, you mentioned that you joined TIFR and spent about two and a half years doing coursework etc. before moving to Chennai. But that reading phase alone wasn’t for two and a half years, right?
 
 SDA: No, the two and a half years include everything—coursework and preparation for research in Number Theory together.
 
@@ -131,8 +128,7 @@ SDA: At present, my main focus is combinatorics. The core combinatorial tools ar
 
 Later, Furstenberg gave an ergodic-theoretic proof. I even organized an Ergodic Ramsey Theory workshop in Pune in 1997 and invited Bergelson, a student of Furstenberg. So while my main strength—my “bread and butter”—is combinatorial thinking, I actively keep track of developments in other approaches. I sometimes use algebraic tools in combinatorial proofs as well.
 
-SS: Let me bring the discussion back to the physical world. Earlier, you used the analogy of someone building bridges and someone 
-else using them. But can combinatorics be directly involved in the material world?
+SS: Let me bring the discussion back to the physical world. Earlier, you used the analogy of someone building bridges and someone else using them. But can combinatorics be directly involved in the material world?
 
 SDA: Many mathematical questions arise from very natural curiosities—such as how many ways something can be done. At the school level, this is basic combinatorics. As these questions become more sophisticated, they find strong applications, particularly in computing. Combinatorics is extremely useful. I teach a course on it, and many students from computer science want to attend. In some years, the entire computer science batch attended the course along with mathematics students. Combinatorics has flourished over the last few decades largely because of its applicability to computer science. In many ways, computer science is combinatorics.
 
@@ -159,8 +155,7 @@ SS: So, would you say that a lot of this is a matter of luck and chance?
 
 SDA: Yes—many things do involve chance. Someone happens to encounter a particular conjecture. If they hadn’t seen it, they might  have worked on something entirely different. Perhaps they were exactly the right person to solve that problem. In the world, many such chances are constantly at play. Suppose there are ten people who are all capable of solving a problem.  Only one of them happens to meet the right question at the right time. The other nine could also have solved it, but they never encountered it. There are many people who stop formal education, yet they have tremendous potential. It’s like farming—you need good soil, sunlight, and water. Even good soil may fail to produce anything if it doesn’t get water.
 
-SS: Following that, let me raise another concern—especially relevant to Bengal, where I have some data. In general science, and 
-particularly in core subjects like physics and mathematics, fewer students are enrolling nowadays.
+SS: Following that, let me raise another concern—especially relevant to Bengal, where I have some data. In general science, and particularly in core subjects like physics and mathematics, fewer students are enrolling nowadays.
 
 SDA: There are two aspects to this. One concerns teachers—but I won’t go into political aspects of selection. If teacher selection is done properly, we get motivated teachers. If I am not motivated, how can I motivate you? If I am teaching only for money, I cannot inspire students. But if I genuinely love the subject, that love naturally gets transmitted. Of course, not every student has that spark—but even if a student does have it, an unmotivated teacher can kill it. Also, teachers are not only those who stand in classrooms. A good book can be a teacher. An experience can be a guru. And something must exist inside the student. Ramanujan is a perfect example. He found Carr’s Synopsis and discovered patterns and beauty on his own. But something inside him drove that exploration. Later, he was recognized and supported. If that recognition hadn’t come, his story might have ended very differently.
 

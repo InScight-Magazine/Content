@@ -6,10 +6,9 @@
 #let group2 = ("RM:", "KM:")
 #let authors = ("Abhisruta Maity", "Shirshendu Chowdhury")
 #let affiliations = ("IISER Kolkata", "IISER Kolkata")
-#let authorInfo = "*Profs. M. Ram Murty and V. Kumar Murty* are fellows of the Royal Society of Canada. The former is the A. V. Douglas Distinguished University Professor & Queen's Research Chair at Queen's University in Canada. The latter is the Director of the  Lodha Mathematical Sciences Institute in Mumbai while also a Professor of Mathematics at University of Toronto in Canada"
+#let authorInfo = "*Profs. M. Ram Murty and V. Kumar Murty* are fellows of the Royal Society of Canada. The former is the A. V. Douglas Distinguished University Professor & Queen's Research Chair at Queen's University in Canada. The latter is the Director of the  Lodha Mathematical Sciences Institute in Mumbai while also a Professor of Mathematics at University of Toronto in Canada. Prof. Ram Murty used to be an adjunct professor at IISER Kolkata."
 #let abstract = "Two distinguished mathematicians reflect on the origins of their curiosity, the mentors who shaped their paths, and the philosophy that sustained their research journeys. From self-learning calculus in high school to mastering seminal papers and embracing collaboration without ego, they reveal the human side of mathematical discovery. This conversation offers rare insights into creativity, perseverance, and the mindset required to thrive in mathematics."
 #let coverImage = "/covers/murty.svg"
-#let coverCaption = "Ram Murty and Kumar Murty at CRM Montreal with \ R. Raghunathan, S. Adhikari, M. Nair & C.S. Rajan, 1994"
 #let authorImage = "/authFaces/RMKM1.jpeg"
 #let received = (day: 12, month: 12, year: 2025)
 

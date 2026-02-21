@@ -4,7 +4,7 @@
 #let authors = ("Raj Gaurav Tripathi",)
 #let affiliations = ("Department of Physical Sciences, IISER Kolkata",)
 #let abstract = "While the ultraviolet catastrophe is famously credited for the birth of quantum mechanics, the failure of classical physics to explain simple magnetism provided an equally vital, yet often overlooked, confirmation. This article explores the Bohr-Van Leeuwen theorem, which mathematically demonstrated that in a purely classical universe, magnets simply cannot exist. Discover how this fundamental paradox drove Niels Bohr to cement the foundations of the quantum revolution."
-#let coverImage = "tripathi.pdf"
+#let coverImage = "tripathi.png"
 #let authorImage = "tripathi.jpeg"
 #let authorInfo = "Hey! I am Raj, a 4th year physics major at IISER Kolkata. I have worked in spintronics and optics, and am currently working in theoretical cosmology. My interests range from massless photons to supermassive black holes, particularly everything:)
 "

@@ -3,7 +3,7 @@
     header: none,
     footer: none,
     margin: 0em,
-    background: image("/covers/mishraRaw.svg", height: 100%, width: 100%, fit: "cover")
+    background: image("/covers/mishraRaw.jpg", height: 100%, width: 100%, fit: "cover")
 )
 
 #set text(fill: rgb("000"))
@@ -71,9 +71,9 @@ place(
   dx: 1em,
   dy: -2em,
   box(width: 200pt,
-    align(left, text(fill: white, [*art by\ Lipsamayee\ Mishra*])))
+    align(left, text(fill: white, [*art by\ Lipsamayee\ Mishra*]))
   )
-)
+  )
 ]
 
 #pagebreak()

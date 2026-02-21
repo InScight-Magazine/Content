@@ -16,7 +16,7 @@
 #include "/subfiles/anup.typ"
 #include "/subfiles/koustav.typ"
 #include "/subfiles/interviewSS.typ"
-// #include "/subfiles/tripathi.typ"
+#include "/subfiles/tripathi.typ"
 #include "/subfiles/interviewRMKM.typ"
 #include "/subfiles/interviewRM.typ"
 #include "/subfiles/interviewSDA.typ"

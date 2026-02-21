@@ -5,7 +5,7 @@
 #let authorInfo = "*Lipsamayee Mishra* is a student in IISER Kolkata pursuing physics and maths. She is an art enthusiast who is passionate about illustrations and exploring new visual artforms."
 #let authorAffiliations = "IISER Kolkata"
 #let authorImage = "/authFaces/mishra.jpg"
-#let coverImage = "/covers/mishra.svg"
+#let coverImage = "/covers/mishra.jpg"
 #let comic_images = ("mishra1.png", "mishra2.png", "mishra3.png",)
 
 #cover(
