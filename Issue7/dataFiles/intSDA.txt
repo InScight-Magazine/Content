@@ -138,8 +138,7 @@ Does AI research also rely on combinatorics?
 
 SDA: Yes, AI certainly uses combinatorics. But there is an important distinction. Artificial intelligence works by following algorithms—algorithms that humans already know how to design. If I already know that choosing one path is less costly than another, I can encode that information and feed it into an AI system. The system will then follow those instructions efficiently. But when something genuinely new is required—when a new idea or a new algorithm has to be discovered—that still requires the human brain. Machines can perform calculations faster. They can add, multiply, and even make logical decisions very efficiently. But those decisions are based on prior human knowledge. The act of probing, analyzing, and discovering something new—that creative step—comes from humans.Computers are extremely useful for data collection and implementation. But the step from raw data to deep understanding often needs human intuition. That does not mean humans will be replaced entirely. For example, if there is radiation leakage inside a nuclear reactor, humans cannot go inside safely. We use robots to perform such tasks. In that sense, technology protects human resources rather than replaces them.
 
-SS: But do you think that today mathematics—especially abstract mathematics—is not directly feeding the masses in a material 
-sense, and therefore may not be attracting new generations?
+SS: But do you think that today mathematics—especially abstract mathematics—is not directly feeding the masses in a material sense, and therefore may not be attracting new generations?
 
 SDA: No, no—that is not the right way to frame it.
 There is a famous line of poetry—by Satyendra Nath Datta—
@@ -164,8 +163,7 @@ SS: Ramanujan would not have been Ramanujan.
 SDA: Exactly. Had Ramanujan gone through conventional mathematical training too early, perhaps he would not have been Ramanujan  either. He might have been forced to think like the rest of us, without the freedom to think in his own way. Initially, he was allowed to explore freely. Later, structured training supported him. That combination was optimal. As Nisargadatta Maharaj once said, for anything to happen, the whole world must coincide. Nothing happens in isolation—everything  must support it.
 
 IMAGE: (path: "/images/ictp.jpeg", caption: "*International Centre for Theoretical Physics (ICTP), Trieste*, where Prof. Adhikari pursued his postdoctoral research.", position: top, width:100%, portrait: true)
-SS: At IISERs, we see batches of 200–250 students across subjects, but mathematics has the fewest enrollments. One reason seems to 
-be the job market.
+SS: At IISERs, we see batches of 200–250 students across subjects, but mathematics has the fewest enrollments. One reason seems to be the job market.
 
 SDA: Yes, employment plays a role. Students see their seniors completing five years of PhD and still struggling for stable jobs. Even if they love mathematics, survival matters. So many students move into data science after an MSc in mathematics. The question then becomes: Can mathematics feed people? But “feeding” doesn’t only mean immediate money. Teaching positions in schools and colleges are essential, but many posts remain unfilled, funding is limited, and selection processes are sometimes flawed. Minimal institutional support is crucial. Without it, even good students struggle.
 

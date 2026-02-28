@@ -3,7 +3,7 @@
 #let title = "From ISI to Princeton and Back: Conversation with Ritabrata Munshi"
 #let file = "/dataFiles/interviewRM.txt"
 #let group1 = ("SS:",)
-#let group2 = "RM:"
+#let group2 = ("RM:",)
 #let authors = ("Swarnendu Saha",)
 #let affiliations = ("IISER Kolkata",)
 #let abstract = "In this wide-ranging conversation, Prof. Munshi reflects on a life shaped by mathematics—from early fascination with symbols to research at Princeton and a return to ISI Kolkata as faculty. He discusses number theory as an artistic pursuit, the changing philosophy of academic institutions, and why mathematics survives when fashionable disciplines fade. The interview offers rare insight into mathematics as both a personal vocation and a centuries-old human enterprise."
