@@ -1,9 +1,9 @@
 #import "/template-files/inscight-template.typ": *
 
 #let title = "The Peacekeepers Within"
-#let authors = ("Pallavi Gupta,\ Kushagra Bansal",)
+#let authors = ("Pallavi Gupta", "Kushagra Bansal",)
 #let affiliations = ("Molecular Biology and Genetics Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bangalore, India",)
-#let abstract = "Regulatory T cells (Tregs) are a unique subset of CD$4^+$ T cells that play a crucial role in suppressing harmful autoreactive T cells in the body and maintaining peripheral immune tolerance. The 2025 Nobel Prize in Physiology or Medicine was awarded to Shimon Sakaguchi, Mary E. Brunkow, and Fred Ramsdell for their discoveries elucidating the cellular and genetic basis of regulatory T cells. The article *‘The peacekeepers within’* delves deeper into the story behind their fantastic discovery that redefined immunology."
+#let abstract = "Regulatory T cells (Tregs) are a unique subset of CD`4^+` T cells that play a crucial role in suppressing harmful autoreactive T cells in the body and maintaining peripheral immune tolerance. The 2025 Nobel Prize in Physiology or Medicine was awarded to Shimon Sakaguchi, Mary E. Brunkow, and Fred Ramsdell for their discoveries elucidating the cellular and genetic basis of regulatory T cells. The article *‘The peacekeepers within’* delves deeper into the story behind their fantastic discovery that redefined immunology."
 #let coverImage = "peacekeepers.svg"
 #let authorImage = "peacekeepers_authors.svg"
 #let authorInfo = "*Pallavi Gupta* is a fourth-year Integrated PhD student at the Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR), Bangalore, where she is pursuing her doctoral research under the guidance of Prof. Kushagra Bansal. She has a strong interest in immunology, and her research focuses on understanding the regulatory role of Topoisomerase 1 in immune cell development. #linebreak() *Dr. Kushagra Bansal* is an Associate Professor at Molecular Biology and Genetics Unit, Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR), Bangalore. His research group focuses on the transcriptional regulation of immune cell development and function using murine models. He is a recipient of DBT-Wellcome Trust India Alliance Intermediate Fellowship."
@@ -26,8 +26,6 @@
   refsFile: refsFile,
   breakAfter: (13,),
 )
-
-// begin. This is necessary for typst-to-html conversion, do not remove this.
 
 == Introduction: defense and restraint in the immune system
 #dcap("Multicellular organisms exist in constant exposure to a wide array of microbial threats. To counter these threats, vertebrates have evolved an immune system which is capable of pathogen detection and elimination by employing both innate and adaptive lines of defense. Innate immunity is the first line of defense to fight any pathogenic invasion immediately while adaptive immunity is the second line of defense that is slower and is characterized by ‘memory’ for faster future encounters. At the core of adaptive immunity are T lymphocytes that recognize antigens through T cell receptors (TCRs). These receptors exhibit an extraordinary diversity as they are generated via a gene rearrangement mechanism commonly known as somatic recombination. TCRs thus have the capability to recognize diverse set of antigenic peptides processed and presented by antigen presenting cells (APCs)#super[1]. However, the same random TCR rearrangement that allows T cells to recognize a wide range of antigens also creates an inherent risk: some TCRs can recognize self-antigens, potentially leading to autoimmunity - a condition where T cells start to attack our own tissues. However, under normal conditions, these autoreactive T cells are kept under check, and they are not allowed to cause damage to the self tissues - a process commonly known as immune tolerance. This raises an important question: what molecular mechanisms keep self-reactive T cells in check in the periphery? Are specific cell types responsible? Are soluble factors involved? Or is it achieved through a combination of cellular and molecular forces?")

@@ -118,7 +118,6 @@ The range of applications is vast. If you can design a circuit that can mimic th
 
 These systems also hold potential for more application-oriented areas such as quantum teleportation (a protocol that transfers quantum information across a distance) and quantum cryptography (ensuring secure communication using principles of quantum mechanics). 
 
-Even if we put aside the application aspects, Clarke and team’s work does not lose its significance. For, this work is also about the fundamental nature of physics. It springs from the very premise quantum mechanics was built upon, and probes our basic understanding of matter. The demonstration that a quantum effect can be harnessed and controlled in an otherwise classical circuit marks a profound step forward, and adds to humankind’s eternal quest for deciphering the grammar of this universe. 
+Even if we put aside the application aspects, Clarke and team’s work does not lose its significance. For, this work is also about the fundamental nature of physics. It springs from the very premise quantum mechanics was built upon, and probes our basic understanding of matter. The demonstration that a quantum effect can be harnessed and controlled in an otherwise classical circuit marks a profound step forward, and adds to humankind’s eternal quest for deciphering the grammar of this universe.
 
-#line(length:100%)
 _Some schematic illustrations in this article were created using generative AI tools (ChatGPT, OpenAI)._

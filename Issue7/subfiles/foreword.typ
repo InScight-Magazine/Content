@@ -5,7 +5,6 @@ The initiative taken by our young minds to publish the Science Magazine _InScigh
 
 If you are truly motivated towards something, no obstacles can stop you reaching the destination, as can be seen through an inspiring article on how Nikolai Koshliakov developed Generalized Zeta Function from a Soviet Labour Camp. The discussion on how Niels Bohr’s work on Quantum Revolution was inspired from Bohr-Van Leeuwen theorem which raises a fundamental paradox, is an article worth reading. This issue also gives some very interesting mathematics quiz along with their correct answers. Along with some more interesting topics, one will get a wonderful discussion, through a comic, on how Dr. Subhash Mukhopadhyay was deprived of his recognition for his discovery on IVF technique, leading to his untimely demise.
 
-// SPLIT HERE
 The discussions are not only by the members of the IISER Kolkata community but also by the students and the faculty members of different premier institutions, showing the gain in popularity of _InScight_ in just one year period. It is mostly observed that the people at large do not think out of the traditional way because of lack of time due to different obligations, or because of lack of interest. However, there is a necessity of out-of-the-box thinking in order to promote science towards its proper utilization in human interest. You will all agree with me that any science without mathematics works like a fish out of water, and hence understanding and development of mathematics for solving different real-life problems is a must. 
 
 Through this platform we invite students, researchers, educators and all interested citizens to get involved in different scientific discussions, and _InScight_, I am confident, will serve the purpose of bringing different domains of science under the same umbrella to handle any issue of this universe by providing a platform for critical discussion and analyses of different problems. I wish _InScight_ to keep its upward journey through the radder of success with time, as it has been doing for last one year.
@@ -17,7 +16,7 @@ Through this platform we invite students, researchers, educators and all interes
   title: "Reflections on a Growing Scientific Dialogue",
   content: content,
   images: ("../covers/dixit.svg", "../covers/RM.svg"),
-  captions: ([From a Soviet labor camp, Nikolai Koshliakov developed a striking generalization of the Riemann zeta function under conditions that defy imagination. #pageLink(<article-atul-spirit>, [Read more.])],[#pageLink(<interview-ritabrata-munshi>, [In this interview]), Prof. Munshi reflects on a life shaped by mathematics—from early fascination with symbols to research at Princeton and a return to ISI Kolkata as a faculty member.]),
+  captions: ([From a Soviet labor camp, Nikolai Koshliakov developed a striking generalization of the Riemann zeta function under conditions that defy imagination. #pageLink("atul", [Read more.])],[#pageLink("ritabrata", [In this interview]), Prof. Munshi reflects on a life shaped by mathematics—from early fascination with symbols to research at Princeton and a return to ISI Kolkata as a faculty member.]),
   widths: (19em, 19em),
   author: [Prof. Asok K. Nanda],
   affiliation: [Department of Mathemetical Sciences, IISER Kolkata],

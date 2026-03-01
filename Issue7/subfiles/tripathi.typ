@@ -1,13 +1,12 @@
 #import "/template-files/inscight-template.typ": *
 
-#let title = "How Magnetism Defies Classical Mechanics"
+#let title = "How Magnetism Defies: Classical Mechanics"
 #let authors = ("Raj Gaurav Tripathi",)
 #let affiliations = ("Department of Physical Sciences, IISER Kolkata",)
 #let abstract = "While the ultraviolet catastrophe is famously credited for the birth of quantum mechanics, the failure of classical physics to explain simple magnetism provided an equally vital, yet often overlooked, confirmation. This article explores the Bohr-Van Leeuwen theorem, which mathematically demonstrated that in a purely classical universe, magnets simply cannot exist. Discover how this fundamental paradox drove Niels Bohr to cement the foundations of the quantum revolution."
 #let coverImage = "tripathi.png"
 #let authorImage = "tripathi.jpeg"
-#let authorInfo = "Hey! I am Raj, a 4th year physics major at IISER Kolkata. I have worked in spintronics and optics, and am currently working in theoretical cosmology. My interests range from massless photons to supermassive black holes, particularly everything:)
-"
+#let authorInfo = "Hey! I am Raj, a 4th year physics major at IISER Kolkata. I have worked in spintronics and optics, and am currently working in theoretical cosmology. My interests range from massless photons to supermassive black holes, particularly everything:)."
 #let received = (month: 06, day: 10, year: 2025)
 #let category = "Physics"
 #let reviewedBy = ("Debanuj Chatterjee",)
@@ -38,7 +37,7 @@
 
 #img(path: "/images/tripathi1.jpg", caption: "Isn’t this magnet big enough to obey classical mechanics?", position: top, portrait: false, width: 100%)
 
-  Eight years later, Hendrika Johanna van Leeuwen independently derived the same theorem in her 1919 doctoral thesis, thus the result is now formally known as the Bohr-Van Leeuwen theorem (4). Notably, she was unaware of Bohr’s prior discovery. Her research similarly concluded that classical physics and statistical mechanics could not account for the existence of magnetism, emphasizing its quantum mechanical nature.
+Eight years later, Hendrika Johanna van Leeuwen independently derived the same theorem in her 1919 doctoral thesis, thus the result is now formally known as the Bohr-Van Leeuwen theorem (4). Notably, she was unaware of Bohr’s prior discovery. Her research similarly concluded that classical physics and statistical mechanics could not account for the existence of magnetism, emphasizing its quantum mechanical nature.
                                      
 This independent convergence on a critical result powerfully validates the idea, thereby compelling the scientific community to seriously consider and develop alternative, non-classical frameworks. 
 
@@ -53,15 +52,17 @@ The ”borderland” nature of the Langevin function arises from Langevin’s im
 == Formal Statement 
 Theorem  (Bohr-Van Leeuwen). At any finite temperature, and in all finite applied electric or magnetic fields, the net magnetization of a collection of electrons in thermal equilibrium vanishes identically. 
 
-$ chevron.l mu#sub("tot") chevron.r = frac(e,2c)Sigma_i chevron.l r_i times v_i chevron.r = 0, $
+```
+ chevron.l mu_"tot" chevron.r = frac(e,2c)Sigma_i chevron.l r_i times v_i chevron.r = 0, 
+```
 
 where
-- $chevron.l mu#sub("tot") chevron.r$ -- The classical statistical average magnetic moment.
-- $e$ -- Electron charge (magnitude ≈ 1.6 × 10⁻¹⁹ C)
-- $c$ -- Speed of light (appears in Gaussian/CGS units).
-- $I$ -- Index for different particles.
-- $r$ -- Position vector of the electron relative to the nucleus.
-- $v$ -- Velocity vector of the electron. 
+- `chevron.l mu_"tot" chevron.r` -- The classical statistical average magnetic moment.
+- `e` -- Electron charge (`"magnitude" approx 1.6 times 10^(-19) "C"`)
+- `c` -- Speed of light (appears in Gaussian/CGS units).
+- `I` -- Index for different particles.
+- `r` -- Position vector of the electron relative to the nucleus.
+- `v` -- Velocity vector of the electron. 
  							
  The Bohr–van Leeuwen theorem (Bohr, van Leeuwen) shows that if one applies classical mechanics together with classical statistical mechanics to an ensemble of charged point particles (using the usual Hamiltonian with kinetic energy and Coulomb/Lorentz forces and Maxwell–Boltzmann statistics), the thermal-average magnetization vanishes. In other words, classical point-particle statistical mechanics — without any additional structure — cannot produce the orbital contributions to diamagnetism or paramagnetism, that is, the magnetic effects arising from the orbital motion of electrons around nuclei, which in quantum mechanics manifest as diamagnetic and paramagnetic responses. By contrast, phenomenological classical models that assume pre-existing magnetic moments (for example, fixed magnetic dipoles or rigid extended current loops, or models built from a continuous/extended charge distribution) are not within the strict assumptions of the theorem: they start by postulating a magnetic moment or current distribution and therefore can yield nonzero magnetization and reproduce results such as the Langevin susceptibility (Curie’s law) for an ensemble of permanent dipoles.(27) The crucial distinction is therefore one of assumptions. The Bohr–van Leeuwen result does not say “classical physics cannot describe any magnetic phenomena”; rather it shows that classical point-particle Hamiltonian mechanics + classical statistical mechanics, taken literally, cannot derive magnetization — you must either introduce extra (and effectively quantum) ingredients (intrinsic magnetic moments, quantized angular momentum, exchange interactions) or relax the theorem’s assumptions (e.g., allow rigid extended currents, constraints, or non-equilibrium/rotating systems). (10)
 
@@ -70,11 +71,10 @@ where
 
 == Hendrika Johanna van Leeuwen
 3 July 1887, The Hague (Netherlands) – 26 February 1974, Delft (Nether lands) Daughter of Professors Pieter Eliza van Leeuwen and Maria Wilhelmina Schepman, studied secondary education in her hometown, and con -tinued her training in physics at the University of Leiden, under the supervision of Hendrik Antoon Lorentz. In 1919.(2) She obtained her PhD, her thesis entitled ”Problems of the electronic theory of magnetism” focused on explaining why magnetism is essentially a quantum mechanical effect (a result now known as the Bohr-van Leeuwen theorem). In this respect, Van Leeuwen was unaware of the results presented 8 years earlier by Niels Bohr also in his doctoral thesis (4).
-                              Fig 3. Hendrika Johanna van Leeuwen (1887-1974). (3) 
 
 == Intuitive Explanation 
 
-We will see a non-formal explanation here, it begins by considering the system’s energy distribution as predicted by Maxwell-Boltzmann statistics, which is proportional to $exp(−U / (k_B T))$, where $U$ is the total energy (kinetic plus potential). A crucial step is recognizing that the magnetic field ($B$) does not contribute to the system’s potential energy. This is because the Lorentz force ($F = q(E + v times B)$), while dependent on the magnetic field, does no work on charged particles ($F dot v = q E dot v$, which is independent of $B$). 
+We will see a non-formal explanation here, it begins by considering the system’s energy distribution as predicted by Maxwell-Boltzmann statistics, which is proportional to `exp(−U / (k_B T))`, where `U` is the total energy (kinetic plus potential). A crucial step is recognizing that the magnetic field (`B`) does not contribute to the system’s potential energy. This is because the Lorentz force (`F = q(E + v times B)`), while dependent on the magnetic field, does no work on charged particles (`F dot v = q E dot v`, which is independent of `B`). 
 
 Consequently, the total energy of the system remains independent of the magnetic field, which in turn implies that the statistical distribution of particle motions is also unaffected by the magnetic field. In the absence of an external magnetic field, and given the constraint that the system cannot rotate, there is no net ordered motion of charged particles, resulting in an average magnetic moment of zero. Since the distribution of motions and thus the energy are independent of the magnetic field, the average magnetic moment, being zero in a zero field, must remain zero in any applied magnetic field. 
 
@@ -98,7 +98,6 @@ Just as the Bohr–van Leeuwen theorem demonstrates that classical physics canno
  The key feature of triboelectricity is not only the transfer of charge but also the persistence of that charge on surfaces—charges remain localized for long periods instead of randomizing. According to classical theory, such stable charge separation should vanish, just as the Bohr–Van Leeuwen theorem predicts zero net magnetization in thermal equilibrium.
 
 #img(path: "/images/tripathi4.png", caption: "The triboelectric effect causes hair to become charged when rubbed against another material.", position: bottom, portrait: false, width: 100%)
-Fig.4. 
 
 This indirect connection of the Bohr-Van Leeuwen theorem to the classical inability to explain triboelectricity suggests that its implications are broader than just magnetic moments. It implies a more general classical failing: that classical statistical mechanics, when applied to microscopic charged systems in thermal equilibrium, cannot spontaneously generate or maintain any net macroscopic effect arising from ordered charge motion (magnetism)  or stable charge separation/retention (triboelectricity).  Both phenomena require non-random, stable  configurations of charge that classical thermal  equilibrium, by its nature, tends to randomize and  dissipate. Therefore, the theorem is not solely about magnetism  but underscores the fundamental inadequacy of classical equilibrium thermodynamics to explain any persistent, ordered microscopic electrical or magnetic phenomena without the explicit inclusion of quantum effects.
 

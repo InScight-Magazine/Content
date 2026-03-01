@@ -6,9 +6,7 @@
 #let abstract = "Prime numbers appear to be scattered at random, yet their overall distribution follows striking statistical laws. This article explores how probabilistic thinking—especially Cramér’s random model for primes—helps predict typical gaps between primes while revealing surprising limitations. Along the way, it shows how randomness and arithmetic structure coexist in one of mathematics’ oldest problems."
 #let coverImage = "primes.svg"
 #let authorImage = "anupSiddhi.png"
-#let authorInfo = "*Anup Dixit* is an Assistant Professor at the Institute of Mathematical Science (IMSc) India. His research interest lies in number theory. Apart from various outreach programs for school students, he is also involved in training students for the Mathematics Olympiad.
-
-*Siddhi Pathak* is an Assistant Professor at the Chennai Mathematical Institute (CMI). Her research focuses on topics in number theory. She is a corresponding editor for the mathematics magazine 'Bhavana'."
+#let authorInfo = ("*Anup Dixit* is an Assistant Professor at the Institute of Mathematical Science (IMSc) India. His research interest lies in number theory. Apart from various outreach programs for school students, he is also involved in training students for the Mathematics Olympiad.", "*Siddhi Pathak* is an Assistant Professor at the Chennai Mathematical Institute (CMI). Her research focuses on topics in number theory. She is a corresponding editor for the mathematics magazine 'Bhavana'.")
 #let received = (month: 12, day: 22, year: 2025)
 #let category = "Mathematics"
 #let reviewedBy = ("",)
@@ -29,8 +27,6 @@
   // refsFile: refsFile,
   breakAfter: (7,),
 )
-
-// begin. This is necessary for typst-to-html conversion, do not remove this.
 
 == Introduction 
 

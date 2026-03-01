@@ -8,29 +8,11 @@
 #let coverImage = "/covers/mishra.jpg"
 #let comic_images = ("mishra1.png", "mishra2.png", "mishra3.png",)
 
-#cover(
+#comic(
   title: title,
   coverImage: coverImage,
+  authorInfo: authorInfo,
+  authorImage: authorImage,
   locator: "comic-mishra",
+  comic_images: comic_images,
 )
-
-
-#pagebreak()
-#for img in comic_images [
-  #set page(
-      background: image("/images/" + img, width: 95%),
-      header: none,
-      footer: none,
-  )
-  #pagebreak()
-]
-
-#set page(background: none)
-#show: default.with(
-  issueDetails: yaml("/dataFiles/issueData.yml"),
-)
-#align(center,
-block(width: 50%,
-auth-profile(authorInfo: authorInfo, authorImage: authorImage)
-+ v(1fr)
-))

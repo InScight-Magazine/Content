@@ -45,7 +45,7 @@
   }
 )
 
-== The Partition Function: \ A Combinatorial Genesis
+== The Partition Function: A Combinatorial Genesis
 
 #dcap("Primarily, there are two ways of decompose a natural number. One way is multiplicative, precisely, factoring a number into primes and other way is additive. In this section, we discuss the additive decomposition in brevity. This additive decomposition is well-known as “integer partitions”. In the history of the literature on partitions, Leibniz seems to be the first person who defined integer partitions. In a 1674 letter [12, page 37], he asked J. Bernoulli about the number of “divulsions” of an integer. In modern terminology, “divulsion” is rephrased as the number of partitions of a positive integer. Leibniz observed that there are three partitions of 3 counted by 3, 2 + 1, 1 + 1 + 1, five partitions of 4 counted by 4, 3 + 1, 2 + 2, 2 + 1 + 1, 1 + 1 + 1 + 1, seven partitions of 5 and eleven partitions of 6. This examples lead to a problem which is still open:")
 
@@ -98,7 +98,7 @@ p(n)-p(n-1)-p(n-2)+p(n-5)+p(n-7)-dots = 0.
 
 After Euler, the theory of partition propagates through the works of Sylvester, Cayley, Jacobi, MacMahon, Hardy, Ramanujan, Rademacher, Gordon, and Andrews among many others. The reader can consult Andrews' magnum opus [2]. In addition to that, the entire history of partitions up to 1918 is documented in [5], and for a survey article, we refer to [7].
 
-The counting problem for `p(n)` (for large values of `n`) has been one of the most predominant themes in the literature on integer partitions. First of all, we point out a simple fact: `(p(n))_(n gt.eq 1)` is a strictly increasing sequence. For a partition `pi tack.r n-1`, define a map #box(`phi.alt:P(n-1)arrow\P(n)`) by `phi.alt(pi)=(pi,1)`; i.e., insertion of `1` as part in `pi` that yields a partitions of `n` and it is clear that `phi.alt` is an injective map and `P(n) without phi.alt(P(n-1))`  is the set of all partitions of `n` where `1` is not a part (also known as non-unitary partitions of `n`). Let us try to formulate the problem of counting `p(n)` in terms of counting partitions of `n` subject to the condition that each partition has at most `k` parts. Let `p_(lt.eq k)(n)` denotes total number of such partitions of `n`. Observe that for `k=n`, `p_(lt.eq k)(n) = p(n)`. Cayley [4] and Sylvester [18] gave a number of formulas for `p_(lt.eq k)(n)` with small values of `k`, which was anticipated by Herschel [10]. For example, `p_(lt.eq 2)(n)= floor.l (n+1)/2 floor.r`. Now the question we may ask how far we can compute `p(n)`. Is there any simple formula for counting `p(n)` apart from (1.3)? Using (1.3), MacMahon computed `p(200)` by hand and
+The counting problem for `p(n)` (for large values of `n`) has been one of the most predominant themes in the literature on integer partitions. First of all, we point out a simple fact: `(p(n))_(n gt.eq 1)` is a strictly increasing sequence. For a partition `pi tack.r n-1`, define a map #box(`phi.alt:P(n-1)arrow\P(n)`) by `phi.alt(pi)=(pi,1)`; i.e., insertion of `1` as part in `pi` that yields a partitions of `n` and it is clear that `phi.alt` is an injective map and `P(n) without phi.alt(P(n-1))`  is the set of all partitions of `n` where `1` is not a part (also known as non-unitary partitions of `n`). Let us try to formulate the problem of counting `p(n)` in terms of counting partitions of `n` subject to the condition that each partition has at most `k` parts. Let `p_(lt.eq k)(n)` denotes total number of such partitions of `n`. Observe that for `k=n`, `p_(lt.eq k)(n) = p(n)`. Cayley [4] and Sylvester [18] gave a number of formulas for `p_(lt.eq k)(n)` with small values of `k`, which was anticipated by Herschel [10]. For example, `p_(lt.eq 2)(n)= floor((n+1)/2)`. Now the question we may ask how far we can compute `p(n)`. Is there any simple formula for counting `p(n)` apart from (1.3)? Using (1.3), MacMahon computed `p(200)` by hand and
 
 ```
 p(200)=3972999029388.
@@ -151,7 +151,7 @@ p(n) = 1/(2 pi i) integral_(Gamma) (P(q))/(q^(n+1)) d q,
 
 #img(path: "/images/Hardy.jpg", caption: "*G. H. Hardy* (1877–1947), whose analytic approach and development of the Circle Method led to the first asymptotic formula for the partition function `p(n)`.", position: top, width: 60%, portrait: true)
 
-where the path `Gamma` encloses the origin and lies entirely inside the unit circle. Truncating (1.1), we observe that `P_N (q) := product_(n=1)^(N) 1/(1-q^n)` has a pole at `q=1` of order `N`, a pole at `q=-1` of order `floor.l N/2 floor.r`, poles at `q = e^((2 pi i)/3)` and `q = e^((4 pi i)/3)` of order `floor.l N/3 floor.r`, and so on. Hardy and Ramanujan defined the following auxiliary function `F(q) := 1/(pi sqrt(2)) sum_(n gt.eq 1) Psi(n)q^n`, where `Psi(n) := d/(d n) ((cosh C lambda_(n)-1)/(lambda_n))`, `C= pi sqrt(2/3)`, and `lambda_n = sqrt(n - 1/24)`. Now the behaviour of `P` and `F` is similar inside the unit circle and in the neighbourhood of `q=1`. Applying Cauchy's integral formula for `P-F`, they obtain the first term of the asymptotic series
+where the path `Gamma` encloses the origin and lies entirely inside the unit circle. Truncating (1.1), we observe that `P_N (q) := product_(n=1)^(N) 1/(1-q^n)` has a pole at `q=1` of order `N`, a pole at `q=-1` of order `floor(N/2)`, poles at `q = e^((2 pi i)/3)` and `q = e^((4 pi i)/3)` of order `floor(N/3)`, and so on. Hardy and Ramanujan defined the following auxiliary function `F(q) := 1/(pi sqrt(2)) sum_(n gt.eq 1) Psi(n)q^n`, where `Psi(n) := d/(d n) ((cosh C lambda_(n)-1)/(lambda_n))`, `C= pi sqrt(2/3)`, and `lambda_n = sqrt(n - 1/24)`. Now the behaviour of `P` and `F` is similar inside the unit circle and in the neighbourhood of `q=1`. Applying Cauchy's integral formula for `P-F`, they obtain the first term of the asymptotic series
 
 ```
 p(n) = 1/(2 pi sqrt(2)) d/(d n) ((e^(C lambda_n))/(lambda_n)) + O (e^(D sqrt(n)))
@@ -186,7 +186,7 @@ p(n) &= 1/(2 pi sqrt(2)) limits(sum)_(k=1)^(alpha sqrt(N)) sqrt(k) A_k (n) d/(d 
 where 
 
 ```
-A_k (n) := limits(sum)_(1 lt.eq h lt k\ (h,k)=1) e^(-(2 pi i n h)/k + pi i s(h,k)) space "and" \ s(h,k) := limits(sum)_(mu=1)^(k-1) ((mu)/k - floor.l (mu)/k floor.r - 1/2) ((h mu)/k - floor.l (h mu)/k floor.r - 1/2).
+A_k (n) := limits(sum)_(1 lt.eq h lt k\ (h,k)=1) e^(-(2 pi i n h)/k + pi i s(h,k)) space "and" \ s(h,k) := limits(sum)_(mu=1)^(k-1) ((mu)/k - floor((mu)/k) - 1/2) ((h mu)/k - floor((h mu)/k) - 1/2).
 ```
 
 #img(path: "/images/Rademacher.jpeg", caption: "*Hans Rademacher* (1892–1969), who perfected the Hardy–Ramanujan circle method and obtained a convergent exact series for the partition function `p(n)`.", position: bottom, width: 60%, portrait: true)

@@ -40,6 +40,8 @@ celebration of this to another time. The other one is Pi day, the 14th of
 March, which has been selected and universally accepted as the International
 Mathematics Day (there is actually a building in Hong Kong which is shaped
 like π). Regarding this choice of π-day, I would say:
+")
+
 #quote([We had this year’s Pi Day
 
 nine months back on a Friday.
@@ -49,7 +51,6 @@ To Pi, 22 by 7 is closer
 but somehow 3.14 is kosher.
 
 But who cares? Let’s celebrate anyway!])
-")
 
 == Diophantus of Alexandria
 
@@ -378,7 +379,7 @@ by native mathematicians almost six centuries earlier ?”
 
 Indeed, in 1150 A.D., Bhaskara II gave the explicit solutions
 ```
- 1766319049^2 − 61(226153980)^2 = 1\
+ 1766319049^2 − 61(226153980)^2 = x\
 158070671986249^2 − 109(15140424455100)^2 = 1 
 ```
 Indeed, Brahmagupta (598-665) had already solved this equation in 628 A.D.
@@ -433,10 +434,16 @@ For instance, using the greedy algorithm, let us find the SCF for the irrational
 number`√7`.
 
 ```
- √7 &= 2 + (√7 − 2) = 2 +3/(√7 + 2)= 2 +1/((√7 + 2)\/3). \
- (√7 + 2)/3 &= 1 + ((√7 + 2)/3-1)= 1 + (√7 − 1)/3 \
- √7 − 2 &= frac(1, 1+)frac(sqrt(7) - 1, 3) = frac(1, 1+)frac(1, (sqrt(7) + 1)\/2) = frac(1, 1+)frac(1, 1+)frac(sqrt(7) - 1, 2) \
- &= frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, sqrt(7) + 2)= frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, 4 + sqrt(7) - 2)
+ √7 &= 2 + (√7 − 2) = 2 +3/(√7 + 2)= 2 +1/((√7 + 2)\/3).
+```
+
+```
+(√7 + 2)/3 &= 1 + ((√7 + 2)/3-1)= 1 + (√7 − 1)/3
+```
+
+```
+√7 − 2 &= frac(1, 1+)frac(sqrt(7) - 1, 3) = frac(1, 1+)frac(1, (sqrt(7) + 1)\/2) = frac(1, 1+)frac(1, 1+)frac(sqrt(7) - 1, 2) \
+&= frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, sqrt(7) + 2)= frac(1, 1+)frac(1, 1+)frac(1, 1+)frac(1, 4 + sqrt(7) - 2)
 ```
 
 Thus, we have a repetition and

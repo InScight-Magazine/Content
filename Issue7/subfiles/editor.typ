@@ -6,7 +6,6 @@ Hello fellow readers, we are back with the latest issue of _InScight_-The IISER 
 We are back again with a variety of interesting articles over different subjects. To kick it all off we have an article on regulatory T-Cells. The 2025 Nobel Prize in Physiology or Medicine was awarded to Shimon Sakaguchi, Mary E. Brunkow, and Fred Ramsdell was awarded for the elucidation of the cellular and genetic basis of the same. The article ‘The peacekeepers within’, delves deeper into the story that redefined modern immunology as we know it.
 
 To quote Albert Einstein \"In the middle of difficulty lies opportunity\", we have a fascinating article on Nikolai Sergeevich Koshliakov who developed a striking generalization of the Riemann zeta function, while in a soviet labour camp. His story serves as inspiration for all of us who believe nothing good can come out of even the most belligerent times. We have a very interesting article regarding the nature of primes, called ‘patterns in primes via probability’ written by Anup Dixit and Sidhi Pathak.We also have a creative comic by Kajori Barman, Afreen Chowdhury highlighting the incredible story and hardships faced by Dr. Subhash Mukhopadhyay, in bringing IVF to India.
-// SPLIT HERE
 
 To end it all, we have a few fun science inspired games and a quiz at the end of the magazine.
 
@@ -19,7 +18,7 @@ This issue of _InScight_ comes packed with a lot of inspirational stories that w
   title: "Reflections on a Growing Scientific Dialogue",
   content: content,
   images: ("../covers/peacekeepers.svg",),
-  captions: ([Regulatory T cells are a unique subset of cells that play a crucial role in suppressing harmful autoreactive T cells in the body. #pageLink(<article-pallavi-within>, [Read the rest in this article.])],[#pageLink(<article-b-diophantus>, [Sury  offers]), a panoramic journey through Diophantine equations, weaving together history, puzzles, deep theorems, and modern breakthroughs.]),
+  captions: ([Regulatory T cells are a unique subset of cells that play a crucial role in suppressing harmful autoreactive T cells in the body. #pageLink("pallavi", [Read the rest in this article.])],[#pageLink("diophantus", [Sury  offers]), a panoramic journey through Diophantine equations, weaving together history, puzzles, deep theorems, and modern breakthroughs.]),
   widths: (25em,),
   author: [Puppala Ainesh Kumar],
   affiliation: [Editor at _InScight_, IISER Kolkata],

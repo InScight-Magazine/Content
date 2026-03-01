@@ -27,7 +27,7 @@ place(
 }
 
 
-#link(<article-anup-probability>)[
+#pageLink("anup", [
   #set text(font: "Neuton", size: 2.4em, weight: "bold")
   #place(
   right + horizon,
@@ -37,9 +37,9 @@ place(
     align(left, [#text(fill: maroon, [Patterns In Primes Via Probability]) #parbreak() #text(fill: black, [Dixit \& Pathak])])
   )
 )
-]
+])
 
-#link(<article-rahul-yaghi>)[
+#pageLink("rahul", [
   #set text(font: "Neuton", size: 2.4em, weight: "bold")
   #place(
   right + horizon,
@@ -49,10 +49,10 @@ place(
     align(left, [My Scientific Journey With Nobel Laureate Omar Yaghi #parbreak() #text(fill: white, [Prof. Rahul Banerjee])])
   )
 )
-]
+])
 
 
-#link(<comic-kajori>)[
+#pageLink("kajori", [
   #set text(font: "Neuton", size: 2.4em, weight: "bold")
   #place(
   right + bottom,
@@ -62,9 +62,9 @@ place(
     align(left, text(fill: white, [Against All Odds: The Man Who Brought IVF To India]) + parbreak() + text(fill: yellow, [comic by Kajori \& Afreen]))
   )
 )
-]
+])
 
-#link(<comic-mishra>)[
+#pageLink("mishra", [
   #set text(font: "Neuton", size: 2em, weight: "bold")
   #place(
   left + bottom,
@@ -74,6 +74,6 @@ place(
     align(left, text(fill: white, [*art by\ Lipsamayee\ Mishra*]))
   )
   )
-]
+])
 
 #pagebreak()

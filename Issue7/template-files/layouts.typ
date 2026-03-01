@@ -122,7 +122,7 @@ set page(
   breakAfter: (-1,),
   content
 ) = {
-  let permalinkSuffix = lower(authors.at(0).split().at(0) + "-" + title.split().at(-1))
+  let permalinkSuffix = lower(authors.at(0).split().join("-") + "-" + title.split().at(-1))
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
   let links = createLinks(url: permalink)
   set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
@@ -130,9 +130,15 @@ set page(
   let locator = "article-" + permalinkSuffix
   assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
   let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
-  let authlist = { for (auth, aff) in authors.zip(authorAffiliations) { grid(columns: (auto, auto), gutter:10pt, align:(left, left), [*#eval(auth, mode:"markup")*], [(#aff)])} + date }
-
-  [#metadata((title: title, authors: authors, authorAffiliations: authorAffiliations, abstract: abstract, coverImage: coverImage, authorInfo: authorInfo, authorImage: authorImage, refsFile: refsFile, reviewedBy: reviewedBy, received: received, permalink: permalink, type: "article")) #label("vars")]
+  let authlist = { grid(columns: (auto, auto), gutter:10pt, align:(left + horizon, left + horizon), text(weight: "bold", stack(dir:ttb, spacing: 1em, ..authors)), stack(dir:ttb, spacing: 1em, ..authorAffiliations)) + date }
+  if type(authorInfo) == str {
+    authorInfo = (authorInfo,)
+  }
+  let authInfoForm = ()
+  for info in authorInfo {
+    authInfoForm.push(eval(info, mode: "markup"))
+  }
+  [#metadata((title: title, authors: authors, authorAffiliations: authorAffiliations, abstract: eval(abstract, mode: "markup"), coverImage: coverImage, authorInfo: authInfoForm, authorImage: authorImage, refsFile: refsFile, reviewedBy: reviewedBy, received: received, permalink: permalink, type: "article")) #label("vars")]
   [#metadata(content.fields()) #label("content")]
   {
     show raw.where(block: false): it => text(size: 1.3em, eval(it.text, mode: "math"))
@@ -180,6 +186,9 @@ set page(
   intervieweeInfo: none,
   received: none,
 ) = {
+  if type(intervieweeInfo) == str {
+    intervieweeInfo = (intervieweeInfo,)
+  }
   let afterBreak = false
   let boldflag = true
   let boldStartflag = false
@@ -236,6 +245,7 @@ set page(
     if boldflag == true {
       set par(leading: 0.5em, justify: true)
       text(weight: "bold", size: 1.1em, fill: questionColor, trimmedLine)
+      ignore("\n{: .interview-answer }\n")
     } else {
       if boldStartflag == true {
         boldStartflag = false
@@ -251,7 +261,6 @@ set page(
       firstFlag = false
       continue
     }
-    // linebreak()
   } 
   {
 
@@ -262,6 +271,23 @@ set page(
 
   let locator = "interview-" + permalinkSuffix
 
+  let intervieweeInfoForm = ()
+  for info in intervieweeInfo {
+    intervieweeInfoForm.push(eval(info, mode: "markup"))
+  }
+  [#metadata((
+    title: title,
+    authors: interviewers,
+    authorAffiliations: interviewerAffiliations,
+    abstract: eval(abstract, mode: "markup"),
+    coverImage: coverImage,
+    authorInfo: intervieweeInfoForm,
+    authorImage: intervieweeImage,
+    received: received,
+    permalink: permalink,
+    type: "interview")) #label("vars")
+  ]
+  [#metadata(content.fields()) #label("content")]
   {
     cover(
       title: title,
@@ -279,6 +305,9 @@ set page(
       intro: eval("interview by " + authlist.join(",  "), mode:"markup") + linebreak() + date,
     )
     counter(figure.where(kind: image)).update(0)
+
+    show raw.where(block: false): it => text(size: 1.3em, eval(it.text, mode: "math"))
+    show raw.where(block: true): it => align(center, text(size: 1.5em, eval(it.text, mode: "math")))
     columns(2,
       block(width: 90%,
       par(leading: 0.6em, text(font: abstract-font, size:1.2em, weight: "medium", fill:header-bg-color, [#abstract.slice(0, abstract.position(" "))]) + text(font: abstract-font, size:1.2em, weight: "medium", eval(abstract.slice(abstract.position(" ")), mode:"markup")))
@@ -677,7 +706,6 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
   } else {
     intro = [*#author*\ #affiliation] 
   }
-  let parts = content.trim().split("// SPLIT HERE")
   let content = grid(
       columns: (1fr, 1fr),
       gutter: 3em,
@@ -708,3 +736,38 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
   content
 }
 
+#let comic(
+  title: none,
+  coverImage: none,
+  authorInfo: none,
+  authorImage: none,
+  locator: none,
+  comic_images: (),
+) = {
+  cover(
+    title: title,
+    coverImage: coverImage,
+    locator: locator,
+  )
+
+
+  pagebreak()
+  for img in comic_images [
+    #set page(
+        background: image("/images/" + img, width: 95%),
+        header: none,
+        footer: none,
+    )
+    #pagebreak()
+  ]
+
+  set page(background: none)
+  show: default.with(
+    issueDetails: yaml("/dataFiles/issueData.yml"),
+  )
+  align(center,
+  block(width: 50%,
+  auth-profile(authorInfo: authorInfo, authorImage: authorImage)
+  + v(1fr)
+  ))
+}

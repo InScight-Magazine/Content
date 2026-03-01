@@ -67,7 +67,7 @@ from 1941 to 1944. In [1], the authors write
 	of transcendental functions defined by the generalized Riemann equation).])
 
 
-Further details are given in [11, p 211--213], where the author says that the main purpose of the NKVD was to obtain signed "confessions"#footnote[This word in quotes, of course, means _fabricated confessions_.] from the accused as proofs of their guilt (of supporting the Axis powers). Koshliakov wasn't the only one. In fact, he was one among 13 scientists and mathematicians who were considered as the accused. Lorentz [11, p. 212] says, _'By April 1942, after seven hungry months, the accused were suffering from acute starvation; many of them had lost 1/3 of their normal weight and were close to death. It is humanly understandable that an offer of a bowl of soup was sufficient to force them to sign a "confession", an ultimate proof of guilt. Forced to stand for hours was another form of torture. No wonder that Koshlyakov signed:"I intended to establish relations with the German commandant... I would like to atone for my guilt, be it in a small measure, by participating in our working front.... In particular, would be very happy to complete my work on summation formulas which I have been conducting for 30 years....'._
+Further details are given in [11, p 211--213], where the author says that the main purpose of the NKVD was to obtain signed "confessions"#footnote[This word in quotes, of course, means _fabricated confessions_.] from the accused as proofs of their guilt (of supporting the Axis powers). Koshliakov wasn't the only one. In fact, he was one among 13 scientists and mathematicians who were considered as the accused. Lorentz [11, p. 212] says, #quote([By April 1942, after seven hungry months, the accused were suffering from acute starvation; many of them had lost 1/3 of their normal weight and were close to death. It is humanly understandable that an offer of a bowl of soup was sufficient to force them to sign a "confession", an ultimate proof of guilt. Forced to stand for hours was another form of torture. No wonder that Koshlyakov signed:"I intended to establish relations with the German commandant... I would like to atone for my guilt, be it in a small measure, by participating in our working front.... In particular, would be very happy to complete my work on summation formulas which I have been conducting for 30 years...])
 
 It is not our intention to delve a lot into politics but rather to put forth before everyone (especially students), how, in the extreme predicament that Koshliakov was going through, he could maintain his scientific fervour and produce magnificent research!
 
@@ -82,14 +82,16 @@ I was happy and anxious, at the same time, to see the manuscript [7], and decide
 #img(path: "/images/stpetersburg.jpg", position: top, caption: "Koshliakov graduated from the Faculty of Physics and Mathematics of the University of St. Petersburg in 1914.", width: 80%)
 == Contents of the manuscript
 
-To describe the main idea, let us first define the Riemann zeta function, one of the most important functions of mathematics. For Re`(s)>1`, it is defined by the absolutely and uniformly convergent series `zeta(s):=sum_{n=1}^{infinity}n^{-s}`.
+To describe the main idea, let us first define the Riemann zeta function, one of the most important functions of mathematics. For Re`(s)>1`, it is defined by the absolutely and uniformly convergent series `zeta(s):=sum_(n=1)^(infinity)n^(-s)`.
  It can be analytically continued to the entire complex plane except for a simple pole at `s=1`.
  Koshliakov's theory stems from a problem in Physics on heat conduction. We refer the reader to [5] and [6, p. 488-489] for a description of this problem. 
  
 
 The equation `p sin(pi lambda)+lambda cos(pi lambda)=0`, where `p>0`, forms
- the crux of Koshliakov’s theory. It is the characteristic equation of the generalized heat equation encountered by Koshliakov in his problem on heat conduction. As `p -> infinity`, the positive roots `lambda_n` of the characteristic equation are `lambda_n=n` (being the roots of the resulting equation `sin(pi lambda)=0`). Thus, in this special case, the series `sum_{n=1}^{infinity}lambda_n^(-s)` is nothing but the Riemann zeta function `zeta(s)`. Moreover, when `p -> 0` and `lambda != 0`, we get `cos(pi lambda)=0`, which implies that the positive roots are `lambda_n=n-1/2`. 
- Thus, one can study the series `sum_(n=1)^(infinity)(n-1/2)^(-s)=(2^s-1)zeta(s)`.  
+ the crux of Koshliakov’s theory. It is the characteristic equation of the generalized heat equation encountered by Koshliakov in his problem on heat conduction. As `p -> infinity`, the positive roots `lambda_n` of the characteristic equation are `lambda_n=n` (being the roots of the resulting equation `sin(pi lambda)=0`). Thus, in this special case, the series `sum_(n=1)^(infinity)lambda_n^(-s)` is nothing but the Riemann zeta function `zeta(s)`. Moreover, when `p -> 0` and `lambda != 0`, we get `cos(pi lambda)=0`, which implies that the positive roots are `lambda_n=n-1/2`. 
+ Thus, one can study the series 
+ ```sum_(n=1)^(infinity)(n-1/2)^(-s)=(2^s-1)zeta(s).
+ ```
  
  For any `p>0`, one may then construct a general zeta function `sum_(n=1)^infinity lambda_n^(-s)` for Re`(s)>1`. In fact, Koshliakov considers a normalized version of this series, namely, 
 

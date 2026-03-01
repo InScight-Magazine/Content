@@ -255,16 +255,23 @@
 }
 
 #let auth-profile(
-  authorInfo: "",
+  authorInfo: none,
   authorImage: "",
   authorImageWidth: 100%,
 ) = {
+
+    if type(authorInfo) == str {
+      authorInfo = (authorInfo,)
+    }
     line(length:80%, stroke: 0.3em + fg-color)
     image(authorImage, width: authorImageWidth)
     { 
       set text(size: 1.2em, font: author-font, weight: "medium")
       set par(justify: false)
-      align(left, emph(eval(authorInfo, mode: "markup")))
+      for info in authorInfo {
+        [#align(left, emph(eval(info, mode: "markup")))]
+        [#parbreak()]
+      }
     }
 }
 
@@ -306,7 +313,7 @@
 ) = {
   let html = if "html" in sys.inputs { if sys.inputs.html == "true" { true } else { false } } else { false }
   if html {
-    content
+    eval(content, mode: "markup")
   } else {
     let first = if dropWord == false { content.at(0) } else { content.split(regex(" ")).at(0) }
     content = if dropWord == false { content.replace(first, "", count: 1) } else { content.replace(first + " ", "", count: 1) }
@@ -348,10 +355,20 @@
   text,
   underl: true,
 ) = {
-  if underl == true {
-    context[#link(("page": locate(anchor).page(), "x": 0em, "y": 0em), underline(text))]
-  } else {
-    context[#link(("page": locate(anchor).page(), "x": 0em, "y": 0em), text)]
+  context {
+    let matches = ()
+    for h in query(heading.where(level: 1, outlined: true)) {
+      if h.supplement.text.contains(anchor) {
+        matches.push(h)
+      }
+    }
+    assert(matches.len() == 1, message: "Anchor " + anchor + " is not unique. Make it more specific or try a different anchor.")
+    let anchor = matches.at(0).location()
+    if underl == true {
+      [#link(("page": locate(anchor).page(), "x": 0em, "y": 0em), underline(text))]
+    } else {
+      [#link(("page": locate(anchor).page(), "x": 0em, "y": 0em), text)]
+    }
   }
 }
 
@@ -503,3 +520,12 @@
 
 #let m(expr) = eval("$" + expr + "$", mode: "markup")
 #let M(expr) = align(center, [\ #m(expr.text)\ ])
+
+#let ignore(content) = {
+  let html = if "html" in sys.inputs { if sys.inputs.html == "true" { true } else { false } } else { false }
+  if html {
+    content
+  } else {
+    none
+  }
+}
