@@ -78,7 +78,7 @@ P(q) :&= limits(sum)_(n gt.eq 0) p(n) q^n \
 
 Note that, rather than working with sequences, we are now in the regime of function, a switch between discrete to continuous. In order to simplifying (and doing fast) calculations for `p(n)`, Euler realized that a power series expansion for `product_(n=1)^(infinity) (1-q^n)` is essential. His empirical discovery leads to the following identity which is known as Euler's Pentagonal Number Theorem.
 
-#img(path: "/images/Euler.jpeg", caption: "*Leonhard Euler* (1707–1783), who introduced generating functions and laid the foundational framework for the theory of integer partitions.", position: top, width: 60%, portrait: true)
+#img(path: "/images/Euler.jpeg", caption: "*Leonhard Euler* (1707–1783)", position: top, width: 60%, portrait: true)
 
 ```
 limits(product)_(n gt.eq 1) (1-q^n) = limits(sum)_(n in ZZ) (-1)^n q^((3n^2-n)/2).
@@ -149,7 +149,7 @@ A few years later, Uspensky [19] independently discovered this. In [9, equation 
 p(n) = 1/(2 pi i) integral_(Gamma) (P(q))/(q^(n+1)) d q,
 ```
 
-#img(path: "/images/Hardy.jpg", caption: "*G. H. Hardy* (1877–1947), whose analytic approach and development of the Circle Method led to the first asymptotic formula for the partition function `p(n)`.", position: top, width: 60%, portrait: true)
+#img(path: "/images/Hardy.jpg", caption: "*G. H. Hardy* (1877–1947)", position: top, width: 60%, portrait: true)
 
 where the path `Gamma` encloses the origin and lies entirely inside the unit circle. Truncating (1.1), we observe that `P_N (q) := product_(n=1)^(N) 1/(1-q^n)` has a pole at `q=1` of order `N`, a pole at `q=-1` of order `floor(N/2)`, poles at `q = e^((2 pi i)/3)` and `q = e^((4 pi i)/3)` of order `floor(N/3)`, and so on. Hardy and Ramanujan defined the following auxiliary function `F(q) := 1/(pi sqrt(2)) sum_(n gt.eq 1) Psi(n)q^n`, where `Psi(n) := d/(d n) ((cosh C lambda_(n)-1)/(lambda_n))`, `C= pi sqrt(2/3)`, and `lambda_n = sqrt(n - 1/24)`. Now the behaviour of `P` and `F` is similar inside the unit circle and in the neighbourhood of `q=1`. Applying Cauchy's integral formula for `P-F`, they obtain the first term of the asymptotic series
 
@@ -189,7 +189,7 @@ where
 A_k (n) := limits(sum)_(1 lt.eq h lt k\ (h,k)=1) e^(-(2 pi i n h)/k + pi i s(h,k)) space "and" \ s(h,k) := limits(sum)_(mu=1)^(k-1) ((mu)/k - floor((mu)/k) - 1/2) ((h mu)/k - floor((h mu)/k) - 1/2).
 ```
 
-#img(path: "/images/Rademacher.jpeg", caption: "*Hans Rademacher* (1892–1969), who perfected the Hardy–Ramanujan circle method and obtained a convergent exact series for the partition function `p(n)`.", position: bottom, width: 60%, portrait: true)
+#img(path: "/images/Rademacher.jpeg", caption: "*Hans Rademacher* (1892–1969)", position: bottom, width: 60%, portrait: true)
 
 To know in detail about this collaboration, we refer the reader to [13, 17]. We end this discussion by quoting further two instances for verifying (3.6) with the actual values of `p(n)`. MacMahon #footnote[See the table [9, page 377-378]] computed values of `p(n)` for `1 lt.eq n lt.eq 200`. The actual values for 
 
@@ -209,7 +209,7 @@ This proves the accuracy of the formula (3.6). In [9, Section 6, 6.22], they rem
 p(n)= 1/(pi sqrt(2)) limits(sum)_(k gt.eq 1) sqrt(k) A_k (n) [d/(d x) ((sinh ((pi)/k (2/3 (x - 1/24))^(1/2)))/((x - 1/24)^(1/2)))]_(x=n).
 ```
 
-#img(path: "/images/Ramanujan.jpeg", caption: "*Srinivasa Ramanujan* (1887–1920), whose deep insights into partitions and modular forms were central to the asymptotic theory of the partition function `p(n)`.", position: top, width: 60%, portrait: true)
+#img(path: "/images/Ramanujan.jpeg", caption: "*Srinivasa Ramanujan* (1887–1920)", position: top, width: 60%, portrait: true)
 
 He [15] also proved that if the series (3.7) is truncated after `N` terms, the absolute value of the error is bounded by 
 

@@ -4,8 +4,8 @@
 #let authors = ("B Sury",)
 #let affiliations = ("Visiting Professor,International Centre for Theoretical Sciences Bangalore, India.",)
 
-#let coverImage = "/covers/Sury.svg" // Same folder(in this case ISSUE 7) → just the filename
-#let authorImage = "/authFaces/sury.jpeg"   // Inside a subfolder → subfolder/filename
+#let coverImage = "/covers/Sury.svg"
+#let authorImage = "/authFaces/sury.jpeg"
 #let received = (month: 12, day: 7, year: 2025)
 #let authorInfo = "*Sury* was at the TIFR in Bombay during 1981-1999 and at the I.S.I. in Bangalore during 1999-2025. He is an elected Fellow of the National Academy of Sciences, India and was the National Co-ordinator for the Mathematics Olympiad Programme in India. His areas of research interest are Algebra and Number Theory. At present, he is a Visiting Professor at ICTS-TIFR, Bangalore."
 #let abstract = "Sury  offers a panoramic journey through Diophantine equations, weaving together history, puzzles, deep theorems, and modern breakthroughs—from Diophantus and Fermat to elliptic curves, Hilbert’s 10th problem, and the ABC conjecture. Blending rigorous mathematics with anecdotes, poetry, and cultural context, it reveals how deceptively simple integer equations lead to some of the most profound ideas in mathematics."
