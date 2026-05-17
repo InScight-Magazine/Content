@@ -27,7 +27,7 @@
   abstract: "*Prof. Bikram Dhara discusses the evolving mindset of* Indian science students, shaped by career pressures and global aspirations. He critiques exam-centric systems, declining interest in basic science, and weak mentorship, while advocating interdisciplinary learning, ethical research, and resilience, framing scientific pursuit as a lifelong commitment rooted in curiosity and social responsibility.", 
   // String. Abstract/excerpt/pitch for the article. Formatting is possible and encouraged.
   received: (month: 12, day: 26, year: 2025), // article finalising date
-  intervieweeInfo:  ("*Bikram Dhara* is a health and agricultural scientist and faculty member at the Saveetha Institute of Medical and Technical Sciences, where he works at the Centre for Global Health Research. He earned his Ph.D. in Microbiology from St. Xavier’s College. His research is multidisciplinary, spanning microbiology, plant physiology, biotechnology, stem cell research, and disease therapy, with a strong integration of experimental and computational approaches.", ),
+  intervieweeInfo:  ("*Professor Dhara* is a clinical and environmental microbiologist with specializations in studying host-pathogen interactions, nanobiotechnology, and transdisciplinary research. He is a distinguished faculty of Department of Microbiology, Saveetha Medical College and Hospital, Chennai, India.", ),
   // intervieweeInfo is meant for interviewee bio and stuff. Has same properties as interviewees.
   // string for single author, array of strings for multi author
   // multi-author example: #let authorInfo = ("Desc 1", "Desc 2")
@@ -50,7 +50,7 @@ BD: It is deeply social, particularly within the middle class. We are seeing a p
 
 SS: Regarding the brain drain, you mentioned that juniors are influenced by the lifestyle of seniors abroad. How do we create a narrative in Indian science that can compete with the allure of the West?
 
-BD: We cannot compete on lifestyle alone, as the economic gap is real. However, we can compete on the impact and belonging.  We must publicize the instances of those who successfully navigated the Indian system to solve local problems, be it in bioresources, agriculture, or indigenous medicine. When a high schooler sees a senior building a successful deep-tech startup or a world-class lab in India, the abroad or nothing mindset begins to crack. I encourage brain circulation, where going abroad is for exposure, but returning is for the mission.
+BD: We cannot compete on lifestyle alone, as the economic gap is real. However, we can compete on the impact and belonging.  We must publicize the instances of those who successfully navigated the Indian system to solve local problems, be it in bioresources, agriculture, or indigenous medicine. When a high schooler sees a senior building a successful deep-tech startup or a world-class lab in India, the 'abroad or nothing' mindset begins to crack. I encourage brain circulation, where going abroad is for exposure, but returning is for the mission.
 
 #img(
   path: "/images/dhara2.jpeg",
@@ -71,7 +71,7 @@ BD: You are right. It has become a craze. When a student chooses biology, the so
 
 SS: You mentioned that student interests are shifting. Are there specific trends you have noticed in terms of gender or the topic of science they want to pursue?
 
-BD: There are distinct patterns. For instance, among female students, there remains a strong inclination toward nursing, a field that offers a unique blend of scientific application and social service, even when they choose not to pursue traditional medicine. More broadly, there is a worrying trend toward applied or translational research. Everyone wants to work on the end product, such as the cure, the gadget, the immediate solution. While this is important, it has caused a decline in interest in basic or classical scientific research. We must remember that without basic science, there is nothing to apply. The balance between the two is currently dwindling. I find myself increasingly advocating for the beauty of fundamental research, the kind that seeks to understand the why and how of the universe before rushing to the how can we commercialize this.
+BD: There are distinct patterns. For instance, among female students, there remains a strong inclination toward nursing, a field that offers a unique blend of scientific application and social service, even when they choose not to pursue specialisation in traditional medicine. More broadly, there is a worrying trend toward applied or translational research. Everyone wants to work on the end product, such as the cure, the gadget, the immediate solution. While this is important, it has caused a decline in interest in basic or classical scientific research. We must remember that without basic science, there is nothing to apply. The balance between the two is currently dwindling. I find myself increasingly advocating for the beauty of fundamental research, the kind that seeks to understand the why and how of the universe before rushing to the how can we commercialize this.
 
 SS: Beyond passion and aptitude, there is the undeniable factor of economics. How do you factor a student's background into your guidance?
 
@@ -83,7 +83,7 @@ BD: You have hit on a very important point. In the traditional academic setup, s
 
 SS: That sounds like a massive undertaking. What is the core philosophy you instil in the members of this society?
 
-BD: We focus on the strategy of research. Most students know what to study, but very few know how to build a research career. We expose them to the foundational architecture of scientific inquiry. We emphasize a dual-lens approach, encompassing theoretical depth and practical application. We help them to master the beauty and logic of science, and understand the industrial and entrepreneurial potential of that knowledge. By bringing in biotech companies and industry professionals, we provide entrepreneurship exposure. We want our students to realize that they always do not just have to apply for jobs; they can also be the architects of new scientific ventures. We mould them to appreciate that science is both an art form and a practical tool for societal advancement.
+BD: We focus on the strategy of research. Most students know what to study, but very few know how to build a research career. We expose them to the foundational architecture of scientific inquiry. We emphasise a dual-lens approach, encompassing theoretical depth and practical application. We help them to master the beauty and logic of science, and understand the industrial and entrepreneurial potential of that knowledge. By bringing in biotech companies and industry professionals, we provide entrepreneurship exposure. We want our students to realize that they always do not just have to apply for jobs; they can also be the architects of new scientific ventures. We mould them to appreciate that science is both an art form and a practical tool for societal advancement.
 
 #img(
   path: "/images/dhara4.jpeg",
@@ -96,7 +96,7 @@ BD: We focus on the strategy of research. Most students know what to study, but 
 
 SS: Have you noticed a tangible difference in students who are part of this multidisciplinary environment compared to those in traditional academic paths?
 
-BD: The difference is conceivable and, frankly, quite profound. Most students are taught to pass exams, whereas we guide our students to solve problems. Because we encourage a full spectrum approach, allowing them to explore any topic that ignites their curiosity, their research aptitude develops much faster. They possess a certain research mindfulness. They are not intimidated by complex data or industrial requirements because they have already been in the room with the experts. This exposure gives them a competitive edge, in disguise of a scientific maturity, that sets them apart in both domestic and international arenas.
+BD: The difference is conceivable and, quite frankly, profound. Most students are taught to pass exams, whereas we guide our students to solve problems. Because we encourage a full spectrum approach, allowing them to explore any topic that ignites their curiosity, their research aptitude develops much faster. They possess a certain research mindfulness. They are not intimidated by complex data or industrial requirements because they have already been in the room with the experts. This exposure gives them a competitive edge, in disguise of a scientific maturity, that sets them apart in both domestic and international arenas.
 
 SS: Professor, you have built a remarkable ecosystem through your Society. However, when you gather so many high-achieving minds in one place, do you find that the rat race of the outside world eventually finds its way inside?
 
@@ -123,7 +123,7 @@ SS: That is a stark and concerning figure. Is there any room for optimism within
 
 BD: Exceptions are always there. There are brilliant, tireless professors in government institutions who go above and beyond, often with very little recognition. But they are the outliers. The system, as it stands, does not prioritize the unconventional thinker. This is why our Society is so crucial, it fills the void left by institutional apathy. We provide the mentorship that the mainstream system often ignores. We are not just trying to produce graduates; we are trying to rescue the small percentage of brilliant minds who are stuck in a crowded indifferent system and give them the wings to think beyond the horizon.
 
-You have been vocal about the 90% institutional apathy in government colleges. If you were given the authority to overhaul the Guide - Student relationship, what would be the changes you would advocate?
+SS: You have been vocal about the 90% institutional apathy in government colleges. If you were given the authority to overhaul the Guide - Student relationship, what would be the changes you would advocate?
 
 BD: I would advocate implementation of mandatory mentorship training. Being a brilliant researcher does not spontaneously make one a good guru. Professors must be trained in psychological support, ethics, and career counselling. Also, I would like to introduce comprehensive feedback mechanisms where students can safely and anonymously report bias without fear of career suicide.
 

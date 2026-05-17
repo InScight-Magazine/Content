@@ -144,8 +144,8 @@ set page(
 
   let locator = "article-" + permalinkSuffix
   assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
-  let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
-  let authlist = stack(dir: ltr, grid(columns: (auto, auto), gutter:10pt, align:(left + horizon, left + horizon), text(weight: "bold", stack(dir:ttb, spacing: 1em, ..authors)), stack(dir:ttb, spacing: 1em, ..authorAffiliations)), h(1fr), [📅 #date]) + v(0.1em) + if reviewedBy.len() > 0 and reviewedBy.at(0).len() > 0 [*Reviewed By*: #reviewedBy.join(", ")]
+  let date = [#datetime(..received).display("[month repr:short] [day], [year]")]
+  let authlist = grid(columns:(5fr, 1fr), gutter: 20pt, align: (top + left, top + right), grid(columns: (auto, auto), gutter: 10pt, align: left + top, text(weight: "bold", stack(dir:ttb, spacing: 1em, ..authors)), stack(dir:ttb, spacing: 1em, ..authorAffiliations)), [📅 #date]) + v(0.1em) + if reviewedBy.len() > 0 and reviewedBy.at(0).len() > 0 [*Reviewed By*: #reviewedBy.join(", ")]
   let authInfoForm = ()
   for info in authorInfo {
     authInfoForm.push(eval(info, mode: "markup"))
@@ -175,7 +175,11 @@ set page(
         }
         + auth-profile(authorInfo: authorInfo, authorImage: authorImage, authorImageWidth: authorImageWidth)
         ) +
-      content
+        {
+          show link: set text(fill: header-bg-color)
+          show link: it => underline(it)
+          content
+        }
       + if refsFile != none {
         references(refsFile: refsFile, breakAfter: breakAfter)
       }
@@ -220,7 +224,7 @@ set page(
   }
   {
 
-  let permalinkSuffix = lower(interviewees.at(0))
+  let permalinkSuffix = lower(interviewees.at(0)).replace(" ","-").replace(".","-").replace("--", "-")
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
   let links = createLinks(url: permalink)
   set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
@@ -253,7 +257,7 @@ set page(
     assert(received != none, message:"For item \""+title+"\", a \"received date\" must be provided in the call to section()")
     let date = [#datetime(..received).display("[month repr:long] [day], [year]")]
 
-    let authlist = stack(dir: ltr, grid(columns: (auto, auto), gutter:10pt, align:(left + horizon, left + horizon), text(weight: "bold", stack(dir:ttb, spacing: 1em, ..interviewers)), stack(dir:ttb, spacing: 1em, ..interviewerAffiliations)), h(1fr), [📅 #date]) + v(0.1em)
+    let authlist = [interview by] + linebreak() + stack(dir: ltr, grid(columns: (auto, auto), gutter:10pt, align:(left + horizon, left + horizon), text(weight: "bold", stack(dir:ttb, spacing: 1em, ..interviewers)), stack(dir:ttb, spacing: 1em, ..interviewerAffiliations)), h(1fr), [📅 #date]) + v(0.1em)
     // let authlist = ()
     // for (auth, aff) in interviewers.zip(interviewerAffiliations) {
     //   authlist.push("*"+auth+"*" + " (" + aff + ")")
@@ -261,7 +265,6 @@ set page(
     nonCoverTitle(
       title: title, 
       intro: authlist,
-      // intro: eval("interview by " + authlist.join(",  "), mode:"markup") + linebreak() + date,
     )
     counter(figure.where(kind: image)).update(0)
 
@@ -376,9 +379,9 @@ set page(
     let strokeDef = (thickness: 1.5pt, paint: header-bg-color)
     let boxes = for i in a {
       if counter == 1 and letterCount == 1 {
-        box(square(size: 18pt, stroke: strokeDef, [#text(weight: "medium", size: 13pt, seed.last())]), inset: 0pt, outset: 0pt)
+        box(square(size: 18pt, stroke: strokeDef, align(center + horizon, text(weight: "bold", size: 13pt, seed.last()))), inset: 0pt, outset: 0pt)
       } else if counter == hints.len() and letterCount == a.len() {
-        box(square(size: 18pt, stroke: strokeDef, [#text(weight: "medium", size: 13pt, seed.at(0))]), inset: 0pt, outset: 0pt)
+        box(square(size: 18pt, stroke: strokeDef, align(center + horizon, text(weight: "bold", size: 13pt, seed.at(0)))), inset: 0pt, outset: 0pt)
       } else {
         box(square(size: 18pt, stroke: strokeDef), inset: 0pt, outset: 0pt)
       }

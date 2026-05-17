@@ -34,7 +34,7 @@
 #let received = (month: 02, day: 22, year: 2026)
 // article finalising date
 
-#let abstract = "*Sometimes, the most fun problems to work on are the* ones easiest to visualize. We will go through 2 proofs of a deceptively simple statement conjectured by James Joseph Sylvester in 1893: one of them is a surprisingly short one by Kelly (1986) and the other is a more conceptually dense one by Melchior (1941)."
+#let abstract = "*Sometimes, the most fun problems to work on are the* ones easiest to visualise. We will go through 2 proofs of a deceptively simple statement conjectured by James Joseph Sylvester in 1893: one of them is a surprisingly short one by Kelly (1986) and the other is a more conceptually dense one by Melchior (1941)."
 // String. Abstract/excerpt/pitch for the article. Formatting is possible and encouraged.
 
 #let reviewedBy= ("Debanuj Chatterjee",)
@@ -61,14 +61,14 @@
 )
 
 == Introduction
-Sometimes, the most fun problems to work on are the ones easiest to
+#dcap("Sometimes, the most fun problems to work on are the ones easiest to
 visualize. Especially in geometry, problems like this are everywhere.
 The simplest ideas can generate non-trivial problems, with beautiful
-solutions. \ Thinking about random point arrangements (the basis of
+solutions. Thinking about random point arrangements (the basis of
 incidence geometry; that is, the geometry that deals with sets of points
 and lines through points), one stumbles upon a problem that is easy
 enough to come up with: the following problem, presented by James Joseph
-Sylvester in 1893.
+Sylvester in 1893.")
 
 #importantFill(
   [
@@ -116,15 +116,15 @@ We list 2 standard definitions for
 our proofs:
 
 #importantFill([
-*Definition 1:* Let $P = { n_1\,n_2\,n_3 dots.h }\,n gt.eq 3$ be a set of not all
+*Definition 1:* Let `P = { n_1\,n_2\,n_3 dots.h }\,n gt.eq 3` be a set of not all
 collinear points in the euclidean plane. A line that contains two or
 more points of P is called a connecting line and is #strong[ordinary],
 if it contains exactly two points.], 1
 )
 
 #importantFill([
-*Definition 2:* If a line passes through $n$ points on the plane P, it is called
-#strong[$n$-rich].], 1
+*Definition 2:* If a line passes through `n` points on the plane P, it is called
+#strong[`n`-rich].], 1
 )
 
 We restate #strong[Problem 1] as the following theorem, then proceed to
@@ -139,35 +139,35 @@ with elementary geometrical construction, proving the theorem by
 contradiction.
 
 == Kelly's Proof
-_Proof._ Let $l$ be a line in the plane, such that it passes
-through $n$ points in the plane, and there exists some point $P$ in the
-plane, whose perpendicular distance to $l$ is the minimal perpendicular
+_Proof._ Let `l` be a line in the plane, such that it passes
+through `n` points in the plane, and there exists some point `P` in the
+plane, whose perpendicular distance to `l` is the minimal perpendicular
 distance between any point-line pair in the plane. Note that since we
 have an arrangement of a finite number of points (in the set P) in our
 plane, the set of lines determined by the points in P is also finite. \
 #img(path: "/images/abhratanu2.png", portrait: true, float: false)
 
-Now we draw a perpendicular $P P'$ onto $l$. There must exist at least
-one point on either side of $P$, on $l$. We have two cases:
+Now we draw a perpendicular `P P'` onto `l`. There must exist at least
+one point on either side of `P`, on `l`. We have two cases:
 
-+ $l$ is ordinary.
++ `l` is ordinary.
 
-+ $l$ is not ordinary, it is $n$-rich for some $n > 2 .$
++ `l` is not ordinary, it is `n`-rich for some `n > 2 .`
 
 We assume Case 2 to be true. Then, there must be more than one point on
-the left or right of $P'$. Let us say there are two points $B$ and $C$
-to the right of $P'$, such that $B$ is the first point on the right of
-$P'$, and $C$ is some other point. \
+the left or right of `P'`. Let us say there are two points `B` and `C`
+to the right of `P'`, such that `B` is the first point on the right of
+`P'`, and `C` is some other point. \
 
-Now, we draw a line $m$, through $P C$. We draw a perpendicular from $B$
-onto $m$. Observe that this perpendicular $B B'$, will have a shorter
-length than $P P'$. \ Then we have found a point-pair, namely $B$ and
-$m$, such that the perpendicular distance is even lesser than $P P'$. \
+Now, we draw a line `m`, through `P C`. We draw a perpendicular from `B`
+onto `m`. Observe that this perpendicular `B B'`, will have a shorter
+length than `P P'`. \ Then we have found a point-pair, namely `B` and
+`m`, such that the perpendicular distance is even lesser than `P P'`. \
 
-But, this contradicts our choice of $l$ and $P$ as the closest
+But, this contradicts our choice of `l` and `P` as the closest
 point-line pair.
 
-Hence, Case-1 must be true, and $l$ is proved to be ordinary.~
+Hence, Case-1 must be true, and `l` is proved to be ordinary.~
 
 On first read, this proof felt extremely satisfying to me, like it was
 out of Erdős' "#strong[Book]". But in a way, this proof is "a bit too
@@ -183,20 +183,20 @@ results/concepts we need.
 === Projective Plane
 
 #importantFill([
-*Definition 3:* A #strong[projective plane] $pi$ is a triple $\(bb(P)\,bb(L)\,bb(I)\)$
-such that $bb(P)$ is a set of points, $bb(L)$ is a set of lines and
-$bb(I)$ is an incidence relation generated by the following binding
+*Definition 3:* A #strong[projective plane] `pi` is a triple `\(bb(P)\,bb(L)\,bb(I)\)`
+such that `bb(P)` is a set of points, `bb(L)` is a set of lines and
+`bb(I)` is an incidence relation generated by the following binding
 axioms:
 
-+ $exists$ a unique line in the set $bb(L)$ joining any 2 distinct
-  points from the set $bb(P)$.
++ `exists` a unique line in the set `bb(L)` joining any 2 distinct
+  points from the set `bb(P)`.
 
-+ $exists$ a unique point of intersection of any 2 distinct lines from
-  the set $bb(L)$.
++ `exists` a unique point of intersection of any 2 distinct lines from
+  the set `bb(L)`.
 
-+ $exists$ $gt.eq 3$ non-collinear points in the set $bb(P)$.
++ `exists` `gt.eq 3` non-collinear points in the set `bb(P)`.
 
-+ $exists$ $gt.eq$ 3 points on each line in the set $bb(L)$.
++ `exists` `gt.eq` 3 points on each line in the set `bb(L)`.
 ], 1)
 
 The modification made to our "normal" notions of geometry here, is that
@@ -206,18 +206,18 @@ and on the #strong[line at infinity].
 
 #importantFill([
 *Definition 4:*
-A #strong[affine plane] is a triple $\(bb(P)\,bb(L)\,bb(I)\)$ such that
-$bb(P)$ is a set of points, $bb(L)$ is a set of lines and $bb(I)$ is an
+A #strong[affine plane] is a triple `\(bb(P)\,bb(L)\,bb(I)\)` such that
+`bb(P)` is a set of points, `bb(L)` is a set of lines and `bb(I)` is an
 incidence relation generated by the following binding axioms:
 
-+ Every pair of points in the set $bb(P)$ lies on a unique line in the
-  set $bb(L)$
++ Every pair of points in the set `bb(P)` lies on a unique line in the
+  set `bb(L)`
 
-+ Given any line $l in bb(L)$ and any point $P in bb(P)$ which doesn't
-  lie on $l$, $exists$ a unique line $m in bb(L)$ such that P lies on
-  $m$ and $l inter m = nothing$ (no point lies on both $l$ and $m$).
++ Given any line `l in bb(L)` and any point `P in bb(P)` which doesn't
+  lie on `l`, `exists` a unique line `m in bb(L)` such that P lies on
+  `m` and `l inter m = nothing` (no point lies on both `l` and `m`).
 
-+ $exists$ $3$ non-collinear points in the set $bb(P)$.
++ `exists` `3` non-collinear points in the set `bb(P)`.
 ], 1)
 
 The affine plane represents pretty much what our "normal" notion of
@@ -231,39 +231,39 @@ parallel, in the affine plane.], 1)
 
 #importantFill([
 *Theorem:*
-Let $pi =\(bb(P)\,bb(L)\,bb(I)\)$ be a projective plane. \ Removing any
-line $l_oo$ of $pi$ as well as all points on it, forms a new triple
-$pi^(l_oo)$, such that $pi^(l_oo)$ is an affine plane.], 2)
+Let `pi =\(bb(P)\,bb(L)\,bb(I)\)` be a projective plane. \ Removing any
+line `l_oo` of `pi` as well as all points on it, forms a new triple
+`pi^(l_oo)`, such that `pi^(l_oo)` is an affine plane.], 2)
 
 #emph[Proof.] We verify the 3 points in Definition 4. \ #strong[\1.] Let
-$P\,Q$ be two distinct points, not on $l_oo$. Then, there is a unique
-line $m$ through them in $bb(L)$, by the definition of a projective
-plane. Hence, $m$ is a line in $bb(L) - { l_oo }$ passing through $P$
-and $Q$.
+`P\,Q` be two distinct points, not on `l_oo`. Then, there is a unique
+line `m` through them in `bb(L)`, by the definition of a projective
+plane. Hence, `m` is a line in `bb(L) - { l_oo }` passing through `P`
+and `Q`.
 
-#strong[\2.] Let $m in bb(L) - { l_oo }$ and $P in bb(P)$ be a point not
-on $m$. Then, in the projective plane $pi$, there is a unique line
-passing through $P$ and $I = m inter l_oo$. Then, clearly $n eq.not m$
-and $n$ only intersects $m$ at $I$ in $pi$, so that in the new plane,
-$n$ and $m$ are parallel. The uniqueness of $n$ follows from the fact
-that the line passing through $P$ and $I$ in $pi$ is unique. \
+#strong[\2.] Let `m in bb(L) - { l_oo }` and `P in bb(P)` be a point not
+on `m`. Then, in the projective plane `pi`, there is a unique line
+passing through `P` and `I = m inter l_oo`. Then, clearly `n eq.not m`
+and `n` only intersects `m` at `I` in `pi`, so that in the new plane,
+`n` and `m` are parallel. The uniqueness of `n` follows from the fact
+that the line passing through `P` and `I` in `pi` is unique. \
 
 #strong[\3.] Follows directly from the definition of a projective
 plane.~
 
 #importantFill([
 *Theorem 3.1:*
-#strong[\(Theorem of Duality)] If $bb(T)$ is a valid theorem in the
-projective plane, and $bb(T)'$ is a new statement obtained from $bb(T)$,
+#strong[\(Theorem of Duality)] If `bb(T)` is a valid theorem in the
+projective plane, and `bb(T)'` is a new statement obtained from `bb(T)`,
 by making the following changes:
 
-+ "point" $arrow.l.r$ "line"
++ "point" `arrow.l.r` "line"
 
-+ "collinear" $arrow.l.r$ "concurrent"
++ "collinear" `arrow.l.r` "concurrent"
 
-+ "join" $arrow.l.r$ "intersection"
++ "join" `arrow.l.r` "intersection"
 
-Then, $bb(T)'$ holds for the projective plane.], 2)
+Then, `bb(T)'` holds for the projective plane.], 2)
 
 The proof for Theorem 3.1 is omitted here, but it is quite easy to see
 why it works with an example, as given below. \
@@ -272,27 +272,27 @@ We consider the Theorem of Pappus as an example.
 
 #importantFill([
 *Theorem 3.2:*
-#strong[\(Pappus' Theorem)] Let $l\,l'$ be two lines in the plane. Let
+#strong[\(Pappus' Theorem)] Let `l\,l'` be two lines in the plane. Let
 
-+ $A\,B\,C$ be points of $l$.
++ `A\,B\,C` be points of `l`.
 
-+ $A'\,B'\,C'$ be points of $l'$.
++ `A'\,B'\,C'` be points of `l'`.
 
-+ all these points be distinct from $l inter l'\,$
++ all these points be distinct from `l inter l'\,`
 
-Then, $L = A B' inter A' B\,M = A C' inter A' C\,N = B C' inter B' C$ are
-collinear. \ \ #strong[\(Dual Version of the Theorem)] Let $P\,P'$ be
+Then, `L = A B' inter A' B\,M = A C' inter A' C\,N = B C' inter B' C` are
+collinear. \ \ #strong[\(Dual Version of the Theorem)] Let `P\,P'` be
 two points in the plane. Let
 
-+ $a\,b\,c$ be lines concurrent at P.
++ `a\,b\,c` be lines concurrent at P.
 
-+ $a'\,b'\,c'$ be lines concurrent at P'.
++ `a'\,b'\,c'` be lines concurrent at P'.
 
-+ all these lines be distinct from that joining $P\,P' .$
++ all these lines be distinct from that joining `P\,P' .`
 
-Then, $l$ joining $\(a inter b'\)$ and $\(b inter a'\)$, $n$ joining
-$\(a inter c'\)$ and $\(c inter a'\)$, $m$ joining $\(c inter b'\)$ and
-$\(b inter c'\)$ are concurrent at some point $Q$.], 2)
+Then, `l` joining `\(a inter b'\)` and `\(b inter a'\)`, `n` joining
+`\(a inter c'\)` and `\(c inter a'\)`, `m` joining `\(c inter b'\)` and
+`\(b inter c'\)` are concurrent at some point `Q`.], 2)
 
 Below are the standard, and dual versions of the theorem in a
 diagrammatic form.
@@ -301,8 +301,8 @@ diagrammatic form.
 === Some concepts of Graph Theory
 #importantFill([
 *Definition 6:*
-A #strong[graph] is defined as an object consisting of 2 sets: $V_G$, a
-set of vertices and $V_E$, a set of edges, which are 2 point sets. \ For
+A #strong[graph] is defined as an object consisting of 2 sets: `V_G`, a
+set of vertices and `V_E`, a set of edges, which are 2 point sets. \ For
 example, a graph G can be written as {{P,Q,R,S,T},{{P,Q},{R,S},{Q,T}}}.], 1)
 
 #importantFill([
@@ -312,48 +312,65 @@ connecting at that vertex.], 1)
 
 #importantFill([
 *Definition 8:*
-The #strong[Euler Characteristic $chi$] is defined for graphs, by the
-formula $chi = V - E + F$, where $V$ is the number of vertices, $E$ is
-the number of edges and $F$ is the number of connected regions
+The #strong[Euler Characteristic `chi`] is defined for graphs, by the
+formula `chi = V - E + F`, where `V` is the number of vertices, `E` is
+the number of edges and `F` is the number of connected regions
 (including unbounded regions).], 1)
 
 #strong[We take it as a fact that for projective planes,
-$upright(bold(chi = 1 .))$] The rigorous proof for this is quite
+`upright(bold(chi = 1 .))`] The rigorous proof for this is quite
 convoluted, but we can accept the intuition that for planar graphs, it
-is easy to prove that $chi = 2$ and in the projective plane, the line at
+is easy to prove that `chi = 2` and in the projective plane, the line at
 infinity acts like an "extra edge". \ Proofs of this fact use algebraic
-topology and are out of the scope of this article. #strong[#strong[]]
+topology and are out of the scope of this article.
 
 === Proceeding with the proof
 Now we can finally attempt to understand Melchior's proof, with the
 knowledge of preceding subsections. \
 
 #emph[Proof.] Let P be a finite set of points in a projective plane
-$pi =\(P\,L\,I\)$. Let us consider a #strong[dual collection] of $n$
+`pi =\(P\,L\,I\)`. Let us consider a #strong[dual collection] of `n`
 lines:
 
-$P^(*) = { p^(*) : p in P }$.
+`P^(*) = { p^(*) : p in P }`.
 
-We know from that (for the projective plane) $ V - E + F = 1 . $ Now, by
-duality, we can write $ V = sum_(k = 2)^n N_k\, $ where $N_k$ is the
+We know from that (for the projective plane) 
+``` 
+V - E + F = 1.
+```
+Now, by
+duality, we can write 
+```
+V = sum_(k = 2)^n N_k\,
+```
+where `N_k` is the
 number of lines passing through only k vertices. (By duality, this sums
 up all vertices of degree 2, then of degree 3, and so on till degree
-$n$, which spans all vertices.) \ Also, the degree of a vertex
-$l^(*)\,d\(l^(*)\)$ is twice the number of lines passing through it,
+`n`, which spans all vertices.) \ Also, the degree of a vertex
+`l^(*)\,d\(l^(*)\)` is twice the number of lines passing through it,
 since a line through a point consists two edges for that point. This
-degree (by duality) can be written as $upright(bold(2\|P inter l\|))$,
-which is equal to twice the number of points of $P$ on any line in the
-arrangement. \ Summing over all lines $l$:
-$ 2 E = sum_l d\(l^(*)\)= 2 sum_l\|P inter l\|= 2 sum_(k = 2)^n k N_k $
-Let $M_s$ be the number of faces with $s$ edges. Since every face is
+degree (by duality) can be written as `upright(bold(2\|P inter l\|))`,
+which is equal to twice the number of points of `P` on any line in the
+arrangement. \ Summing over all lines `l`:
+```
+2 E = sum_l d\(l^(*)\)= 2 sum_l\|P inter l\|= 2 sum_(k = 2)^n k N_k.
+```
+Let `M_s` be the number of faces with `s` edges. Since every face is
 bounded by at least 3 edges, and each edge is incident to 2 faces, we
-can write $ 2 E = sum_(s = 3)^n s M_s . $ Combining equations 1,2,3 and
-4, we can find our required result. $ 3 V & = 3 + 3 E - 3 F\
+can write 
+``` 
+2 E = sum_(s = 3)^n s M_s .
+``` 
+Combining equations 1,2,3 and
+4, we can find our required result. 
+```
+3 V & = 3 + 3 E - 3 F\
 upright("or, ") 3 sum_(k = 2)^n N_k & = 3 +\(sum_(k = 2)^n k N_k + sum_(s = 3)^n s M_s\)- 3 sum_(s = 3)^n M_s\
 upright("or, ") 0 & = 3 + sum_(k = 2)^n\(k - 3\)N_k + sum_(s = 3)^n\(s - 3\)M_s\
 upright("or, ") 0 & = 3 - N_2 + sum_(k = 4)^n\(k - 3\)N_k + sum_(s = 4)^n\(s - 3\)M_s\
 upright("or, ") N_2 & = 3 + sum_(k = 4)^n\(k - 3\)N_k + sum_(s = 4)^n\(s - 3\)M_s\
- $ which implies the Sylvester-Gallai Theorem.~
+``` 
+which implies the Sylvester-Gallai Theorem.~
 
 #colbreak()
 Surprisingly enough, this proof not only shows that one ordinary line

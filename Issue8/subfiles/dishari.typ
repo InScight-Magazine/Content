@@ -70,7 +70,7 @@ To know who she was, it helps to begin before the forest, before the chimpanzees
 
 She took an office job in Nairobi, where she met Louis Leakey, a paleoanthropologist studying human evolution. Though he was an academic, he believed that formal training could sometimes limit a person's capacity for observation, binding them to pre-conceived theories. Jane’s lack of a degree, which would later become one of the strongest criticisms against her, was an advantage to him. Leakey trained her in basic research methods and entrusted her with a task to study wild chimpanzees in what would later become Gombe Stream National Park.
 
-#img(path: "/images/dishari2.jpg", position: top, caption: "Jane Goodall with David Graybeard. In Gombe, the first chimp to lose their fear of Jane was Greybeard. This have Jane the opportunity to study the complex world of chimpanzee life. [National Geographic / Jane Goodall Institute]", width: 90%, portrait: false)
+#img(path: "/images/dishari2.jpg", position: top, caption: "Jane Goodall with David Graybeard. In Gombe, the first chimp to lose their fear of Jane was Greybeard. This gave Jane the opportunity to study the complex world of chimpanzee life. [National Geographic / Jane Goodall Institute]", width: 90%, portrait: false)
 == Work at Gombe Stream National Park
 
 Armed with a notebook and binoculars, Jane arrived at the National Park in the 1960s in her 20s. Authorities did not permit solo women in the forest, so her mother agreed to accompany her. There were no sightings of the wild chimps for the first few months. Eventually, the chimps appeared. And once they did, everything changed.
@@ -91,5 +91,5 @@ By the 1980s and 1990s, she gradually shifted from daily field research and move
 == Legacy
 Jane Goodall – a celebrity scientist, a global advocate, an icon. But to understand her legacy, we must focus on her journey and not just the outcome. The journey of a woman who ventured out with a notebook and binoculars to explore the world of free-living chimpanzees. She quietly redefined what it meant to be a field-based researcher in academia. Demonstrated that the previously known boundaries differentiating between human and ape were not rigid. 
 
-Her story also reminds us that science is a method that can be used by people who were not formally trained in their ‘formative’ years to go on to do great work in future, given the right mentorship, generous funding agency, great visual storytelling, and timing. 
+Her story also reminds us that science is a method that can be used by people, who were not formally trained in their ‘formative’ years, to go on to do great work in future, given the right mentorship, generous funding agency, great visual storytelling, and timing. 
 #img(path: "/images/dishari3.jpg", position: top, caption: "The Jane Goodall Institute is a global  organization founded by Dr. Jane Goodall in 1977. It works in 6 African countries and supports the rehabilitation of chimpanzees, alongside conservation projects. [Jane Goodall Institute]", width: 90%, portrait: false)

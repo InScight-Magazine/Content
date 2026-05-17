@@ -15,22 +15,26 @@
   // NECESSARY FOR THE TEMPLATE THAT YOU NOT PASS ANY TITLE,
   // in order to disntinguish this from the foreword section,
   // that uses the same function.
-  images: ("../covers/example.jpg",),
+  images: ("../covers/baibhav.svg", "../covers/dhara.svg"),
   // Array of image paths that will be dislayed alongside the writeup
-  captions: ([Regulatory T cells are a unique subset of cells that play a crucial role in suppressing harmful autoreactive T cells in the body. #pageLink("interview", [Read the rest in this article.])],[#pageLink("article", [Sury  offers]), a panoramic journey through Diophantine equations, weaving together history, puzzles, deep theorems, and modern breakthroughs.]),
+  captions: ([New research focused on the boundary between the ancient Shillong Plateau and the soft, deep sediments of the Bengal Basin has revealed a mechanism for earthquake wave amplification that is so severe it could multiply shake intensity by two to five times in urban areas. #pageLink("karmakar", [Read the rest in this article.])],[*Prof. Bikram Dhara discusses the evolving mindset of* Indian science students, shaped by career pressures and global aspirations. #pageLink("dhara", [Read the rest in this interview.])]),
   // array of cations for the above images
-  widths: (5em,),
+  widths: (70%, 70%),
   // array of widths for the above images
   // if left empty, images will take up entirety of right column
-  author: [Puppala Ainesh Kumar],
+  author: [Janusri D],
   affiliation: [Editor at _InScight_, IISER Kolkata],
   // full name and affiliation of editor who wrote this
 )
 
-The initiative taken by our young minds to publish the Science Magazine _InScight_ to inculcate interests among the people in academic community to have better understanding in different interesting topics with the help of people of varied interests in science disciplines gives me immense pleasure to see that it has completed one year of its successful journey starting in January 2025. Now, in January 2026 issue, _InScight_ has brought to you the discussion of science in different disciplines including Mathematics which, in my opinion, is not a science rather a tool for developing science. This issue includes discussion on the topic of 2025 Nobel Prize in Medicine for discoveries on peripheral immune tolerance, opening a new field of research for treatments of auto-immune diseases. A discussion on Diophantine Equations, connecting Recreational Mathematics to Number Theory, will give ample scope of thinking to the mathematics lovers. You will also get discussion on prime numbers, showing how irregularities in practice follow statistical regularity. 
+Science does not confine itself to laboratories or lecture halls; it lives in forests, fault lines, and the restless minds of those who dare to ask uncomfortable questions.
 
-If you are truly motivated towards something, no obstacles can stop you reaching the destination, as can be seen through an inspiring article on how Nikolai Koshliakov developed Generalized Zeta Function from a Soviet Labour Camp. The discussion on how Niels Bohr’s work on Quantum Revolution was inspired from Bohr-Van Leeuwen theorem which raises a fundamental paradox, is an article worth reading. This issue also gives some very interesting mathematics quiz along with their correct answers. Along with some more interesting topics, one will get a wonderful discussion, through a comic, on how Dr. Subhash Mukhopadhyay was deprived of his recognition for his discovery on IVF technique, leading to his untimely demise.
+Across the world, research budgets are being slashed, grants are drying up, and scientists are being asked to do more with less. The question of who funds science, and why, has never felt more political. And yet, science persists, in forests, in fault lines, in the quiet determination of researchers who refuse to stop asking questions. It persists in magazines like this one, built not on funding or politics, but on curiosity. 
 
-The discussions are not only by the members of the IISER Kolkata community but also by the students and the faculty members of different premier institutions, showing the gain in popularity of _InScight_ in just one year period. It is mostly observed that the people at large do not think out of the traditional way because of lack of time due to different obligations, or because of lack of interest. However, there is a necessity of out-of-the-box thinking in order to promote science towards its proper utilization in human interest. You will all agree with me that any science without mathematics works like a fish out of water, and hence understanding and development of mathematics for solving different real-life problems is a must. 
+In this issue, we bring to you, a tribute to Jane Goodall, who spent decades amongst the chimpanzees of Gombe and redefined what it means to observe, to empathise, and to advocate. Her legacy continues to inspire many of us.
 
-Through this platform we invite students, researchers, educators and all interested citizens to get involved in different scientific discussions, and _InScight_, I am confident, will serve the purpose of bringing different domains of science under the same umbrella to handle any issue of this universe by providing a platform for critical discussion and analyses of different problems. I wish _InScight_ to keep its upward journey through the radder of success with time, as it has been doing for last one year.
+From the restless earth beneath our feet to the abstract world of mathematics, researchers shed light on how the Bengal Basin shapes earthquake risk in one of the world's most crowded regions. A sleep hormone, long overlooked beyond its role in regulating sleep, emerges as a promising treatment candidate for Wilson disease. And we journey through finite points and infinity lines.
+
+Perhaps the most compelling piece is our conversation with Professor Bikram Dhara, who speaks with candour about the dilemmas facing Indian research today, brain drain, systemic bias, and what he calls the "supersaturation trap." It is a conversation that lingers long after you've finished reading. We also venture to the crossroads of theoretical physics and mathematics, where the boundaries between disciplines blur and some of the deepest questions take shape.
+
+And because curiosity should also be fun, we haven't forgotten to leave you with a smile. Flip to the end for our comics and games, a small reminder that the scientific mind deserves to play as much as it ponders. This is a diverse issue, but its pieces share a common spirit, the refusal to accept the world at face value, and the joy of exploring what lies beneath it. 

@@ -10,26 +10,32 @@
 
 #show: foreword.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  title: "Reflections on a Growing Scientific Dialogue",
+  title: "Interdisciplinary Frontiers in Modern Science",
   // appropriate title that captures the spirit of the writeup.
   // passing some title is mandatory, otherwise the template
   // will interpret this as the "Editor's word" section instead.
-  images: ("../covers/example.jpg", "../covers/example2.jpg"),
+  images: ("../covers/games.jpeg", "../covers/dishari.svg"),
   // Array of image paths that will be dislayed alongside the writeup
-  captions: ([From a Soviet labor camp, Nikolai Koshliakov developed a striking generalization of the Riemann zeta function under conditions that defy imagination. #pageLink("interview", [Read more.])],[#pageLink("article", [In this interview]), Prof. Munshi reflects on a life shaped by mathematics—from early fascination with symbols to research at Princeton and a return to ISI Kolkata as a faculty member.]),
+  captions: ([Enjoy our #pageLink("quiz", [pop quiz]) on works of science fiction.], [#pageLink("dishari", [In her article]), Dishari traces how Jane Goodall, a young woman with no formal scientific training, walked into Gombe with a notebook and binoculars and ended up overturning one of humanity’s most cherished assumptions — that tool-making, complex social life, and culture belonged to us alone.]),
   // array of cations for the above images
-  widths: (19em, 19em),
+  widths: (100%, 100%),
   // array of widths for the above images.
   // if left empty, images will take up entirety of right column
-  author: [Prof. Asok K. Nanda],
-  affiliation: [Department of Mathemetical Sciences, IISER Kolkata],
+  author: [Prof. Kajaljyoti Borah],
+  affiliation: [Department of Earth Sciences, IISER Kolkata],
   // full name and affiliation of faculty member who wrote this
 )
 
-The initiative taken by our young minds to publish the Science Magazine _InScight_ to inculcate interests among the people in academic community to have better understanding in different interesting topics with the help of people of varied interests in science disciplines gives me immense pleasure to see that it has completed one year of its successful journey starting in January 2025. Now, in January 2026 issue, _InScight_ has brought to you the discussion of science in different disciplines including Mathematics which, in my opinion, is not a science rather a tool for developing science. This issue includes discussion on the topic of 2025 Nobel Prize in Medicine for discoveries on peripheral immune tolerance, opening a new field of research for treatments of auto-immune diseases. A discussion on Diophantine Equations, connecting Recreational Mathematics to Number Theory, will give ample scope of thinking to the mathematics lovers. You will also get discussion on prime numbers, showing how irregularities in practice follow statistical regularity. 
+The field of science has witnessed significant advancements in recent years driven by diverse disciplines, varied perspectives and lived realities, where insights from one domain illuminate challenges in another. This issue of InScight brings together a collection of studies that explore environmental consciousness, biological sciences, geophysics, and mathematical theory. Together they reflect the growing importance of interconnecting modern research.
 
-If you are truly motivated towards something, no obstacles can stop you reaching the destination, as can be seen through an inspiring article on how Nikolai Koshliakov developed Generalized Zeta Function from a Soviet Labour Camp. The discussion on how Niels Bohr’s work on Quantum Revolution was inspired from Bohr-Van Leeuwen theorem which raises a fundamental paradox, is an article worth reading. This issue also gives some very interesting mathematics quiz along with their correct answers. Along with some more interesting topics, one will get a wonderful discussion, through a comic, on how Dr. Subhash Mukhopadhyay was deprived of his recognition for his discovery on IVF technique, leading to his untimely demise.
+It begins by reflecting on the enduring legacy of Dr. Jane Goodall, whose work serves as a reminder that science is not only about discovery but also about responsibility towards protecting biodiversity and studying human evolution through basic research. The world laments the loss of such a selfless human.
 
-The discussions are not only by the members of the IISER Kolkata community but also by the students and the faculty members of different premier institutions, showing the gain in popularity of _InScight_ in just one year period. It is mostly observed that the people at large do not think out of the traditional way because of lack of time due to different obligations, or because of lack of interest. However, there is a necessity of out-of-the-box thinking in order to promote science towards its proper utilization in human interest. You will all agree with me that any science without mathematics works like a fish out of water, and hence understanding and development of mathematics for solving different real-life problems is a must. 
+Natural hazards always remain a pressing concern. The Bengal Basin is seismically one of the most vulnerable regions due to high density of human population and presence of thick sediments. This amplifies the seismic waves generated even from small magnitude earthquakes. The most recent 21st November 2025, Mw5.4 earthquake that occurred 25 km from Dhaka took lives of 10 people in the region. The study on seismic wave amplification in the Bengal Basin will be helpful for seismic hazard assessment in the region.
 
-Through this platform we invite students, researchers, educators and all interested citizens to get involved in different scientific discussions, and _InScight_, I am confident, will serve the purpose of bringing different domains of science under the same umbrella to handle any issue of this universe by providing a platform for critical discussion and analyses of different problems. I wish _InScight_ to keep its upward journey through the radder of success with time, as it has been doing for last one year.
+Complementing seismic hazards, the present issue is an exploration of interdisciplinary medical research, where the role of sleep-related hormones is examined as a potential candidate in understanding Wilson’s disease. It highlights how innovative pathways can be designed to approach complex disorders.
+
+This issue is further enriched by a mathematical exploration of finite points, infinite lines, and elegant proofs which remind us that the real beauty of mathematics lies in its simplicity and logical thoughts.
+	
+In addition, Prof. Bikram Dhara has highlighted the phenomenon of brain drain, wherein talented brains migrate abroad in search of better opportunities. This has raised an alarm about how India can retain and empower its brightest minds. Also, the bridge connecting the elegant symmetries of particle physics to the profound abstractions of topology and algebra has been wonderfully presented by Dr. Sridip Pal. It not only challenges our intellect but also the very way we perceive the universe.
+	
+This edition not only showcases cutting-edge research but also catalyze reflection on policies, practices and interdisciplinary research. I sincerely appreciate the authors for their valuable contributions, as well as the reviewers and editorial team for their dedication and rigorous efforts. Hopefully, this issue stimulates further research and foster deeper understanding in the related fields.

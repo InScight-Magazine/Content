@@ -89,9 +89,9 @@ The key scientific problem, and the source of the amplified shaking, is the impe
 
 This sharp change in velocity, specifically the lower shear-wave velocities (Vs) in the basin sediments, causes the seismic energy to be concentrated and amplified. In addition, several other mechanisms can further enhance seismic wave amplification in sedimentary basins, including (i) resonance effects when the incoming wave frequency matches the natural frequency of the sediment column, (ii) basin geometry and edge effects, where waves are reflected and focused within the basin, leading to localized “hot spots” of stronger shaking, and (iii) wave trapping and multiple reflections between the sediment-bedrock interface and the free surface, which can prolong shaking duration and increase surface motion. This effect is particularly pronounced for surface waves, which travel along the Earth's surface and carry a majority of the destructive energy, especially at lower frequencies.
 
-== Methodology: Shear Velocity Profiles and Modelling Techniques
+== Methodology: Shear Velocity Profiles and Modeling Techniques
 
-To analyse the challenges posed by seismic amplification in this region, we employed a comprehensive approach using one-dimensional shear velocity profiles derived from various sites within the Bengal Basin and its adjacent crystalline terrains. Our study employed two main modelling approaches: semi-analytical simulations of surface wave propagation using SWRT (Surface Wave Reflection and Transmission) [4], and full waveform modelling with SPECFEM2D [5]. The outcomes from both methods were then compared with real seismic observation dataset to validate the results.
+To analyse the challenges posed by seismic amplification in this region, we employed a comprehensive approach using one-dimensional shear velocity profiles derived from various sites within the Bengal Basin and its adjacent crystalline terrains. Our study employed two main modeling approaches: semi-analytical simulations of surface wave propagation using SWRT (Surface Wave Reflection and Transmission) [4], and full waveform modeling with SPECFEM2D [5]. The outcomes from both methods were then compared with real seismic observation dataset to validate the results.
 
 #img(path: "/images/baibhav3.svg", caption: "Workflow for surface-wave amplification analysis showing the main steps: development of 1D shear-wave velocity (Vs) profiles, SWRT-based modeling, and numerical validation using SPECFEM2D simulations", width: 100%, portrait: true, position: top)
 
@@ -105,7 +105,7 @@ The SWRT results were then validated using SPECFEM2D, a more computationally int
 #img(path: "/images/baibhav4.svg", caption: "S-wave Velocity Profiles. This figure shows the S-wave (shear-wave) velocity variation with depth for two distinct regions: Medium 1 representing the Shillong area, and Medium 2 representing the Agartala area.", width: 100%, portrait: true, position: bottom)
 == The Terrifying Forecast: Two to Five Times Higher Amplitudes
 
-The predictions from both independent modelling techniques were starkly consistent:
+The predictions from both independent modeling techniques were starkly consistent:
 Both SWRT and SPECFEM2D predict 2-5 times higher amplitudes in the Bengal Basin sediments than in the adjacent crystalline terrain.
 
 This significant amplification occurs across a crucial frequency band: 0.01-0.15 Hz. This low-frequency range is particularly dangerous because it corresponds to the natural resonant frequencies of tall structures like high-rise buildings and bridges [6]. The amplified shaking at these frequencies can drive buildings into destructive resonance, magnifying structural damage far beyond what would be expected based solely on the earthquake's magnitude.
@@ -116,7 +116,7 @@ Crucially, these computational predictions were not just theoretical. We compare
 
 == Future Directions and Importance of the Study
 
-#img(path: "/images/baibhav5.svg", caption: "Predicted amplification of love wave", width: 100%)
+#img(path: "/images/baibhav5.svg", caption: "Predicted amplification of love wave for different modes using SWRT.", width: 100%)
 Our study is just the beginning. We are committed to expanding our research by analysing a more extensive dataset, focusing on both the vertical and radial components of seismic waves. By further refining our understanding of wave propagation in this dynamic environment, we hope to develop more robust models for predicting seismic hazards in megacities situated on complex sedimentary basins.
 
 The implications of our findings are immense; not only for the affected regions but also for the global community. As urban populations continue to grow and megacities emerge in geologically diverse areas, understanding the effects of lateral heterogeneities and sedimentary basins becomes paramount. Building resilience in these urban structures requires meticulous seismic hazard assessments informed by accurate geophysical models.
