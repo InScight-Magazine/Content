@@ -4,4 +4,5 @@
   issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/linkedList.yml",
   title: "Linked List --- General Science Edition",
+  author: [*Swarnendu Saha* [20MS, IISER Kolkata]],
 )

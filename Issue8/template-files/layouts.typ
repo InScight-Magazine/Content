@@ -150,7 +150,19 @@ set page(
   for info in authorInfo {
     authInfoForm.push(eval(info, mode: "markup"))
   }
-  [#metadata((title: title, authors: authors, authorAffiliations: authorAffiliations, abstract: eval(abstract, mode: "markup"), coverImage: coverImage, authorInfo: authInfoForm, authorImage: authorImage, refsFile: refsFile, reviewedBy: reviewedBy, received: received, permalink: permalink, type: "article")) #label("vars")]
+  [#metadata((
+    title: title,
+    authors: authors,
+    authorAffiliations: authorAffiliations,
+    abstract: eval(abstract, mode: "markup"),
+    coverImage: coverImage,
+    authorInfo: authInfoForm,
+    authorImage: authorImage,
+    refsFile: refsFile,
+    reviewedBy: reviewedBy,
+    received: received,
+    permalink: permalink,
+    type: "article")) #label("vars")]
   [#metadata(content.fields()) #label("content")]
   {
     show raw.where(block: false): it => text(size: 1.3em, eval(it.text, mode: "math"))
@@ -305,6 +317,7 @@ set page(
 
 #let quiz(
   issueDetails: (),
+  author: none,
   file: none,
   title: none,
   intro: none,
@@ -355,8 +368,18 @@ set page(
   let links = createLinks(url: permalink)
   set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
 
+  [#metadata((
+    title: title,
+    authors: author,
+    permalink: permalink,
+    file: file,
+    type: "quiz",
+  ),) #label("vars")
+  ]
+  [#metadata([].fields()) #label("content")]
   nonCoverTitle(
     title: title, 
+    intro: author,
     locator: "quiz"
   )
   content
@@ -364,6 +387,7 @@ set page(
 
 #let linkedlist(
   issueDetails: none,
+  author: none,
   file: none,
   title: none,
   intro: none,
@@ -415,8 +439,18 @@ set page(
     #let links = createLinks(url: permalink)
     #set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
 
+  [#metadata((
+    title: title,
+    authors: author,
+    permalink: permalink,
+    file: file,
+    type: "linkedlist",
+  ),) #label("vars")
+  ]
+  [#metadata([].fields()) #label("content")]
     #nonCoverTitle(
       title: title, 
+      intro: author,
       locator: permalinkSuffix,
     )
 
@@ -439,6 +473,7 @@ set page(
 
 #let crossword(
   issueDetails: none,
+  author: none,
   file: none,
   title: none,
   intro: none,
@@ -483,9 +518,18 @@ set page(
     #let links = createLinks(url: permalink)
     #set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
 
+  [#metadata((
+    title: title,
+    authors: author,
+    permalink: permalink,
+    file: file,
+    type: "crossword",
+  ),) #label("vars")
+  ]
+  [#metadata([].fields()) #label("content")]
     #nonCoverTitle(
       title: title, 
-      intro: intro,
+      intro: author + v(1em) + intro,
       locator: permalinkSuffix,
     )
     #align(center, crossword)
@@ -544,6 +588,15 @@ set page(
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: "digest")
   let links = createLinks(url: permalink)
 
+  [#metadata((
+    title: title,
+    permalink: permalink,
+    coverImage: coverImage,
+    file: file,
+    type: "digest",
+  ),) #label("vars")
+  ]
+  [#metadata([].fields()) #label("content")]
   set page(
     header: createTitleHeader(title: title, shortLink: links.at("short"), issueDetails: issueDetails)
   )
@@ -697,12 +750,21 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
     }
   }
 
-  let permalinkSuffix = "foreword"
-  if title.contains("editor") {
-    permalinkSuffix = "editor"
-  }
+  let permalinkSuffix = type
+
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
   let links = createLinks(url: permalink)
+  [#metadata((
+    title: title,
+    authors: author,
+    authorAffiliations: affiliation,
+    permalink: permalink,
+    type: type,
+    abstract: intro,
+    images: images,
+    captions: captions)
+  ) #label("vars")]
+  [#metadata(content.fields()) #label("content")]
   set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
 
   nonCoverTitle(
@@ -728,17 +790,30 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
 #let comic(
   title: none,
   coverImage: none,
+  authors: none,
+  authorAffiliations: none,
   authorInfo: none,
   authorImage: none,
   locator: none,
   comic_images: (),
 ) = {
+
+  [#metadata((
+    title: title,
+    authors: authors,
+    authorAffiliations: authorAffiliations,
+    authorInfo: authorInfo,
+    coverImage: coverImage,
+    authorImage: authorImage,
+    pages: comic_images,
+    permalink: ("comic-" + authors.join("-") + "/").replace(" ", "-"),
+    type: "comic")) #label("vars")]
+  [#metadata([].fields()) #label("content")]
   cover(
     title: title,
     coverImage: coverImage,
     locator: locator,
   )
-
 
   pagebreak()
   for img in comic_images [

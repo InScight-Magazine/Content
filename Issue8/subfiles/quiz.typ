@@ -4,5 +4,6 @@
   issueDetails: yaml("/dataFiles/issueData.yml"),
   file: "/dataFiles/quiz.yml",
   title: "Pop Quiz --- For The Science Fiction Enjoyers",
+  author: [*Abhirup Mukherjee* [DPS, IISER Kolkata]],
 )
 

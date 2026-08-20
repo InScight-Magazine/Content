@@ -271,21 +271,21 @@
 }
 
 #let auth-profile(
-  authorInfo: none,
+  authorInfo: (),
   authorImage: "",
   authorImageWidth: 100%,
 ) = {
 
-    if type(authorInfo) == str {
-      authorInfo = (authorInfo,)
-    }
+    // if type(authorInfo) == str {
+    //   authorInfo = (authorInfo,)
+    // }
     align(center, image(authorImage, width: authorImageWidth))
     { 
       set text(size: 1.1em, font: author-font)
       for info in authorInfo {
         show strong: set text(weight: "black")
         v(0.5em)
-        [#align(left, emph(eval(info, mode: "markup")))]
+        [#align(left, emph(info))]
         parbreak()
       }
     }

@@ -3,7 +3,7 @@ questions:
   - "In The Invisible Man, Griffin becomes invisible by changing his body's \"refractive index\" to match what?"
   - "In the 1999 film The Matrix, how do freed minds leave the simulation and return to the real world?"
   - "In the movie Interstellar, the protagonists visit a planet near a supermassive black hole where time passes much slower than on Earth. What real physics concept is this based on?"
-  - "Isaac Asimov’s \"Three Laws of Robotics\" are designed to protect humans. According to the First Law, a robot may not injure a human or, through \_\_\_\_\_, allow a human to come to harm."
+  - "Isaac Asimov’s \"Three Laws of Robotics\" are designed to protect humans. According to the First Law, a robot may not injure a human or, through \\_\\_\\_\\_, allow a human to come to harm."
   - "In the Star Wars universe, Han Solo famously claims the Millennium Falcon made the \"Kessel Run\" in less than 12 parsecs. In real-world physics, what does a parsec measure?"
   - "Jules Verne’s Twenty Thousand Leagues Under the Seas featured the Nautilus, a highly advanced submarine. What was its primary power source, considered \"futuristic\" in 1870?"
   - "In Mary Shelley's Frankenstein, Victor uses a specific scientific \"spark\" to animate his creature. What 18th-century scientific theory inspired this?"
@@ -47,7 +47,7 @@ options:
     - Nuclear Fusion
   -
     - Alchemy
-    - Galvanism (Electricity)
+    - Galvanism
     - Phrenology
     - Atomic Theory
   -
@@ -75,12 +75,12 @@ images:
 
 answers:
   - 2
-  - 2
+  - 3
   - 1
   - 2
+  - 4
   - 3
   - 2
-  - 3
   - 2
+  - 1
   - 3
-  - 2

@@ -19,6 +19,6 @@ Through this platform we invite students, researchers, educators and all interes
   captions: ([From a Soviet labor camp, Nikolai Koshliakov developed a striking generalization of the Riemann zeta function under conditions that defy imagination. #pageLink("atul", [Read more.])],[#pageLink("ritabrata", [In this interview]), Prof. Munshi reflects on a life shaped by mathematics—from early fascination with symbols to research at Princeton and a return to ISI Kolkata as a faculty member.]),
   widths: (19em, 19em),
   author: [Prof. Asok K. Nanda],
-  affiliation: [Department of Mathemetical Sciences, IISER Kolkata],
+  affiliation: [Department of Mathematics and Statistics, IISER Kolkata],
   type: "foreword"
 )
