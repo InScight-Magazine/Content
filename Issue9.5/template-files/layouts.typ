@@ -379,6 +379,15 @@ set page(
     counter += 1
   } + v(2em) + emph[Answers can be found at the end of the issue. For an interactive version of the quiz, check out our #link(createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: "quiz"))[*#underline[website]*]#label("quiz")]
 
+  let counter = 1
+  let solution = while str(counter) in data {
+    let question = data.at(str(counter)).at("q")
+    let options = data.at(str(counter)).o
+    let answer = options.at(data.at(str(counter)).at("a") - 1)
+    [#counter. #eval(question, mode: "markup"): *#answer*] + v(-0.3em)
+    counter += 1
+  }
+
   let permalinkSuffix = "quiz"
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
   let links = createLinks(url: permalink)
@@ -393,6 +402,12 @@ set page(
   ),) #label("vars")
   ]
   [#metadata([].fields()) #label("content")]
+  [#metadata((
+    type: "quiz",
+    title: "Quiz",
+    solution: solution,
+  ),) #label("solution")
+  ]
   nonCoverTitle(
     title: title, 
     intro: intro + v(1em) + author,
@@ -443,6 +458,19 @@ set page(
     ]
     counter += 1
   }
+  let solution = for (h, a) in hints.zip(answers) {
+    let letterCount = 1
+    let strokeDef = (thickness: 1.5pt, paint: header-bg-color)
+    let boxes = for i in a {
+      box(square(size: 18pt, stroke: strokeDef, align(center + horizon, text(weight: "bold", size: 13pt, [#i]))), inset: 0pt, outset: 0pt)
+    }
+    [
+      #set par(first-line-indent: 0em)
+      #boxes
+      #linebreak() 
+      #v(-1.2em)
+    ]
+  } + linebreak()
   let permalinkSuffix = "linkedlist"
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
   let links = createLinks(url: permalink)
@@ -455,6 +483,12 @@ set page(
   ),) #label("vars")
   ]
   [#metadata([].fields()) #label("content")]
+  [#metadata((
+    type: "linkedlist",
+    title: "Linked List",
+    solution: solution,
+  ),) #label("solution")
+  ]
   [
 
     #set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
@@ -501,7 +535,6 @@ set page(
 
   let down = [
     == Down
-    #linebreak()
     #for (k, v) in data.down.pairs().sorted(key: p=>p.at(1).at(0)) [
       #enum.item(locations.position(i => i == v.at(0)) + 1)[#v.at(1) (#k.len())]
     ]
@@ -509,12 +542,13 @@ set page(
 
   let across = [
     == Across
-    #linebreak()
     #for (k, v) in data.across.pairs().sorted(key: p=>p.at(1).at(0)) [
       #enum.item(locations.position(i => i == v.at(0)) + 1)[#v.at(1) (#k.len())]
     ]
   ]
-  let crossword = gen_crossword(file)
+  let genData = generateCrossword(file)
+  let crossword = genData.crossword
+  let solution = genData.solution
   let hints = grid(
     columns: (1fr, 1fr),
     gutter: 1em,
@@ -531,6 +565,12 @@ set page(
     file: file,
     type: "crossword",
   ),) #label("vars")
+  ]
+  [#metadata((
+    type: "crossword",
+    title: "Crossword",
+    solution: solution,
+  ),) #label("solution")
   ]
   [#metadata([].fields()) #label("content")]
   [
@@ -887,4 +927,33 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
   auth-profile(authorInfo: authorInfo, authorImage: authorImage)
   + v(1fr)
   ))
+}
+
+#let lastpage(
+  issueDetails: none,
+) = {
+  let issueDetails = yaml(issueDetails)
+  let title = "Solutions"
+  let permalinkSuffix = "solutions"
+  let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+  let links = createLinks(url: permalink)
+  set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+  nonCoverTitle(
+        title: title, 
+        locator: permalinkSuffix,
+    )
+
+  set par(justify: false)
+
+  context {
+      let col = category-colors.at("rest")
+      let locResult = none
+      for result in query(<solution>) [
+        #block(breakable: false)[
+          == #result.value.title
+          #result.value.solution
+        ]
+      ]
+    }
 }

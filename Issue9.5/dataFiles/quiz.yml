@@ -1,86 +1,86 @@
-title: "3 Truths, 1 Lie: Science Quiz"
-intro: "Guess Which Scientific-Sounding Statement Is A Myth"
-author: "*Abhirup Mukherjee* [DPS, IISER Kolkata]"
+title: "Science Quiz: Indian Women Scientists"
+intro: "How well do you know the women who helped shape Indian science?"
+author: "*Swarnendu Saha* [IIT Bombay]"
 1:
-  q: "Which of the following is a myth?"
+  q: "Which Indian botanist was one of the first Indian women to obtain a PhD in a scientific field abroad and is particularly known for her work on plant cytogenetics, chromosome studies, and sugarcane breeding?"
   o:
-    - "Lightning can strike the same place more than once."
-    - "The Great Wall of China is visible from the Moon with the naked eye."
-    - "Sharks existed before trees."
-    - "A day on Venus is longer than its year."
+    - Anna Mani
+    - E. K. Janaki Ammal
+    - Asima Chatterjee
+    - Kamal Ranadive
   a: 2
 2:
-  q: "Which of the following is a myth?"
+  q: "Asima Chatterjee made major contributions to Indian medicinal chemistry. Her research included the chemistry of alkaloids and compounds derived from which natural sources?"
   o:
-    - "Your fingernails continue growing after death."
-    - "Some fungi can turn ants into 'zombies'."
-    - "There are lakes beneath Antarctica's ice."
-    - "Water can boil at room temperature."
+    - Plants
+    - Marine organisms
+    - Meteorites
+    - Fossil fuels
   a: 1
+  i: "/images/quiz1.jpg"
 3:
-  q: "Which of the following is a myth?"
+  q: "Anna Mani is particularly associated with the development and standardisation of meteorological instruments in India. Which of the following was also a major area of her scientific work?"
   o:
-    - "Bananas are naturally slightly radioactive."
-    - "Honey can remain edible for thousands of years."
-    - "Goldfish have a memory of only three seconds."
-    - "Octopuses have three hearts."
-  a: 3
-  i: "/images/quiz-honey-ttb.jpg"
+    - Atmospheric ozone
+    - Nuclear fission
+    - Quantum computing
+    - Molecular genetics
+  a: 1
 4:
-  q: "Which of the following is a myth?"
+  q: "Kamal Ranadive is remembered particularly for her pioneering research into:"
   o:
-    - "The human body contains enough carbon to make thousands of pencil leads."
-    - "Glass is actually a liquid that flows over time."
-    - "The Eiffel Tower becomes taller in summer."
-    - "A teaspoon of neutron star matter would weigh billions of tonnes."
-  a: 2
+    - Cancer and the relationship between cancer and viruses
+    - Gravitational waves
+    - Indian monsoon dynamics
+    - Semiconductor physics
+  a: 1
 5:
-  q: "Which of the following is a myth?"
+  q: "Which Indian woman physicist is particularly known for her contributions to particle physics, including work related to the Higgs boson and physics beyond the Standard Model?"
   o:
-    - "There are more possible chess games than atoms in the observable universe."
-    - "Some turtles can breathe through their rear ends."
-    - "Camels store water in their humps."
-    - "Saturn would float in a sufficiently large ocean."
-  a: 3
+    - Rohini Godbole
+    - Tessy Thomas
+    - Rajeshwari Chatterjee
+    - Anna Mani
+  a: 1
 7:
-  q: "Which of the following is a myth?"
+  q: "Rajeshwari Chatterjee was a pioneer in which field, becoming one of India's earliest women engineers to work extensively in it?"
   o:
-    - "Hot water can sometimes freeze faster than cold water."
-    - "Humans share about half of their DNA with bananas."
-    - "A bolt of lightning is hotter than the surface of the Sun."
-    - "Humans only use 10% of their brains."
-  a: 4
-  i: "/images/quiz-dna-ttb.jpg"
+    - Microwave engineering
+    - Biochemical engineering
+    - Nuclear medicine
+    - Agricultural engineering
+  a: 1
 6:
-  q: "Which of the following is a myth?"
+  q: "Tessy Thomas is popularly associated with which area of Indian scientific and technological development?"
   o:
-    - "Wombat droppings are cube-shaped."
-    - "The Moon is slowly moving away from Earth."
-    - "Bulls become angry when they see the colour red."
-    - "Some metals can 'remember' their original shape."
-  a: 3
+    - Missile technology
+    - Vaccine development
+    - Space telescope design
+    - Agricultural genetics
+  a: 1
+  i: "/images/quiz2.png"
 8:
-  q: "Which of the following is a myth?"
+  q: "Which scientist's work involved polyploidy and chromosome studies in plants, and whose research contributed to the development of improved varieties of crops such as sugarcane?"
   o:
-    - "A cloud can weigh hundreds of tonnes."
-    - "The Coriolis effect determines the direction water drains in household sinks."
-    - "The International Space Station experiences about 16 sunrises each day."
-    - "A blue whale's heart can weigh as much as a small car."
+    - Kamal Ranadive
+    - Janaki Ammal
+    - Rohini Godbole
+    - Anna Mani
   a: 2
 10:
-  q: "Which of the following is a myth?"
+  q: "Who am I? I worked in a field where women were relatively uncommon when I began my career. My research involved plant-derived compounds, particularly alkaloids, and I investigated their potential medicinal applications. I became one of India's most prominent women organic chemists."
   o:
-    - "There are more trees on Earth than stars in the Milky Way."
-    - "An ostrich buries its head in the sand when frightened."
-    - "Jellyfish have existed longer than dinosaurs."
-    - "Some bacteria can survive in nuclear reactors."
+    - Janaki Ammal
+    - Asima Chatterjee
+    - Anna Mani
+    - Kamal Ranadive
   a: 2
-  i: "/images/quiz-ostrich-ttb.jpg"
+  i: "/images/quiz3.jpg"
 9:
-  q: "Which of the following is a myth?"
+  q: "Which scientist among the following is most directly associated with the study and measurement of atmospheric ozone and the development of precision meteorological instruments, rather than with biology, chemistry, or particle physics?"
   o:
-    - "The Sahara Desert was once much greener than it is today."
-    - "Diamonds are formed from compressed coal."
-    - "A day on Mercury lasts longer than its year."
-    - "The fingerprints of koalas resemble those of humans."
+    - Rohini Godbole
+    - Anna Mani
+    - Kamal Ranadive
+    - Asima Chatterjee
   a: 2

@@ -400,18 +400,29 @@
   )
 }
 
-#let gen_crossword(
+#let generateCrossword(
   toml_file,
 ) = {
   let data = toml(toml_file)
   let size = data.at("size")
   let blanks = data.at("blanks")
   let locations = ()
-  for (k,v) in data.at("down") {
-    locations.push(v.at(0))
+  let answers = (:)
+  for (word, (loc, _)) in data.at("down") {
+    locations.push(loc)
+    let charLoc = loc
+    for ch in word {
+      answers.insert(str(charLoc), ch)
+      charLoc = charLoc + size
+    }
   }
-  for (k,v) in data.at("across") {
-    locations.push(v.at(0))
+  for (word, (loc, _)) in data.at("across") {
+    locations.push(loc)
+    let charLoc = loc
+    for ch in word {
+      answers.insert(str(charLoc), ch)
+      charLoc = charLoc + 1
+    }
   }
   locations = locations.dedup().sorted()
 
@@ -429,6 +440,20 @@
       }
     }
   }
+  let revealed(i, j) = {
+    let location = i * size + j
+    if blanks.contains(location) {
+      box(width: 0.9 * crossword-cell-size, height: 0.9 * crossword-cell-size, fill: header-dark-color, stroke: 0.1em + header-dark-color)
+    } else {
+      let counter = locations.position(x => x == location) 
+      if counter == none {
+        box(width: 0.9 * crossword-cell-size, height: 0.9 * crossword-cell-size, stroke: 0.1em + header-dark-color, outset: 0em, inset:0.3em, align(center + horizon, text(size:1.1em, weight: "bold", fill: header-bg-color, [#answers.at(str(location))])))
+      } else {
+        counter = int(counter) + 1
+        box(width: 0.9 * crossword-cell-size, height: 0.9 * crossword-cell-size, stroke: 0.1em + header-dark-color, outset: 0em, inset:0.3em, align(center + horizon, text(size:1.1em, weight: "bold", fill: header-bg-color, [#answers.at(str(location))])) + place(top + left, text(size:0.9em, weight: "bold", fill: fg-color, [#counter])))
+      }
+    }
+  }
   let row(i) = {
     grid(
       columns: size,
@@ -440,7 +465,18 @@
     gutter: 0em,
     ..range(size).map(row)
   )
-  return crossword
+  let row(i) = {
+    grid(
+      columns: size,
+      ..range(size).map(j => revealed(i, j))
+    )
+  }
+  let solution = grid(
+    rows: size,
+    gutter: 0em,
+    ..range(size).map(row)
+  )
+  return ("crossword": crossword, "solution": solution)
 }
 
 

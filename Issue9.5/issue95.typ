@@ -19,3 +19,7 @@
 #include "/subfiles/munshi.typ"
 #include "/subfiles/dattagupta.typ"
 #include "/subfiles/barma.typ"
+#include "/subfiles/crossword.typ"
+#include "/subfiles/quiz.typ"
+#include "/subfiles/linkedlist.typ"
+#include "/subfiles/solutions.typ"
