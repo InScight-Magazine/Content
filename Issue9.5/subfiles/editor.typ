@@ -10,30 +10,31 @@
 
 #show:foreword.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  keys: ("sridip", "sangita"),
+  keys: ("tanmoy", "munshi"),
   // A title is not needed for the editor's word section, 
   // it's automatically set internally. In fact, IT IS
   // NECESSARY FOR THE TEMPLATE THAT YOU NOT PASS ANY TITLE,
   // in order to disntinguish this from the foreword section,
   // that uses the same function.
-  imgWidths: (72%, 72%),
+  imgWidths: (80%, 80%),
+  fraction: 1.2fr,
   // array of widths for the above images
   // if left empty, images will take up entirety of right column
-  author: [Debanuj Chatterjee],
-  affiliation: [Editor at _InScight_, IISER Kolkata],
+  author: [Abhirup Mukherjee],
+  affiliation: [InScight, _IISER Kolkata_],
   // full name and affiliation of editor who wrote this
 )
 
-Every scientific breakthrough begins with a question. Some questions seek to understand the universe at its most fundamental level, while others emerge from observing the natural world around us or reflecting on the journeys that shape scientific careers. Despite their diversity, they are united by a common thread: curiosity. It is this curiosity that continues to drive science forward, and manifests as the anthem of InScight.
+*InScight: A Retrospective*
 
-We begin at the fascinating intersection of theoretical physics and mathematics: the world of conformal bootstraps. A remarkable blend of physics, geometry, and mathematical consistency forms the foundation of this field. The journey explores how quantum mechanics can be demystified by demanding the self-consistency of nature.
+At the time of writing this, _InScight_ is nine issues old. It might not sound like a lot in the grand scheme of things, but a lot of things have already changed since then. The team is largely different compared to what we started with. The design pipeline has undergone large modifications. Several new sections have been added to the magazine. ChatGPT has become able to create very nice images, which wasn't possible when _InScight_ had started. We at _InScight_ felt that this is therefore a good time to publish a _retrospective issue_, where we look back on the past publications and present a curated collection of articles and interviews that were most well-received.
 
-Gears change as we delve into the world of chemistry. Our next article explores the development of asymmetric synthesis and modern hybrid catalytic systems. The ability to selectively produce one molecular form over another has been transforming pharmaceutical science and chemical engineering over the years. This underscores how these discoveries are fundamentally reshaping modern medicine.
+*Why and How*
 
-This year marks one hundred years since Werner Heisenberg's formulation of matrix mechanics, a milestone that forever changed our understanding of reality. Our feature on "Quantum at 100" revisits the revolutionary ideas that gave birth to quantum mechanics and reflects on how they continue to influence modern science, ranging from condensed matter physics to quantum information theory to materials science.
+There are two reasons why we felt that a retrospective issue was appropriate. Firstly, given that we have already published a large body of articles and interviews over the past two years, we wanted to make sure that our readership does not miss out on the "classics". Secondly, the time of publishing this issue aligns closely with the arrival of first year BS-MS students at IISER Kolkata, and we felt that a curated issue of this kind would serve to showcase the best of _InScight_ to the new members of our community and generate interest among them. For the more technically-inclined readers, we selected the articles based on a weighted score:
+$ 0.6 times "normalised views" + 0.4 times "engagement time". $
+The data for views and engagement time was gathered from our website analytics. Articles and interviews with the highest scores were chosen.
 
-Science, however, is not confined to laboratories or equations alone. In a deeply personal narrative, we follow the journey of a young scientist whose dream of studying at IISER Berhampur unfolded through uncertainty, perseverance, and probability itself. It is a reminder that every scientific career is built not only on intellect, but also on resilience and the courage to embrace the unknown.
+*Our Hopes For This Issue*
 
-We also travel millions of years into the Earth's past to uncover the mystery behind the disappearance of giant dragonflies. Their story offers a fascinating glimpse into how changes in atmospheric composition and planetary environments have shaped the evolution of life on Earth.
-
-Whether you are a student, researcher, or simply a curious reader, we hope this issue will spark new ideas and conversations. As we stand at a crucial crossroads of Indian science and education, we hope the growing InScight community continues to champion scientific thinking. The future of science depends not only on discoveries in laboratories but also on a society willing to ask questions. Afterall every scientific breakthrough begins with a question.
+As we begin preparing for the tenth issue following this, the present issue should serve to take stock of what we have achieved and what must be improved upon. We hope that the community at large will make use of this opportunity to gain a better idea of _InScight_ and join our efforts more actively, whether by contributing content or by helping us in reviewing and designing the magazine. In parting, I want to stress that this issue embodies the general philosophy that we have been adhering to throughout our journey: _science for the sake of it_.

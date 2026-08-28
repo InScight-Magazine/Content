@@ -15,13 +15,13 @@
 #let authorImage = "/authFaces/neelanjana.jpg"
 // cover image and author image are kept in their respective folders, which must be reflected in the paths
 
-#let received = (month: 01, day: 02, year: 2026)
+#let received = (month: 01, day: 31, year: 2025)
 // article finalising date
 
 #let abstract = "The advent of artificial intelligence (AI) is altering paradigms faster than ever. In hindsight, the 2024 Nobel Prizes in Physics and Chemistry were a recognition of this remarkable phase of human endeavour. This essay attempts to acquaint the general reader to underpinning developments that has led to such a surge. Creative harnesses that facilitated the Nobel recognitions are invoked, along with emergent opportunities and subtle caveats."
 // String. Abstract/excerpt/pitch for the article. Formatting is possible and encouraged.
 
-#let reviewedBy= "Suman Halder"
+#let reviewedBy= ("Sobitri Sen", "Chitradeep Saha")
 
 
 #show: article.with(

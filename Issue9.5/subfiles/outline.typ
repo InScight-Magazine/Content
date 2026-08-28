@@ -2,6 +2,6 @@
 
 #prettyOutline(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  spacing: 0.8em,
-  splitAt: (60,)
+  spacing: 1.2em,
+  // splitAt: (60,)
 )

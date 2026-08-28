@@ -4,7 +4,7 @@
 #let authors = ("Sobitri Sen",)
 #let affiliations = ("Ashoka University and IISER Kolkata",)
 #let abstract = "Quantum mechanics, turning 100 in 2026, has reshaped our understanding of nature - from atoms and subatomic particles to emerging technologies like quantum computers and ultra-precise sensors. This article traces its historical origins, outlines its expanding role across physics, chemistry, biology, and engineering, and highlights the deep questions that still remain."
-#let coverImage = "sobitri.jpg"
+#let coverImage = "sobitri.svg"
 #let authorInfo = "*Dr. Sobitri Sen* is a teaching fellow at Ashoka University (Sonepat, India) and a visiting scientist at the QuantAct Laboratory at IISER Kolkata. She is a curious mind who feels and writes about scientific topics using literature to make it a treat to read!"
 #let authorImage = "sobitri.jpg"
 #let refsFile = "/dataFiles/sobitriRefs.yml"

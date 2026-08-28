@@ -10,7 +10,7 @@
 
 #show: foreword.with(
   issueDetails: yaml("/dataFiles/issueData.yml"),
-  title: "Tradition, Science, and the Search for Truth",
+  title: "The Long Arc of Science",
   // appropriate title that captures the spirit of the writeup.
   // passing some title is mandatory, otherwise the template
   // will interpret this as the "Editor's word" section instead.
@@ -20,12 +20,13 @@
   // NECESSARY FOR THE TEMPLATE THAT YOU NOT PASS ANY TITLE,
   // in order to disntinguish this from the foreword section,
   // that uses the same function.
-  imgWidths: (100%, 100%),
-  fraction: 1.6fr,
+  imgWidths: (85%, 85%),
+  fraction: 1.2fr,
+  keys: ("dishari", "neelanjana"),
   // array of widths for the above images
   // if left empty, images will take up entirety of right column
-  author: [Prof. Sayam Sen Gupta],
-  affiliation: [Department Of Chemical Sciences, IISER Kolkata],
+  author: [Narayan Banerjee],
+  affiliation: [(formerly) Department Of Physical Sciences, IISER Kolkata],
   // full name and affiliation of editor who wrote this
 )
 

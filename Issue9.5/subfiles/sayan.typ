@@ -4,7 +4,7 @@
 #let authors = "Sayan Choudhury"
 #let affiliations = "HRI Allahabad, Prayagraj"
 #let abstract = "Sayan Choudhury, an alumnus from the first batch of IISER Kolkata talks about his academic journey in this article. He reminisces about his education and research experiences at IISER, and his trajectory beyond IISER: first, as a PhD student and a post-doctoral fellow in the USA, and now as a faculty member at HRI. The article concludes with a message for current students."
-#let coverImage = "/covers/Sayan.jpg"
+#let coverImage = "/covers/sayan.svg"
 #let authorImage = "/authFaces/sayan.jpeg"
 #let authorInfo =  "*Sayan Choudhury* is a theoretical physicist based at HRI Allahabad. He is an alumnus of the very first batch of IISER Kolkata (06MS). He can be reached at sayanchoudhury\@hri.res.in"
 #let received = (day: 28, month: 3, year: 2025)

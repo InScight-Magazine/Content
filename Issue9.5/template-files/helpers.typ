@@ -102,11 +102,10 @@
         size: abstract-size,
         font: abstract-font, 
       )
-      for (t,a) in coverData [
-        #text(font: heading-font, size: abstract-size, fill: author-color, weight: "bold", a)
-        #text(size: abstract-size, fill: title-color, eval(t, mode: "markup"))
-        #linebreak()
-        #linebreak()
+      for (title, intro) in coverData [
+        #text(font: heading-font, size: abstract-size, fill: author-color, weight: "bold", title)
+        #text(size: abstract-size, fill: title-color, intro)
+        #v(0.8em)
       ] + ending
     }
 
@@ -127,7 +126,7 @@
   )[
     #if locator != none {
       show heading: none
-      [#heading(outlined: true, eval(title, mode: "markup"), supplement: locator)]
+      [#heading(outlined: true, eval(title, mode: "markup"), supplement: locator)#label(locator)]
     }
   ]
 }
@@ -319,33 +318,6 @@
       supplement: "Table",
       numbering: none
   )
-}
-
-#let pageLink(
-  anchor,
-  text,
-  underl: true,
-) = {
-  context {
-    let matches = ()
-    let anchors = ()
-    for h in query(heading.where(level: 1, outlined: true)) {
-      anchors.push(h.supplement.text)
-    }
-    for h in query(heading.where(level: 1, outlined: true)) {
-      if h.supplement.text.contains(anchor) {
-        matches.push(h)
-      }
-    }
-    assert(matches.len() > 0, message: "Anchor " + anchor + " does not exist in document. Available: " + anchors.join(", "))
-    assert(matches.len() == 1, message: "Anchor " + anchor + " is not unique. Make it more specific or try a different anchor.")
-    let anchor = matches.at(0).location()
-    if underl == true {
-      [#link(("page": locate(anchor).page(), "x": 0em, "y": 0em), underline(text))]
-    } else {
-      [#link(("page": locate(anchor).page(), "x": 0em, "y": 0em), text)]
-    }
-  }
 }
 
 #let createLinks(
@@ -566,10 +538,11 @@
 }
 
 #let truncate(s, max-len) = {
-  if s.len() > max-len {
-    s.slice(0, max-len) + "..."
+  let words = s.split(" ")
+  if words.len() > max-len {
+    return(words.slice(0, max-len).join(" ") + "...")
   } else {
-    s
+    return(s)
   }
 }
 

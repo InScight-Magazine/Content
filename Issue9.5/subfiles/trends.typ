@@ -12,15 +12,15 @@
 // multi-author example: #let authorInfo = ("Desc 1", "Desc 2")
 
 #let coverImage = "/covers/trends.svg"
-#let authorImage = "/authFaces/neelanjana.jpg"
+#let authorImage = "/authFaces/swarnendu.jpg"
 // cover image and author image are kept in their respective folders, which must be reflected in the paths
 
-#let received = (month: 01, day: 02, year: 2026)
+#let received = (month: 01, day: 09, year: 2024)
 // article finalising date
 
 #let abstract = "In a world where trends shape our decisions, we often find ourselves following them even when they’re harmful. Why do we conform? The answer lies in our brain chemistry, where dopamine creates a reward loop that makes trend-following irresistible. Our psychological need to belong, a trait from our evolutionary past, further drives us to fit in with the crowd. By understanding these biochemical and social influences, we can break free from harmful trends and make decisions that align with our values."
 
-#let reviewedBy= "Suman Halder"
+#let reviewedBy= ("Shibaraj Sahu", "Abhirup Mukherjee")
 
 
 #show: article.with(

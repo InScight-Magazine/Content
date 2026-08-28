@@ -157,6 +157,7 @@ set page(
     authors: authors,
     authorAffiliations: authorAffiliations,
     abstract: eval(abstract, mode: "markup"),
+    abstract-text: abstract,
     coverImage: coverImage,
     authorInfo: authInfoForm,
     authorImage: authorImage,
@@ -268,6 +269,7 @@ set page(
     authors: interviewers,
     authorAffiliations: interviewerAffiliations,
     abstract: eval(abstract, mode: "markup"),
+    abstract-text: abstract,
     coverImage: coverImage,
     authorInfo: intervieweeInfoForm,
     authorImage: intervieweeImage,
@@ -405,6 +407,7 @@ set page(
   [#metadata((
     type: "quiz",
     title: "Quiz",
+    intro: intro,
     solution: solution,
   ),) #label("solution")
   ]
@@ -486,6 +489,7 @@ set page(
   [#metadata((
     type: "linkedlist",
     title: "Linked List",
+    intro: intro,
     solution: solution,
   ),) #label("solution")
   ]
@@ -569,6 +573,7 @@ set page(
   [#metadata((
     type: "crossword",
     title: "Crossword",
+    intro: intro,
     solution: solution,
   ),) #label("solution")
   ]
@@ -606,7 +611,7 @@ set page(
   coverCaption: none,
 ) = {
   let count = 0
-  let coverData = ()
+  let coverData = (:)
   let content = ()
   for item in digest {
     content.push([
@@ -633,7 +638,7 @@ set page(
       )
     ])
     count = count + 1
-    coverData.push((item.at("Title"), item.at("Author")))
+    coverData.insert((item.at("Title"), item.at("Author")))
   }
 
   let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: "digest")
@@ -780,6 +785,12 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
     type: "whoami",
   ),) #label("vars")
   ]
+  [#metadata((
+    type: "whoami",
+    title: "Who Am I?",
+    intro: intro,
+  ),) #label("solution")
+  ]
   [#metadata([].fields()) #label("content")]
   let links = createLinks(url: permalink)
   set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
@@ -810,7 +821,7 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
   }
   let outlineDesc = "Foreword by " + author
   if type == "editor" {
-    title = "A Word from the Editors"
+    title = "A Word From The Editors"
   }
     
   let intro = none
@@ -819,64 +830,84 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
   } else {
     intro = [*#author*\ #affiliation] 
   }
-  let images = ()
-  let abstracts = ()
-  for key in keys {
-    let info = extract(key)
-    if info.at(0) == none {
-      abstracts.push(info.at(2))
-    } else {
-      abstracts.push(info.at(0))
-    }
-    images.push(info.at(1))
-  }
-  let captions = ()
-  for (abstract, key) in abstracts.zip(keys) {
-    captions.push([#eval(truncate(abstract, 300) + "...  ", mode: "markup") #pageLink(key, [Read the rest here.])])
-    // captions.push([#eval(abstract.slice(0, 200) + "...", mode: "markup") #pageLink(key, [\ Read the rest here.])])
-  }
-  if imgWidths.len() < images.len() {
-    imgWidths = ()
-    for (i, _) in images.enumerate() {
-      imgWidths.push(100%)
-    }
-  }
 
-  let permalinkSuffix = type
-
-  let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
-  let links = createLinks(url: permalink)
-  [#metadata((
-    title: title,
-    authors: author,
-    authorAffiliations: affiliation,
-    permalink: permalink,
-    type: type,
-    abstract: intro,
-    images: images,
-    captions: captions)
-  ) #label("vars")]
-  [#metadata(content.fields()) #label("content")]
-  set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
-
-  nonCoverTitle(
-    title: title, 
-    intro: intro,
-    locator: permalink,
-  )
-  grid(
-    columns: (fraction, 1fr),
-    gutter: 3em,
-    align: left,
-    content,
-    for (i, img) in images.enumerate() {
-      if i == 0 {
-        align(center, image(images.at(i), width: imgWidths.at(i))) + captions.at(i)
-      } else {
-        v(1fr) + align(center, image(images.at(i), width: imgWidths.at(i))) + captions.at(i)
+  context {
+    let images = ()
+    let captions = ()
+    for key in keys {
+      let locations = ()
+      let matches = ()
+      for h in query(heading.where(level: 1, outlined: true)) {
+        if h.supplement.text.contains(key) {
+          matches.push(h)
+        }
+      }
+      assert(matches.len() > 0, message: "Anchor " + key + " does not exist in document.")
+      assert(matches.len() == 1, message: "Anchor " + key + " is not unique. Make it more specific or try a different anchor.")
+      let anchor = matches.at(0).supplement.text
+      let location = matches.at(0).location()
+      for result in query(<vars>) {
+        if result.value.permalink == anchor {
+          let abstract = result.value.abstract-text
+          images.push(result.value.coverImage)
+          captions.push([#eval(truncate(abstract, 30), mode: "markup") #link(("page": location.page(), "x": 0em, "y": 0em), text(fill: header-bg-color, [ *Read More*]))])
+          break
+        }
       }
     }
-  )
+
+    if imgWidths.len() < images.len() {
+      imgWidths = ()
+      for (i, _) in images.enumerate() {
+        imgWidths.push(100%)
+      }
+    }
+
+    let permalinkSuffix = type
+
+    let permalink = createPermalink(issueNum: issueDetails.at("number"), permalinkSuffix: permalinkSuffix)
+    let links = createLinks(url: permalink)
+    [#metadata((
+      title: title,
+      authors: author,
+      authorAffiliations: affiliation,
+      permalink: permalink,
+      type: type,
+      abstract: intro,
+      images: images,
+      captions: captions)
+    ) #label("vars")]
+    [#metadata(content.fields()) #label("content")]
+    set page(header: createTitleHeader(title: title, issueDetails: issueDetails, shortLink: links.at("short")))
+
+    nonCoverTitle(
+      title: title, 
+      intro: intro,
+      locator: permalink,
+    )
+    // place(
+    //   bottom,
+    //   grid(
+    //     columns: (1fr, 1fr),
+    //     gap: 1em,
+    //     image(images.at(0), width: imgWidths.at(0)) + captions.at(0),
+    //     image(images.at(1), width: imgWidths.at(1)) + captions.at(1),
+    //   )
+    // )
+    grid(
+      columns: (fraction, 1fr),
+      gutter: 3em,
+      align: left,
+      content,
+      for (i, img) in images.enumerate() {
+        if i == 0 {
+          align(center, image(images.at(i), width: imgWidths.at(i))) + captions.at(i)
+        } else {
+          v(1fr) + align(center, image(images.at(i), width: imgWidths.at(i))) + captions.at(i)
+        }
+      }
+    )
+  }
 }
 
 #let comic(
@@ -947,13 +978,31 @@ align(center, text(size: 1.6em, weight: "bold", fill: backpage-color, [You made 
   set par(justify: false)
 
   context {
-      let col = category-colors.at("rest")
-      let locResult = none
-      for result in query(<solution>) [
-        #block(breakable: false)[
-          == #result.value.title
-          #result.value.solution
-        ]
+    let col = category-colors.at("rest")
+    let locResult = none
+    for result in query(<solution>) [
+      #block(breakable: false)[
+        == #result.value.title
+        #result.value.solution
       ]
+    ]
+  }
+}
+
+#let games(
+  coverImage: none
+) = {
+  context {
+    let coverData = (:)
+    for result in query(<solution>) {
+      coverData.insert(result.value.title, result.value.intro)
     }
+    halfCover(
+      title: "Science Games", 
+      coverImage: coverImage,
+      coverData: coverData,
+      // coverCaption: "This issue's quiz is based on popular works of science fiction.",
+      coverHeight: 75%,
+    )
+  }
 }
